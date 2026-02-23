@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: vernen-legal-mcp
+    runtime: node
+    buildCommand: npm install
+    startCommand: node src/api/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ANTHROPIC_API_KEY
+        sync: false
+    healthCheckPath: /health
+    autoDeploy: true

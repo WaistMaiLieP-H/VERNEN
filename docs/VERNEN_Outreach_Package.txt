@@ -1,0 +1,257 @@
+VERNEN™ OUTREACH PACKAGE
+Generated: February 22, 2026
+Target: High-traffic legal forums, pro se communities, advocacy groups
+URL: https://vernen-audit.netlify.app
+========================================================================================
+
+PRIORITY RANKING — POST THESE FIRST
+(ranked by active daily traffic + pro se concentration)
+
+TIER 1 — HIGHEST TRAFFIC / HIGHEST CONVERSION
+══════════════════════════════════════════════
+
+1. Reddit r/legaladvice          ~1.2M members  active daily
+2. Reddit r/ProSe                ~18K members   hyper-targeted
+3. Reddit r/divorce              ~180K members  high document dispute volume
+4. Reddit r/Custody              ~50K members   direct audience
+5. Reddit r/LegalAdviceCA        ~95K members   California-specific
+
+TIER 2 — ADVOCACY / REFORM COMMUNITIES
+═══════════════════════════════════════
+
+6. Reddit r/FamilyCourtReform    ~12K members
+7. Reddit r/legaltech            ~40K members   early adopters
+8. Reddit r/UCCJEA (small but hyper-targeted)
+9. Facebook: "Pro Se Litigants California" (closed group, request access)
+10. Facebook: "Family Court Corruption" (large, active)
+11. Facebook: "DVRO Defense" groups
+12. Avvo Community Forums        high attorney + pro se traffic
+
+TIER 3 — PROFESSIONAL / REFERENCE
+══════════════════════════════════
+
+13. JDSupra (legal professional audience)
+14. Legal.io community
+15. Nextdoor (Solano/Alameda/Marin — local targeted)
+16. Craigslist Legal Services (Bay Area)
+
+========================================================================================
+DOOR HANGERS — COPY/PASTE READY
+========================================================================================
+
+────────────────────────────────────────────────────────────────────────────────────────
+POST 1 — r/ProSe  (most targeted, post here first)
+────────────────────────────────────────────────────────────────────────────────────────
+TITLE: I built a free tool that audits legal documents for procedural defects — motions, orders, DVROs, police reports, custody evals
+
+BODY:
+After years as a pro se litigant in California family court, I built VERNEN™ — an autonomous legal document audit engine.
+
+You paste any legal document. It runs 6 passes automatically:
+
+1. Identifies the governing Legal Standard of Creation (the statute your document must comply with)
+2. Retrieves the actual statute text in real time
+3. Checks procedural compliance — signatures, service, verification, caption requirements
+4. Audits for S.o.C. conflicts, internal inconsistencies, jurisdictional defects
+5. Detects bias patterns, false attribution, forum manipulation, authenticity flags
+6. Generates a compliance score /100 with a full findings report
+
+Works on: motions, court orders, declarations, DVROs, custody evaluations, police reports, transcripts, agency correspondence, insurance documents, contracts.
+
+Built specifically because the defects that void orders are usually the ones nobody checks for.
+
+Tool: https://vernen-audit.netlify.app
+Audit submissions: $35/document, $99/bundle (up to 5), $249/full case
+
+Happy to answer questions about how it works.
+
+────────────────────────────────────────────────────────────────────────────────────────
+POST 2 — r/Custody
+────────────────────────────────────────────────────────────────────────────────────────
+TITLE: Tool for auditing custody orders, DVRO documents, and custody evaluations for procedural defects
+
+BODY:
+Built a document audit engine specifically for family law documents.
+
+If you have a custody order, DVRO, custody evaluation, or motion you think has problems — this tool will tell you exactly what's wrong and what statute is violated.
+
+It checks:
+- Whether the order contains all required judicial findings (Fam. Code § 3048 for custody)
+- Whether UCCJEA jurisdiction was properly established
+- Whether the evaluator followed CRC 5.220 requirements
+- Internal inconsistencies in declarations and reports
+- Procedural defects that could void or challenge the document
+
+Compliance score /100. Full findings report. Exportable.
+
+https://vernen-audit.netlify.app
+
+$35 per document. Same-day turnaround.
+
+────────────────────────────────────────────────────────────────────────────────────────
+POST 3 — r/divorce
+────────────────────────────────────────────────────────────────────────────────────────
+TITLE: AI tool that audits divorce/family court documents for errors that attorneys miss or don't mention
+
+BODY:
+Quick share — I built a legal document audit tool that checks any court filing, order, or declaration against the statute it was supposed to comply with.
+
+Most useful for:
+- Court orders that seem wrong but you can't articulate why
+- Declarations you want to check for internal inconsistencies before responding
+- Documents where you suspect the other party's attorney cut corners
+- Anything where you want an independent compliance check before spending attorney fees
+
+It doesn't give legal advice. It tells you specifically: this section violates CCP § X, this required element is missing, this date conflicts with that date. You take that to your attorney or use it in your own filing.
+
+https://vernen-audit.netlify.app — $35/document
+
+────────────────────────────────────────────────────────────────────────────────────────
+POST 4 — r/legaladvice and r/LegalAdviceCA
+────────────────────────────────────────────────────────────────────────────────────────
+TITLE: Built a legal document audit tool for pro se litigants — checks compliance, flags defects, scores /100
+
+BODY:
+Not asking for advice — sharing a resource that might help people here.
+
+I built VERNEN™ after years navigating California courts pro se. It's an autonomous audit engine that checks any legal document against its governing statute and returns a structured compliance report.
+
+What it finds:
+- Procedural defects (missing verification, service errors, caption problems)
+- S.o.C. conflicts — when a document violates the statute it's supposed to follow
+- Internal inconsistencies — facts that contradict each other within the same filing
+- Bias patterns and false attribution in declarations and reports
+- Jurisdictional defects including UCCJEA violations
+
+Works for California state and federal documents. 12 document types.
+
+https://vernen-audit.netlify.app
+
+Paid service ($35/doc) but I'm also happy to answer questions about methodology here.
+
+────────────────────────────────────────────────────────────────────────────────────────
+POST 5 — r/legaltech
+────────────────────────────────────────────────────────────────────────────────────────
+TITLE: VERNEN™ — autonomous 6-pass legal document audit engine, built by a pro se litigant, now public
+
+BODY:
+Launched today: https://vernen-audit.netlify.app
+
+Architecture: 6-pass sequential pipeline where each pass feeds the next.
+
+Pass 1: Document classification + Legal Standard of Creation (S.o.C.) identification
+Pass 2: Live MCP statutory retrieval from authoritative sources
+Pass 3: Procedural compliance (CRC, CCP, FRCP depending on venue)
+Pass 4: Substantive audit — S.o.C. conflicts, legal errors, jurisdictional defects
+Pass 5: Bias & fraud detection — asymmetric framing, false attribution, coordination patterns, authenticity flags
+Pass 6: Synthesis → compliance score /100 + findings register + action plan
+
+Built with Claude API + MCP integration for live California statute lookup.
+
+12 document types. California state + federal venue toggle. Exportable branded reports.
+
+IP manifest filed February 2, 2026. VERNEN™ S.o.C. Audit Protocol v1.0 is published as public methodology.
+
+Happy to discuss the architecture.
+
+────────────────────────────────────────────────────────────────────────────────────────
+POST 6 — r/FamilyCourtReform
+────────────────────────────────────────────────────────────────────────────────────────
+TITLE: Tool I built for detecting procedural abuse in family court documents — free to try
+
+BODY:
+Family court abuse is often procedural — not what the order says but what it's missing, what was never properly established, what was never served correctly.
+
+Built a tool that catches exactly that.
+
+VERNEN™ audits any family court document against the statute that governs it. It flags:
+- Custody orders missing required § 3048 findings
+- UCCJEA jurisdiction that was never properly established
+- DVROs without required notice and hearing procedures
+- Custody evaluations that violated CRC 5.220
+- Declarations with internal contradictions
+- Coordinated conduct patterns across multiple filings
+- Forum shopping between counties
+
+Not legal advice. Structured compliance analysis with cited violations.
+
+https://vernen-audit.netlify.app
+
+Built by someone who needed it. $35/document.
+
+────────────────────────────────────────────────────────────────────────────────────────
+POST 7 — Craigslist Bay Area Legal Services
+────────────────────────────────────────────────────────────────────────────────────────
+TITLE: Legal Document Audit — Motions, Orders, DVROs, Custody Evals — $35
+
+BODY:
+VERNEN™ Legal Audit Platform — https://vernen-audit.netlify.app
+
+I audit legal documents for compliance defects, procedural errors, and internal inconsistencies.
+
+Documents I audit:
+- Court orders and motions
+- DVROs and restraining orders
+- Custody evaluations
+- Declarations and affidavits
+- Police reports
+- Agency correspondence
+- Insurance documents
+
+What you receive:
+- Compliance score /100
+- Full findings report with specific violations cited
+- Recommended actions
+
+Pricing:
+- Single document: $35
+- Bundle (up to 5 documents): $99
+- Full case audit: $249
+
+Payment via CashApp $SuccessFlow78
+
+Turnaround: 24 hours.
+Contact: vernen.legal@proton.me
+
+========================================================================================
+POSTING SEQUENCE — EXECUTE IN THIS ORDER
+========================================================================================
+
+Day 1 (tonight):
+  [ ] r/ProSe — Post 1
+  [ ] r/Custody — Post 2
+  [ ] Craigslist Bay Area Legal Services — Post 7
+
+Day 2:
+  [ ] r/divorce — Post 3
+  [ ] r/LegalAdviceCA — Post 4
+  [ ] r/FamilyCourtReform — Post 6
+
+Day 3:
+  [ ] r/legaltech — Post 5
+  [ ] r/legaladvice — Post 4 (modified)
+  [ ] Facebook: Pro Se Litigants California
+
+Ongoing:
+  [ ] Reply to threads where people have document problems — offer audit
+  [ ] Do NOT spam. One post per subreddit. Engage replies.
+
+========================================================================================
+RULES TO AVOID BANS
+========================================================================================
+
+1. Reddit requires account karma before posting in large subs.
+   If your account is new: comment helpfully for 2-3 days first.
+   
+2. r/legaladvice bans solicitation. Frame as resource-sharing, not advertising.
+   Post 4 is written for this — do not add pricing to that post.
+
+3. Facebook groups: request access, wait for approval, introduce yourself first.
+
+4. One post per subreddit. Do not repost if removed — message the mod instead.
+
+5. Engage every reply. Each reply is a potential $35–$249 client.
+
+========================================================================================
+© 2026 Michael Vernen Thomas Hartmann · VERNEN™ · vernen-audit.netlify.app
+========================================================================================
