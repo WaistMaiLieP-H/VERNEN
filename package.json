@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "VERNEN™ AI-Powered Consumer Legal Services Marketplace",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
