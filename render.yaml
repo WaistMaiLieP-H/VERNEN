@@ -3,7 +3,7 @@ services:
     name: vernen-legal-mcp
     runtime: node
     buildCommand: npm install
-    startCommand: node src/api/server.js
+    startCommand: node src/api/server.cjs
     envVars:
       - key: NODE_ENV
         value: production
