@@ -4,8 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        gold: { 400: '#D4AF37', 500: '#C5A028', 600: '#B8960F' },
-        dark: { 800: '#1a1a2e', 900: '#0f0f1a', 950: '#0a0a12' }
+        vernen: {
+          gold: '#D4AF37',
+          dark: '#0A0A0F',
+          panel: '#12121A',
+          border: '#1E1E2E',
+          text: '#E8E8ED',
+          muted: '#8888AA'
+        }
       }
     }
   },

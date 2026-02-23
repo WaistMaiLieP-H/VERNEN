@@ -2,32 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap');
-
-:root {
-  --gold: #D4AF37;
-  --dark-bg: #0a0a12;
-  --dark-surface: #1a1a2e;
-  --dark-border: #2a2a3e;
-}
-
 body {
-  font-family: 'Inter', sans-serif;
-  background: var(--dark-bg);
-  color: #e0e0e0;
   margin: 0;
+  min-height: 100vh;
 }
 
-h1, h2, h3 { font-family: 'Playfair Display', serif; }
-
-.gold-gradient {
-  background: linear-gradient(135deg, #D4AF37, #F5D76E);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.card-surface {
-  background: var(--dark-surface);
-  border: 1px solid var(--dark-border);
-  border-radius: 12px;
+::selection {
+  background: #D4AF37;
+  color: #0A0A0F;
 }

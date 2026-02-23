@@ -1,58 +1,81 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
-const MOCK_AUDITS = [
-  { id: 'AUD-001', type: 'Court Order Compliance', jurisdiction: 'CA', date: '2026-02-23', status: 'Complete', findings: 4 },
-  { id: 'AUD-002', type: 'Police Report Analysis', jurisdiction: 'CA', date: '2026-02-22', status: 'Complete', findings: 7 },
-];
+const CATEGORY_ICONS = {
+  'family-law': '⚖️', 'civil-rights': '🛡️', 'law-enforcement': '🔍',
+  'insurance': '📋', 'medical': '🏥', 'attorney-conduct': '📜',
+  'cps': '👶', 'real-estate': '🏠', 'consumer-reports': '📊',
+  'disability': '♿', 'victim-rights': '🔔', 'labor': '🔧',
+  'military': '🎖️', 'state-agency': '🏛️'
+};
 
 export default function Dashboard() {
+  const [categories, setCategories] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch('/api/categories')
+      .then(r => r.json())
+      .then(data => { setCategories(data.categories); setLoading(false); })
+      .catch(() => {
+        // Fallback: hardcoded categories if API not running
+        setCategories([
+          { id: 'family-law', name: 'California Family Law', description: 'Custody orders, support calculations, DVRO compliance' },
+          { id: 'civil-rights', name: 'Constitutional & Civil Rights', description: '1983 claims, due process, equal protection' },
+          { id: 'law-enforcement', name: 'Law Enforcement Conduct', description: 'Police reports, use of force, POST standards' },
+          { id: 'insurance', name: 'Insurance Bad Faith', description: 'Claims handling, settlement practices, denial analysis' },
+          { id: 'medical', name: 'Medical Billing & Conduct', description: 'Billing fraud, upcoding, professional standards' },
+          { id: 'attorney-conduct', name: 'Attorney Ethics', description: 'Rules of Professional Conduct violations' },
+          { id: 'cps', name: 'Child Protective Services', description: 'CPS investigations, WIC compliance, CDSS standards' },
+          { id: 'real-estate', name: 'Real Estate Transaction Fraud', description: 'Title defects, escrow fraud, deed irregularities' },
+          { id: 'consumer-reports', name: 'FCRA / Consumer Reports', description: 'Credit reporting disputes, reinvestigation failures' },
+          { id: 'disability', name: 'SSA/DDS Disability', description: 'Disability determination deficiencies' },
+          { id: 'victim-rights', name: "Marsy's Law / Victim Rights", description: 'DA correspondence, victim notification' },
+          { id: 'labor', name: 'Labor & Employment', description: 'Labor Code violations, NLRA, union matters' },
+          { id: 'military', name: 'Military Standards', description: 'UCMJ, DoD directives, service records' },
+          { id: 'state-agency', name: 'State Agency Correspondence', description: 'SAM compliance, plain language, accessibility' }
+        ]);
+        setLoading(false);
+      });
+  }, []);
+
   return (
-    <main className="pt-20 px-4 max-w-5xl mx-auto pb-20">
-      <h1 className="text-3xl font-bold mb-2 gold-gradient">Case Dashboard</h1>
-      <p className="text-gray-400 mb-8">Track your audits, filings, and documents.</p>
-
-      <div className="grid md:grid-cols-3 gap-4 mb-8">
-        <div className="card-surface p-5 text-center">
-          <div className="text-2xl font-bold gold-gradient">2</div>
-          <div className="text-xs text-gray-400 mt-1">Total Audits</div>
-        </div>
-        <div className="card-surface p-5 text-center">
-          <div className="text-2xl font-bold gold-gradient">11</div>
-          <div className="text-xs text-gray-400 mt-1">Findings Identified</div>
-        </div>
-        <div className="card-surface p-5 text-center">
-          <div className="text-2xl font-bold gold-gradient">0</div>
-          <div className="text-xs text-gray-400 mt-1">Pending</div>
+    <div>
+      <div className="text-center mb-12">
+        <h1 className="text-4xl font-bold mb-3">
+          <span className="text-vernen-gold">VERNEN™</span> Legal Audit Marketplace
+        </h1>
+        <p className="text-vernen-muted text-lg max-w-2xl mx-auto">
+          Claude AI-powered document auditing across 14 categories. Upload. Audit. Act.
+        </p>
+        <div className="flex justify-center gap-6 mt-4 text-xs text-vernen-muted">
+          <span>🔒 Statute-Traced</span>
+          <span>🌐 13 Languages</span>
+          <span>⚡ 6-Pass S.o.C. Protocol</span>
         </div>
       </div>
 
-      <div className="card-surface overflow-hidden">
-        <table className="w-full text-sm">
-          <thead>
-            <tr className="border-b border-dark-800">
-              <th className="text-left p-3 text-gold-400 font-medium">ID</th>
-              <th className="text-left p-3 text-gold-400 font-medium">Type</th>
-              <th className="text-left p-3 text-gold-400 font-medium hidden md:table-cell">Jurisdiction</th>
-              <th className="text-left p-3 text-gold-400 font-medium">Date</th>
-              <th className="text-left p-3 text-gold-400 font-medium">Findings</th>
-              <th className="text-left p-3 text-gold-400 font-medium">Status</th>
-            </tr>
-          </thead>
-          <tbody>
-            {MOCK_AUDITS.map(a => (
-              <tr key={a.id} className="border-b border-dark-800/50 hover:bg-dark-800/30">
-                <td className="p-3 text-gray-300 font-mono">{a.id}</td>
-                <td className="p-3 text-gray-300">{a.type}</td>
-                <td className="p-3 text-gray-400 hidden md:table-cell">{a.jurisdiction}</td>
-                <td className="p-3 text-gray-400">{a.date}</td>
-                <td className="p-3 text-gold-400 font-bold">{a.findings}</td>
-                <td className="p-3"><span className="px-2 py-1 bg-green-500/10 text-green-400 rounded text-xs">{a.status}</span></td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <p className="text-gray-600 text-xs mt-4 text-center">Dashboard connects to live audit data once API backend is deployed.</p>
-    </main>
+      {loading ? (
+        <div className="text-center text-vernen-muted">Loading categories...</div>
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {categories.map(cat => (
+            <Link key={cat.id} to={`/audit/${cat.id}`}
+              className="group block p-5 rounded-lg bg-vernen-panel border border-vernen-border
+                         hover:border-vernen-gold/50 transition-all duration-200">
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">{CATEGORY_ICONS[cat.id] || '📄'}</span>
+                <div>
+                  <h3 className="font-semibold text-vernen-text group-hover:text-vernen-gold transition">
+                    {cat.name}
+                  </h3>
+                  <p className="text-vernen-muted text-sm mt-1">{cat.description}</p>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      )}
+    </div>
   );
 }

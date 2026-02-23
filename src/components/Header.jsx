@@ -1,28 +1,21 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
-
-const NAV = [
-  { path: '/', label: 'Home' },
-  { path: '/audit', label: 'Start Audit' },
-  { path: '/services', label: 'Services' }
-];
+import { Link } from 'react-router-dom';
 
 export default function Header() {
-  const loc = useLocation();
   return (
-    <header style={{ background: 'var(--dark-surface)', borderBottom: '1px solid var(--gold)', padding: '0 2rem' }}>
-      <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 64 }}>
-        <Link to="/" style={{ fontSize: '1.4rem', fontWeight: 700, letterSpacing: 2, color: 'var(--gold)' }}>
-          VERNEN™
+    <header className="border-b border-vernen-border bg-vernen-panel">
+      <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <Link to="/" className="flex items-center gap-3">
+          <span className="text-vernen-gold text-2xl font-bold tracking-wider">VERNEN™</span>
+          <span className="text-vernen-muted text-sm hidden sm:block">AI-Powered Legal Audit</span>
         </Link>
-        <nav style={{ display: 'flex', gap: '1.5rem' }}>
-          {NAV.map(n => (
-            <Link key={n.path} to={n.path} style={{
-              color: loc.pathname === n.path ? 'var(--gold)' : 'var(--text-muted)',
-              fontWeight: loc.pathname === n.path ? 600 : 400,
-              fontSize: '0.9rem', transition: 'color 0.2s'
-            }}>{n.label}</Link>
-          ))}
+        <nav className="flex items-center gap-4 text-sm">
+          <Link to="/" className="text-vernen-muted hover:text-vernen-gold transition">Dashboard</Link>
+          <a href="https://vernen-audit.netlify.app" target="_blank" rel="noopener"
+             className="text-vernen-muted hover:text-vernen-gold transition">Info</a>
+          <span className="px-3 py-1 rounded bg-vernen-gold/10 text-vernen-gold text-xs font-medium">
+            Beta
+          </span>
         </nav>
       </div>
     </header>
