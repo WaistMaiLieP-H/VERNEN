@@ -2,25 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap');
+
 :root {
-  --gold: #C9A84C;
-  --gold-light: #E8D48B;
-  --dark: #0A0A0F;
-  --dark-surface: #12121A;
-  --dark-card: #1A1A26;
-  --text-primary: #E8E6E3;
-  --text-muted: #8A8A9A;
+  --gold: #D4AF37;
+  --dark-bg: #0a0a12;
+  --dark-surface: #1a1a2e;
+  --dark-border: #2a2a3e;
 }
 
 body {
+  font-family: 'Inter', sans-serif;
+  background: var(--dark-bg);
+  color: #e0e0e0;
   margin: 0;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  background: var(--dark);
-  color: var(--text-primary);
-  -webkit-font-smoothing: antialiased;
 }
 
-* { box-sizing: border-box; }
+h1, h2, h3 { font-family: 'Playfair Display', serif; }
 
-a { color: var(--gold); text-decoration: none; }
-a:hover { color: var(--gold-light); }
+.gold-gradient {
+  background: linear-gradient(135deg, #D4AF37, #F5D76E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-surface {
+  background: var(--dark-surface);
+  border: 1px solid var(--dark-border);
+  border-radius: 12px;
+}
