@@ -1,0 +1,24 @@
+🔒 Introducing VERNEN™ — AI-Powered Legal Analysis for Pro Se Litigants
+
+After years of navigating complex legal proceedings as a self-represented party, I built the tool I wished existed.
+
+VERNEN™ is a multilingual legal analysis platform that provides:
+
+▸ Autonomous document auditing against governing legal standards
+▸ Standard of Creation (S.o.C.) methodology — every finding traced to statute, regulation, or professional code
+▸ Field-level form guidance across 13 languages
+▸ Six-pass analytical pipeline with finding classification (Critical / Major / Minor / Observation)
+
+The platform applies professional skepticism to legal documents — the same rigor a qualified attorney would bring — and makes it accessible to people who can't afford representation.
+
+Live now:
+🌐 https://vernen-legal.netlify.app
+📄 S.o.C. Audit Protocol: https://vernen-legal.netlify.app/protocol
+⚙️ Audit Engine: https://vernen-legal.netlify.app/app
+
+IP manifest filed February 2, 2026.
+Source: https://github.com/WaistMaiLieP-H/VERNEN
+
+Built by necessity. Built for access to justice.
+
+#LegalTech #ProSeLitigant #AccessToJustice #AI #VERNEN #LegalInnovation #FamilyLaw #CivilRights
