@@ -8,7 +8,14 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 const stripe = process.env.STRIPE_SECRET_KEY ? new Stripe(process.env.STRIPE_SECRET_KEY) : null;
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:3000',
+    'https://vernen-legal.netlify.app',
+    'https://vernen-audit.netlify.app'
+  ],
+  credentials: true
+}));
 app.use('/api/webhook', express.raw({ type: 'application/json' }));
 app.use(express.json({ limit: '10mb' }));
 
