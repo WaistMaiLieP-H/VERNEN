@@ -1,4 +1,5 @@
 import { useState, useRef, useCallback } from "react";
+import { exportAuditReport } from "./exportAuditReport.js";
 
 const MODEL = "claude-sonnet-4-20250514";
 const MCP_URL = "https://vernen-legal-mcp.onrender.com/mcp";
@@ -396,6 +397,25 @@ export default function AutonomousAuditEngine() {
     a.click();
   };
 
+  const exportDocx = async () => {
+    const socData = passStates.soc?.parsed || {};
+    const allF = Object.entries(passStates)
+      .filter(([id]) => id !== "report" && id !== "soc" && id !== "statute")
+      .flatMap(([, s]) => Array.isArray(s.parsed) ? s.parsed : []);
+    const crit = allF.filter(f => f.severity === "Critical").length;
+    const sig = allF.filter(f => f.severity === "Significant").length;
+    const adv = allF.filter(f => f.severity === "Advisory").length;
+    const sc = passStates.report?.parsed?.overallScore ?? null;
+    await exportAuditReport({
+      soc: socData,
+      findings: allF,
+      score: sc,
+      reportText: finalReport || "",
+      stats: { critical: crit, significant: sig, advisory: adv, total: allF.length },
+      documentPreview: docText.slice(0, 200),
+    });
+  };
+
   // Compute aggregate stats
   const allFindings = Object.entries(passStates)
     .filter(([id]) => id !== "report" && id !== "soc" && id !== "statute")
@@ -480,7 +500,10 @@ No manual steps between passes."
               </button>
             )}
             {pipelineDone && (
-              <button className="export-btn" onClick={exportReport}>⬇ EXPORT REPORT</button>
+              <button className="export-btn" onClick={exportReport}>⬇ TXT</button>
+            )}
+            {pipelineDone && (
+              <button className="export-btn" onClick={exportDocx} style={{borderColor:"#4a90d940",color:"#4a90d980"}}>⬇ DOCX</button>
             )}
             {(docText || pipelineDone) && !running && (
               <button className="clear-btn" onClick={() => {
