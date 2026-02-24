@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VERNEN™ — Autonomous Legal Document Audit Platform</title>
+<meta name="description" content="VERNEN™ is a multilingual AI-powered legal document audit platform serving pro se litigants. S.o.C. compliance analysis across 13 languages.">
+<meta name="keywords" content="VERNEN, legal audit, document analysis, pro se, compliance, Standard of Creation, California family law, civil rights">
+<meta name="author" content="Michael Vernen Thomas Hartmann">
+<meta property="og:title" content="VERNEN™ — Autonomous Legal Document Audit Platform">
+<meta property="og:description" content="AI-powered legal document auditing. S.o.C. compliance analysis across 13 languages for pro se litigants.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #0a0b0d;
+  --surface: #111318;
+  --surface-2: #181b22;
+  --border: #242832;
+  --border-accent: #2a3a5c;
+  --text: #e8eaf0;
+  --text-muted: #8b90a0;
+  --text-dim: #5a5f70;
+  --accent: #4a7cff;
+  --accent-glow: #4a7cff33;
+  --gold: #c9a84c;
+  --gold-dim: #c9a84c22;
+  --red-soft: #ff6b6b;
+  --green-soft: #4ecb71;
+  --serif: 'Instrument Serif', Georgia, serif;
+  --sans: 'DM Sans', -apple-system, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* NOISE TEXTURE OVERLAY */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* NAV */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 1.25rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  backdrop-filter: blur(20px);
+  background: rgba(10,11,13,0.85);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-brand {
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: 0.08em;
+}
+
+.nav-brand span { color: var(--gold); font-size: 0.7em; vertical-align: super; }
+
+.nav-links { display: flex; gap: 2.5rem; }
+.nav-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+.nav-links a:hover { color: var(--text); }
+
+/* HERO */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8rem 3rem 4rem;
+  position: relative;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 20%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.hero-eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 0.2s;
+}
+
+.hero h1 {
+  font-family: var(--serif);
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-weight: 400;
+  line-height: 1.08;
+  max-width: 900px;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 0.4s;
+}
+
+.hero h1 em {
+  font-style: italic;
+  color: var(--accent);
+}
+
+.hero-sub {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  max-width: 620px;
+  margin-top: 2rem;
+  line-height: 1.7;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 0.6s;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 3rem;
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards 0.8s;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.9rem 2rem;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.btn-primary:hover { background: #5d8bff; box-shadow: 0 0 30px var(--accent-glow); }
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.9rem 2rem;
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.btn-outline:hover { border-color: var(--text-muted); color: var(--text); }
+
+/* SECTIONS */
+section { padding: 6rem 3rem; }
+
+.section-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.section-title {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  line-height: 1.15;
+}
+
+/* WHAT IS VERNEN */
+.what-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-top: 3rem;
+  max-width: 1200px;
+}
+
+.what-card {
+  padding: 2.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  transition: border-color 0.3s;
+}
+
+.what-card:hover { border-color: var(--border-accent); }
+
+.what-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--text);
+}
+
+.what-card p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.what-card .tag {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: var(--gold-dim);
+  color: var(--gold);
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+/* METHODOLOGY */
+.method-section {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.pipeline {
+  display: flex;
+  gap: 0;
+  margin-top: 3rem;
+  max-width: 1200px;
+  overflow-x: auto;
+}
+
+.pipeline-step {
+  flex: 1;
+  min-width: 180px;
+  padding: 2rem 1.5rem;
+  border-right: 1px solid var(--border);
+  position: relative;
+}
+
+.pipeline-step:last-child { border-right: none; }
+
+.pipeline-num {
+  font-family: var(--serif);
+  font-size: 2.5rem;
+  color: var(--border);
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.pipeline-step h4 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.pipeline-step p {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* LANGUAGES */
+.lang-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+  max-width: 900px;
+}
+
+.lang-chip {
+  padding: 0.5rem 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.lang-chip:hover { border-color: var(--accent); color: var(--text); }
+
+/* COVERAGE */
+.coverage-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 3rem;
+  max-width: 1200px;
+}
+
+.coverage-item {
+  background: var(--surface);
+  padding: 2rem;
+}
+
+.coverage-item h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.coverage-item p {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* IP NOTICE */
+.ip-section {
+  border-top: 1px solid var(--border);
+}
+
+.ip-box {
+  max-width: 800px;
+  padding: 3rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: 0 12px 12px 0;
+  margin-top: 2rem;
+}
+
+.ip-box p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.ip-box p:last-child { margin-bottom: 0; }
+
+.ip-box strong { color: var(--text); }
+
+/* FOOTER */
+footer {
+  padding: 3rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-brand {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  color: var(--text-dim);
+}
+
+.footer-legal {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  text-align: right;
+  line-height: 1.8;
+}
+
+/* ANIMATIONS */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  nav { padding: 1rem 1.5rem; }
+  .nav-links { display: none; }
+  .hero { padding: 7rem 1.5rem 3rem; }
+  section { padding: 4rem 1.5rem; }
+  .what-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .pipeline { flex-direction: column; }
+  .pipeline-step { border-right: none; border-bottom: 1px solid var(--border); }
+  .pipeline-step:last-child { border-bottom: none; }
+  .coverage-grid { grid-template-columns: 1fr; }
+  .hero-actions { flex-direction: column; }
+  footer { flex-direction: column; text-align: center; }
+  .footer-legal { text-align: center; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-brand">VERNEN<span>™</span></a>
+  <div class="nav-links">
+    <a href="#methodology">Methodology</a>
+    <a href="#coverage">Coverage</a>
+    <a href="#languages">Languages</a>
+    <a href="#ip">IP Notice</a>
+    <a href="#audit">Launch Audit</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-eyebrow">Autonomous Legal Document Audit Platform</div>
+  <h1>Every legal document<br>has a standard.<br>We <em>enforce</em> it.</h1>
+  <p class="hero-sub">
+    VERNEN™ identifies the governing Legal Standard of Creation for any document — statute, regulation, or professional code — then audits compliance field-by-field across 13 languages.
+  </p>
+  <div class="hero-actions">
+    <a href="#audit" class="btn-primary">
+      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
+      Start Audit
+    </a>
+    <a href="#methodology" class="btn-outline">Read the Protocol</a>
+  </div>
+</section>
+
+<!-- WHAT IS VERNEN -->
+<section id="about">
+  <div class="section-label">Platform</div>
+  <h2 class="section-title">What VERNEN™ does</h2>
+
+  <div class="what-grid">
+    <div class="what-card">
+      <h3>S.o.C. Identification</h3>
+      <p>Every legal document is governed by a Legal Standard of Creation — the statutes, rules of court, and professional codes that dictate what must appear, how it must be formatted, and what procedural requirements apply. VERNEN™ identifies the applicable S.o.C. before any analysis begins.</p>
+      <div class="tag">Foundation</div>
+    </div>
+    <div class="what-card">
+      <h3>6-Pass Compliance Pipeline</h3>
+      <p>Documents pass through six sequential audit layers: structural integrity, substantive completeness, procedural compliance, internal consistency, bias detection, and evidentiary sufficiency. Each finding is traced to a specific violated standard.</p>
+      <div class="tag">Methodology</div>
+    </div>
+    <div class="what-card">
+      <h3>Multilingual Field-Level Guidance</h3>
+      <p>Form annotations, scenario indexes, and legal glossaries in 13 languages. Every field in every supported form has plain-language guidance explaining what to enter, why it matters, and what the governing statute requires.</p>
+      <div class="tag">Access</div>
+    </div>
+    <div class="what-card">
+      <h3>Live Statutory Verification</h3>
+      <p>Integrated California statutory lookup — California Codes, California Rules of Court, California Code of Regulations, and U.S. Code — verified against current published text. No stale citations.</p>
+      <div class="tag">Accuracy</div>
+    </div>
+  </div>
+</section>
+
+<!-- METHODOLOGY -->
+<section id="methodology" class="method-section">
+  <div class="section-label">Protocol</div>
+  <h2 class="section-title">The VERNEN S.o.C. Audit Protocol</h2>
+  <p style="color: var(--text-muted); max-width: 700px; font-size: 0.95rem; line-height: 1.7;">
+    A six-pass analytical framework that identifies the Legal Standard of Creation governing any document, then audits compliance against that standard with traceable findings.
+  </p>
+
+  <div class="pipeline">
+    <div class="pipeline-step">
+      <div class="pipeline-num">01</div>
+      <h4>S.o.C. Identification</h4>
+      <p>Determine the governing statutes, rules of court, regulations, and professional codes that establish what the document must contain and how it must be structured.</p>
+    </div>
+    <div class="pipeline-step">
+      <div class="pipeline-num">02</div>
+      <h4>Structural Integrity</h4>
+      <p>Verify required sections, headings, formatting, signatures, verification clauses, and procedural prerequisites are present and correctly positioned.</p>
+    </div>
+    <div class="pipeline-step">
+      <div class="pipeline-num">03</div>
+      <h4>Substantive Completeness</h4>
+      <p>Confirm all mandatory factual allegations, legal elements, and supporting details required by the S.o.C. are addressed — not merely present but adequate.</p>
+    </div>
+    <div class="pipeline-step">
+      <div class="pipeline-num">04</div>
+      <h4>Procedural Compliance</h4>
+      <p>Check filing deadlines, service requirements, proof of service, fee waiver attachments, mandatory disclosures, and jurisdictional prerequisites.</p>
+    </div>
+    <div class="pipeline-step">
+      <div class="pipeline-num">05</div>
+      <h4>Bias &amp; Consistency</h4>
+      <p>Detect one-sided framing, internal contradictions between document sections, unsupported conclusions, and deviations from the neutral standard the document should meet.</p>
+    </div>
+    <div class="pipeline-step">
+      <div class="pipeline-num">06</div>
+      <h4>Evidentiary Sufficiency</h4>
+      <p>Assess whether cited evidence supports stated conclusions, identify gaps between claims and proof, and flag unsubstantiated findings of fact.</p>
+    </div>
+  </div>
+</section>
+
+<!-- LANGUAGES -->
+<section id="languages">
+  <div class="section-label">Multilingual</div>
+  <h2 class="section-title">13 languages. Same precision.</h2>
+  <p style="color: var(--text-muted); max-width: 600px; font-size: 0.95rem; line-height: 1.7; margin-bottom: 0.5rem;">
+    Form annotations, legal glossaries, scenario guidance, and audit reports available in:
+  </p>
+  <div class="lang-grid">
+    <div class="lang-chip">English</div>
+    <div class="lang-chip">Español</div>
+    <div class="lang-chip">中文</div>
+    <div class="lang-chip">Tiếng Việt</div>
+    <div class="lang-chip">Soomaali</div>
+    <div class="lang-chip">ትግርኛ</div>
+    <div class="lang-chip">አማርኛ</div>
+    <div class="lang-chip">العربية</div>
+    <div class="lang-chip">Kreyòl Ayisyen</div>
+    <div class="lang-chip">한국어</div>
+    <div class="lang-chip">Português</div>
+    <div class="lang-chip">Русский</div>
+    <div class="lang-chip">Filipino</div>
+  </div>
+</section>
+
+<!-- COVERAGE -->
+<section id="coverage">
+  <div class="section-label">Scope</div>
+  <h2 class="section-title">Document coverage</h2>
+  <div class="coverage-grid">
+    <div class="coverage-item">
+      <h4>Family Law</h4>
+      <p>Dissolution petitions (FL-100), responses (FL-120), RFOs (FL-300/305/311), custody attachments, DV restraining orders (DV-100/110), income declarations.</p>
+    </div>
+    <div class="coverage-item">
+      <h4>Civil Rights</h4>
+      <p>§ 1983 complaints, Monell claims, qualified immunity analysis, 42 U.S.C. § 1985 conspiracy, Bivens actions, state tort claims.</p>
+    </div>
+    <div class="coverage-item">
+      <h4>Court Orders</h4>
+      <p>Custody orders, DV protective orders, contempt findings, judgment enforcement orders. Audited against CRC and statutory requirements.</p>
+    </div>
+    <div class="coverage-item">
+      <h4>Professional Conduct</h4>
+      <p>Police reports (POST standards), custody evaluations (CRC 5.220), attorney conduct (CRPC), psychiatry evaluations (ABPN/APA), CPS determinations.</p>
+    </div>
+    <div class="coverage-item">
+      <h4>Administrative</h4>
+      <p>State agency correspondence, SSA/DDS disability determinations, FCRA consumer reports, insurance claims handling, real estate transaction documents.</p>
+    </div>
+    <div class="coverage-item">
+      <h4>General Civil</h4>
+      <p>Small claims (SC-100), appeals (APP-002), declarations (MC-031), fee waivers (FW-001/003), complaints, motions, and supporting memoranda.</p>
+    </div>
+  </div>
+</section>
+
+<!-- AUDIT LAUNCH -->
+<section id="audit" style="text-align: center; padding: 6rem 3rem;">
+  <div class="section-label" style="text-align: center;">Audit Engine</div>
+  <h2 class="section-title" style="margin: 0 auto 1rem;">Ready to audit your document?</h2>
+  <p style="color: var(--text-muted); max-width: 500px; margin: 0 auto 2rem; font-size: 0.95rem;">
+    The VERNEN™ Autonomous Audit Engine is live. Upload or paste any legal document for S.o.C. compliance analysis.
+  </p>
+  <a href="https://vernen-audit.netlify.app" class="btn-primary" target="_blank" rel="noopener">
+    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+    Open Audit Engine
+  </a>
+</section>
+
+<!-- IP NOTICE -->
+<section id="ip" class="ip-section">
+  <div class="section-label">Intellectual Property</div>
+  <h2 class="section-title">IP &amp; Trademark Notice</h2>
+  <div class="ip-box">
+    <p>
+      <strong>VERNEN™</strong> is a trademark of Michael Vernen Thomas Hartmann. IP manifest filed <strong>February 2, 2026</strong>.
+    </p>
+    <p>
+      The VERNEN S.o.C. Audit Protocol, Guided Document Navigator (GDN), field-level annotation system, multilingual legal glossary architecture, and all associated methodologies, source code, documentation, and design systems are the intellectual property of Michael Vernen Thomas Hartmann.
+    </p>
+    <p>
+      <strong>© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.</strong>
+    </p>
+    <p style="font-size: 0.82rem; color: var(--text-dim);">
+      Unauthorized reproduction, distribution, reverse engineering, or derivative creation from any VERNEN™ component — including but not limited to the audit methodology, form annotation schemas, scenario indexing system, and multilingual legal glossaries — is prohibited. This notice constitutes public prior art documentation under U.S. intellectual property law.
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-brand">VERNEN™</div>
+  <div class="footer-legal">
+    © 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.<br>
+    VERNEN™ is a trademark of Michael Vernen Thomas Hartmann. IP manifest filed February 2, 2026.<br>
+    Platform powered by Anthropic Claude AI. Published February 23, 2026.
+  </div>
+</footer>
+
+</body>
+</html>

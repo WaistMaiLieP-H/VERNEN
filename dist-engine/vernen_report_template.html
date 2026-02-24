@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VERNEN™ Audit Report Template</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap');
+
+:root {
+  --navy: #0a0b0d;
+  --surface: #111318;
+  --gold: #c9a84c;
+  --blue: #4a7cff;
+  --text: #e8eaf0;
+  --muted: #8b90a0;
+  --dim: #5a5f70;
+  --border: #242832;
+  --red: #ff4d4d;
+  --orange: #ff8c42;
+  --yellow: #f0c040;
+  --green: #4ecb71;
+  --serif: 'Instrument Serif', Georgia, serif;
+  --sans: 'DM Sans', sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: var(--sans);
+  background: var(--navy);
+  color: var(--text);
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.report {
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* HEADER */
+.report-header {
+  padding: 2.5rem 3rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.report-brand {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  letter-spacing: 0.08em;
+}
+
+.report-brand span { color: var(--gold); font-size: 0.7em; vertical-align: super; }
+
+.report-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--gold);
+  font-weight: 600;
+  margin-top: 0.35rem;
+}
+
+.report-meta {
+  text-align: right;
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+/* DOCUMENT INFO BAR */
+.doc-bar {
+  padding: 1.5rem 3rem;
+  background: rgba(74,124,255,0.05);
+  border-bottom: 1px solid var(--border);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.doc-field label {
+  display: block;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--dim);
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.doc-field span {
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: 500;
+}
+
+/* S.o.C. BOX */
+.soc-box {
+  margin: 2rem 3rem;
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: 0 8px 8px 0;
+  background: rgba(201,168,76,0.04);
+}
+
+.soc-title {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--gold);
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.soc-list {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+/* SUMMARY */
+.summary-bar {
+  margin: 0 3rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.summary-stat {
+  padding: 1.25rem;
+  background: var(--navy);
+  text-align: center;
+}
+
+.stat-num {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.35rem;
+}
+
+.stat-num.critical { color: var(--red); }
+.stat-num.high { color: var(--orange); }
+.stat-num.medium { color: var(--yellow); }
+.stat-num.low { color: var(--blue); }
+
+.stat-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--dim);
+  font-weight: 600;
+}
+
+/* FINDINGS */
+.findings-section {
+  padding: 0 3rem 2rem;
+}
+
+.findings-title {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--dim);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.finding {
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.finding::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+.finding.critical::before { background: var(--red); }
+.finding.high::before { background: var(--orange); }
+.finding.medium::before { background: var(--yellow); }
+.finding.low::before { background: var(--blue); }
+
+.finding-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.finding-id {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.severity-badge {
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+}
+
+.severity-badge.critical { background: rgba(255,77,77,0.15); color: var(--red); }
+.severity-badge.high { background: rgba(255,140,66,0.15); color: var(--orange); }
+.severity-badge.medium { background: rgba(240,192,64,0.15); color: var(--yellow); }
+.severity-badge.low { background: rgba(74,124,255,0.15); color: var(--blue); }
+
+.finding-desc {
+  font-size: 0.88rem;
+  color: var(--text);
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.finding-cite {
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.finding-cite strong { color: var(--gold); font-weight: 600; }
+
+/* COMPLIANCE SCORE */
+.score-bar {
+  margin: 1rem 3rem 2rem;
+  padding: 1.5rem;
+  background: var(--navy);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.score-circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 3px solid var(--orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--orange);
+  flex-shrink: 0;
+}
+
+.score-text {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.score-text strong { color: var(--text); }
+
+/* FOOTER */
+.report-footer {
+  padding: 1.5rem 3rem;
+  border-top: 1px solid var(--border);
+  background: rgba(10,11,13,0.5);
+  text-align: center;
+}
+
+.footer-brand {
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  color: var(--dim);
+  margin-bottom: 0.25rem;
+}
+
+.footer-copy {
+  font-size: 0.7rem;
+  color: var(--dim);
+  line-height: 1.6;
+}
+
+.footer-copy a { color: var(--gold); text-decoration: none; }
+
+@media print {
+  body { background: #fff; color: #000; padding: 0; }
+  .report { border: none; border-radius: 0; }
+  .report-header, .doc-bar, .soc-box, .summary-stat, .finding, .score-bar, .report-footer {
+    border-color: #ccc;
+    background: #fff;
+    color: #000;
+  }
+  .stat-num, .finding-desc, .score-text strong { color: #000; }
+  .finding-cite, .soc-list, .doc-field span, .report-meta, .score-text { color: #333; }
+}
+</style>
+</head>
+<body>
+
+<div class="report">
+  <!-- HEADER — BRANDED -->
+  <div class="report-header">
+    <div>
+      <div class="report-brand">VERNEN<span>™</span></div>
+      <div class="report-label">Autonomous Audit Engine — S.o.C. Compliance Report</div>
+    </div>
+    <div class="report-meta">
+      Report ID: VAE-20260223-001<br>
+      Generated: February 23, 2026<br>
+      Audit Protocol v1.0.0
+    </div>
+  </div>
+
+  <!-- DOCUMENT INFO -->
+  <div class="doc-bar">
+    <div class="doc-field">
+      <label>Document</label>
+      <span>[Document Title]</span>
+    </div>
+    <div class="doc-field">
+      <label>Type</label>
+      <span>[Motion / Order / Declaration]</span>
+    </div>
+    <div class="doc-field">
+      <label>Court / Case</label>
+      <span>[Superior Court — Case No.]</span>
+    </div>
+  </div>
+
+  <!-- S.o.C. IDENTIFICATION -->
+  <div class="soc-box">
+    <div class="soc-title">Identified Standard of Creation (S.o.C.)</div>
+    <div class="soc-list">
+      [Primary Authority] · [Secondary Authority] · [Procedural Rules] · [Professional Standards]
+    </div>
+  </div>
+
+  <!-- EXECUTIVE SUMMARY -->
+  <div class="summary-bar">
+    <div class="summary-stat">
+      <div class="stat-num critical">2</div>
+      <div class="stat-label">Critical</div>
+    </div>
+    <div class="summary-stat">
+      <div class="stat-num high">3</div>
+      <div class="stat-label">High</div>
+    </div>
+    <div class="summary-stat">
+      <div class="stat-num medium">4</div>
+      <div class="stat-label">Medium</div>
+    </div>
+    <div class="summary-stat">
+      <div class="stat-num low">1</div>
+      <div class="stat-label">Low</div>
+    </div>
+  </div>
+
+  <!-- FINDINGS -->
+  <div class="findings-section">
+    <div class="findings-title">Detailed Findings</div>
+
+    <div class="finding critical">
+      <div class="finding-header">
+        <span class="finding-id">F-001 · Pass 4: Procedural Compliance</span>
+        <span class="severity-badge critical">Critical</span>
+      </div>
+      <div class="finding-desc">
+        [Finding description — specific deficiency identified in the audited document]
+      </div>
+      <div class="finding-cite">
+        <strong>Violated Standard:</strong> [Statute/Rule citation]<br>
+        <strong>Evidence Location:</strong> [Page/section/field reference in document]<br>
+        <strong>Remediation:</strong> [Specific corrective action required]
+      </div>
+    </div>
+
+    <div class="finding high">
+      <div class="finding-header">
+        <span class="finding-id">F-002 · Pass 3: Substantive Completeness</span>
+        <span class="severity-badge high">High</span>
+      </div>
+      <div class="finding-desc">
+        [Finding description — mandatory content element missing or inadequate]
+      </div>
+      <div class="finding-cite">
+        <strong>Violated Standard:</strong> [Citation]<br>
+        <strong>Evidence Location:</strong> [Reference]<br>
+        <strong>Remediation:</strong> [Action]
+      </div>
+    </div>
+
+    <div class="finding medium">
+      <div class="finding-header">
+        <span class="finding-id">F-003 · Pass 2: Structural Integrity</span>
+        <span class="severity-badge medium">Medium</span>
+      </div>
+      <div class="finding-desc">
+        [Finding description — structural/formatting deficiency]
+      </div>
+      <div class="finding-cite">
+        <strong>Violated Standard:</strong> [Citation]<br>
+        <strong>Evidence Location:</strong> [Reference]<br>
+        <strong>Remediation:</strong> [Action]
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPLIANCE SCORE -->
+  <div class="score-bar">
+    <div class="score-circle">62%</div>
+    <div class="score-text">
+      <strong>S.o.C. Compliance Score: 62%</strong><br>
+      Document satisfies 62% of identified Standard of Creation requirements. Critical and high-severity findings require immediate remediation before filing or enforcement.
+    </div>
+  </div>
+
+  <!-- FOOTER — BRANDED IP -->
+  <div class="report-footer">
+    <div class="footer-brand">VERNEN™ Autonomous Audit Engine</div>
+    <div class="footer-copy">
+      © 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.<br>
+      VERNEN™ is a trademark of Michael Vernen Thomas Hartmann. IP manifest filed February 2, 2026.<br>
+      <a href="https://vernen-audit.netlify.app">vernen-audit.netlify.app</a> · S.o.C. Audit Protocol v1.0.0
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
