@@ -1,26 +1,57 @@
-# VERNEN™ — AI-Powered Consumer Legal Services Marketplace
+# VERNEN™ — AI-Powered Legal Analysis Platform
 
-**Claude AI-Powered | Multilingual | Audit-Grade**
+**Multilingual legal document auditing for pro se litigants.**
 
-VERNEN™ is an autonomous legal document audit and analysis platform serving pro se litigants across 13 languages. Powered by Claude AI, it delivers statute-traced compliance auditing, field-level form guidance, and scenario-indexed case analysis.
+© 2024-2026 Michael Vernen Thomas Hartmann. All Rights Reserved.
+IP Manifest filed February 2, 2026.
+
+---
+
+## Live Platform
+
+| URL | Description |
+|-----|-------------|
+| [vernen-legal.netlify.app](https://vernen-legal.netlify.app) | Landing page |
+| [vernen-legal.netlify.app/app](https://vernen-legal.netlify.app/app) | Autonomous Audit Engine |
+| [vernen-legal.netlify.app/protocol](https://vernen-legal.netlify.app/protocol) | S.o.C. Audit Protocol |
+
+## What It Does
+
+VERNEN™ applies the **Standard of Creation (S.o.C.) methodology** to legal documents:
+
+1. **S.o.C. Identification** — Determines governing statute, regulation, or professional code
+2. **Statutory Retrieval** — Live lookup via MCP legal research server
+3. **Structural Compliance** — Format, required elements, signatures
+4. **Substantive Analysis** — Statutory requirements, procedural rules
+5. **Bias & Fraud Detection** — One-sided language, omissions, misrepresentations
+6. **Final Report** — Scored findings (Critical/Major/Minor/Advisory) with citations
 
 ## Architecture
 
-- **Frontend**: React + Tailwind CSS — consumer marketplace interface
-- **Backend**: Node.js API layer — connects to Claude AI engine
-- **Audit Engine**: 28+ specialized skill modules (CA family law, civil rights, professional conduct)
-- **Data Layer**: Multilingual form registries, legal glossaries, field-level annotations
+- **Frontend**: React + Vite (Autonomous Audit Engine)
+- **Landing**: Static HTML (dark theme, 13-language overview)
+- **API**: Express.js with Anthropic SDK + Stripe
+- **MCP Server**: VERNEN Legal MCP on Render (live statute lookup)
+- **28 Audit Skill Modules**: Domain-specific compliance frameworks
+- **14 Audit Categories**: Family law, civil rights, law enforcement, insurance, medical, and more
+- **Export**: TXT + DOCX professional report generation
 
-## IP Notice
+## Quick Start
 
-VERNEN™ — IP manifest filed February 2, 2026.  
-© 2026 Michael Vernen Thomas Hartmann. All rights reserved.
+```bash
+npm install
+cp .env.example .env  # Add your API keys
+npm run dev            # Frontend dev server
+npm start              # API server (port 3001)
+```
 
-## Live Assets
+## Deployment
 
-- Landing Page: https://vernen-audit.netlify.app
-- MCP Server: Render deployment (vernen-legal-mcp)
+```bash
+npm run build
+npx netlify deploy --prod --dir=unified-deploy --site=YOUR_SITE_ID --no-build
+```
 
 ## License
 
-Proprietary. Unauthorized use prohibited.
+UNLICENSED — All rights reserved. Unauthorized reproduction prohibited.
