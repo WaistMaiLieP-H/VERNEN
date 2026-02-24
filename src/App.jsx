@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Dashboard from './pages/Dashboard';
+import Pricing from './pages/Pricing';
 import AuditPage from './pages/AuditPage';
 import ResultPage from './pages/ResultPage';
 
@@ -12,6 +13,7 @@ export default function App() {
       <main className="max-w-6xl mx-auto px-4 py-8">
         <Routes>
           <Route path="/" element={<Dashboard />} />
+          <Route path="/pricing" element={<Pricing />} />
           <Route path="/audit/:category" element={<AuditPage />} />
           <Route path="/result/:auditId" element={<ResultPage />} />
         </Routes>
