@@ -5,5 +5,8 @@
 /protocol   /VERNEN_SoC_Audit_Protocol.pdf   200
 /template   /vernen_report_template.html      200
 
-# React app SPA routing — all /app/* routes serve app/index.html
+# React app SPA routing — standalone audit engine
 /app/*      /app/index.html                   200
+
+# Marketplace SPA routing — Dashboard/Pricing/Audit/Results
+/marketplace/*   /marketplace/index.html       200
