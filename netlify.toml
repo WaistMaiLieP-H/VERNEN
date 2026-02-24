@@ -1,0 +1,28 @@
+[build]
+  publish = "unified-deploy"
+  functions = "unified-deploy/netlify/functions"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api"
+  status = 200
+
+[[redirects]]
+  from = "/protocol"
+  to = "/VERNEN_SoC_Audit_Protocol.pdf"
+  status = 200
+
+[[redirects]]
+  from = "/template"
+  to = "/vernen_report_template.html"
+  status = 200
+
+[[redirects]]
+  from = "/app/*"
+  to = "/app/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/marketplace/*"
+  to = "/marketplace/index.html"
+  status = 200
