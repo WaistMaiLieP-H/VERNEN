@@ -1,5 +1,5 @@
 # VERNEN™ BACKUP MANIFEST
-## Generated: February 23, 2026 (session audit)
+## Updated: February 24, 2026
 ## Author: Michael Vernen Thomas Hartmann
 ## IP Manifest Filed: February 2, 2026
 
@@ -16,44 +16,70 @@
 
 Netlify account: app.netlify.com — project name: vernen-legal
 
+### Unified Deployment (READY — pending Netlify drag-and-drop)
+- Desktop: C:\Users\SagFi\Desktop\VERNEN_unified_deploy.zip (82 KB)
+- Structure: / (landing) + /app (audit engine) + /protocol (PDF) + /template (report)
+- Deploy to: vernen-legal.netlify.app → Deploys → drag zip
+
+---
+
+## GITHUB (OFFSITE BACKUP — PUSHED Feb 24, 2026)
+
+| Repository | URL |
+|------------|-----|
+| VERNEN | https://github.com/WaistMaiLieP-H/VERNEN |
+
+Latest commits:
+- 1ce911c — Unified deployment (landing + engine + protocol + template)
+- af5269b — build_soc_protocol.py and deployment scripts
+- ff041cf — Public deployment assets (Feb 23, 2026)
+
 ---
 
 ## WINDOWS MACHINE: C:\Users\SagFi\VERNEN\
 
-### Project Root (Git Repo)
-- .git/ — version-controlled
-- VERNEN_BUILD_STATUS.md — build tracker
-- src/components/ — Core JSX components (Audit Engine, Case Manager, Simulator)
+### Project Root (Git Repo — synced to GitHub)
+- .git/ — full version history
+- src/components/ — Core JSX (Audit Engine, Case Manager, Simulator)
 - src/pages/ — Routing pages
-- src/data/ — Annotations, forms, glossaries (multilingual)
-- dist/ — Compiled build output
+- src/data/ — Annotations, forms, glossaries (13 languages)
+- dist/ — Compiled React build output
+- scripts/ — build_soc_protocol.py, b64 chunks
 
-### Public Assets (TODAY's deliverables): public/
+### Public Assets: public/
 - vernen_landing.html (19,839 bytes)
 - VERNEN_SoC_Audit_Protocol.pdf (16,252 bytes)
 - vernen_report_template.html (10,883 bytes)
 - vernen-site-deploy.zip (21,208 bytes)
 - _redirects — Netlify routing rules
 
+### Unified Deploy Package: unified-deploy/
+- index.html (landing page)
+- app/ (React audit engine + assets)
+- VERNEN_SoC_Audit_Protocol.pdf
+- vernen_report_template.html
+- _redirects (unified routing)
+
 ---
 
 ## RECOVERY PRIORITY
 
-1. Live Netlify sites survive independently
-2. Netlify dashboard allows re-download of deployed files
-3. PDF methodology doc publicly accessible
-4. build_soc_protocol.py — download from Claude outputs panel → save to VERNEN\scripts\
-5. Git repo at C:\Users\SagFi\VERNEN\.git — full history recoverable
+1. GitHub repo — full source + deployment assets (offsite, timestamped)
+2. Live Netlify sites survive independently
+3. Netlify dashboard allows re-download of deployed files
+4. Windows local: C:\Users\SagFi\VERNEN\ (complete working copy)
+5. Windows downloads: C:\Users\SagFi\Downloads\ (deploy packages)
 
-## RECOMMENDED NEXT ACTIONS
+## STATUS: Feb 24, 2026
 
-1. Download build_soc_protocol.py from Claude outputs → save to VERNEN\scripts\
-2. Push Git repo to GitHub (creates offsite backup)
-3. Email yourself the Netlify URLs + this manifest
-4. Screenshot both live sites with date visible
+✅ GitHub offsite backup — COMPLETE
+✅ build_soc_protocol.py — backed up (scripts/, GitHub, Downloads)
+✅ Unified deployment package — BUILT, ready for Netlify deploy
+⏳ Netlify site unification — deploy zip pending (drag-and-drop)
+⏳ Public disclosure — sites live but not announced
 
 ---
 
 (c) 2024-2026 Michael Vernen Thomas Hartmann. All Rights Reserved.
-VERNEN(TM) is a trademark of Michael Vernen Thomas Hartmann.
+VERNEN™ is a trademark of Michael Vernen Thomas Hartmann.
 IP manifest filed February 2, 2026.
