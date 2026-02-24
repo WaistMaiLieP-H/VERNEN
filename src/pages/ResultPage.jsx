@@ -7,30 +7,20 @@ export default function ResultPage() {
   const [audit, setAudit] = useState(null);
 
   useEffect(() => {
-    const stored = localStorage.getItem(`audit_${auditId}`);
-    if (stored) setAudit(JSON.parse(stored));
+    const stored = JSON.parse(localStorage.getItem('vernen_audits') || '{}');
+    if (stored[auditId]) setAudit(stored[auditId]);
   }, [auditId]);
 
-  if (!audit) {
-    return (
-      <div className="text-center py-20">
-        <p className="text-vernen-muted">Audit not found.</p>
-        <button onClick={() => navigate('/')}
-          className="mt-4 text-vernen-gold hover:underline text-sm">
-          Return to Dashboard
-        </button>
-      </div>
-    );
-  }
+  if (!audit) return (
+    <div className="text-center py-20">
+      <p className="text-vernen-muted">Audit not found.</p>
+      <button onClick={() => navigate('/')} className="mt-4 text-vernen-gold hover:underline text-sm">Dashboard</button>
+    </div>
+  );
 
   return (
     <div className="max-w-4xl mx-auto">
-      <div className="mb-6">
-        <button onClick={() => navigate('/')} className="text-vernen-muted hover:text-vernen-gold text-sm">
-          ← Back to Dashboard
-        </button>
-      </div>
-
+      <button onClick={() => navigate('/')} className="text-vernen-muted hover:text-vernen-gold text-sm mb-6 block">← Dashboard</button>
       <div className="bg-vernen-panel border border-vernen-border rounded-lg overflow-hidden">
         <div className="p-5 border-b border-vernen-border flex items-center justify-between">
           <div>
@@ -40,20 +30,28 @@ export default function ResultPage() {
             </p>
           </div>
           <button onClick={() => {
-              const blob = new Blob([audit.result], { type: 'text/plain' });
-              const url = URL.createObjectURL(blob);
+              const blob = new Blob([
+                `VERNEN™ AUDIT REPORT\n`,
+                `ID: ${audit.auditId}\n`,
+                `Category: ${audit.category}\n`,
+                `Jurisdiction: ${audit.jurisdiction}\n`,
+                `Date: ${audit.timestamp}\n`,
+                `${'='.repeat(60)}\n\n`,
+                audit.result, '\n\n',
+                `${'='.repeat(60)}\n`,
+                audit.disclaimer, '\n',
+                '© 2026 VERNEN™ — Michael Vernen Thomas Hartmann'
+              ], { type: 'text/plain' });
               const a = document.createElement('a');
-              a.href = url; a.download = `${audit.auditId}.txt`; a.click();
+              a.href = URL.createObjectURL(blob);
+              a.download = `${audit.auditId}.txt`; a.click();
             }}
-            className="px-4 py-2 rounded text-sm bg-vernen-gold/10 text-vernen-gold
-                       hover:bg-vernen-gold/20 transition">
-            Export Report
+            className="px-4 py-2 rounded text-sm bg-vernen-gold/10 text-vernen-gold hover:bg-vernen-gold/20 transition">
+            Export
           </button>
         </div>
         <div className="p-5">
-          <pre className="whitespace-pre-wrap text-sm leading-relaxed text-vernen-text font-mono">
-            {audit.result}
-          </pre>
+          <pre className="whitespace-pre-wrap text-sm leading-relaxed text-vernen-text">{audit.result}</pre>
         </div>
         <div className="p-4 border-t border-vernen-border bg-vernen-dark/50 text-xs text-vernen-muted">
           {audit.disclaimer}
