@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 3001;
 const stripe = process.env.STRIPE_SECRET_KEY ? new Stripe(process.env.STRIPE_SECRET_KEY) : null;
 
 app.use(cors());
+app.use('/api/webhook', express.raw({ type: 'application/json' }));
 app.use(express.json({ limit: '10mb' }));
 
 // Health check
@@ -96,6 +97,64 @@ app.post('/api/checkout', async (req, res) => {
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
+});
+
+// In-memory paid sessions store (replace with DB in production)
+const paidSessions = new Map();
+
+// POST /api/webhook — Stripe webhook for payment confirmation
+app.post('/api/webhook', async (req, res) => {
+  if (!stripe) return res.status(503).json({ error: 'Stripe not configured' });
+  const sig = req.headers['stripe-signature'];
+  const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
+  
+  let event;
+  try {
+    if (webhookSecret) {
+      event = stripe.webhooks.constructEvent(req.body, sig, webhookSecret);
+    } else {
+      event = JSON.parse(req.body);
+    }
+  } catch (err) {
+    console.error('Webhook signature verification failed:', err.message);
+    return res.status(400).json({ error: 'Invalid signature' });
+  }
+
+  if (event.type === 'checkout.session.completed') {
+    const session = event.data.object;
+    if (session.payment_status === 'paid') {
+      paidSessions.set(session.id, {
+        category: session.metadata?.category,
+        tier: session.metadata?.tier,
+        paidAt: new Date().toISOString(),
+        email: session.customer_details?.email,
+      });
+      console.log(`✓ Payment confirmed: ${session.id} — ${session.metadata?.tier} / ${session.metadata?.category}`);
+    }
+  }
+
+  res.json({ received: true });
+});
+
+// GET /api/verify-payment/:sessionId — check if session is paid
+app.get('/api/verify-payment/:sessionId', async (req, res) => {
+  const { sessionId } = req.params;
+  // Check in-memory store first
+  if (paidSessions.has(sessionId)) {
+    return res.json({ paid: true, ...paidSessions.get(sessionId) });
+  }
+  // Fallback: check Stripe directly
+  if (stripe) {
+    try {
+      const session = await stripe.checkout.sessions.retrieve(sessionId);
+      if (session.payment_status === 'paid') {
+        return res.json({ paid: true, category: session.metadata?.category, tier: session.metadata?.tier });
+      }
+    } catch (err) {
+      // Session not found
+    }
+  }
+  res.json({ paid: false });
 });
 
 

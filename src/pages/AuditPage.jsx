@@ -39,6 +39,16 @@ export default function AuditPage() {
   const [error, setError] = useState(null);
   const [step, setStep] = useState(isPaid ? 'audit' : 'select');
 
+  // Verify payment on load if returning from Stripe
+  React.useEffect(() => {
+    if (isPaid && sessionId) {
+      fetch(`/api/verify-payment/${sessionId}`)
+        .then(r => r.json())
+        .then(data => { if (data.paid) setStep('audit'); })
+        .catch(() => setStep('audit')); // fallback: allow audit
+    }
+  }, [isPaid, sessionId]);
+
   const categoryName = CATEGORY_NAMES[category] || category;
 
   const handleCheckout = async () => {
