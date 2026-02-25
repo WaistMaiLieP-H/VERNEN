@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "form_id": "FW-001",
+    "form_title": "Request to Waive Court Fees",
+    "statutory_authority": "Government Code §§ 68630-68641",
+    "languages": ["en","es","zh","vi","so","ti","am","ar","ht","ko","pt","ru","tl"],
+    "version": "1.0.0",
+    "tier": "A",
+    "copyright": "© 2024-2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "trademark": "VERNEN™ is a trademark of Michael Vernen Thomas Hartmann."
+  },
+  "sections": [
+    {
+      "section_id": "basis_for_waiver",
+      "fields": [
+        {
+          "field_id": "fw001_basis",
+          "field_label": "Basis for fee waiver request",
+          "field_type": "radio",
+          "required": true,
+          "guidance": {
+            "en": "Choose one: (a) You receive public benefits (Medi-Cal, Food Stamps/CalFresh, SSI, SSP, CAPI, CalWORKs, Tribal TANF, IHSS); (b) Your household income is at or below the poverty guidelines; (c) Your income is not enough to pay for basic needs AND court fees.",
+            "es": "Elija una base: (a) recibe beneficios públicos; (b) ingreso por debajo de la línea de pobreza; (c) ingreso insuficiente.",
+            "zh": "Choose one: (a) You receive public benefits; (b) Your household income is at or below the poverty guidelines; (c) Your income is not enough to pay for basic needs AND court fees.",
+            "vi": "Choose one: (a) You receive public benefits; (b) Your household income is at or below the poverty guidelines; (c) Your income is not enough to pay for basic needs AND court fees.",
+            "so": "Choose one: (a) You receive public benefits; (b) Your household income is at or below the poverty guidelines; (c) Your income is not enough to pay for basic needs AND court fees.",
+            "ti": "Choose one: (a) You receive public benefits; (b) Your household income is at or below the poverty guidelines; (c) Your income is not enough to pay for basic needs AND court fees.",
+            "am": "Choose one: (a) You receive public benefits; (b) Your household income is at or below the poverty guidelines; (c) Your income is not enough to pay for basic needs AND court fees.",
+            "ar": "Choose one: (a) You receive public benefits; (b) Your household income is at or below the poverty guidelines; (c) Your income is not enough to pay for basic needs AND court fees.",
+            "ht": "Choose one: (a) You receive public benefits; (b) Your household income is at or below the poverty guidelines; (c) Your income is not enough to pay for basic needs AND court fees.",
+            "ko": "Choose one: (a) You receive public benefits; (b) Your household income is at or below the poverty guidelines; (c) Your income is not enough to pay for basic needs AND court fees.",
+            "pt": "Choose one: (a) You receive public benefits; (b) Your household income is at or below the poverty guidelines; (c) Your income is not enough to pay for basic needs AND court fees.",
+            "ru": "Choose one: (a) You receive public benefits; (b) Your household income is at or below the poverty guidelines; (c) Your income is not enough to pay for basic needs AND court fees.",
+            "tl": "Choose one: (a) You receive public benefits; (b) Your household income is at or below the poverty guidelines; (c) Your income is not enough to pay for basic needs AND court fees."
+          },
+          "legal_reference": "Government Code § 68632",
+          "common_errors": {},
+          "tips": {}
+        }
+      ]
+    },
+    {
+      "section_id": "public_benefits",
+      "fields": [
+        {
+          "field_id": "fw001_benefits_type",
+          "field_label": "Public benefits received (if applicable)",
+          "field_type": "checkbox",
+          "required": false,
+          "guidance": {
+            "en": "If you checked option (a), list which public benefits you receive. You will need to provide proof such as a benefits letter or card.",
+            "es": "Si marcó la opción (a), indique cuáles beneficios públicos recibe.",
+            "zh": "If you checked option (a), list which public benefits you receive. You will need to provide proof such as a benefits letter or card.",
+            "vi": "If you checked option (a), list which public benefits you receive. You will need to provide proof such as a benefits letter or card.",
+            "so": "If you checked option (a), list which public benefits you receive. You will need to provide proof such as a benefits letter or card.",
+            "ti": "If you checked option (a), list which public benefits you receive. You will need to provide proof such as a benefits letter or card.",
+            "am": "If you checked option (a), list which public benefits you receive. You will need to provide proof such as a benefits letter or card.",
+            "ar": "If you checked option (a), list which public benefits you receive. You will need to provide proof such as a benefits letter or card.",
+            "ht": "If you checked option (a), list which public benefits you receive. You will need to provide proof such as a benefits letter or card.",
+            "ko": "If you checked option (a), list which public benefits you receive. You will need to provide proof such as a benefits letter or card.",
+            "pt": "If you checked option (a), list which public benefits you receive. You will need to provide proof such as a benefits letter or card.",
+            "ru": "If you checked option (a), list which public benefits you receive. You will need to provide proof such as a benefits letter or card.",
+            "tl": "If you checked option (a), list which public benefits you receive. You will need to provide proof such as a benefits letter or card."
+          },
+          "legal_reference": "Government Code § 68632(a)",
+          "common_errors": {},
+          "tips": {}
+        }
+      ]
+    },
+    {
+      "section_id": "income_info",
+      "fields": [
+        {
+          "field_id": "fw001_household_size",
+          "field_label": "Number of persons in household",
+          "field_type": "number",
+          "required": true,
+          "guidance": {
+            "en": "Enter the total number of people living in your household, including yourself and any dependents.",
+            "es": "Ingrese el número total de personas que viven en su hogar.",
+            "zh": "Enter the total number of people living in your household, including yourself and any dependents.",
+            "vi": "Enter the total number of people living in your household, including yourself and any dependents.",
+            "so": "Enter the total number of people living in your household, including yourself and any dependents.",
+            "ti": "Enter the total number of people living in your household, including yourself and any dependents.",
+            "am": "Enter the total number of people living in your household, including yourself and any dependents.",
+            "ar": "Enter the total number of people living in your household, including yourself and any dependents.",
+            "ht": "Enter the total number of people living in your household, including yourself and any dependents.",
+            "ko": "Enter the total number of people living in your household, including yourself and any dependents.",
+            "pt": "Enter the total number of people living in your household, including yourself and any dependents.",
+            "ru": "Enter the total number of people living in your household, including yourself and any dependents.",
+            "tl": "Enter the total number of people living in your household, including yourself and any dependents."
+          },
+          "legal_reference": "",
+          "common_errors": {},
+          "tips": {}
+        },
+        {
+          "field_id": "fw001_gross_monthly",
+          "field_label": "Total monthly income (before taxes)",
+          "field_type": "number",
+          "required": true,
+          "guidance": {
+            "en": "Enter your total gross monthly income from all sources: employment, self-employment, unemployment, disability, Social Security, child support, spousal support, pensions, investments.",
+            "es": "Ingrese su ingreso mensual bruto total de todas las fuentes.",
+            "zh": "Enter your total gross monthly income from all sources: employment, self-employment, unemployment, disability, Social Security, child support, spousal support, pensions, investments.",
+            "vi": "Enter your total gross monthly income from all sources: employment, self-employment, unemployment, disability, Social Security, child support, spousal support, pensions, investments.",
+            "so": "Enter your total gross monthly income from all sources: employment, self-employment, unemployment, disability, Social Security, child support, spousal support, pensions, investments.",
+            "ti": "Enter your total gross monthly income from all sources: employment, self-employment, unemployment, disability, Social Security, child support, spousal support, pensions, investments.",
+            "am": "Enter your total gross monthly income from all sources: employment, self-employment, unemployment, disability, Social Security, child support, spousal support, pensions, investments.",
+            "ar": "Enter your total gross monthly income from all sources: employment, self-employment, unemployment, disability, Social Security, child support, spousal support, pensions, investments.",
+            "ht": "Enter your total gross monthly income from all sources: employment, self-employment, unemployment, disability, Social Security, child support, spousal support, pensions, investments.",
+            "ko": "Enter your total gross monthly income from all sources: employment, self-employment, unemployment, disability, Social Security, child support, spousal support, pensions, investments.",
+            "pt": "Enter your total gross monthly income from all sources: employment, self-employment, unemployment, disability, Social Security, child support, spousal support, pensions, investments.",
+            "ru": "Enter your total gross monthly income from all sources: employment, self-employment, unemployment, disability, Social Security, child support, spousal support, pensions, investments.",
+            "tl": "Enter your total gross monthly income from all sources: employment, self-employment, unemployment, disability, Social Security, child support, spousal support, pensions, investments."
+          },
+          "legal_reference": "Government Code § 68632(b)-(c)",
+          "common_errors": {},
+          "tips": {}
+        }
+      ]
+    },
+    {
+      "section_id": "expenses",
+      "fields": [
+        {
+          "field_id": "fw001_monthly_expenses",
+          "field_label": "Monthly expenses",
+          "field_type": "number",
+          "required": false,
+          "guidance": {
+            "en": "If using option (c), list your basic monthly expenses: rent/mortgage, food, utilities, transportation, medical, child care, other necessities.",
+            "es": "Si usa la opción (c), enumere sus gastos mensuales básicos.",
+            "zh": "If using option (c), list your basic monthly expenses: rent/mortgage, food, utilities, transportation, medical, child care, other necessities.",
+            "vi": "If using option (c), list your basic monthly expenses: rent/mortgage, food, utilities, transportation, medical, child care, other necessities.",
+            "so": "If using option (c), list your basic monthly expenses: rent/mortgage, food, utilities, transportation, medical, child care, other necessities.",
+            "ti": "If using option (c), list your basic monthly expenses: rent/mortgage, food, utilities, transportation, medical, child care, other necessities.",
+            "am": "If using option (c), list your basic monthly expenses: rent/mortgage, food, utilities, transportation, medical, child care, other necessities.",
+            "ar": "If using option (c), list your basic monthly expenses: rent/mortgage, food, utilities, transportation, medical, child care, other necessities.",
+            "ht": "If using option (c), list your basic monthly expenses: rent/mortgage, food, utilities, transportation, medical, child care, other necessities.",
+            "ko": "If using option (c), list your basic monthly expenses: rent/mortgage, food, utilities, transportation, medical, child care, other necessities.",
+            "pt": "If using option (c), list your basic monthly expenses: rent/mortgage, food, utilities, transportation, medical, child care, other necessities.",
+            "ru": "If using option (c), list your basic monthly expenses: rent/mortgage, food, utilities, transportation, medical, child care, other necessities.",
+            "tl": "If using option (c), list your basic monthly expenses: rent/mortgage, food, utilities, transportation, medical, child care, other necessities."
+          },
+          "legal_reference": "Government Code § 68632(c)",
+          "common_errors": {},
+          "tips": {}
+        }
+      ]
+    }
+  ]
+}

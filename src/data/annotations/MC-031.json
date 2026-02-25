@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "form_id": "MC-031",
+    "form_title": "Attached Declaration",
+    "statutory_authority": "CCP §§ 2009, 2015.5",
+    "languages": ["en","es","zh","vi","so","ti","am","ar","ht","ko","pt","ru","tl"],
+    "version": "1.0.0",
+    "tier": "A",
+    "copyright": "© 2024-2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "trademark": "VERNEN™ is a trademark of Michael Vernen Thomas Hartmann."
+  },
+  "sections": [
+    {
+      "section_id": "declaration_content",
+      "fields": [
+        {
+          "field_id": "mc031_attachment_to",
+          "field_label": "This declaration is attached to (form name/number)",
+          "field_type": "text",
+          "required": true,
+          "guidance": {
+            "en": "Identify which form this declaration supports. Example: 'FL-300, Request for Order' or 'DV-100, Request for DVRO'. This tells the court what motion or request your declaration accompanies.",
+            "es": "Identifique a cuál formulario se adjunta esta declaración.",
+            "zh": "Identify which form this declaration supports. Example: 'FL-300, Request for Order' or 'DV-100, Request for DVRO'. This tells the court what motion or request your declaration accompanies.",
+            "vi": "Identify which form this declaration supports. Example: 'FL-300, Request for Order' or 'DV-100, Request for DVRO'. This tells the court what motion or request your declaration accompanies.",
+            "so": "Identify which form this declaration supports. Example: 'FL-300, Request for Order' or 'DV-100, Request for DVRO'. This tells the court what motion or request your declaration accompanies.",
+            "ti": "Identify which form this declaration supports. Example: 'FL-300, Request for Order' or 'DV-100, Request for DVRO'. This tells the court what motion or request your declaration accompanies.",
+            "am": "Identify which form this declaration supports. Example: 'FL-300, Request for Order' or 'DV-100, Request for DVRO'. This tells the court what motion or request your declaration accompanies.",
+            "ar": "Identify which form this declaration supports. Example: 'FL-300, Request for Order' or 'DV-100, Request for DVRO'. This tells the court what motion or request your declaration accompanies.",
+            "ht": "Identify which form this declaration supports. Example: 'FL-300, Request for Order' or 'DV-100, Request for DVRO'. This tells the court what motion or request your declaration accompanies.",
+            "ko": "Identify which form this declaration supports. Example: 'FL-300, Request for Order' or 'DV-100, Request for DVRO'. This tells the court what motion or request your declaration accompanies.",
+            "pt": "Identify which form this declaration supports. Example: 'FL-300, Request for Order' or 'DV-100, Request for DVRO'. This tells the court what motion or request your declaration accompanies.",
+            "ru": "Identify which form this declaration supports. Example: 'FL-300, Request for Order' or 'DV-100, Request for DVRO'. This tells the court what motion or request your declaration accompanies.",
+            "tl": "Identify which form this declaration supports. Example: 'FL-300, Request for Order' or 'DV-100, Request for DVRO'. This tells the court what motion or request your declaration accompanies."
+          },
+          "legal_reference": "",
+          "common_errors": {},
+          "tips": {}
+        },
+        {
+          "field_id": "mc031_declaration_text",
+          "field_label": "Declaration text",
+          "field_type": "textarea",
+          "required": true,
+          "guidance": {
+            "en": "Write your sworn statement of facts. Number each paragraph. State only facts within your personal knowledge. Be specific: include dates, times, locations, names, and what you personally witnessed or experienced. Everything you write is under penalty of perjury.",
+            "es": "Escriba su declaración jurada de hechos. Numere cada párrafo.",
+            "zh": "Write your sworn statement of facts. Number each paragraph. State only facts within your personal knowledge. Be specific: include dates, times, locations, names, and what you personally witnessed or experienced. Everything you write is under penalty of perjury.",
+            "vi": "Write your sworn statement of facts. Number each paragraph. State only facts within your personal knowledge. Be specific: include dates, times, locations, names, and what you personally witnessed or experienced. Everything you write is under penalty of perjury.",
+            "so": "Write your sworn statement of facts. Number each paragraph. State only facts within your personal knowledge. Be specific: include dates, times, locations, names, and what you personally witnessed or experienced. Everything you write is under penalty of perjury.",
+            "ti": "Write your sworn statement of facts. Number each paragraph. State only facts within your personal knowledge. Be specific: include dates, times, locations, names, and what you personally witnessed or experienced. Everything you write is under penalty of perjury.",
+            "am": "Write your sworn statement of facts. Number each paragraph. State only facts within your personal knowledge. Be specific: include dates, times, locations, names, and what you personally witnessed or experienced. Everything you write is under penalty of perjury.",
+            "ar": "Write your sworn statement of facts. Number each paragraph. State only facts within your personal knowledge. Be specific: include dates, times, locations, names, and what you personally witnessed or experienced. Everything you write is under penalty of perjury.",
+            "ht": "Write your sworn statement of facts. Number each paragraph. State only facts within your personal knowledge. Be specific: include dates, times, locations, names, and what you personally witnessed or experienced. Everything you write is under penalty of perjury.",
+            "ko": "Write your sworn statement of facts. Number each paragraph. State only facts within your personal knowledge. Be specific: include dates, times, locations, names, and what you personally witnessed or experienced. Everything you write is under penalty of perjury.",
+            "pt": "Write your sworn statement of facts. Number each paragraph. State only facts within your personal knowledge. Be specific: include dates, times, locations, names, and what you personally witnessed or experienced. Everything you write is under penalty of perjury.",
+            "ru": "Write your sworn statement of facts. Number each paragraph. State only facts within your personal knowledge. Be specific: include dates, times, locations, names, and what you personally witnessed or experienced. Everything you write is under penalty of perjury.",
+            "tl": "Write your sworn statement of facts. Number each paragraph. State only facts within your personal knowledge. Be specific: include dates, times, locations, names, and what you personally witnessed or experienced. Everything you write is under penalty of perjury."
+          },
+          "legal_reference": "CCP § 2015.5; Evidence Code § 702",
+          "common_errors": {
+            "en": "Including hearsay, opinions, or legal arguments. Declarations must contain facts, not conclusions.",
+            "es": "Including hearsay, opinions, or legal arguments. Declarations must contain facts, not conclusions.",
+            "zh": "Including hearsay, opinions, or legal arguments. Declarations must contain facts, not conclusions.",
+            "vi": "Including hearsay, opinions, or legal arguments. Declarations must contain facts, not conclusions.",
+            "so": "Including hearsay, opinions, or legal arguments. Declarations must contain facts, not conclusions.",
+            "ti": "Including hearsay, opinions, or legal arguments. Declarations must contain facts, not conclusions.",
+            "am": "Including hearsay, opinions, or legal arguments. Declarations must contain facts, not conclusions.",
+            "ar": "Including hearsay, opinions, or legal arguments. Declarations must contain facts, not conclusions.",
+            "ht": "Including hearsay, opinions, or legal arguments. Declarations must contain facts, not conclusions.",
+            "ko": "Including hearsay, opinions, or legal arguments. Declarations must contain facts, not conclusions.",
+            "pt": "Including hearsay, opinions, or legal arguments. Declarations must contain facts, not conclusions.",
+            "ru": "Including hearsay, opinions, or legal arguments. Declarations must contain facts, not conclusions.",
+            "tl": "Including hearsay, opinions, or legal arguments. Declarations must contain facts, not conclusions."
+          },
+          "tips": {
+            "en": "Use chronological order. Start each paragraph with 'On [date], I [observed/did/experienced]...' This is the most persuasive format for judges.",
+            "es": "Use chronological order. Start each paragraph with 'On [date], I [observed/did/experienced]...' This is the most persuasive format for judges.",
+            "zh": "Use chronological order. Start each paragraph with 'On [date], I [observed/did/experienced]...' This is the most persuasive format for judges.",
+            "vi": "Use chronological order. Start each paragraph with 'On [date], I [observed/did/experienced]...' This is the most persuasive format for judges.",
+            "so": "Use chronological order. Start each paragraph with 'On [date], I [observed/did/experienced]...' This is the most persuasive format for judges.",
+            "ti": "Use chronological order. Start each paragraph with 'On [date], I [observed/did/experienced]...' This is the most persuasive format for judges.",
+            "am": "Use chronological order. Start each paragraph with 'On [date], I [observed/did/experienced]...' This is the most persuasive format for judges.",
+            "ar": "Use chronological order. Start each paragraph with 'On [date], I [observed/did/experienced]...' This is the most persuasive format for judges.",
+            "ht": "Use chronological order. Start each paragraph with 'On [date], I [observed/did/experienced]...' This is the most persuasive format for judges.",
+            "ko": "Use chronological order. Start each paragraph with 'On [date], I [observed/did/experienced]...' This is the most persuasive format for judges.",
+            "pt": "Use chronological order. Start each paragraph with 'On [date], I [observed/did/experienced]...' This is the most persuasive format for judges.",
+            "ru": "Use chronological order. Start each paragraph with 'On [date], I [observed/did/experienced]...' This is the most persuasive format for judges.",
+            "tl": "Use chronological order. Start each paragraph with 'On [date], I [observed/did/experienced]...' This is the most persuasive format for judges."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "signature",
+      "fields": [
+        {
+          "field_id": "mc031_signature",
+          "field_label": "Signature under penalty of perjury",
+          "field_type": "text",
+          "required": true,
+          "guidance": {
+            "en": "Sign and date your declaration. The signature block reads: 'I declare under penalty of perjury under the laws of the State of California that the foregoing is true and correct.' Making false statements is punishable under Penal Code § 118.",
+            "es": "Firme y feche su declaración bajo pena de perjurio.",
+            "zh": "Sign and date your declaration. The signature block reads: 'I declare under penalty of perjury under the laws of the State of California that the foregoing is true and correct.' Making false statements is punishable under Penal Code § 118.",
+            "vi": "Sign and date your declaration. The signature block reads: 'I declare under penalty of perjury under the laws of the State of California that the foregoing is true and correct.' Making false statements is punishable under Penal Code § 118.",
+            "so": "Sign and date your declaration. The signature block reads: 'I declare under penalty of perjury under the laws of the State of California that the foregoing is true and correct.' Making false statements is punishable under Penal Code § 118.",
+            "ti": "Sign and date your declaration. The signature block reads: 'I declare under penalty of perjury under the laws of the State of California that the foregoing is true and correct.' Making false statements is punishable under Penal Code § 118.",
+            "am": "Sign and date your declaration. The signature block reads: 'I declare under penalty of perjury under the laws of the State of California that the foregoing is true and correct.' Making false statements is punishable under Penal Code § 118.",
+            "ar": "Sign and date your declaration. The signature block reads: 'I declare under penalty of perjury under the laws of the State of California that the foregoing is true and correct.' Making false statements is punishable under Penal Code § 118.",
+            "ht": "Sign and date your declaration. The signature block reads: 'I declare under penalty of perjury under the laws of the State of California that the foregoing is true and correct.' Making false statements is punishable under Penal Code § 118.",
+            "ko": "Sign and date your declaration. The signature block reads: 'I declare under penalty of perjury under the laws of the State of California that the foregoing is true and correct.' Making false statements is punishable under Penal Code § 118.",
+            "pt": "Sign and date your declaration. The signature block reads: 'I declare under penalty of perjury under the laws of the State of California that the foregoing is true and correct.' Making false statements is punishable under Penal Code § 118.",
+            "ru": "Sign and date your declaration. The signature block reads: 'I declare under penalty of perjury under the laws of the State of California that the foregoing is true and correct.' Making false statements is punishable under Penal Code § 118.",
+            "tl": "Sign and date your declaration. The signature block reads: 'I declare under penalty of perjury under the laws of the State of California that the foregoing is true and correct.' Making false statements is punishable under Penal Code § 118."
+          },
+          "legal_reference": "CCP § 2015.5; Penal Code § 118",
+          "common_errors": {},
+          "tips": {}
+        }
+      ]
+    }
+  ]
+}

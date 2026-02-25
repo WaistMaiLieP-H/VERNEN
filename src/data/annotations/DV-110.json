@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "form_id": "DV-110",
+    "form_title": "Temporary Restraining Order",
+    "statutory_authority": "Family Code §§ 6300-6306",
+    "languages": ["en","es","zh","vi","so","ti","am","ar","ht","ko","pt","ru","tl"],
+    "version": "1.0.0",
+    "tier": "A",
+    "copyright": "© 2024-2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "trademark": "VERNEN™ is a trademark of Michael Vernen Thomas Hartmann."
+  },
+  "sections": [
+    {
+      "section_id": "court_orders",
+      "fields": [
+        {
+          "field_id": "dv110_orders_granted",
+          "field_label": "Orders granted by the court",
+          "field_type": "checkbox",
+          "required": true,
+          "guidance": {
+            "en": "This form is completed BY THE COURT after reviewing your DV-100 request. The judge checks which temporary orders are granted pending the hearing. You do not fill this out — the court does.",
+            "es": "Este formulario es completado POR EL TRIBUNAL después de revisar su solicitud DV-100.",
+            "zh": "This form is completed BY THE COURT after reviewing your DV-100 request. The judge checks which temporary orders are granted pending the hearing. You do not fill this out — the court does.",
+            "vi": "This form is completed BY THE COURT after reviewing your DV-100 request. The judge checks which temporary orders are granted pending the hearing. You do not fill this out — the court does.",
+            "so": "This form is completed BY THE COURT after reviewing your DV-100 request. The judge checks which temporary orders are granted pending the hearing. You do not fill this out — the court does.",
+            "ti": "This form is completed BY THE COURT after reviewing your DV-100 request. The judge checks which temporary orders are granted pending the hearing. You do not fill this out — the court does.",
+            "am": "This form is completed BY THE COURT after reviewing your DV-100 request. The judge checks which temporary orders are granted pending the hearing. You do not fill this out — the court does.",
+            "ar": "This form is completed BY THE COURT after reviewing your DV-100 request. The judge checks which temporary orders are granted pending the hearing. You do not fill this out — the court does.",
+            "ht": "This form is completed BY THE COURT after reviewing your DV-100 request. The judge checks which temporary orders are granted pending the hearing. You do not fill this out — the court does.",
+            "ko": "This form is completed BY THE COURT after reviewing your DV-100 request. The judge checks which temporary orders are granted pending the hearing. You do not fill this out — the court does.",
+            "pt": "This form is completed BY THE COURT after reviewing your DV-100 request. The judge checks which temporary orders are granted pending the hearing. You do not fill this out — the court does.",
+            "ru": "This form is completed BY THE COURT after reviewing your DV-100 request. The judge checks which temporary orders are granted pending the hearing. You do not fill this out — the court does.",
+            "tl": "This form is completed BY THE COURT after reviewing your DV-100 request. The judge checks which temporary orders are granted pending the hearing. You do not fill this out — the court does."
+          },
+          "legal_reference": "Family Code § 6300",
+          "common_errors": {},
+          "tips": {}
+        },
+        {
+          "field_id": "dv110_hearing_date",
+          "field_label": "Hearing date",
+          "field_type": "date",
+          "required": true,
+          "guidance": {
+            "en": "The court will set a hearing date within 21-25 days. You MUST serve the restrained person with these papers before the hearing date.",
+            "es": "El tribunal fijará una fecha de audiencia dentro de 21-25 días.",
+            "zh": "The court will set a hearing date within 21-25 days. You MUST serve the restrained person with these papers before the hearing date.",
+            "vi": "The court will set a hearing date within 21-25 days. You MUST serve the restrained person with these papers before the hearing date.",
+            "so": "The court will set a hearing date within 21-25 days. You MUST serve the restrained person with these papers before the hearing date.",
+            "ti": "The court will set a hearing date within 21-25 days. You MUST serve the restrained person with these papers before the hearing date.",
+            "am": "The court will set a hearing date within 21-25 days. You MUST serve the restrained person with these papers before the hearing date.",
+            "ar": "The court will set a hearing date within 21-25 days. You MUST serve the restrained person with these papers before the hearing date.",
+            "ht": "The court will set a hearing date within 21-25 days. You MUST serve the restrained person with these papers before the hearing date.",
+            "ko": "The court will set a hearing date within 21-25 days. You MUST serve the restrained person with these papers before the hearing date.",
+            "pt": "The court will set a hearing date within 21-25 days. You MUST serve the restrained person with these papers before the hearing date.",
+            "ru": "The court will set a hearing date within 21-25 days. You MUST serve the restrained person with these papers before the hearing date.",
+            "tl": "The court will set a hearing date within 21-25 days. You MUST serve the restrained person with these papers before the hearing date."
+          },
+          "legal_reference": "Family Code § 6306; CCP § 527(d)",
+          "common_errors": {
+            "en": "Failing to serve before the hearing date. If not served, the TRO expires and you must refile.",
+            "es": "Failing to serve before the hearing date. If not served, the TRO expires and you must refile.",
+            "zh": "Failing to serve before the hearing date. If not served, the TRO expires and you must refile.",
+            "vi": "Failing to serve before the hearing date. If not served, the TRO expires and you must refile.",
+            "so": "Failing to serve before the hearing date. If not served, the TRO expires and you must refile.",
+            "ti": "Failing to serve before the hearing date. If not served, the TRO expires and you must refile.",
+            "am": "Failing to serve before the hearing date. If not served, the TRO expires and you must refile.",
+            "ar": "Failing to serve before the hearing date. If not served, the TRO expires and you must refile.",
+            "ht": "Failing to serve before the hearing date. If not served, the TRO expires and you must refile.",
+            "ko": "Failing to serve before the hearing date. If not served, the TRO expires and you must refile.",
+            "pt": "Failing to serve before the hearing date. If not served, the TRO expires and you must refile.",
+            "ru": "Failing to serve before the hearing date. If not served, the TRO expires and you must refile.",
+            "tl": "Failing to serve before the hearing date. If not served, the TRO expires and you must refile."
+          },
+          "tips": {}
+        }
+      ]
+    },
+    {
+      "section_id": "service_requirements",
+      "fields": [
+        {
+          "field_id": "dv110_service",
+          "field_label": "Service information",
+          "field_type": "text",
+          "required": true,
+          "guidance": {
+            "en": "The restrained person must be personally served with: DV-100, DV-109, DV-110, and blank DV-120. Service must be by someone 18+ who is NOT a party to the case. Keep the proof of service (DV-020).",
+            "es": "La persona restringida debe recibir servicio personal de los documentos.",
+            "zh": "The restrained person must be personally served with: DV-100, DV-109, DV-110, and blank DV-120. Service must be by someone 18+ who is NOT a party to the case. Keep the proof of service (DV-020).",
+            "vi": "The restrained person must be personally served with: DV-100, DV-109, DV-110, and blank DV-120. Service must be by someone 18+ who is NOT a party to the case. Keep the proof of service (DV-020).",
+            "so": "The restrained person must be personally served with: DV-100, DV-109, DV-110, and blank DV-120. Service must be by someone 18+ who is NOT a party to the case. Keep the proof of service (DV-020).",
+            "ti": "The restrained person must be personally served with: DV-100, DV-109, DV-110, and blank DV-120. Service must be by someone 18+ who is NOT a party to the case. Keep the proof of service (DV-020).",
+            "am": "The restrained person must be personally served with: DV-100, DV-109, DV-110, and blank DV-120. Service must be by someone 18+ who is NOT a party to the case. Keep the proof of service (DV-020).",
+            "ar": "The restrained person must be personally served with: DV-100, DV-109, DV-110, and blank DV-120. Service must be by someone 18+ who is NOT a party to the case. Keep the proof of service (DV-020).",
+            "ht": "The restrained person must be personally served with: DV-100, DV-109, DV-110, and blank DV-120. Service must be by someone 18+ who is NOT a party to the case. Keep the proof of service (DV-020).",
+            "ko": "The restrained person must be personally served with: DV-100, DV-109, DV-110, and blank DV-120. Service must be by someone 18+ who is NOT a party to the case. Keep the proof of service (DV-020).",
+            "pt": "The restrained person must be personally served with: DV-100, DV-109, DV-110, and blank DV-120. Service must be by someone 18+ who is NOT a party to the case. Keep the proof of service (DV-020).",
+            "ru": "The restrained person must be personally served with: DV-100, DV-109, DV-110, and blank DV-120. Service must be by someone 18+ who is NOT a party to the case. Keep the proof of service (DV-020).",
+            "tl": "The restrained person must be personally served with: DV-100, DV-109, DV-110, and blank DV-120. Service must be by someone 18+ who is NOT a party to the case. Keep the proof of service (DV-020)."
+          },
+          "legal_reference": "Family Code § 6306; CCP §§ 414.10, 415.10",
+          "common_errors": {},
+          "tips": {}
+        }
+      ]
+    }
+  ]
+}

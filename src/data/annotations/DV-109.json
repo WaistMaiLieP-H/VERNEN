@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "form_id": "DV-109",
+    "form_title": "Notice of Court Hearing (Domestic Violence)",
+    "statutory_authority": "Family Code § 6306; CRC Rule 5.62",
+    "languages": ["en","es","zh","vi","so","ti","am","ar","ht","ko","pt","ru","tl"],
+    "version": "1.0.0",
+    "tier": "A",
+    "copyright": "© 2024-2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "trademark": "VERNEN™ is a trademark of Michael Vernen Thomas Hartmann."
+  },
+  "sections": [
+    {
+      "section_id": "hearing_info",
+      "fields": [
+        {
+          "field_id": "dv109_hearing_date",
+          "field_label": "Hearing date and time",
+          "field_type": "date",
+          "required": true,
+          "guidance": {
+            "en": "The date and time of your DVRO hearing, set by the court. This is when both parties appear before the judge to determine whether a permanent restraining order will be issued.",
+            "es": "La fecha y hora de su audiencia de orden de restricción.",
+            "zh": "The date and time of your DVRO hearing, set by the court. This is when both parties appear before the judge to determine whether a permanent restraining order will be issued.",
+            "vi": "The date and time of your DVRO hearing, set by the court. This is when both parties appear before the judge to determine whether a permanent restraining order will be issued.",
+            "so": "The date and time of your DVRO hearing, set by the court. This is when both parties appear before the judge to determine whether a permanent restraining order will be issued.",
+            "ti": "The date and time of your DVRO hearing, set by the court. This is when both parties appear before the judge to determine whether a permanent restraining order will be issued.",
+            "am": "The date and time of your DVRO hearing, set by the court. This is when both parties appear before the judge to determine whether a permanent restraining order will be issued.",
+            "ar": "The date and time of your DVRO hearing, set by the court. This is when both parties appear before the judge to determine whether a permanent restraining order will be issued.",
+            "ht": "The date and time of your DVRO hearing, set by the court. This is when both parties appear before the judge to determine whether a permanent restraining order will be issued.",
+            "ko": "The date and time of your DVRO hearing, set by the court. This is when both parties appear before the judge to determine whether a permanent restraining order will be issued.",
+            "pt": "The date and time of your DVRO hearing, set by the court. This is when both parties appear before the judge to determine whether a permanent restraining order will be issued.",
+            "ru": "The date and time of your DVRO hearing, set by the court. This is when both parties appear before the judge to determine whether a permanent restraining order will be issued.",
+            "tl": "The date and time of your DVRO hearing, set by the court. This is when both parties appear before the judge to determine whether a permanent restraining order will be issued."
+          },
+          "legal_reference": "Family Code § 6306",
+          "common_errors": {},
+          "tips": {}
+        },
+        {
+          "field_id": "dv109_court_location",
+          "field_label": "Court address and department",
+          "field_type": "text",
+          "required": true,
+          "guidance": {
+            "en": "The specific courthouse address and department number where the hearing will take place.",
+            "es": "La dirección específica del tribunal y número de departamento.",
+            "zh": "The specific courthouse address and department number where the hearing will take place.",
+            "vi": "The specific courthouse address and department number where the hearing will take place.",
+            "so": "The specific courthouse address and department number where the hearing will take place.",
+            "ti": "The specific courthouse address and department number where the hearing will take place.",
+            "am": "The specific courthouse address and department number where the hearing will take place.",
+            "ar": "The specific courthouse address and department number where the hearing will take place.",
+            "ht": "The specific courthouse address and department number where the hearing will take place.",
+            "ko": "The specific courthouse address and department number where the hearing will take place.",
+            "pt": "The specific courthouse address and department number where the hearing will take place.",
+            "ru": "The specific courthouse address and department number where the hearing will take place.",
+            "tl": "The specific courthouse address and department number where the hearing will take place."
+          },
+          "legal_reference": "",
+          "common_errors": {},
+          "tips": {}
+        }
+      ]
+    },
+    {
+      "section_id": "instructions",
+      "fields": [
+        {
+          "field_id": "dv109_instructions",
+          "field_label": "Instructions for both parties",
+          "field_type": "text",
+          "required": true,
+          "guidance": {
+            "en": "This form provides instructions: the protected person must attend the hearing; the restrained person may file a DV-120 response before the hearing; both parties can present evidence and witnesses.",
+            "es": "Este formulario proporciona instrucciones para ambas partes.",
+            "zh": "This form provides instructions: the protected person must attend the hearing; the restrained person may file a DV-120 response before the hearing; both parties can present evidence and witnesses.",
+            "vi": "This form provides instructions: the protected person must attend the hearing; the restrained person may file a DV-120 response before the hearing; both parties can present evidence and witnesses.",
+            "so": "This form provides instructions: the protected person must attend the hearing; the restrained person may file a DV-120 response before the hearing; both parties can present evidence and witnesses.",
+            "ti": "This form provides instructions: the protected person must attend the hearing; the restrained person may file a DV-120 response before the hearing; both parties can present evidence and witnesses.",
+            "am": "This form provides instructions: the protected person must attend the hearing; the restrained person may file a DV-120 response before the hearing; both parties can present evidence and witnesses.",
+            "ar": "This form provides instructions: the protected person must attend the hearing; the restrained person may file a DV-120 response before the hearing; both parties can present evidence and witnesses.",
+            "ht": "This form provides instructions: the protected person must attend the hearing; the restrained person may file a DV-120 response before the hearing; both parties can present evidence and witnesses.",
+            "ko": "This form provides instructions: the protected person must attend the hearing; the restrained person may file a DV-120 response before the hearing; both parties can present evidence and witnesses.",
+            "pt": "This form provides instructions: the protected person must attend the hearing; the restrained person may file a DV-120 response before the hearing; both parties can present evidence and witnesses.",
+            "ru": "This form provides instructions: the protected person must attend the hearing; the restrained person may file a DV-120 response before the hearing; both parties can present evidence and witnesses.",
+            "tl": "This form provides instructions: the protected person must attend the hearing; the restrained person may file a DV-120 response before the hearing; both parties can present evidence and witnesses."
+          },
+          "legal_reference": "CRC Rule 5.62",
+          "common_errors": {},
+          "tips": {}
+        }
+      ]
+    }
+  ]
+}
