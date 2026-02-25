@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "form_id": "FL-305",
+    "title": "Temporary Emergency (Ex Parte) Orders",
+    "version": "2.0.0",
+    "created": "2026-02-24",
+    "author": "Michael Vernen Thomas Hartmann",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "governing_statutes": ["FAM §6340","CRC 5.151","CRC 5.165"],
+    "total_fields": 15
+  },
+  "fields": [
+    {
+      "field_id": "FL305-01",
+      "label_en": "Header / Party Information",
+      "section": "header",
+      "type": "compound",
+      "required": true,
+      "guidance_en": "Standard header — must match existing case. FL-305 is filed alongside FL-300 and a supporting declaration when emergency orders are needed before the regular hearing date.",
+      "guidance_es": "Encabezado estándar — debe coincidir con el caso existente. FL-305 se presenta junto con FL-300 y una declaración de apoyo.",
+      "guidance_zh": "标准表头——必须与现有案件一致。FL-305与FL-300及支持声明一同提交。",
+      "common_errors": ["Filing FL-305 without FL-300","Party name inconsistency"],
+      "statutory_basis": "CRC 5.151"
+    },
+    {
+      "field_id": "FL305-02",
+      "label_en": "Item 1 — Immediate Danger / Irreparable Harm",
+      "section": "body",
+      "type": "text_area",
+      "required": true,
+      "guidance_en": "You MUST demonstrate IMMEDIATE DANGER to a person or IRREPARABLE HARM to property that cannot wait for a regular hearing. This is the threshold test. General inconvenience or disagreements are NOT sufficient. Examples of qualifying emergencies: child abduction risk, domestic violence, imminent property destruction or dissipation, unauthorized removal of children from jurisdiction.",
+      "guidance_es": "DEBE demostrar PELIGRO INMEDIATO a una persona o DAÑO IRREPARABLE a la propiedad que no puede esperar. La incomodidad general NO es suficiente.",
+      "guidance_zh": "您必须证明对人身的即时危险或对财产的不可挽回的损害，无法等待常规听证。一般不便或分歧不足以满足条件。",
+      "common_errors": ["Not meeting the emergency threshold","Filing ex parte for non-emergency issues","Insufficient factual showing of immediate harm","Using ex parte as tactical tool rather than genuine emergency"],
+      "statutory_basis": "CRC 5.151(b), FAM §6340"
+    },
+    {
+      "field_id": "FL305-03",
+      "label_en": "Item 2 — Notice to Other Party",
+      "section": "body",
+      "type": "checkbox_group",
+      "required": true,
+      "options": ["Personal notice was given","Notice was given by telephone","Notice was given by fax/email","Notice was given by other means (specify)","Notice was attempted but could not be given because","Notice should not be required because"],
+      "guidance_en": "You MUST give notice to the other party before filing an ex parte motion (CRC 5.165). Notice must be given by 10:00 AM the court day before the ex parte hearing. If notice was not possible, you must explain why. The court may deny the request if proper notice was not attempted.",
+      "guidance_es": "DEBE notificar a la otra parte antes de presentar una moción ex parte (CRC 5.165). La notificación debe darse antes de las 10:00 AM del día hábil anterior.",
+      "guidance_zh": "在提交紧急动议前，您必须通知对方（CRC 5.165）。通知必须在紧急听证前一个法院工作日上午10:00前发出。",
+      "common_errors": ["Not giving required notice","Notice given too late","Not documenting notice attempts","Not explaining why notice couldn't be given"],
+      "statutory_basis": "CRC 5.165"
+    },
+    {
+      "field_id": "FL305-04",
+      "label_en": "Item 3 — Temporary Emergency Orders Requested",
+      "section": "body",
+      "type": "checkbox_group",
+      "required": true,
+      "options": ["Temporary custody order","Temporary visitation order","No removal of children from state","Child abduction prevention","Property restraining orders","Exclusive use of dwelling","Stay-away order","Other (specify)"],
+      "guidance_en": "Check ALL emergency orders requested. Each must be supported by specific facts in the declaration showing why it cannot wait. Temporary orders remain in effect until the regular hearing date unless modified by the court.",
+      "guidance_es": "Marque TODAS las órdenes de emergencia solicitadas. Cada una debe estar respaldada por hechos específicos.",
+      "guidance_zh": "勾选所有请求的紧急命令。每项都必须由声明中的具体事实支持。",
+      "common_errors": ["Requesting orders not supported by emergency facts","Not being specific about what orders are needed"],
+      "statutory_basis": "CRC 5.151, FAM §6340"
+    },
+    {
+      "field_id": "FL305-05",
+      "label_en": "Item 4 — Child Custody Emergency",
+      "section": "body",
+      "type": "text_area",
+      "required": false,
+      "guidance_en": "If requesting emergency custody, describe the specific risk to the child. Courts require showing of 'immediate harm' or 'irreparable harm' — not just that a different custody arrangement would be better. Include dates, specific incidents, and any police reports or CPS involvement.",
+      "guidance_es": "Si solicita custodia de emergencia, describa el riesgo específico para el niño. Se requiere demostrar 'daño inmediato' o 'daño irreparable.'",
+      "guidance_zh": "如请求紧急监护权，请描述对儿童的具体风险。法院要求证明'即时伤害'或'不可挽回的伤害'。",
+      "common_errors": ["Conclusory allegations without specific facts","Not including supporting evidence","Exaggerating or fabricating emergency to gain tactical advantage"],
+      "statutory_basis": "FAM §3064"
+    },
+    {
+      "field_id": "FL305-06",
+      "label_en": "Item 5 — Property Emergency",
+      "section": "body",
+      "type": "text_area",
+      "required": false,
+      "guidance_en": "If requesting emergency property orders, describe the specific risk of dissipation, destruction, or concealment. Include evidence of recent or imminent transfers, withdrawals, or destruction.",
+      "guidance_es": "Si solicita órdenes de propiedad de emergencia, describa el riesgo específico de disipación, destrucción u ocultamiento.",
+      "guidance_zh": "如请求紧急财产命令，请描述资产被转移、销毁或隐匿的具体风险。",
+      "common_errors": ["Not showing imminent risk — past transfers alone may not qualify","Not specifying which assets are at risk"],
+      "statutory_basis": "FAM §2045"
+    },
+    {
+      "field_id": "FL305-07",
+      "label_en": "Declaration in Support",
+      "section": "body",
+      "type": "attachment_reference",
+      "required": true,
+      "guidance_en": "A detailed declaration (MC-031) MUST accompany this form. The declaration must: (1) state facts showing immediate danger or irreparable harm, (2) explain why relief cannot wait for regular hearing, (3) describe all notice attempts, (4) include any supporting evidence as exhibits. This is the make-or-break document — without a strong declaration, the ex parte will be denied.",
+      "guidance_es": "Una declaración detallada (MC-031) DEBE acompañar este formulario. Es el documento determinante.",
+      "guidance_zh": "详细声明（MC-031）必须随附本表格。声明必须：(1)陈述证明即时危险的事实，(2)解释为何不能等待常规听证，(3)描述所有通知尝试，(4)附上支持证据。",
+      "common_errors": ["Declaration too conclusory","No supporting exhibits","Not explaining urgency adequately","Declaration contradicts FL-305 checkboxes"],
+      "statutory_basis": "CRC 5.151, CCP §2015.5"
+    },
+    {
+      "field_id": "FL305-08",
+      "label_en": "Signature / Date",
+      "section": "signature",
+      "type": "signature_block",
+      "required": true,
+      "guidance_en": "Sign under penalty of perjury with date, city, and state.",
+      "guidance_es": "Firme bajo pena de perjurio con fecha, ciudad y estado.",
+      "guidance_zh": "在伪证处罚条款下签名，注明日期、城市和州。",
+      "common_errors": ["Unsigned","Date inconsistent with filing date"],
+      "statutory_basis": "CCP §2015.5"
+    },
+    {
+      "field_id": "FL305-09",
+      "label_en": "Procedural Requirements",
+      "section": "procedural",
+      "type": "informational",
+      "required": false,
+      "guidance_en": "Ex parte procedure: (1) Reserve ex parte hearing slot with clerk, (2) Give notice to other party by 10 AM day before hearing (CRC 5.165), (3) File FL-300 + FL-305 + declaration + proof of notice attempt, (4) Appear at hearing. The other party has the right to appear and oppose. If granted, orders are temporary until the regular hearing date on the FL-300.",
+      "guidance_es": "Procedimiento ex parte: (1) Reserve audiencia, (2) Notifique para las 10 AM del día anterior, (3) Presente FL-300 + FL-305 + declaración, (4) Comparezca.",
+      "guidance_zh": "紧急程序：(1)向书记员预约紧急听证，(2)在听证前一天上午10点前通知对方，(3)提交FL-300 + FL-305 +声明+通知证明，(4)出庭。",
+      "common_errors": ["Not reserving hearing slot","Missing notice deadline","Not filing all required documents together","Not appearing at hearing"],
+      "statutory_basis": "CRC 5.151, CRC 5.165"
+    }
+  ]
+}

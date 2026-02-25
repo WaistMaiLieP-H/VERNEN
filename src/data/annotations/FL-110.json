@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "form_id": "FL-110",
+    "title": "Summons (Family Law)",
+    "version": "2.0.0",
+    "created": "2026-02-24",
+    "author": "Michael Vernen Thomas Hartmann",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "governing_statutes": ["CCP §412.20","FAM §2040","CRC 5.50"],
+    "total_fields": 12
+  },
+  "fields": [
+    {
+      "field_id": "FL110-01",
+      "label_en": "Petitioner (Name)",
+      "section": "header",
+      "type": "text",
+      "required": true,
+      "guidance_en": "Enter the full legal name of the Petitioner exactly as it appears on the FL-100 petition.",
+      "guidance_es": "Ingrese el nombre legal completo del Peticionario exactamente como aparece en la petición FL-100.",
+      "guidance_zh": "输入请愿人的完整法定姓名，与FL-100请愿书上的姓名完全一致。",
+      "common_errors": ["Name mismatch with FL-100","Using nickname or shortened name"],
+      "statutory_basis": "CRC 2.111"
+    },
+    {
+      "field_id": "FL110-02",
+      "label_en": "Respondent (Name)",
+      "section": "header",
+      "type": "text",
+      "required": true,
+      "guidance_en": "Enter the full legal name of the Respondent exactly as it appears on the FL-100 petition.",
+      "guidance_es": "Ingrese el nombre legal completo del Demandado exactamente como aparece en la petición FL-100.",
+      "guidance_zh": "输入被告的完整法定姓名，与FL-100请愿书上的姓名完全一致。",
+      "common_errors": ["Name mismatch with FL-100"],
+      "statutory_basis": "CRC 2.111"
+    },
+    {
+      "field_id": "FL110-03",
+      "label_en": "Notice to Respondent — Standard Restraining Orders",
+      "section": "body",
+      "type": "informational",
+      "required": false,
+      "guidance_en": "This section is pre-printed. It contains the automatic temporary restraining orders (ATROs) that go into effect upon service. Both parties are restrained from: removing minor children from the state, transferring/disposing of property, changing insurance beneficiaries, and incurring new debt. READ CAREFULLY — violations are contempt of court.",
+      "guidance_es": "Esta sección está preimpresa. Contiene las órdenes de restricción temporales automáticas (ATROs) que entran en vigor al momento de la notificación. Ambas partes tienen prohibido: sacar a los hijos menores del estado, transferir/disponer de bienes, cambiar beneficiarios de seguros e incurrir en nueva deuda. LEA CUIDADOSAMENTE — las violaciones constituyen desacato al tribunal.",
+      "guidance_zh": "本节为预印内容。包含送达后自动生效的临时限制令（ATROs）。双方均被限制：不得将未成年子女带离州外、不得转让/处分财产、不得更改保险受益人、不得产生新债务。请仔细阅读——违反构成藐视法庭。",
+      "common_errors": ["Respondent not reading ATROs","Petitioner not understanding ATROs apply to BOTH parties","Violating ATROs by transferring assets before service"],
+      "statutory_basis": "FAM §2040"
+    },
+    {
+      "field_id": "FL110-04",
+      "label_en": "Notice — Access to Affordable Health Insurance",
+      "section": "body",
+      "type": "informational",
+      "required": false,
+      "guidance_en": "Pre-printed notice informing parties about health insurance options through Covered California during dissolution proceedings.",
+      "guidance_es": "Aviso preimpreso informando a las partes sobre opciones de seguro médico a través de Covered California durante los procedimientos de disolución.",
+      "guidance_zh": "预印通知，告知当事人在离婚程序期间可通过Covered California获取健康保险选项。",
+      "common_errors": ["Ignoring health insurance planning during dissolution"],
+      "statutory_basis": "FAM §2024"
+    },
+    {
+      "field_id": "FL110-05",
+      "label_en": "Case Number",
+      "section": "header",
+      "type": "text",
+      "required": true,
+      "guidance_en": "The case number assigned by the clerk when the FL-100 was filed. Must match the case number on all documents in this proceeding.",
+      "guidance_es": "El número de caso asignado por el secretario cuando se presentó el FL-100. Debe coincidir con el número de caso en todos los documentos de este procedimiento.",
+      "guidance_zh": "提交FL-100时由书记员分配的案件编号。必须与本案所有文件上的案件编号一致。",
+      "common_errors": ["Wrong case number","Case number not yet assigned at time of preparation"],
+      "statutory_basis": "CRC 2.111"
+    },
+    {
+      "field_id": "FL110-06",
+      "label_en": "30-Day Response Notice",
+      "section": "body",
+      "type": "informational",
+      "required": false,
+      "guidance_en": "Pre-printed notice stating respondent has 30 calendar days after service to file a response (FL-120). Failure to respond may result in default judgment. The 30-day period begins the day AFTER personal service or acknowledgment of receipt.",
+      "guidance_es": "Aviso preimpreso indicando que el demandado tiene 30 días calendario después de la notificación para presentar una respuesta (FL-120). No responder puede resultar en un fallo en rebeldía.",
+      "guidance_zh": "预印通知，说明被告在送达后30个日历日内须提交答辩书（FL-120）。未能回应可能导致缺席判决。30天期限从亲自送达或确认收到的次日起算。",
+      "common_errors": ["Miscounting the 30-day deadline","Not understanding service date vs filing date","Confusing calendar days with court days"],
+      "statutory_basis": "CCP §412.20, CCP §415.20"
+    },
+    {
+      "field_id": "FL110-07",
+      "label_en": "Fee Waiver Notice",
+      "section": "body",
+      "type": "informational",
+      "required": false,
+      "guidance_en": "Pre-printed notice informing respondent that fee waiver forms (FW-001 and FW-003) are available if they cannot afford filing fees.",
+      "guidance_es": "Aviso preimpreso informando al demandado que los formularios de exención de cuotas (FW-001 y FW-003) están disponibles si no puede pagar las cuotas de presentación.",
+      "guidance_zh": "预印通知，告知被告如无力支付立案费用，可使用费用免除表格（FW-001和FW-003）。",
+      "common_errors": ["Respondent not seeking fee waiver when eligible"],
+      "statutory_basis": "GOV §68631"
+    },
+    {
+      "field_id": "FL110-08",
+      "label_en": "Clerk's Certificate of Service",
+      "section": "footer",
+      "type": "signature_block",
+      "required": true,
+      "guidance_en": "This section is completed by the court clerk. The clerk certifies that the summons was issued. Do NOT fill in this section yourself.",
+      "guidance_es": "Esta sección la completa el secretario del tribunal. El secretario certifica que se emitió la citación. NO complete esta sección usted mismo.",
+      "guidance_zh": "本节由法院书记员填写。书记员证明传票已签发。请勿自行填写此部分。",
+      "common_errors": ["Party filling in clerk section","Summons not properly issued before service attempt"],
+      "statutory_basis": "CCP §412.20"
+    },
+    {
+      "field_id": "FL110-09",
+      "label_en": "Date Summons Issued",
+      "section": "footer",
+      "type": "date",
+      "required": true,
+      "guidance_en": "Date the clerk issues the summons. The summons is valid for 3 years from this date (CCP §583.210). Service must be completed within this period.",
+      "guidance_es": "Fecha en que el secretario emite la citación. La citación es válida por 3 años a partir de esta fecha (CCP §583.210).",
+      "guidance_zh": "书记员签发传票的日期。传票自此日期起3年内有效（CCP §583.210）。必须在此期限内完成送达。",
+      "common_errors": ["Attempting service after summons expires","Not requesting reissuance when needed"],
+      "statutory_basis": "CCP §583.210"
+    },
+    {
+      "field_id": "FL110-10",
+      "label_en": "Clerk's Signature",
+      "section": "footer",
+      "type": "signature",
+      "required": true,
+      "guidance_en": "Clerk signs or stamps the summons. An unsigned summons is invalid for service.",
+      "guidance_es": "El secretario firma o sella la citación. Una citación sin firma es inválida para la notificación.",
+      "guidance_zh": "书记员签名或盖章。未签名的传票不能用于送达。",
+      "common_errors": ["Serving an unsigned summons","Missing clerk seal"],
+      "statutory_basis": "CCP §412.20"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "form_id": "FL-300",
+    "title": "Request for Order",
+    "version": "2.0.0",
+    "created": "2026-02-24",
+    "author": "Michael Vernen Thomas Hartmann",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "governing_statutes": ["FAM §6300","FAM §3020","CRC 5.92"],
+    "total_fields": 20
+  },
+  "fields": [
+    {
+      "field_id": "FL300-01",
+      "label_en": "Attorney or Party Without Attorney",
+      "section": "header",
+      "type": "text",
+      "required": true,
+      "guidance_en": "Full legal name of the requesting party or attorney with State Bar number.",
+      "guidance_es": "Nombre legal completo de la parte solicitante o abogado con número del Colegio de Abogados.",
+      "guidance_zh": "请求方或律师的完整法定姓名及州律师协会编号。",
+      "common_errors": ["Name inconsistency with earlier filings"],
+      "statutory_basis": "CRC 2.111"
+    },
+    {
+      "field_id": "FL300-02",
+      "label_en": "Court / County / Case Number",
+      "section": "header",
+      "type": "compound",
+      "required": true,
+      "guidance_en": "Must match existing case. FL-300 is a motion within an existing family law case — it cannot initiate a new case.",
+      "guidance_es": "Debe coincidir con el caso existente. FL-300 es una moción dentro de un caso de derecho familiar existente.",
+      "guidance_zh": "必须与现有案件一致。FL-300是现有家庭法案件中的动议——不能用于启动新案件。",
+      "common_errors": ["Filing in wrong case","Using FL-300 to initiate proceedings instead of FL-100"],
+      "statutory_basis": "CRC 5.92"
+    },
+    {
+      "field_id": "FL300-03",
+      "label_en": "Item 1 — Hearing Date/Time/Department",
+      "section": "body",
+      "type": "compound",
+      "required": true,
+      "subfields": ["Date","Time","Department/Room"],
+      "guidance_en": "You must obtain a hearing date from the court BEFORE filing. Contact the clerk's office or use the court's online reservation system. The hearing must be at least 16 court days away (CRC 5.92) to allow proper notice to the other party, plus 5 calendar days for mailing.",
+      "guidance_es": "Debe obtener una fecha de audiencia del tribunal ANTES de presentar. La audiencia debe ser al menos 16 días hábiles de distancia (CRC 5.92) para permitir notificación adecuada.",
+      "guidance_zh": "提交前必须从法院获取听证日期。听证日期必须至少在16个法院工作日之后（CRC 5.92），以便向对方发出适当通知，另加5个日历日用于邮寄。",
+      "common_errors": ["Filing without first reserving hearing date","Insufficient notice time","Not accounting for mailing time"],
+      "statutory_basis": "CRC 5.92, CCP §1005"
+    },
+    {
+      "field_id": "FL300-04",
+      "label_en": "Item 2 — Requests",
+      "section": "body",
+      "type": "checkbox_group",
+      "required": true,
+      "options": ["Child custody","Child visitation (parenting time)","Child support","Spousal or partner support","Attorney fees and costs","Property restraint","Other (specify)"],
+      "guidance_en": "Check ALL types of orders you are requesting. You may request multiple types in a single FL-300. Each checked item should be supported by facts in your attached declaration (MC-031). Be specific — vague requests may be denied.",
+      "guidance_es": "Marque TODOS los tipos de órdenes que solicita. Cada elemento debe estar respaldado por hechos en su declaración adjunta (MC-031).",
+      "guidance_zh": "勾选您请求的所有类型的命令。每个勾选项应由您附件声明（MC-031）中的事实支持。",
+      "common_errors": ["Not checking all applicable categories","Requesting orders without supporting declaration","Being too vague in 'Other' specification"],
+      "statutory_basis": "CRC 5.92"
+    },
+    {
+      "field_id": "FL300-05",
+      "label_en": "Item 3 — Child Custody Details",
+      "section": "body",
+      "type": "compound",
+      "required": false,
+      "guidance_en": "If requesting custody changes, specify the exact orders sought. State current orders (if any), what you want changed, and why. Attach FL-311 for detailed custody/visitation plan. The court applies the 'best interest' standard (FAM §3011).",
+      "guidance_es": "Si solicita cambios de custodia, especifique las órdenes exactas solicitadas. Adjunte FL-311.",
+      "guidance_zh": "如请求变更监护权，请说明要求的具体命令。说明现有命令（如有）、希望变更的内容和原因。附上FL-311。",
+      "common_errors": ["Not specifying exact orders sought","Failing to show changed circumstances for modification","Not attaching FL-311"],
+      "statutory_basis": "FAM §3011, FAM §3020, FAM §3087"
+    },
+    {
+      "field_id": "FL300-06",
+      "label_en": "Item 4 — Child Visitation Details",
+      "section": "body",
+      "type": "compound",
+      "required": false,
+      "guidance_en": "Specify the visitation/parenting time schedule requested. Be as detailed as possible — include regular schedule, holidays, school breaks, transportation arrangements. Vague requests like 'reasonable visitation' give the court too much discretion.",
+      "guidance_es": "Especifique el horario de visitación solicitado. Sea lo más detallado posible.",
+      "guidance_zh": "说明请求的探视/育儿时间安排。尽可能详细——包括常规时间表、假期、学校假期、交通安排。",
+      "common_errors": ["Being too vague","Not addressing holidays and school breaks","Not specifying pickup/dropoff logistics"],
+      "statutory_basis": "FAM §3020, FAM §3040"
+    },
+    {
+      "field_id": "FL300-07",
+      "label_en": "Item 5 — Child Support Details",
+      "section": "body",
+      "type": "compound",
+      "required": false,
+      "guidance_en": "If requesting child support, specify the amount requested and basis. California uses guideline formula (FAM §4055). Include both parties' income information. Attach an Income and Expense Declaration (FL-150) — this is MANDATORY for any support request.",
+      "guidance_es": "Si solicita manutención de menores, especifique el monto y la base. Adjunte FL-150 — esto es OBLIGATORIO.",
+      "guidance_zh": "如请求子女抚养费，请说明请求金额和依据。附上收入和支出声明（FL-150）——这对于任何赡养费请求都是强制性的。",
+      "common_errors": ["Not attaching FL-150","Requesting non-guideline amount without justification","Not including all income sources"],
+      "statutory_basis": "FAM §4050, FAM §4055"
+    },
+    {
+      "field_id": "FL300-08",
+      "label_en": "Item 6 — Spousal/Partner Support Details",
+      "section": "body",
+      "type": "compound",
+      "required": false,
+      "guidance_en": "Specify amount and duration of spousal support requested. For temporary support (pendente lite), courts often use the local county formula. For permanent support, courts consider FAM §4320 factors. FL-150 is MANDATORY.",
+      "guidance_es": "Especifique el monto y duración de la manutención conyugal solicitada. FL-150 es OBLIGATORIO.",
+      "guidance_zh": "说明请求的配偶赡养费金额和期限。FL-150为强制性附件。",
+      "common_errors": ["Not attaching FL-150","Not distinguishing temporary from permanent support","Not addressing FAM §4320 factors in declaration"],
+      "statutory_basis": "FAM §4320, FAM §4330"
+    },
+    {
+      "field_id": "FL300-09",
+      "label_en": "Item 7 — Attorney Fees and Costs",
+      "section": "body",
+      "type": "compound",
+      "required": false,
+      "guidance_en": "Request that the other party pay your attorney fees. Court considers income disparity and access to funds (FAM §2030). Also available as a sanction for bad faith conduct (FAM §271). FL-150 required to show financial need.",
+      "guidance_es": "Solicite que la otra parte pague sus honorarios de abogado. Se requiere FL-150.",
+      "guidance_zh": "请求对方支付您的律师费。法院考虑收入差异和资金获取（FAM §2030）。需要FL-150。",
+      "common_errors": ["Not documenting income disparity","Not filing FL-150","Not identifying specific sanctionable conduct for §271 request"],
+      "statutory_basis": "FAM §2030, FAM §271"
+    },
+    {
+      "field_id": "FL300-10",
+      "label_en": "Item 8 — Property Control",
+      "section": "body",
+      "type": "compound",
+      "required": false,
+      "guidance_en": "Request restraining orders regarding property. Can include orders preventing sale, transfer, encumbrance, or concealment of assets beyond the ATROs already in effect from the FL-110.",
+      "guidance_es": "Solicite órdenes de restricción sobre propiedad más allá de los ATROs.",
+      "guidance_zh": "请求关于财产的限制令。可包括禁止出售、转让、抵押或隐匿资产的命令。",
+      "common_errors": ["Not specifying which property needs protection","Duplicating ATRO protections unnecessarily"],
+      "statutory_basis": "FAM §2040, FAM §2045"
+    },
+    {
+      "field_id": "FL300-11",
+      "label_en": "Facts in Support — Declaration",
+      "section": "body",
+      "type": "attachment_reference",
+      "required": true,
+      "guidance_en": "Every FL-300 MUST be supported by a declaration under penalty of perjury stating the facts justifying the requested orders. Use MC-031 (Attached Declaration) for this. The declaration is the most critical part — without sufficient facts, the motion will be denied. State facts, not conclusions. Be specific with dates, times, incidents.",
+      "guidance_es": "Todo FL-300 DEBE estar respaldado por una declaración bajo pena de perjurio. Use MC-031. Sea específico con fechas, horas e incidentes.",
+      "guidance_zh": "每份FL-300都必须附有在伪证处罚条款下作出的声明。使用MC-031。声明是最关键的部分——没有充分的事实，动议将被驳回。陈述事实而非结论。",
+      "common_errors": ["Filing FL-300 without declaration","Declaration contains conclusions not facts","Insufficient detail","Not attaching exhibits to support claims"],
+      "statutory_basis": "CRC 5.92, CCP §2015.5"
+    },
+    {
+      "field_id": "FL300-12",
+      "label_en": "Signature / Date",
+      "section": "signature",
+      "type": "signature_block",
+      "required": true,
+      "guidance_en": "Sign and date under penalty of perjury.",
+      "guidance_es": "Firme y feche bajo pena de perjurio.",
+      "guidance_zh": "在伪证处罚条款下签名并注明日期。",
+      "common_errors": ["Unsigned form","Date inconsistency"],
+      "statutory_basis": "CCP §2015.5"
+    },
+    {
+      "field_id": "FL300-13",
+      "label_en": "Service Requirements",
+      "section": "procedural",
+      "type": "informational",
+      "required": false,
+      "guidance_en": "The FL-300, supporting declaration, and all attachments must be personally served on the other party at least 16 court days before the hearing, plus 5 calendar days if served by mail (CCP §1005). Use a Proof of Service (FL-330) to document service. Failure to properly serve = hearing may be continued or request denied.",
+      "guidance_es": "El FL-300 debe ser notificado personalmente al menos 16 días hábiles antes de la audiencia, más 5 días calendario si se notifica por correo.",
+      "guidance_zh": "FL-300必须在听证日至少16个法院工作日前亲自送达对方，如通过邮寄送达则另加5个日历日。",
+      "common_errors": ["Insufficient notice period","Not serving all attachments","No proof of service filed","Serving by mail without adding 5 days"],
+      "statutory_basis": "CCP §1005, CRC 5.92"
+    }
+  ]
+}
