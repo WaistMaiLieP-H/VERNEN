@@ -8,7 +8,7 @@ This tree preserves source material that existed on the local desktop but had no
 
 | Path | Contents | Notes |
 |---|---|---|
-| `bilingual/` | 12 i18n JSONs + 12 legal glossaries (35 terms × 12 langs) + bilingual JSX/JS components, system prompts, Claude API client, BILINGUAL_ARCHITECTURE.md | Bilingual stack — never landed in `src/`. Candidate for merge into `src/i18n/` and `src/data/glossaries/`. |
+| `bilingual/` | 13 i18n JSONs (en + 12 translations) + 12 legal glossaries (35 terms × 12 target langs) + bilingual JSX/JS components, system prompts, Claude API client, BILINGUAL_ARCHITECTURE.md | Bilingual stack — never landed in `src/`. Candidate for merge into `src/i18n/` and `src/data/glossaries/`. |
 | `ip-manifest/` | IP_Manifest_Hartmann_2026.docx, COPYRIGHT_HEADER_TEMPLATE, IP_Protection_Checklist | Filed IP package, Feb 2026. |
 | `project-knowledge/` | 00–04 instruction files (Project Instructions, IP Foundation, Platform Architecture, GDN Build History, Branding Strategy) | Conversation-seeding context. |
 | `roadmap/` | Phase 3 Task A–E + GDN continuation instructions + Domain_Expansion_Roadmap.docx | Plan-of-record at snapshot time. `GDN_guided_document_navigator_spec.md` is also live at `docs/roadmap/`. |
