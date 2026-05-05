@@ -1,0 +1,519 @@
+{
+  "__meta": {
+    "version": "1.0.0",
+    "language": "es",
+    "languageName": "Spanish",
+    "direction": "ltr",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "lastUpdated": "2026-02-28",
+    "completeness": "partial",
+    "fallback": "en"
+  },
+  "app": {
+    "title": "VERNEN™",
+    "tagline": "Plataforma Multilingüe de Cumplimiento Legal",
+    "loading": "Cargando…",
+    "error": "Algo salió mal",
+    "retry": "Intentar de Nuevo",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "export": "Exportar",
+    "print": "Imprimir",
+    "download": "Descargar",
+    "search": "Buscar",
+    "clear": "Borrar",
+    "reset": "Restablecer",
+    "confirm": "Confirmar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "add": "Agregar",
+    "remove": "Quitar",
+    "select": "Seleccionar",
+    "required": "Obligatorio",
+    "optional": "Opcional",
+    "yes": "Sí",
+    "no": "No",
+    "none": "Ninguno",
+    "all": "Todos",
+    "other": "Otro",
+    "unknown": "Desconocido",
+    "notAvailable": "N/D"
+  },
+  "nav": {
+    "dashboard": "Panel Principal",
+    "documentNavigator": "Navegador de Documentos",
+    "validation": "Validación",
+    "filingGuide": "Guía de Presentación",
+    "audit": "Informe de Auditoría",
+    "assembly": "Ensamblaje de Documentos",
+    "settings": "Configuración",
+    "help": "Ayuda",
+    "collapse": "Contraer barra lateral",
+    "expand": "Expandir barra lateral"
+  },
+  "dashboard": {
+    "welcome": "Bienvenido a VERNEN™",
+    "subtitle": "Elija un módulo para comenzar",
+    "cards": {
+      "gdn": {
+        "title": "Navegador de Documentos",
+        "desc": "Navegue y complete formularios del Consejo Judicial con anotaciones guiadas"
+      },
+      "validation": {
+        "title": "Validación Previa",
+        "desc": "Verifique formularios en busca de errores, campos faltantes y problemas de cumplimiento"
+      },
+      "filing": {
+        "title": "Guía de Presentación",
+        "desc": "Instrucciones específicas del tribunal, tarifas y requisitos de notificación"
+      },
+      "audit": {
+        "title": "Informe de Auditoría",
+        "desc": "Genere documentación de cumplimiento y evaluaciones de riesgo"
+      },
+      "assembly": {
+        "title": "Ensamblaje de Documentos",
+        "desc": "Construya paquetes de presentación con propagación automática de datos"
+      }
+    }
+  },
+  "gdn": {
+    "title": "Guided Document Navigator",
+    "selectCategory": "Select a category",
+    "selectForm": "Select a form",
+    "searchForms": "Search forms…",
+    "fieldAnnotation": "Field Guidance",
+    "legalDefinition": "Legal Definition",
+    "commonMistakes": "Common Mistakes",
+    "statutoryRef": "Statutory Reference",
+    "categories": {
+      "family_law": "Family Law",
+      "domestic_violence": "Domestic Violence",
+      "custody": "Child Custody & Visitation",
+      "support": "Child & Spousal Support",
+      "fee_waiver": "Fee Waiver",
+      "small_claims": "Small Claims",
+      "civil_harassment": "Civil Harassment",
+      "elder_abuse": "Elder/Dependent Adult Abuse",
+      "appeals": "Appeals",
+      "general": "General Use"
+    },
+    "noResults": "No forms match your search.",
+    "formFields": "Form Fields",
+    "requiredFields": "Required Fields",
+    "optionalFields": "Optional Fields",
+    "piiWarning": "This field contains personally identifiable information (PII)"
+  },
+  "validation": {
+    "title": "Validación Previa a la Presentación",
+    "runValidation": "Ejecutar Validación",
+    "revalidate": "Re-Validar",
+    "selectForms": "Select forms to validate",
+    "overallScore": "Puntuación General de Cumplimiento",
+    "filingReady": "Listo para Presentar",
+    "needsReview": "Necesita Revisión",
+    "notReady": "No Está Listo",
+    "findings": "Hallazgos",
+    "noFindings": "No se encontraron problemas — el formulario está listo.",
+    "severity": {
+      "critical": "Crítico",
+      "error": "Error",
+      "warning": "Advertencia",
+      "info": "Info"
+    },
+    "categories": {
+      "completeness": "Completeness",
+      "format": "Format",
+      "compliance": "Compliance",
+      "deadline": "Deadline",
+      "crossForm": "Cross-Form",
+      "service": "Service",
+      "procedural": "Procedural"
+    },
+    "messages": {
+      "requiredMissing": "Required field is missing",
+      "invalidFormat": "Field format is invalid",
+      "deadlinePassed": "Filing deadline may have passed",
+      "serviceIncomplete": "Proof of service is incomplete",
+      "crossFormMismatch": "Data does not match across forms"
+    }
+  },
+  "filingGuide": {
+    "title": "Filing Guide",
+    "selectCounty": "Select your county",
+    "courtInfo": "Court Information",
+    "filingFees": "Filing Fees",
+    "serviceReqs": "Service Requirements",
+    "deadlines": "Deadlines",
+    "eFiling": "E-Filing",
+    "inPerson": "In-Person Filing",
+    "byMail": "Filing by Mail",
+    "hours": "Court Hours",
+    "address": "Court Address",
+    "phone": "Phone",
+    "feeWaivable": "Fee Waiver Eligible",
+    "counties": {
+      "alameda": "Alameda County",
+      "solano": "Solano County",
+      "marin": "Marin County",
+      "san_francisco": "San Francisco County",
+      "contra_costa": "Contra Costa County"
+    },
+    "serviceTypes": {
+      "personal": "Personal Service",
+      "mail": "Service by Mail",
+      "electronic": "Electronic Service"
+    }
+  },
+  "audit": {
+    "title": "Audit Report",
+    "generate": "Generate Report",
+    "regenerate": "Regenerate",
+    "overallRisk": "Overall Risk Level",
+    "findings": "Audit Findings",
+    "recommendations": "Recommendations",
+    "riskLevels": {
+      "critical": "Critical Risk",
+      "high": "High Risk",
+      "medium": "Medium Risk",
+      "low": "Low Risk",
+      "info": "Informational"
+    },
+    "categories": {
+      "completeness": "Completeness",
+      "accuracy": "Accuracy",
+      "compliance": "Statutory Compliance",
+      "service": "Service of Process",
+      "deadlines": "Filing Deadlines",
+      "crossForm": "Cross-Form Consistency",
+      "procedural": "Procedural Requirements"
+    },
+    "summary": "Executive Summary",
+    "details": "Detailed Findings",
+    "noFindings": "No audit findings — documents meet compliance standards."
+  },
+  "assembly": {
+    "title": "Ensamblaje de Documentos",
+    "subtitle": "Construya paquetes de presentación con propagación automática de datos entre formularios.",
+    "tabs": {
+      "parties": "Partes",
+      "case": "Caso",
+      "children": "Hijos",
+      "package": "Paquete",
+      "review": "Revisión y Exportación"
+    },
+    "petitioner": "Peticionario (Parte que Presenta)",
+    "respondent": "Demandado (Otra Parte)",
+    "caseInfo": "Case Information",
+    "children": {
+      "title": "Hijos Menores",
+      "add": "Agregar Hijo",
+      "remove": "Quitar",
+      "empty": "No se han agregado hijos.",
+      "emptyHint": "Add children if filing custody, visitation, or support forms.",
+      "child": "Hijo"
+    },
+    "package": {
+      "title": "Select Filing Package",
+      "forms": "forms",
+      "formsInPackage": "Forms in this package:",
+      "types": {
+        "dissolution": "Dissolution of Marriage",
+        "custody_rfo": "Custody RFO Package",
+        "dvro": "DV Restraining Order",
+        "fee_waiver": "Fee Waiver Package",
+        "custody_modification": "Custody Modification",
+        "support_modification": "Support Modification",
+        "contempt": "Contempt Proceeding",
+        "small_claims": "Small Claims",
+        "appeal": "Appeal Package"
+      }
+    },
+    "review": {
+      "completeness": "Completeness",
+      "readyForAssembly": "Ready for Assembly",
+      "partiallyComplete": "Partially Complete",
+      "needsMoreInfo": "Needs More Information",
+      "consistencyCheck": "Cross-Form Consistency",
+      "runCheck": "Run Check",
+      "allConsistent": "All cross-form fields are consistent.",
+      "summary": "Assembly Summary"
+    },
+    "fields": {
+      "fullName": "Full Legal Name",
+      "address": "Street Address",
+      "city": "City",
+      "state": "State",
+      "zip": "ZIP Code",
+      "phone": "Phone",
+      "email": "Email",
+      "dob": "Date of Birth",
+      "attorney": "Attorney Name (or \"In Pro Per\")",
+      "barNumber": "State Bar Number",
+      "caseNumber": "Case Number",
+      "county": "County",
+      "courtName": "Court Name",
+      "courtAddress": "Court Address",
+      "department": "Department",
+      "filingDate": "Filing Date",
+      "hearingDate": "Hearing Date",
+      "hearingTime": "Hearing Time",
+      "childName": "Child Full Name",
+      "childDob": "Date of Birth",
+      "childAge": "Current Age",
+      "residessWith": "Currently Resides With"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "selectLanguage": "Select language",
+    "accessibility": "Accessibility",
+    "highContrast": "High Contrast Mode",
+    "largeText": "Large Text",
+    "reducedMotion": "Reduced Motion",
+    "focusIndicators": "Enhanced Focus Indicators",
+    "errorLogs": "Error Logs",
+    "exportLogs": "Export Error Logs",
+    "clearLogs": "Clear Logs",
+    "about": "About"
+  },
+  "help": {
+    "title": "Help",
+    "thisPage": "This Page",
+    "shortcuts": "Shortcuts",
+    "about": "About",
+    "gettingStarted": "Getting Started",
+    "closePanel": "Close help panel"
+  },
+  "export": {
+    "title": "Export",
+    "formats": {
+      "html": "HTML (Print-Ready)",
+      "json": "JSON",
+      "csv": "CSV",
+      "markdown": "Markdown",
+      "text": "Plain Text"
+    },
+    "options": {
+      "maskPII": "Mask PII Fields",
+      "includeMetadata": "Include Metadata",
+      "includeCitations": "Include Statutory Citations"
+    },
+    "success": "Export completed successfully.",
+    "error": "Export failed. Please try again."
+  },
+  "errors": {
+    "generic": "Ocurrió un error inesperado.",
+    "network": "Error de red. Verifique su conexión.",
+    "formLoad": "Failed to load form data.",
+    "validationFailed": "Validation could not be completed.",
+    "exportFailed": "Export failed.",
+    "sessionExpired": "Your session has expired. Data has been saved.",
+    "storageQuota": "Storage limit reached. Please export and clear old data.",
+    "tryAgain": "Try Again",
+    "reportIssue": "Report Issue",
+    "goToDashboard": "Return to Dashboard"
+  },
+  "a11y": {
+    "skipToMain": "Skip to main content",
+    "skipToForm": "Skip to form section",
+    "skipToNav": "Skip to navigation",
+    "skipToResults": "Skip to results",
+    "formProgress": "Form is {percent}% complete",
+    "fieldError": "Error: {message}",
+    "fieldCleared": "Error cleared",
+    "newResults": "Results updated",
+    "loading": "Loading, please wait"
+  },
+  "legal": {
+    "disclaimer": "VERNEN™ proporciona orientación y verificación de cumplimiento para formularios legales. No proporciona asesoramiento legal. Para asesoramiento legal, consulte a un abogado licenciado en su jurisdicción.",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. Todos los Derechos Reservados.",
+    "trademark": "VERNEN™ es una marca registrada de Michael Vernen Thomas Hartmann.",
+    "ipManifest": "IP Manifest Filed February 2, 2026."
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "register": "Crear Cuenta",
+    "logout": "Cerrar Sesión",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "displayName": "Nombre",
+    "forgotPassword": "¿Olvidó su Contraseña?",
+    "resetPassword": "Restablecer Contraseña",
+    "resetSent": "Correo de restablecimiento enviado.",
+    "loginSuccess": "Sesión iniciada exitosamente.",
+    "registerSuccess": "Cuenta creada. Bienvenido a VERNEN™.",
+    "logoutSuccess": "Sesión cerrada.",
+    "loginError": "Error al iniciar sesión. Verifique su correo y contraseña.",
+    "registerError": "Error al registrarse. Intente de nuevo.",
+    "sessionExpired": "Su sesión ha expirado. Inicie sesión de nuevo.",
+    "requiredField": "Este campo es obligatorio.",
+    "invalidEmail": "Ingrese un correo electrónico válido.",
+    "passwordMinLength": "La contraseña debe tener al menos 8 caracteres.",
+    "passwordMismatch": "Las contraseñas no coinciden.",
+    "alreadyHaveAccount": "¿Ya tiene una cuenta?",
+    "noAccount": "¿No tiene cuenta?",
+    "tier": {
+      "guest": "Invitado",
+      "free": "Gratuito",
+      "pro": "Pro",
+      "advocate": "Abogado"
+    },
+    "tierRequired": "Esta función requiere una suscripción {tier}.",
+    "upgradePrompt": "Actualice a {tier} para acceder a esta función.",
+    "upgradeNow": "Actualizar Ahora"
+  },
+  "payments": {
+    "pricing": "Precios",
+    "plans": "Planes",
+    "currentPlan": "Plan Actual",
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "perMonth": "/mes",
+    "perYear": "/año",
+    "save": "Ahorre {percent}%",
+    "freePlan": {
+      "name": "Gratuito",
+      "description": "Guía básica de formularios.",
+      "price": "$0"
+    },
+    "proPlan": {
+      "name": "Pro",
+      "description": "Auditoría completa, exportación y soporte multilingüe.",
+      "priceMonthly": "$19.99",
+      "priceAnnual": "$191.88"
+    },
+    "advocatePlan": {
+      "name": "Abogado",
+      "description": "Plataforma completa con ensamblaje y presentación.",
+      "priceMonthly": "$39.99",
+      "priceAnnual": "$383.88"
+    },
+    "subscribe": "Suscribirse",
+    "upgrade": "Actualizar",
+    "downgrade": "Reducir Plan",
+    "manageBilling": "Administrar Facturación",
+    "cancelSubscription": "Cancelar Suscripción",
+    "checkoutRedirect": "Redirigiendo al pago seguro...",
+    "checkoutSuccess": "¡Suscripción activada!",
+    "checkoutCanceled": "Pago cancelado.",
+    "paymentFailed": "Pago fallido. Actualice su método de pago.",
+    "subscriptionActive": "Su suscripción está activa hasta {date}.",
+    "subscriptionCanceled": "Su suscripción terminará el {date}."
+  },
+  "esignature": {
+    "title": "Firma Electrónica",
+    "signHere": "Firme Aquí",
+    "drawSignature": "Dibujar Firma",
+    "typeSignature": "Escribir Firma",
+    "uploadSignature": "Subir Firma",
+    "clearSignature": "Borrar",
+    "acceptSignature": "Aceptar Firma",
+    "signatureRequired": "Se requiere firma en este campo.",
+    "wetInkRequired": "Este campo requiere firma en tinta. Imprima, firme y escanee.",
+    "notarizationRequired": "Este campo requiere notarización.",
+    "intentDeclaration": "Al firmar, declaro bajo pena de perjurio según las leyes del Estado de California que la información en este documento es verdadera y correcta.",
+    "consentCheckbox": "Entiendo que esta firma electrónica tiene el mismo efecto legal que una firma manuscrita (Cód. Civ. Cal. § 1633.7).",
+    "signed": "Firmado",
+    "unsigned": "Sin Firmar",
+    "signedBy": "Firmado por {name} el {date}",
+    "revoke": "Revocar Firma",
+    "revokeConfirm": "¿Está seguro de revocar esta firma?",
+    "documentChanged": "Documento modificado después de firmar. Se requiere nueva firma.",
+    "certificate": "Certificado de Firma",
+    "viewCertificate": "Ver Certificado de Firma",
+    "legalBasis": "Cód. Civ. Cal. § 1633 (UETA)"
+  },
+  "filing": {
+    "title": "Presentar al Tribunal",
+    "createPackage": "Crear Paquete de Presentación",
+    "filingType": "Tipo de Presentación",
+    "selectCourt": "Seleccionar Tribunal",
+    "caseNumber": "Número de Caso",
+    "newCase": "Caso Nuevo",
+    "documents": "Documentos",
+    "addDocument": "Agregar Documento",
+    "proofOfService": "Prueba de Notificación",
+    "filingFee": "Tarifa de Presentación",
+    "feeWaiver": "Exención de Tarifa Concedida (FW-003)",
+    "estimatedFee": "Tarifa estimada: {amount}",
+    "validate": "Validar Paquete",
+    "validationPassed": "El paquete está listo.",
+    "validationFailed": "El paquete tiene {count} error(es).",
+    "submit": "Presentar al Tribunal",
+    "submitConfirm": "¿Presentar este paquete a {court}?",
+    "submitting": "Presentando...",
+    "submitted": "Presentación enviada exitosamente.",
+    "confirmationNumber": "Confirmación: {number}",
+    "checkStatus": "Verificar Estado",
+    "status": {
+      "draft": "Borrador",
+      "ready": "Listo",
+      "submitting": "Enviando",
+      "submitted": "Enviado",
+      "accepted": "En Revisión",
+      "rejected": "Rechazado",
+      "filed": "Presentado",
+      "error": "Error"
+    },
+    "rejected": "Presentación rechazada: {reason}",
+    "filedStamped": "Copia sellada disponible.",
+    "downloadFiled": "Descargar Copia Sellada",
+    "history": "Historial de Presentaciones",
+    "noFilings": "Sin presentaciones.",
+    "wetInkWarning": "Este formulario tiene campos que requieren firma en tinta."
+  },
+  "traceability": {
+    "title": "Registro de Trazabilidad Estatutaria",
+    "description": "Registro de todas las fuentes estatutarias consultadas.",
+    "sources": "Fuentes Consultadas",
+    "statutes": "Estatutos",
+    "regulations": "Reglamentos",
+    "rulesOfCourt": "Reglas del Tribunal",
+    "federalCode": "Código Federal",
+    "contentHash": "Hash de Contenido (SHA-256)",
+    "retrievedAt": "Recuperado En",
+    "linkedFinding": "Hallazgo Vinculado",
+    "logFinalized": "Registro finalizado y bloqueado.",
+    "viewLog": "Ver Registro",
+    "downloadLog": "Descargar Registro (PDF)",
+    "compliance": "Este registro cumple con los requisitos de transparencia."
+  },
+  "remediation": {
+    "title": "Manual de Remediación",
+    "description": "Instrucciones paso a paso para resolver hallazgos.",
+    "summary": "Resumen",
+    "totalSteps": "{count} pasos para completar",
+    "estimatedTime": "Tiempo estimado: {minutes} minutos",
+    "phase": "Fase {number}: {name}",
+    "phases": {
+      "critical": "Correcciones Críticas",
+      "high": "Alta Prioridad",
+      "compliance": "Brechas de Cumplimiento",
+      "bestPractice": "Mejores Prácticas"
+    },
+    "step": "Paso {number}",
+    "priority": "Prioridad",
+    "complexity": {
+      "simple": "Simple (~ 2 min)",
+      "moderate": "Moderado (~ 10 min)",
+      "complex": "Complejo (~ 25 min)",
+      "requires_review": "Requiere Revisión Legal (~ 60 min)"
+    },
+    "goToField": "Ir al Campo",
+    "markComplete": "Marcar Completo",
+    "skip": "Omitir",
+    "undo": "Deshacer",
+    "progress": "{completed} de {total} pasos ({percent}%)",
+    "allComplete": "¡Todos los pasos completados!",
+    "nextStep": "Siguiente Paso",
+    "filingReady": "Listo para Presentar",
+    "notReady": "No Listo — {remaining} pasos restantes"
+  }
+}

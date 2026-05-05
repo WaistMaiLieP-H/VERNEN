@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "form_id": "FL-115",
+    "title": "Declaration for Default or Uncontested Dissolution or Legal Separation",
+    "version": "2.0.0",
+    "created": "2026-03-01",
+    "author": "Michael Vernen Thomas Hartmann",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "governing_statutes": ["FAM §2336","FAM §2338","FAM §2339","CCP §585"],
+    "total_fields": 14
+  },
+  "fields": [
+    {
+      "field_id": "FL115-01",
+      "label_en": "Case Number",
+      "section": "header",
+      "type": "text",
+      "required": true,
+      "max_length": 25,
+      "guidance_en": "Enter the case number assigned by the court when you filed your Petition (FL-100 or FL-103).",
+      "guidance_es": "Ingrese el número de caso asignado por el tribunal cuando presentó su Petición (FL-100 o FL-103).",
+      "guidance_zh": "输入您提交请愿书（FL-100或FL-103）时法院分配的案件编号。",
+      "common_errors": ["Omitting county prefix","Transposing digits","Using wrong case number"],
+      "statutory_basis": "CRC 2.111"
+    },
+    {
+      "field_id": "FL115-02",
+      "label_en": "Petitioner's Name",
+      "section": "header",
+      "type": "text",
+      "required": true,
+      "max_length": 60,
+      "guidance_en": "Full legal name of the person who filed the original Petition.",
+      "guidance_es": "Nombre legal completo de la persona que presentó la Petición original.",
+      "guidance_zh": "提交原始请愿书的人的完整法定姓名。",
+      "common_errors": ["Name does not match Petition","Using married vs maiden name inconsistently"],
+      "statutory_basis": "FAM §2330"
+    },
+    {
+      "field_id": "FL115-03",
+      "label_en": "Respondent's Name",
+      "section": "header",
+      "type": "text",
+      "required": true,
+      "max_length": 60,
+      "guidance_en": "Full legal name of the other spouse/partner as listed on the Petition.",
+      "guidance_es": "Nombre legal completo del otro cónyuge/pareja como aparece en la Petición.",
+      "guidance_zh": "请愿书上列出的另一方配偶/伴侣的完整法定姓名。",
+      "common_errors": ["Name mismatch with FL-100","Spelling errors"],
+      "statutory_basis": "FAM §2330"
+    },
+    {
+      "field_id": "FL115-04",
+      "label_en": "Type of Proceeding",
+      "section": "item_1",
+      "type": "checkbox_group",
+      "required": true,
+      "options": ["Dissolution of Marriage","Legal Separation"],
+      "guidance_en": "Check the box matching what you requested in your Petition (FL-100 item 2).",
+      "guidance_es": "Marque la casilla que coincida con lo que solicitó en su Petición (FL-100 punto 2).",
+      "guidance_zh": "勾选与您在请愿书（FL-100第2项）中请求一致的选项。",
+      "common_errors": ["Checking wrong type","Not matching FL-100 selection"],
+      "statutory_basis": "FAM §2310"
+    },
+    {
+      "field_id": "FL115-05",
+      "label_en": "Default or Uncontested",
+      "section": "item_2",
+      "type": "checkbox_group",
+      "required": true,
+      "options": ["Default—no response filed","Uncontested—agreement of parties"],
+      "guidance_en": "Default: Respondent failed to file a Response within 30 days of service. Uncontested: Both parties agree on all issues and have signed a written agreement.",
+      "guidance_es": "Rebeldía: El demandado no presentó una Respuesta dentro de los 30 días posteriores a la notificación. Sin disputa: Ambas partes están de acuerdo en todos los asuntos y han firmado un acuerdo escrito.",
+      "guidance_zh": "缺席：被告在送达后30天内未提交答辩。无争议：双方同意所有事项并已签署书面协议。",
+      "common_errors": ["Checking default when response was filed","Missing proof of service"],
+      "statutory_basis": "CCP §585"
+    },
+    {
+      "field_id": "FL115-06",
+      "label_en": "Declarations of Disclosure",
+      "section": "item_3",
+      "type": "checkbox_group",
+      "required": true,
+      "options": ["Both completed and exchanged","Petitioner completed; respondent defaulted","Waived by court order"],
+      "guidance_en": "Preliminary and final declarations of disclosure must be served and filed. In a default case, the petitioner must still complete disclosures. A waiver of final disclosure is possible under FAM §2105.",
+      "guidance_es": "Las declaraciones preliminares y finales de divulgación deben notificarse y presentarse. En caso de rebeldía, el peticionario aún debe completar las divulgaciones.",
+      "guidance_zh": "初步和最终披露声明必须送达并提交。在缺席案件中，申请人仍必须完成披露。",
+      "common_errors": ["Not serving disclosure on defaulting respondent","Missing FL-141 or FL-142"],
+      "statutory_basis": "FAM §2104, FAM §2105"
+    },
+    {
+      "field_id": "FL115-07",
+      "label_en": "Child Custody and Visitation",
+      "section": "item_4a",
+      "type": "checkbox_group",
+      "required": false,
+      "guidance_en": "If there are minor children, specify the requested custody and visitation arrangement. Must include parenting plan per CRC 5.240 unless waived.",
+      "guidance_es": "Si hay hijos menores, especifique el arreglo de custodia y visitación solicitado.",
+      "guidance_zh": "如有未成年子女，请说明请求的监护和探视安排。",
+      "common_errors": ["Vague custody terms","Missing parenting plan","Not addressing both legal and physical custody"],
+      "statutory_basis": "FAM §3020, FAM §3040, CRC 5.240"
+    },
+    {
+      "field_id": "FL115-08",
+      "label_en": "Child Support",
+      "section": "item_4b",
+      "type": "currency",
+      "required": false,
+      "guidance_en": "Specify the monthly child support amount and which parent pays. Must comply with statewide uniform guideline (FAM §4050-4076).",
+      "guidance_es": "Especifique el monto mensual de manutención infantil y qué padre paga.",
+      "guidance_zh": "指定每月子女抚养费金额和支付方父母。",
+      "common_errors": ["Amount below guideline without FL-342 findings","Not specifying income of both parties"],
+      "statutory_basis": "FAM §4050-4076"
+    }
+  ]
+}

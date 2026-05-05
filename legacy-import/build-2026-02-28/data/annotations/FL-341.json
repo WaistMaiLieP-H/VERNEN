@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "form_id": "FL-341",
+    "form_title": "Child Custody and Visitation (Parenting Time) Order Attachment",
+    "statutory_authority": "Family Code §§ 3020-3048; CRC Rule 5.210",
+    "languages": ["en","es","zh","vi","so","ti","am","ar","ht","ko","pt","ru","tl"],
+    "version": "1.0.0",
+    "tier": "A",
+    "copyright": "© 2024-2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "trademark": "VERNEN™ is a trademark of Michael Vernen Thomas Hartmann."
+  },
+  "sections": [
+    {
+      "section_id": "custody_order",
+      "fields": [
+        {
+          "field_id": "fl341_legal_custody_order",
+          "field_label": "Legal custody order",
+          "field_type": "radio",
+          "required": true,
+          "guidance": {
+            "en": "This records the court's order for legal custody. Joint legal custody means both parents share decision-making. Sole legal custody means one parent makes all major decisions.",
+            "es": "Esto registra la orden del tribunal para la custodia legal.",
+            "zh": "This records the court's order for legal custody. Joint legal custody means both parents share decision-making. Sole legal custody means one parent makes all major decisions.",
+            "vi": "This records the court's order for legal custody. Joint legal custody means both parents share decision-making. Sole legal custody means one parent makes all major decisions.",
+            "so": "This records the court's order for legal custody. Joint legal custody means both parents share decision-making. Sole legal custody means one parent makes all major decisions.",
+            "ti": "This records the court's order for legal custody. Joint legal custody means both parents share decision-making. Sole legal custody means one parent makes all major decisions.",
+            "am": "This records the court's order for legal custody. Joint legal custody means both parents share decision-making. Sole legal custody means one parent makes all major decisions.",
+            "ar": "This records the court's order for legal custody. Joint legal custody means both parents share decision-making. Sole legal custody means one parent makes all major decisions.",
+            "ht": "This records the court's order for legal custody. Joint legal custody means both parents share decision-making. Sole legal custody means one parent makes all major decisions.",
+            "ko": "This records the court's order for legal custody. Joint legal custody means both parents share decision-making. Sole legal custody means one parent makes all major decisions.",
+            "pt": "This records the court's order for legal custody. Joint legal custody means both parents share decision-making. Sole legal custody means one parent makes all major decisions.",
+            "ru": "This records the court's order for legal custody. Joint legal custody means both parents share decision-making. Sole legal custody means one parent makes all major decisions.",
+            "tl": "This records the court's order for legal custody. Joint legal custody means both parents share decision-making. Sole legal custody means one parent makes all major decisions."
+          },
+          "legal_reference": "Family Code §§ 3003, 3080",
+          "common_errors": {},
+          "tips": {}
+        },
+        {
+          "field_id": "fl341_physical_custody_order",
+          "field_label": "Physical custody order",
+          "field_type": "radio",
+          "required": true,
+          "guidance": {
+            "en": "This records the court's order for physical custody — where the child will primarily live.",
+            "es": "Esto registra la orden del tribunal para la custodia física.",
+            "zh": "This records the court's order for physical custody — where the child will primarily live.",
+            "vi": "This records the court's order for physical custody — where the child will primarily live.",
+            "so": "This records the court's order for physical custody — where the child will primarily live.",
+            "ti": "This records the court's order for physical custody — where the child will primarily live.",
+            "am": "This records the court's order for physical custody — where the child will primarily live.",
+            "ar": "This records the court's order for physical custody — where the child will primarily live.",
+            "ht": "This records the court's order for physical custody — where the child will primarily live.",
+            "ko": "This records the court's order for physical custody — where the child will primarily live.",
+            "pt": "This records the court's order for physical custody — where the child will primarily live.",
+            "ru": "This records the court's order for physical custody — where the child will primarily live.",
+            "tl": "This records the court's order for physical custody — where the child will primarily live."
+          },
+          "legal_reference": "Family Code §§ 3004, 3007",
+          "common_errors": {},
+          "tips": {}
+        }
+      ]
+    },
+    {
+      "section_id": "visitation_order",
+      "fields": [
+        {
+          "field_id": "fl341_visitation_schedule",
+          "field_label": "Visitation schedule",
+          "field_type": "textarea",
+          "required": true,
+          "guidance": {
+            "en": "The detailed visitation schedule ordered by the court. This should include: regular weekly schedule, holiday schedule (specific dates), summer/vacation schedule, transportation arrangements.",
+            "es": "El horario de visitación detallado ordenado por el tribunal.",
+            "zh": "The detailed visitation schedule ordered by the court. This should include: regular weekly schedule, holiday schedule (specific dates), summer/vacation schedule, transportation arrangements.",
+            "vi": "The detailed visitation schedule ordered by the court. This should include: regular weekly schedule, holiday schedule (specific dates), summer/vacation schedule, transportation arrangements.",
+            "so": "The detailed visitation schedule ordered by the court. This should include: regular weekly schedule, holiday schedule (specific dates), summer/vacation schedule, transportation arrangements.",
+            "ti": "The detailed visitation schedule ordered by the court. This should include: regular weekly schedule, holiday schedule (specific dates), summer/vacation schedule, transportation arrangements.",
+            "am": "The detailed visitation schedule ordered by the court. This should include: regular weekly schedule, holiday schedule (specific dates), summer/vacation schedule, transportation arrangements.",
+            "ar": "The detailed visitation schedule ordered by the court. This should include: regular weekly schedule, holiday schedule (specific dates), summer/vacation schedule, transportation arrangements.",
+            "ht": "The detailed visitation schedule ordered by the court. This should include: regular weekly schedule, holiday schedule (specific dates), summer/vacation schedule, transportation arrangements.",
+            "ko": "The detailed visitation schedule ordered by the court. This should include: regular weekly schedule, holiday schedule (specific dates), summer/vacation schedule, transportation arrangements.",
+            "pt": "The detailed visitation schedule ordered by the court. This should include: regular weekly schedule, holiday schedule (specific dates), summer/vacation schedule, transportation arrangements.",
+            "ru": "The detailed visitation schedule ordered by the court. This should include: regular weekly schedule, holiday schedule (specific dates), summer/vacation schedule, transportation arrangements.",
+            "tl": "The detailed visitation schedule ordered by the court. This should include: regular weekly schedule, holiday schedule (specific dates), summer/vacation schedule, transportation arrangements."
+          },
+          "legal_reference": "CRC Rule 5.210(e)",
+          "common_errors": {},
+          "tips": {}
+        }
+      ]
+    },
+    {
+      "section_id": "special_provisions",
+      "fields": [
+        {
+          "field_id": "fl341_supervised",
+          "field_label": "Supervised visitation (if ordered)",
+          "field_type": "textarea",
+          "required": false,
+          "guidance": {
+            "en": "If supervised visitation is ordered, specify: who will supervise, where visits occur, duration and frequency, any costs and who pays.",
+            "es": "Si se ordena visitación supervisada, especifique los detalles.",
+            "zh": "If supervised visitation is ordered, specify: who will supervise, where visits occur, duration and frequency, any costs and who pays.",
+            "vi": "If supervised visitation is ordered, specify: who will supervise, where visits occur, duration and frequency, any costs and who pays.",
+            "so": "If supervised visitation is ordered, specify: who will supervise, where visits occur, duration and frequency, any costs and who pays.",
+            "ti": "If supervised visitation is ordered, specify: who will supervise, where visits occur, duration and frequency, any costs and who pays.",
+            "am": "If supervised visitation is ordered, specify: who will supervise, where visits occur, duration and frequency, any costs and who pays.",
+            "ar": "If supervised visitation is ordered, specify: who will supervise, where visits occur, duration and frequency, any costs and who pays.",
+            "ht": "If supervised visitation is ordered, specify: who will supervise, where visits occur, duration and frequency, any costs and who pays.",
+            "ko": "If supervised visitation is ordered, specify: who will supervise, where visits occur, duration and frequency, any costs and who pays.",
+            "pt": "If supervised visitation is ordered, specify: who will supervise, where visits occur, duration and frequency, any costs and who pays.",
+            "ru": "If supervised visitation is ordered, specify: who will supervise, where visits occur, duration and frequency, any costs and who pays.",
+            "tl": "If supervised visitation is ordered, specify: who will supervise, where visits occur, duration and frequency, any costs and who pays."
+          },
+          "legal_reference": "Family Code §§ 3100, 3200",
+          "common_errors": {},
+          "tips": {}
+        },
+        {
+          "field_id": "fl341_other_orders",
+          "field_label": "Other custody/visitation orders",
+          "field_type": "textarea",
+          "required": false,
+          "guidance": {
+            "en": "Any additional orders: right of first refusal, communication between parents, restrictions on introducing significant others, relocation notice requirements.",
+            "es": "Cualquier orden adicional.",
+            "zh": "Any additional orders: right of first refusal, communication between parents, restrictions on introducing significant others, relocation notice requirements.",
+            "vi": "Any additional orders: right of first refusal, communication between parents, restrictions on introducing significant others, relocation notice requirements.",
+            "so": "Any additional orders: right of first refusal, communication between parents, restrictions on introducing significant others, relocation notice requirements.",
+            "ti": "Any additional orders: right of first refusal, communication between parents, restrictions on introducing significant others, relocation notice requirements.",
+            "am": "Any additional orders: right of first refusal, communication between parents, restrictions on introducing significant others, relocation notice requirements.",
+            "ar": "Any additional orders: right of first refusal, communication between parents, restrictions on introducing significant others, relocation notice requirements.",
+            "ht": "Any additional orders: right of first refusal, communication between parents, restrictions on introducing significant others, relocation notice requirements.",
+            "ko": "Any additional orders: right of first refusal, communication between parents, restrictions on introducing significant others, relocation notice requirements.",
+            "pt": "Any additional orders: right of first refusal, communication between parents, restrictions on introducing significant others, relocation notice requirements.",
+            "ru": "Any additional orders: right of first refusal, communication between parents, restrictions on introducing significant others, relocation notice requirements.",
+            "tl": "Any additional orders: right of first refusal, communication between parents, restrictions on introducing significant others, relocation notice requirements."
+          },
+          "legal_reference": "Family Code § 3024",
+          "common_errors": {},
+          "tips": {}
+        }
+      ]
+    }
+  ]
+}

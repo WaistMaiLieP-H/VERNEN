@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "form_id": "FW-003",
+    "form_title": "Order on Court Fee Waiver (Superior Court)",
+    "statutory_authority": "Government Code §§ 68630-68641",
+    "languages": ["en","es","zh","vi","so","ti","am","ar","ht","ko","pt","ru","tl"],
+    "version": "1.0.0",
+    "tier": "A",
+    "copyright": "© 2024-2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "trademark": "VERNEN™ is a trademark of Michael Vernen Thomas Hartmann."
+  },
+  "sections": [
+    {
+      "section_id": "court_decision",
+      "fields": [
+        {
+          "field_id": "fw003_decision",
+          "field_label": "Court's decision on fee waiver",
+          "field_type": "radio",
+          "required": true,
+          "guidance": {
+            "en": "This form is completed BY THE COURT. The court either: grants the fee waiver (all fees waived), partially grants (some fees waived), or denies. If denied, you have 10 days to request a hearing.",
+            "es": "Este formulario es completado POR EL TRIBUNAL.",
+            "zh": "This form is completed BY THE COURT. The court either: grants the fee waiver (all fees waived), partially grants (some fees waived), or denies. If denied, you have 10 days to request a hearing.",
+            "vi": "This form is completed BY THE COURT. The court either: grants the fee waiver (all fees waived), partially grants (some fees waived), or denies. If denied, you have 10 days to request a hearing.",
+            "so": "This form is completed BY THE COURT. The court either: grants the fee waiver (all fees waived), partially grants (some fees waived), or denies. If denied, you have 10 days to request a hearing.",
+            "ti": "This form is completed BY THE COURT. The court either: grants the fee waiver (all fees waived), partially grants (some fees waived), or denies. If denied, you have 10 days to request a hearing.",
+            "am": "This form is completed BY THE COURT. The court either: grants the fee waiver (all fees waived), partially grants (some fees waived), or denies. If denied, you have 10 days to request a hearing.",
+            "ar": "This form is completed BY THE COURT. The court either: grants the fee waiver (all fees waived), partially grants (some fees waived), or denies. If denied, you have 10 days to request a hearing.",
+            "ht": "This form is completed BY THE COURT. The court either: grants the fee waiver (all fees waived), partially grants (some fees waived), or denies. If denied, you have 10 days to request a hearing.",
+            "ko": "This form is completed BY THE COURT. The court either: grants the fee waiver (all fees waived), partially grants (some fees waived), or denies. If denied, you have 10 days to request a hearing.",
+            "pt": "This form is completed BY THE COURT. The court either: grants the fee waiver (all fees waived), partially grants (some fees waived), or denies. If denied, you have 10 days to request a hearing.",
+            "ru": "This form is completed BY THE COURT. The court either: grants the fee waiver (all fees waived), partially grants (some fees waived), or denies. If denied, you have 10 days to request a hearing.",
+            "tl": "This form is completed BY THE COURT. The court either: grants the fee waiver (all fees waived), partially grants (some fees waived), or denies. If denied, you have 10 days to request a hearing."
+          },
+          "legal_reference": "Government Code § 68634",
+          "common_errors": {},
+          "tips": {}
+        },
+        {
+          "field_id": "fw003_denial_reasons",
+          "field_label": "Reasons for denial (if applicable)",
+          "field_type": "textarea",
+          "required": false,
+          "guidance": {
+            "en": "If denied, the court must state reasons. Common denials: incomplete FW-001, income above threshold, insufficient documentation. You can request a hearing within 10 days.",
+            "es": "Si se deniega, el tribunal debe indicar las razones.",
+            "zh": "If denied, the court must state reasons. Common denials: incomplete FW-001, income above threshold, insufficient documentation. You can request a hearing within 10 days.",
+            "vi": "If denied, the court must state reasons. Common denials: incomplete FW-001, income above threshold, insufficient documentation. You can request a hearing within 10 days.",
+            "so": "If denied, the court must state reasons. Common denials: incomplete FW-001, income above threshold, insufficient documentation. You can request a hearing within 10 days.",
+            "ti": "If denied, the court must state reasons. Common denials: incomplete FW-001, income above threshold, insufficient documentation. You can request a hearing within 10 days.",
+            "am": "If denied, the court must state reasons. Common denials: incomplete FW-001, income above threshold, insufficient documentation. You can request a hearing within 10 days.",
+            "ar": "If denied, the court must state reasons. Common denials: incomplete FW-001, income above threshold, insufficient documentation. You can request a hearing within 10 days.",
+            "ht": "If denied, the court must state reasons. Common denials: incomplete FW-001, income above threshold, insufficient documentation. You can request a hearing within 10 days.",
+            "ko": "If denied, the court must state reasons. Common denials: incomplete FW-001, income above threshold, insufficient documentation. You can request a hearing within 10 days.",
+            "pt": "If denied, the court must state reasons. Common denials: incomplete FW-001, income above threshold, insufficient documentation. You can request a hearing within 10 days.",
+            "ru": "If denied, the court must state reasons. Common denials: incomplete FW-001, income above threshold, insufficient documentation. You can request a hearing within 10 days.",
+            "tl": "If denied, the court must state reasons. Common denials: incomplete FW-001, income above threshold, insufficient documentation. You can request a hearing within 10 days."
+          },
+          "legal_reference": "Government Code § 68634(e)",
+          "common_errors": {},
+          "tips": {}
+        }
+      ]
+    }
+  ]
+}

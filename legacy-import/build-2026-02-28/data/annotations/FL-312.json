@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "form_id": "FL-312",
+    "form_title": "Child Abduction Prevention Order Attachment",
+    "statutory_authority": "Family Code §§ 3040-3048, 3130-3134; Penal Code § 278.5",
+    "languages": ["en","es","zh","vi","so","ti","am","ar","ht","ko","pt","ru","tl"],
+    "version": "1.0.0",
+    "tier": "A",
+    "copyright": "© 2024-2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "trademark": "VERNEN™ is a trademark of Michael Vernen Thomas Hartmann."
+  },
+  "sections": [
+    {
+      "section_id": "risk_factors",
+      "fields": [
+        {
+          "field_id": "fl312_risk_factors",
+          "field_label": "Risk factors for abduction",
+          "field_type": "checkbox",
+          "required": true,
+          "guidance": {
+            "en": "Check all factors that apply: prior threats to take child, prior actual abduction, no strong ties to community, recent sale of property, quitting job, closing bank accounts, obtaining passport/travel documents, domestic violence history, substance abuse, mental health concerns.",
+            "es": "Marque todos los factores que aplican.",
+            "zh": "Check all factors that apply: prior threats to take child, prior actual abduction, no strong ties to community, recent sale of property, quitting job, closing bank accounts, obtaining passport/travel documents, domestic violence history, substance abuse, mental health concerns.",
+            "vi": "Check all factors that apply: prior threats to take child, prior actual abduction, no strong ties to community, recent sale of property, quitting job, closing bank accounts, obtaining passport/travel documents, domestic violence history, substance abuse, mental health concerns.",
+            "so": "Check all factors that apply: prior threats to take child, prior actual abduction, no strong ties to community, recent sale of property, quitting job, closing bank accounts, obtaining passport/travel documents, domestic violence history, substance abuse, mental health concerns.",
+            "ti": "Check all factors that apply: prior threats to take child, prior actual abduction, no strong ties to community, recent sale of property, quitting job, closing bank accounts, obtaining passport/travel documents, domestic violence history, substance abuse, mental health concerns.",
+            "am": "Check all factors that apply: prior threats to take child, prior actual abduction, no strong ties to community, recent sale of property, quitting job, closing bank accounts, obtaining passport/travel documents, domestic violence history, substance abuse, mental health concerns.",
+            "ar": "Check all factors that apply: prior threats to take child, prior actual abduction, no strong ties to community, recent sale of property, quitting job, closing bank accounts, obtaining passport/travel documents, domestic violence history, substance abuse, mental health concerns.",
+            "ht": "Check all factors that apply: prior threats to take child, prior actual abduction, no strong ties to community, recent sale of property, quitting job, closing bank accounts, obtaining passport/travel documents, domestic violence history, substance abuse, mental health concerns.",
+            "ko": "Check all factors that apply: prior threats to take child, prior actual abduction, no strong ties to community, recent sale of property, quitting job, closing bank accounts, obtaining passport/travel documents, domestic violence history, substance abuse, mental health concerns.",
+            "pt": "Check all factors that apply: prior threats to take child, prior actual abduction, no strong ties to community, recent sale of property, quitting job, closing bank accounts, obtaining passport/travel documents, domestic violence history, substance abuse, mental health concerns.",
+            "ru": "Check all factors that apply: prior threats to take child, prior actual abduction, no strong ties to community, recent sale of property, quitting job, closing bank accounts, obtaining passport/travel documents, domestic violence history, substance abuse, mental health concerns.",
+            "tl": "Check all factors that apply: prior threats to take child, prior actual abduction, no strong ties to community, recent sale of property, quitting job, closing bank accounts, obtaining passport/travel documents, domestic violence history, substance abuse, mental health concerns."
+          },
+          "legal_reference": "Family Code § 3048(b)",
+          "common_errors": {},
+          "tips": {}
+        },
+        {
+          "field_id": "fl312_specific_facts",
+          "field_label": "Specific facts supporting risk",
+          "field_type": "textarea",
+          "required": true,
+          "guidance": {
+            "en": "Describe specific incidents, statements, or actions that demonstrate a risk of child abduction. Include dates, witnesses, and any documentation.",
+            "es": "Describa incidentes específicos que demuestren el riesgo de secuestro.",
+            "zh": "Describe specific incidents, statements, or actions that demonstrate a risk of child abduction. Include dates, witnesses, and any documentation.",
+            "vi": "Describe specific incidents, statements, or actions that demonstrate a risk of child abduction. Include dates, witnesses, and any documentation.",
+            "so": "Describe specific incidents, statements, or actions that demonstrate a risk of child abduction. Include dates, witnesses, and any documentation.",
+            "ti": "Describe specific incidents, statements, or actions that demonstrate a risk of child abduction. Include dates, witnesses, and any documentation.",
+            "am": "Describe specific incidents, statements, or actions that demonstrate a risk of child abduction. Include dates, witnesses, and any documentation.",
+            "ar": "Describe specific incidents, statements, or actions that demonstrate a risk of child abduction. Include dates, witnesses, and any documentation.",
+            "ht": "Describe specific incidents, statements, or actions that demonstrate a risk of child abduction. Include dates, witnesses, and any documentation.",
+            "ko": "Describe specific incidents, statements, or actions that demonstrate a risk of child abduction. Include dates, witnesses, and any documentation.",
+            "pt": "Describe specific incidents, statements, or actions that demonstrate a risk of child abduction. Include dates, witnesses, and any documentation.",
+            "ru": "Describe specific incidents, statements, or actions that demonstrate a risk of child abduction. Include dates, witnesses, and any documentation.",
+            "tl": "Describe specific incidents, statements, or actions that demonstrate a risk of child abduction. Include dates, witnesses, and any documentation."
+          },
+          "legal_reference": "Family Code § 3048(b)(1)-(2)",
+          "common_errors": {},
+          "tips": {}
+        }
+      ]
+    },
+    {
+      "section_id": "prevention_orders",
+      "fields": [
+        {
+          "field_id": "fl312_orders_requested",
+          "field_label": "Orders requested",
+          "field_type": "checkbox",
+          "required": true,
+          "guidance": {
+            "en": "Check all prevention orders you are requesting: surrender passport, no removal from state/county/country, supervised visitation only, posting bond, registering custody order with consulate/embassy.",
+            "es": "Marque todas las órdenes de prevención que solicita.",
+            "zh": "Check all prevention orders you are requesting: surrender passport, no removal from state/county/country, supervised visitation only, posting bond, registering custody order with consulate/embassy.",
+            "vi": "Check all prevention orders you are requesting: surrender passport, no removal from state/county/country, supervised visitation only, posting bond, registering custody order with consulate/embassy.",
+            "so": "Check all prevention orders you are requesting: surrender passport, no removal from state/county/country, supervised visitation only, posting bond, registering custody order with consulate/embassy.",
+            "ti": "Check all prevention orders you are requesting: surrender passport, no removal from state/county/country, supervised visitation only, posting bond, registering custody order with consulate/embassy.",
+            "am": "Check all prevention orders you are requesting: surrender passport, no removal from state/county/country, supervised visitation only, posting bond, registering custody order with consulate/embassy.",
+            "ar": "Check all prevention orders you are requesting: surrender passport, no removal from state/county/country, supervised visitation only, posting bond, registering custody order with consulate/embassy.",
+            "ht": "Check all prevention orders you are requesting: surrender passport, no removal from state/county/country, supervised visitation only, posting bond, registering custody order with consulate/embassy.",
+            "ko": "Check all prevention orders you are requesting: surrender passport, no removal from state/county/country, supervised visitation only, posting bond, registering custody order with consulate/embassy.",
+            "pt": "Check all prevention orders you are requesting: surrender passport, no removal from state/county/country, supervised visitation only, posting bond, registering custody order with consulate/embassy.",
+            "ru": "Check all prevention orders you are requesting: surrender passport, no removal from state/county/country, supervised visitation only, posting bond, registering custody order with consulate/embassy.",
+            "tl": "Check all prevention orders you are requesting: surrender passport, no removal from state/county/country, supervised visitation only, posting bond, registering custody order with consulate/embassy."
+          },
+          "legal_reference": "Family Code § 3048(a)",
+          "common_errors": {},
+          "tips": {}
+        },
+        {
+          "field_id": "fl312_travel_restrictions",
+          "field_label": "Travel restrictions",
+          "field_type": "textarea",
+          "required": true,
+          "guidance": {
+            "en": "Specify what travel restrictions you want. Example: 'Respondent shall not remove the child from California without prior written consent of Petitioner or court order.'",
+            "es": "Especifique qué restricciones de viaje desea.",
+            "zh": "Specify what travel restrictions you want. Example: 'Respondent shall not remove the child from California without prior written consent of Petitioner or court order.'",
+            "vi": "Specify what travel restrictions you want. Example: 'Respondent shall not remove the child from California without prior written consent of Petitioner or court order.'",
+            "so": "Specify what travel restrictions you want. Example: 'Respondent shall not remove the child from California without prior written consent of Petitioner or court order.'",
+            "ti": "Specify what travel restrictions you want. Example: 'Respondent shall not remove the child from California without prior written consent of Petitioner or court order.'",
+            "am": "Specify what travel restrictions you want. Example: 'Respondent shall not remove the child from California without prior written consent of Petitioner or court order.'",
+            "ar": "Specify what travel restrictions you want. Example: 'Respondent shall not remove the child from California without prior written consent of Petitioner or court order.'",
+            "ht": "Specify what travel restrictions you want. Example: 'Respondent shall not remove the child from California without prior written consent of Petitioner or court order.'",
+            "ko": "Specify what travel restrictions you want. Example: 'Respondent shall not remove the child from California without prior written consent of Petitioner or court order.'",
+            "pt": "Specify what travel restrictions you want. Example: 'Respondent shall not remove the child from California without prior written consent of Petitioner or court order.'",
+            "ru": "Specify what travel restrictions you want. Example: 'Respondent shall not remove the child from California without prior written consent of Petitioner or court order.'",
+            "tl": "Specify what travel restrictions you want. Example: 'Respondent shall not remove the child from California without prior written consent of Petitioner or court order.'"
+          },
+          "legal_reference": "Family Code §§ 3048(a)(1), 3131",
+          "common_errors": {},
+          "tips": {}
+        }
+      ]
+    }
+  ]
+}

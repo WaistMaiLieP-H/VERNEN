@@ -1,0 +1,519 @@
+{
+  "__meta": {
+    "version": "1.0.0",
+    "language": "ht",
+    "languageName": "Haitian Creole",
+    "direction": "ltr",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "lastUpdated": "2026-02-28",
+    "completeness": "partial",
+    "fallback": "en"
+  },
+  "app": {
+    "title": "VERNEN™",
+    "tagline": "Platfòm Konfòmite Legal Miltilingwis",
+    "loading": "Ap chaje…",
+    "error": "Yon bagay ale mal",
+    "retry": "Eseye Ankò",
+    "back": "Retounen",
+    "next": "Pwochen",
+    "previous": "Anvan",
+    "save": "Sove",
+    "cancel": "Anile",
+    "close": "Fèmen",
+    "export": "Ekspòte",
+    "print": "Print",
+    "download": "Download",
+    "search": "Chèche",
+    "clear": "Clear",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "select": "Select",
+    "required": "Obligatwa",
+    "optional": "Optional",
+    "yes": "Wi",
+    "no": "Non",
+    "none": "None",
+    "all": "All",
+    "other": "Other",
+    "unknown": "Unknown",
+    "notAvailable": "N/A"
+  },
+  "nav": {
+    "dashboard": "Tablo",
+    "documentNavigator": "Navigatè Dokiman",
+    "validation": "Validasyon",
+    "filingGuide": "Gid pou Depoze",
+    "audit": "Rapò Odit",
+    "assembly": "Asanble Dokiman",
+    "settings": "Paramèt",
+    "help": "Èd",
+    "collapse": "Collapse sidebar",
+    "expand": "Expand sidebar"
+  },
+  "dashboard": {
+    "welcome": "Byenveni nan VERNEN™",
+    "subtitle": "Chwazi yon modil pou kòmanse",
+    "cards": {
+      "gdn": {
+        "title": "Document Navigator",
+        "desc": "Browse and fill Judicial Council forms with guided annotations"
+      },
+      "validation": {
+        "title": "Pre-Filing Validation",
+        "desc": "Check forms for errors, missing fields, and compliance issues"
+      },
+      "filing": {
+        "title": "Filing Guide",
+        "desc": "Court-specific instructions, fees, and service requirements"
+      },
+      "audit": {
+        "title": "Audit Report",
+        "desc": "Generate compliance documentation and risk assessments"
+      },
+      "assembly": {
+        "title": "Document Assembly",
+        "desc": "Build multi-form filing packages with automatic data propagation"
+      }
+    }
+  },
+  "gdn": {
+    "title": "Guided Document Navigator",
+    "selectCategory": "Select a category",
+    "selectForm": "Select a form",
+    "searchForms": "Search forms…",
+    "fieldAnnotation": "Field Guidance",
+    "legalDefinition": "Legal Definition",
+    "commonMistakes": "Common Mistakes",
+    "statutoryRef": "Statutory Reference",
+    "categories": {
+      "family_law": "Family Law",
+      "domestic_violence": "Domestic Violence",
+      "custody": "Child Custody & Visitation",
+      "support": "Child & Spousal Support",
+      "fee_waiver": "Fee Waiver",
+      "small_claims": "Small Claims",
+      "civil_harassment": "Civil Harassment",
+      "elder_abuse": "Elder/Dependent Adult Abuse",
+      "appeals": "Appeals",
+      "general": "General Use"
+    },
+    "noResults": "No forms match your search.",
+    "formFields": "Form Fields",
+    "requiredFields": "Required Fields",
+    "optionalFields": "Optional Fields",
+    "piiWarning": "This field contains personally identifiable information (PII)"
+  },
+  "validation": {
+    "title": "Pre-Filing Validation",
+    "runValidation": "Run Validation",
+    "revalidate": "Re-Validate",
+    "selectForms": "Select forms to validate",
+    "overallScore": "Overall Compliance Score",
+    "filingReady": "Filing Ready",
+    "needsReview": "Needs Review",
+    "notReady": "Not Ready",
+    "findings": "Findings",
+    "noFindings": "No issues found — form is ready for filing.",
+    "severity": {
+      "critical": "Critical",
+      "error": "Error",
+      "warning": "Warning",
+      "info": "Info"
+    },
+    "categories": {
+      "completeness": "Completeness",
+      "format": "Format",
+      "compliance": "Compliance",
+      "deadline": "Deadline",
+      "crossForm": "Cross-Form",
+      "service": "Service",
+      "procedural": "Procedural"
+    },
+    "messages": {
+      "requiredMissing": "Required field is missing",
+      "invalidFormat": "Field format is invalid",
+      "deadlinePassed": "Filing deadline may have passed",
+      "serviceIncomplete": "Proof of service is incomplete",
+      "crossFormMismatch": "Data does not match across forms"
+    }
+  },
+  "filingGuide": {
+    "title": "Filing Guide",
+    "selectCounty": "Select your county",
+    "courtInfo": "Court Information",
+    "filingFees": "Filing Fees",
+    "serviceReqs": "Service Requirements",
+    "deadlines": "Deadlines",
+    "eFiling": "E-Filing",
+    "inPerson": "In-Person Filing",
+    "byMail": "Filing by Mail",
+    "hours": "Court Hours",
+    "address": "Court Address",
+    "phone": "Phone",
+    "feeWaivable": "Fee Waiver Eligible",
+    "counties": {
+      "alameda": "Alameda County",
+      "solano": "Solano County",
+      "marin": "Marin County",
+      "san_francisco": "San Francisco County",
+      "contra_costa": "Contra Costa County"
+    },
+    "serviceTypes": {
+      "personal": "Personal Service",
+      "mail": "Service by Mail",
+      "electronic": "Electronic Service"
+    }
+  },
+  "audit": {
+    "title": "Audit Report",
+    "generate": "Generate Report",
+    "regenerate": "Regenerate",
+    "overallRisk": "Overall Risk Level",
+    "findings": "Audit Findings",
+    "recommendations": "Recommendations",
+    "riskLevels": {
+      "critical": "Critical Risk",
+      "high": "High Risk",
+      "medium": "Medium Risk",
+      "low": "Low Risk",
+      "info": "Informational"
+    },
+    "categories": {
+      "completeness": "Completeness",
+      "accuracy": "Accuracy",
+      "compliance": "Statutory Compliance",
+      "service": "Service of Process",
+      "deadlines": "Filing Deadlines",
+      "crossForm": "Cross-Form Consistency",
+      "procedural": "Procedural Requirements"
+    },
+    "summary": "Executive Summary",
+    "details": "Detailed Findings",
+    "noFindings": "No audit findings — documents meet compliance standards."
+  },
+  "assembly": {
+    "title": "Document Assembly",
+    "subtitle": "Build multi-form filing packages with automatic cross-form data propagation.",
+    "tabs": {
+      "parties": "Parties",
+      "case": "Case Info",
+      "children": "Children",
+      "package": "Package Builder",
+      "review": "Review & Export"
+    },
+    "petitioner": "Petitioner (Filing Party)",
+    "respondent": "Respondent (Other Party)",
+    "caseInfo": "Case Information",
+    "children": {
+      "title": "Minor Children",
+      "add": "Add Child",
+      "remove": "Remove",
+      "empty": "No children added yet.",
+      "emptyHint": "Add children if filing custody, visitation, or support forms.",
+      "child": "Child"
+    },
+    "package": {
+      "title": "Select Filing Package",
+      "forms": "forms",
+      "formsInPackage": "Forms in this package:",
+      "types": {
+        "dissolution": "Dissolution of Marriage",
+        "custody_rfo": "Custody RFO Package",
+        "dvro": "DV Restraining Order",
+        "fee_waiver": "Fee Waiver Package",
+        "custody_modification": "Custody Modification",
+        "support_modification": "Support Modification",
+        "contempt": "Contempt Proceeding",
+        "small_claims": "Small Claims",
+        "appeal": "Appeal Package"
+      }
+    },
+    "review": {
+      "completeness": "Completeness",
+      "readyForAssembly": "Ready for Assembly",
+      "partiallyComplete": "Partially Complete",
+      "needsMoreInfo": "Needs More Information",
+      "consistencyCheck": "Cross-Form Consistency",
+      "runCheck": "Run Check",
+      "allConsistent": "All cross-form fields are consistent.",
+      "summary": "Assembly Summary"
+    },
+    "fields": {
+      "fullName": "Full Legal Name",
+      "address": "Street Address",
+      "city": "City",
+      "state": "State",
+      "zip": "ZIP Code",
+      "phone": "Phone",
+      "email": "Email",
+      "dob": "Date of Birth",
+      "attorney": "Attorney Name (or \"In Pro Per\")",
+      "barNumber": "State Bar Number",
+      "caseNumber": "Case Number",
+      "county": "County",
+      "courtName": "Court Name",
+      "courtAddress": "Court Address",
+      "department": "Department",
+      "filingDate": "Filing Date",
+      "hearingDate": "Hearing Date",
+      "hearingTime": "Hearing Time",
+      "childName": "Child Full Name",
+      "childDob": "Date of Birth",
+      "childAge": "Current Age",
+      "residessWith": "Currently Resides With"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "selectLanguage": "Select language",
+    "accessibility": "Accessibility",
+    "highContrast": "High Contrast Mode",
+    "largeText": "Large Text",
+    "reducedMotion": "Reduced Motion",
+    "focusIndicators": "Enhanced Focus Indicators",
+    "errorLogs": "Error Logs",
+    "exportLogs": "Export Error Logs",
+    "clearLogs": "Clear Logs",
+    "about": "About"
+  },
+  "help": {
+    "title": "Help",
+    "thisPage": "This Page",
+    "shortcuts": "Shortcuts",
+    "about": "About",
+    "gettingStarted": "Getting Started",
+    "closePanel": "Close help panel"
+  },
+  "export": {
+    "title": "Export",
+    "formats": {
+      "html": "HTML (Print-Ready)",
+      "json": "JSON",
+      "csv": "CSV",
+      "markdown": "Markdown",
+      "text": "Plain Text"
+    },
+    "options": {
+      "maskPII": "Mask PII Fields",
+      "includeMetadata": "Include Metadata",
+      "includeCitations": "Include Statutory Citations"
+    },
+    "success": "Export completed successfully.",
+    "error": "Export failed. Please try again."
+  },
+  "errors": {
+    "generic": "An unexpected error occurred.",
+    "network": "Network error. Please check your connection.",
+    "formLoad": "Failed to load form data.",
+    "validationFailed": "Validation could not be completed.",
+    "exportFailed": "Export failed.",
+    "sessionExpired": "Your session has expired. Data has been saved.",
+    "storageQuota": "Storage limit reached. Please export and clear old data.",
+    "tryAgain": "Try Again",
+    "reportIssue": "Report Issue",
+    "goToDashboard": "Return to Dashboard"
+  },
+  "a11y": {
+    "skipToMain": "Skip to main content",
+    "skipToForm": "Skip to form section",
+    "skipToNav": "Skip to navigation",
+    "skipToResults": "Skip to results",
+    "formProgress": "Form is {percent}% complete",
+    "fieldError": "Error: {message}",
+    "fieldCleared": "Error cleared",
+    "newResults": "Results updated",
+    "loading": "Loading, please wait"
+  },
+  "legal": {
+    "disclaimer": "VERNEN™ provides legal form guidance and compliance checking. It does not provide legal advice. For legal counsel, consult a licensed attorney in your jurisdiction.",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "trademark": "VERNEN™ is a trademark of Michael Vernen Thomas Hartmann.",
+    "ipManifest": "IP Manifest Filed February 2, 2026."
+  },
+  "auth": {
+    "login": "Konekte",
+    "register": "Kreye Kont",
+    "logout": "Dekonekte",
+    "email": "Adrès Imèl",
+    "password": "Modpas",
+    "confirmPassword": "Konfime Modpas",
+    "displayName": "Non",
+    "forgotPassword": "Bliye Modpas?",
+    "resetPassword": "Reyinisyalize Modpas",
+    "resetSent": "Imèl reyinisyalizasyon voye. Tcheke bwat resepsyon ou.",
+    "loginSuccess": "Koneksyon reyisi.",
+    "registerSuccess": "Kont kreye. Byenveni nan VERNEN™.",
+    "logoutSuccess": "Dekonekte.",
+    "loginError": "Koneksyon echwe. Tcheke imèl ak modpas ou.",
+    "registerError": "Enskripsyon echwe. Eseye ankò.",
+    "sessionExpired": "Sesyon ou ekspire. Konekte ankò.",
+    "requiredField": "Chan sa a obligatwa.",
+    "invalidEmail": "Mete yon adrès imèl ki valab.",
+    "passwordMinLength": "Modpas la dwe gen omwen 8 karaktè.",
+    "passwordMismatch": "Modpas yo pa menm.",
+    "alreadyHaveAccount": "Ou gen yon kont deja?",
+    "noAccount": "Ou pa gen kont?",
+    "tier": {
+      "guest": "Vizitè",
+      "free": "Gratis",
+      "pro": "Pwofesyonèl",
+      "advocate": "Avoka"
+    },
+    "tierRequired": "Fonksyon sa a mande yon abònman {tier}.",
+    "upgradePrompt": "Amelyore a {tier} pou jwenn aksè nan fonksyon sa a.",
+    "upgradeNow": "Amelyore Kounye a"
+  },
+  "payments": {
+    "pricing": "Pri",
+    "plans": "Plan",
+    "currentPlan": "Plan Aktyèl",
+    "monthly": "Chak Mwa",
+    "annual": "Chak Ane",
+    "perMonth": "/mwa",
+    "perYear": "/ane",
+    "save": "Ekonomize {percent}%",
+    "freePlan": {
+      "name": "Gratis",
+      "description": "Gidans debaz pou fòm.",
+      "price": "$0"
+    },
+    "proPlan": {
+      "name": "Pwofesyonèl",
+      "description": "Odit konplè, ekspòtasyon ak sipò plizyè lang.",
+      "priceMonthly": "$19.99",
+      "priceAnnual": "$191.88"
+    },
+    "advocatePlan": {
+      "name": "Avoka",
+      "description": "Platfòm konplè ak asanblaj dokiman ak depo.",
+      "priceMonthly": "$39.99",
+      "priceAnnual": "$383.88"
+    },
+    "subscribe": "Enskri",
+    "upgrade": "Amelyore",
+    "downgrade": "Desann",
+    "manageBilling": "Jere Faktirasyon",
+    "cancelSubscription": "Anile Abònman",
+    "checkoutRedirect": "Ap redirije nan peman an sekirite...",
+    "checkoutSuccess": "Abònman aktive!",
+    "checkoutCanceled": "Peman anile.",
+    "paymentFailed": "Peman echwe. Mete ajou metòd peman ou.",
+    "subscriptionActive": "Abònman ou aktif jiska {date}.",
+    "subscriptionCanceled": "Abònman ou ap fini {date}."
+  },
+  "esignature": {
+    "title": "Siyati Elektwonik",
+    "signHere": "Siyen Isit",
+    "drawSignature": "Desinen Siyati",
+    "typeSignature": "Tape Siyati",
+    "uploadSignature": "Telechaje Siyati",
+    "clearSignature": "Efase",
+    "acceptSignature": "Aksepte Siyati",
+    "signatureRequired": "Siyati obligatwa nan chan sa a.",
+    "wetInkRequired": "Chan sa a mande siyati ak lank. Enprime, siyen epi eskane.",
+    "notarizationRequired": "Chan sa a mande notarizasyon.",
+    "intentDeclaration": "Lè m siyen, mwen deklare anba penalite fo temwayaj dapre lwa Eta Kalifòni ke enfòmasyon nan dokiman sa a vrè ak kòrèk.",
+    "consentCheckbox": "Mwen konprann ke siyati elektwonik sa a gen menm efè legal ke yon siyati ak men (Kòd Sivil Cal. § 1633.7).",
+    "signed": "Siyen",
+    "unsigned": "Pa Siyen",
+    "signedBy": "Siyen pa {name} nan {date}",
+    "revoke": "Revoke Siyati",
+    "revokeConfirm": "Èske ou sèten ou vle revoke siyati sa a?",
+    "documentChanged": "Dokiman modifye apre siyati. Bezwen siyen ankò.",
+    "certificate": "Sètifika Siyati",
+    "viewCertificate": "Wè Sètifika Siyati",
+    "legalBasis": "Kòd Sivil Cal. § 1633 (UETA)"
+  },
+  "filing": {
+    "title": "Depoze nan Tribinal",
+    "createPackage": "Kreye Pakè Depo",
+    "filingType": "Tip Depo",
+    "selectCourt": "Chwazi Tribinal",
+    "caseNumber": "Nimewo Ka",
+    "newCase": "Ka Nouvo",
+    "documents": "Dokiman",
+    "addDocument": "Ajoute Dokiman",
+    "proofOfService": "Prèv Sèvis",
+    "filingFee": "Frè Depo",
+    "feeWaiver": "Dispans Frè Akòde (FW-003)",
+    "estimatedFee": "Frè estime: {amount}",
+    "validate": "Verifye Pakè",
+    "validationPassed": "Pakè a pare.",
+    "validationFailed": "Pakè a gen {count} erè.",
+    "submit": "Soumèt nan Tribinal",
+    "submitConfirm": "Soumèt pakè sa a nan {court}?",
+    "submitting": "Ap soumèt...",
+    "submitted": "Depo soumèt avèk siksè.",
+    "confirmationNumber": "Konfimasyon: {number}",
+    "checkStatus": "Tcheke Estati",
+    "status": {
+      "draft": "Bouyon",
+      "ready": "Pare",
+      "submitting": "Ap Soumèt",
+      "submitted": "Soumèt",
+      "accepted": "Ap Revize",
+      "rejected": "Rejte",
+      "filed": "Depoze",
+      "error": "Erè"
+    },
+    "rejected": "Depo rejte: {reason}",
+    "filedStamped": "Kopi estanpe disponib.",
+    "downloadFiled": "Telechaje Kopi Estanpe",
+    "history": "Istwa Depo",
+    "noFilings": "Pa gen depo.",
+    "wetInkWarning": "Fòm sa a gen chan ki mande siyati ak lank."
+  },
+  "traceability": {
+    "title": "Rejis Trasabilite Legal",
+    "description": "Rejis tout sous legal ki konsilte.",
+    "sources": "Sous Konsilte",
+    "statutes": "Lwa",
+    "regulations": "Règleman",
+    "rulesOfCourt": "Règ Tribinal",
+    "federalCode": "Kòd Federal",
+    "contentHash": "Hash Kontni (SHA-256)",
+    "retrievedAt": "Rekipere Nan",
+    "linkedFinding": "Dekouvèt Lye",
+    "logFinalized": "Rejis finalize ak bloke.",
+    "viewLog": "Wè Rejis",
+    "downloadLog": "Telechaje Rejis (PDF)",
+    "compliance": "Rejis sa a satisfè egzijans transparans."
+  },
+  "remediation": {
+    "title": "Gid Reparasyon",
+    "description": "Enstriksyon etap pa etap pou rezoud pwoblèm yo.",
+    "summary": "Rezime",
+    "totalSteps": "{count} etap pou konplete",
+    "estimatedTime": "Tan estime: {minutes} minit",
+    "phase": "Faz {number}: {name}",
+    "phases": {
+      "critical": "Reparasyon Kritik",
+      "high": "Priyorite Wo",
+      "compliance": "Lachin Konfòmite",
+      "bestPractice": "Meyè Pratik"
+    },
+    "step": "Etap {number}",
+    "priority": "Priyorite",
+    "complexity": {
+      "simple": "Senp (~ 2 min)",
+      "moderate": "Mwayen (~ 10 min)",
+      "complex": "Konplèks (~ 25 min)",
+      "requires_review": "Bezwen Avoka Revize (~ 60 min)"
+    },
+    "goToField": "Ale nan Chan",
+    "markComplete": "Make Konplete",
+    "skip": "Sote",
+    "undo": "Defèt",
+    "progress": "{completed} nan {total} etap ({percent}%)",
+    "allComplete": "Tout etap konplete!",
+    "nextStep": "Pwochen Etap",
+    "filingReady": "Pare pou Depoze",
+    "notReady": "Pa Pare — {remaining} etap rete"
+  }
+}

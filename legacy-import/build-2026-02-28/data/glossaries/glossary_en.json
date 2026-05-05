@@ -1,0 +1,367 @@
+{
+  "language": "en",
+  "version": "1.0.0",
+  "generated": "2026-02-25",
+  "terms": [
+    {
+      "id": "G001",
+      "term": "Petitioner",
+      "definition": "The person who starts the court case by filing the petition.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G002",
+      "term": "Respondent",
+      "definition": "The person who responds to the petition filed by the petitioner.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G003",
+      "term": "Dissolution",
+      "definition": "The legal process of ending a marriage or domestic partnership.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G004",
+      "term": "Legal Separation",
+      "definition": "A court order that allows spouses to live apart while remaining legally married.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G005",
+      "term": "Community Property",
+      "definition": "Property acquired during the marriage, generally divided equally.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G006",
+      "term": "Separate Property",
+      "definition": "Property owned before marriage or acquired by gift/inheritance during marriage.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G007",
+      "term": "Child Custody",
+      "definition": "The legal authority to make decisions about a child's welfare and where they live.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G008",
+      "term": "Legal Custody",
+      "definition": "The right to make important decisions about a child's health, education, and welfare.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G009",
+      "term": "Physical Custody",
+      "definition": "Determines which parent the child lives with on a day-to-day basis.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G010",
+      "term": "Visitation",
+      "definition": "The right of the non-custodial parent to spend time with the child.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G011",
+      "term": "Child Support",
+      "definition": "Court-ordered payments from one parent to another for the financial support of their children.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G012",
+      "term": "Spousal Support",
+      "definition": "Court-ordered payments from one spouse to the other after separation or divorce.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G013",
+      "term": "Restraining Order",
+      "definition": "A court order that protects a person from being harassed, threatened, or stalked.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G014",
+      "term": "Domestic Violence",
+      "definition": "Abuse or threats of abuse between people in close relationships.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G015",
+      "term": "Declaration",
+      "definition": "A written statement of facts signed under penalty of perjury.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G016",
+      "term": "Proof of Service",
+      "definition": "Document proving that legal papers were properly delivered to the other party.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G017",
+      "term": "Fee Waiver",
+      "definition": "Court approval to waive filing fees for people who cannot afford them.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G018",
+      "term": "Default",
+      "definition": "When a respondent fails to file a response within the required time.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G019",
+      "term": "Judgment",
+      "definition": "The final court order that resolves the case.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G020",
+      "term": "Summons",
+      "definition": "A notice served on the respondent informing them a case has been filed.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G021",
+      "term": "Filing",
+      "definition": "Submitting legal documents to the court clerk for official processing.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G022",
+      "term": "Hearing",
+      "definition": "A court proceeding where a judge hears arguments and evidence.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G023",
+      "term": "Motion",
+      "definition": "A formal request to the court to take a specific action.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G024",
+      "term": "Order",
+      "definition": "A directive issued by a judge that parties must follow.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G025",
+      "term": "Mediation",
+      "definition": "A process where a neutral third party helps resolve disputes.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G026",
+      "term": "Stipulation",
+      "definition": "An agreement between parties on an issue, submitted to the court.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G027",
+      "term": "Disclosure",
+      "definition": "The legal requirement to share financial information with the other party.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G028",
+      "term": "Ex Parte",
+      "definition": "A court proceeding or order made at the request of one party without notice to the other.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G029",
+      "term": "Continuance",
+      "definition": "Postponement of a court hearing to a later date.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G030",
+      "term": "Service of Process",
+      "definition": "The legal act of delivering court documents to the opposing party.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G031",
+      "term": "Best Interest of the Child",
+      "definition": "The legal standard courts use when making custody and visitation decisions.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G032",
+      "term": "Joint Custody",
+      "definition": "An arrangement where both parents share decision-making and/or time with the child.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G033",
+      "term": "Sole Custody",
+      "definition": "An arrangement where one parent has primary authority over the child.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G034",
+      "term": "Parenting Plan",
+      "definition": "A document detailing how parents will share responsibilities and time with their children.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G035",
+      "term": "Annulment",
+      "definition": "A court ruling that a marriage is legally invalid.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G036",
+      "term": "Domestic Partnership",
+      "definition": "A legal relationship providing similar rights to marriage for qualifying couples.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G037",
+      "term": "Marital Settlement Agreement",
+      "definition": "A written agreement between spouses resolving property, support, and custody issues.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G038",
+      "term": "Contempt of Court",
+      "definition": "Willful disobedience of a court order.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G039",
+      "term": "Modification",
+      "definition": "A change to an existing court order based on changed circumstances.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G040",
+      "term": "UCCJEA",
+      "definition": "Uniform Child Custody Jurisdiction and Enforcement Act \u2014 determines which state has authority over custody.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G041",
+      "term": "Jurisdiction",
+      "definition": "The legal authority of a court to hear and decide a case.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G042",
+      "term": "Venue",
+      "definition": "The specific court location where a case is heard.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G043",
+      "term": "Discovery",
+      "definition": "The formal process of exchanging information and evidence between parties.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G044",
+      "term": "Deposition",
+      "definition": "Sworn testimony given outside of court, recorded by a court reporter.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G045",
+      "term": "Subpoena",
+      "definition": "A court order requiring a person to appear in court or produce documents.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G046",
+      "term": "Perjury",
+      "definition": "The crime of lying under oath in a court proceeding or on a legal document.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G047",
+      "term": "Pro Se / Self-Represented",
+      "definition": "A person who represents themselves in court without an attorney.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G048",
+      "term": "Attorney of Record",
+      "definition": "The lawyer officially designated to represent a party in a case.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G049",
+      "term": "Guardian ad Litem",
+      "definition": "A court-appointed person who represents a child's best interests in legal proceedings.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G050",
+      "term": "Minor's Counsel",
+      "definition": "An attorney appointed by the court to represent the interests of a child.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G051",
+      "term": "Move-Away Request",
+      "definition": "A request to relocate with a child to a different geographic area.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G052",
+      "term": "Wage Assignment",
+      "definition": "A court order directing an employer to deduct support payments from wages.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G053",
+      "term": "Arrears",
+      "definition": "Unpaid amounts of support that are past due.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G054",
+      "term": "Quitclaim Deed",
+      "definition": "A document transferring property interest from one person to another without guarantees.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G055",
+      "term": "Qualified Domestic Relations Order",
+      "definition": "A court order dividing retirement benefits between spouses (QDRO).",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G056",
+      "term": "Bifurcation",
+      "definition": "Separating the divorce into two parts \u2014 ending the marriage while other issues are still pending.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G057",
+      "term": "Status Only Judgment",
+      "definition": "A judgment that ends the marriage while reserving other issues for later resolution.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G058",
+      "term": "Date of Separation",
+      "definition": "The date one spouse expressed intent to end the marriage, affecting property division.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G059",
+      "term": "Automatic Temporary Restraining Orders",
+      "definition": "Standard orders in family law summons preventing both parties from certain actions.",
+      "statutory_reference": ""
+    },
+    {
+      "id": "G060",
+      "term": "Family Court Services",
+      "definition": "Court-connected services providing custody mediation and recommendations.",
+      "statutory_reference": ""
+    }
+  ]
+}

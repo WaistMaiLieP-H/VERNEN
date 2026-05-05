@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "form_id": "FL-141",
+    "title": "Declaration Regarding Service of Declaration of Disclosure and Income and Expense Declaration",
+    "version": "2.0.0",
+    "created": "2026-03-01",
+    "author": "Michael Vernen Thomas Hartmann",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "governing_statutes": ["FAM §2104","FAM §2105","FAM §2106"],
+    "total_fields": 8
+  },
+  "fields": [
+    {
+      "field_id": "FL141-01",
+      "label_en": "Case Number",
+      "section": "header",
+      "type": "text",
+      "required": true,
+      "max_length": 25,
+      "guidance_en": "Enter the case number from the Petition.",
+      "guidance_es": "Ingrese el número de caso de la Petición.",
+      "guidance_zh": "输入请愿书的案件编号。",
+      "common_errors": ["Wrong case number"],
+      "statutory_basis": "CRC 2.111"
+    },
+    {
+      "field_id": "FL141-02",
+      "label_en": "Service of Preliminary Declaration",
+      "section": "item_1",
+      "type": "checkbox_group",
+      "required": true,
+      "options": ["I served my preliminary declaration on the date shown below","My preliminary declaration was served by another person"],
+      "guidance_en": "Confirm service of your preliminary Declaration of Disclosure (FL-140) and attachments. Must be served within 60 days of filing the petition or response.",
+      "guidance_es": "Confirme la notificación de su Declaración de Divulgación preliminar (FL-140) y adjuntos.",
+      "guidance_zh": "确认已送达您的初步披露声明（FL-140）及附件。",
+      "common_errors": ["Not filing proof of service","Serving after deadline"],
+      "statutory_basis": "FAM §2104(f)"
+    },
+    {
+      "field_id": "FL141-03",
+      "label_en": "Service of Final Declaration",
+      "section": "item_2",
+      "type": "checkbox_group",
+      "required": false,
+      "options": ["I served my final declaration","Final declaration was waived per FAM §2105"],
+      "guidance_en": "Confirm service of final Declaration of Disclosure or indicate parties agreed to waive under FAM §2105. Both must sign FL-144 if waiving.",
+      "guidance_es": "Confirme la notificación de la Declaración de Divulgación final o indique que las partes acordaron renunciar.",
+      "guidance_zh": "确认已送达最终披露声明或表明双方同意放弃。",
+      "common_errors": ["Missing FL-144 waiver form","Only one party waiving"],
+      "statutory_basis": "FAM §2105"
+    },
+    {
+      "field_id": "FL141-04",
+      "label_en": "Date of Service",
+      "section": "item_3",
+      "type": "date",
+      "required": true,
+      "guidance_en": "Enter the date you served (or had served) each declaration on the other party.",
+      "guidance_es": "Ingrese la fecha en que notificó cada declaración a la otra parte.",
+      "guidance_zh": "输入您向对方送达每份声明的日期。",
+      "common_errors": ["Date after judgment request","No matching proof of service"],
+      "statutory_basis": "FAM §2104(f)"
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "__meta": {
+    "version": "1.0.0",
+    "language": "ar",
+    "languageName": "Arabic",
+    "direction": "rtl",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "lastUpdated": "2026-02-28",
+    "completeness": "partial",
+    "fallback": "en"
+  },
+  "app": {
+    "title": "™VERNEN",
+    "tagline": "منصة الامتثال القانوني متعددة اللغات",
+    "loading": "جارٍ التحميل…",
+    "error": "حدث خطأ ما",
+    "retry": "إعادة المحاولة",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "export": "تصدير",
+    "print": "Print",
+    "download": "Download",
+    "search": "بحث",
+    "clear": "Clear",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "select": "Select",
+    "required": "مطلوب",
+    "optional": "Optional",
+    "yes": "نعم",
+    "no": "لا",
+    "none": "None",
+    "all": "All",
+    "other": "Other",
+    "unknown": "Unknown",
+    "notAvailable": "N/A"
+  },
+  "nav": {
+    "dashboard": "لوحة المعلومات",
+    "documentNavigator": "مستكشف المستندات",
+    "validation": "التحقق",
+    "filingGuide": "دليل التقديم",
+    "audit": "تقرير التدقيق",
+    "assembly": "تجميع المستندات",
+    "settings": "الإعدادات",
+    "help": "المساعدة",
+    "collapse": "Collapse sidebar",
+    "expand": "Expand sidebar"
+  },
+  "dashboard": {
+    "welcome": "™VERNEN مرحباً بك في",
+    "subtitle": "اختر وحدة للبدء",
+    "cards": {
+      "gdn": {
+        "title": "Document Navigator",
+        "desc": "Browse and fill Judicial Council forms with guided annotations"
+      },
+      "validation": {
+        "title": "Pre-Filing Validation",
+        "desc": "Check forms for errors, missing fields, and compliance issues"
+      },
+      "filing": {
+        "title": "Filing Guide",
+        "desc": "Court-specific instructions, fees, and service requirements"
+      },
+      "audit": {
+        "title": "Audit Report",
+        "desc": "Generate compliance documentation and risk assessments"
+      },
+      "assembly": {
+        "title": "Document Assembly",
+        "desc": "Build multi-form filing packages with automatic data propagation"
+      }
+    }
+  },
+  "gdn": {
+    "title": "Guided Document Navigator",
+    "selectCategory": "Select a category",
+    "selectForm": "Select a form",
+    "searchForms": "Search forms…",
+    "fieldAnnotation": "Field Guidance",
+    "legalDefinition": "Legal Definition",
+    "commonMistakes": "Common Mistakes",
+    "statutoryRef": "Statutory Reference",
+    "categories": {
+      "family_law": "Family Law",
+      "domestic_violence": "Domestic Violence",
+      "custody": "Child Custody & Visitation",
+      "support": "Child & Spousal Support",
+      "fee_waiver": "Fee Waiver",
+      "small_claims": "Small Claims",
+      "civil_harassment": "Civil Harassment",
+      "elder_abuse": "Elder/Dependent Adult Abuse",
+      "appeals": "Appeals",
+      "general": "General Use"
+    },
+    "noResults": "No forms match your search.",
+    "formFields": "Form Fields",
+    "requiredFields": "Required Fields",
+    "optionalFields": "Optional Fields",
+    "piiWarning": "This field contains personally identifiable information (PII)"
+  },
+  "validation": {
+    "title": "Pre-Filing Validation",
+    "runValidation": "Run Validation",
+    "revalidate": "Re-Validate",
+    "selectForms": "Select forms to validate",
+    "overallScore": "Overall Compliance Score",
+    "filingReady": "Filing Ready",
+    "needsReview": "Needs Review",
+    "notReady": "Not Ready",
+    "findings": "Findings",
+    "noFindings": "No issues found — form is ready for filing.",
+    "severity": {
+      "critical": "Critical",
+      "error": "Error",
+      "warning": "Warning",
+      "info": "Info"
+    },
+    "categories": {
+      "completeness": "Completeness",
+      "format": "Format",
+      "compliance": "Compliance",
+      "deadline": "Deadline",
+      "crossForm": "Cross-Form",
+      "service": "Service",
+      "procedural": "Procedural"
+    },
+    "messages": {
+      "requiredMissing": "Required field is missing",
+      "invalidFormat": "Field format is invalid",
+      "deadlinePassed": "Filing deadline may have passed",
+      "serviceIncomplete": "Proof of service is incomplete",
+      "crossFormMismatch": "Data does not match across forms"
+    }
+  },
+  "filingGuide": {
+    "title": "Filing Guide",
+    "selectCounty": "Select your county",
+    "courtInfo": "Court Information",
+    "filingFees": "Filing Fees",
+    "serviceReqs": "Service Requirements",
+    "deadlines": "Deadlines",
+    "eFiling": "E-Filing",
+    "inPerson": "In-Person Filing",
+    "byMail": "Filing by Mail",
+    "hours": "Court Hours",
+    "address": "Court Address",
+    "phone": "Phone",
+    "feeWaivable": "Fee Waiver Eligible",
+    "counties": {
+      "alameda": "Alameda County",
+      "solano": "Solano County",
+      "marin": "Marin County",
+      "san_francisco": "San Francisco County",
+      "contra_costa": "Contra Costa County"
+    },
+    "serviceTypes": {
+      "personal": "Personal Service",
+      "mail": "Service by Mail",
+      "electronic": "Electronic Service"
+    }
+  },
+  "audit": {
+    "title": "Audit Report",
+    "generate": "Generate Report",
+    "regenerate": "Regenerate",
+    "overallRisk": "Overall Risk Level",
+    "findings": "Audit Findings",
+    "recommendations": "Recommendations",
+    "riskLevels": {
+      "critical": "Critical Risk",
+      "high": "High Risk",
+      "medium": "Medium Risk",
+      "low": "Low Risk",
+      "info": "Informational"
+    },
+    "categories": {
+      "completeness": "Completeness",
+      "accuracy": "Accuracy",
+      "compliance": "Statutory Compliance",
+      "service": "Service of Process",
+      "deadlines": "Filing Deadlines",
+      "crossForm": "Cross-Form Consistency",
+      "procedural": "Procedural Requirements"
+    },
+    "summary": "Executive Summary",
+    "details": "Detailed Findings",
+    "noFindings": "No audit findings — documents meet compliance standards."
+  },
+  "assembly": {
+    "title": "Document Assembly",
+    "subtitle": "Build multi-form filing packages with automatic cross-form data propagation.",
+    "tabs": {
+      "parties": "Parties",
+      "case": "Case Info",
+      "children": "Children",
+      "package": "Package Builder",
+      "review": "Review & Export"
+    },
+    "petitioner": "Petitioner (Filing Party)",
+    "respondent": "Respondent (Other Party)",
+    "caseInfo": "Case Information",
+    "children": {
+      "title": "Minor Children",
+      "add": "Add Child",
+      "remove": "Remove",
+      "empty": "No children added yet.",
+      "emptyHint": "Add children if filing custody, visitation, or support forms.",
+      "child": "Child"
+    },
+    "package": {
+      "title": "Select Filing Package",
+      "forms": "forms",
+      "formsInPackage": "Forms in this package:",
+      "types": {
+        "dissolution": "Dissolution of Marriage",
+        "custody_rfo": "Custody RFO Package",
+        "dvro": "DV Restraining Order",
+        "fee_waiver": "Fee Waiver Package",
+        "custody_modification": "Custody Modification",
+        "support_modification": "Support Modification",
+        "contempt": "Contempt Proceeding",
+        "small_claims": "Small Claims",
+        "appeal": "Appeal Package"
+      }
+    },
+    "review": {
+      "completeness": "Completeness",
+      "readyForAssembly": "Ready for Assembly",
+      "partiallyComplete": "Partially Complete",
+      "needsMoreInfo": "Needs More Information",
+      "consistencyCheck": "Cross-Form Consistency",
+      "runCheck": "Run Check",
+      "allConsistent": "All cross-form fields are consistent.",
+      "summary": "Assembly Summary"
+    },
+    "fields": {
+      "fullName": "Full Legal Name",
+      "address": "Street Address",
+      "city": "City",
+      "state": "State",
+      "zip": "ZIP Code",
+      "phone": "Phone",
+      "email": "Email",
+      "dob": "Date of Birth",
+      "attorney": "Attorney Name (or \"In Pro Per\")",
+      "barNumber": "State Bar Number",
+      "caseNumber": "Case Number",
+      "county": "County",
+      "courtName": "Court Name",
+      "courtAddress": "Court Address",
+      "department": "Department",
+      "filingDate": "Filing Date",
+      "hearingDate": "Hearing Date",
+      "hearingTime": "Hearing Time",
+      "childName": "Child Full Name",
+      "childDob": "Date of Birth",
+      "childAge": "Current Age",
+      "residessWith": "Currently Resides With"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "selectLanguage": "Select language",
+    "accessibility": "Accessibility",
+    "highContrast": "High Contrast Mode",
+    "largeText": "Large Text",
+    "reducedMotion": "Reduced Motion",
+    "focusIndicators": "Enhanced Focus Indicators",
+    "errorLogs": "Error Logs",
+    "exportLogs": "Export Error Logs",
+    "clearLogs": "Clear Logs",
+    "about": "About"
+  },
+  "help": {
+    "title": "Help",
+    "thisPage": "This Page",
+    "shortcuts": "Shortcuts",
+    "about": "About",
+    "gettingStarted": "Getting Started",
+    "closePanel": "Close help panel"
+  },
+  "export": {
+    "title": "Export",
+    "formats": {
+      "html": "HTML (Print-Ready)",
+      "json": "JSON",
+      "csv": "CSV",
+      "markdown": "Markdown",
+      "text": "Plain Text"
+    },
+    "options": {
+      "maskPII": "Mask PII Fields",
+      "includeMetadata": "Include Metadata",
+      "includeCitations": "Include Statutory Citations"
+    },
+    "success": "Export completed successfully.",
+    "error": "Export failed. Please try again."
+  },
+  "errors": {
+    "generic": "An unexpected error occurred.",
+    "network": "Network error. Please check your connection.",
+    "formLoad": "Failed to load form data.",
+    "validationFailed": "Validation could not be completed.",
+    "exportFailed": "Export failed.",
+    "sessionExpired": "Your session has expired. Data has been saved.",
+    "storageQuota": "Storage limit reached. Please export and clear old data.",
+    "tryAgain": "Try Again",
+    "reportIssue": "Report Issue",
+    "goToDashboard": "Return to Dashboard"
+  },
+  "a11y": {
+    "skipToMain": "Skip to main content",
+    "skipToForm": "Skip to form section",
+    "skipToNav": "Skip to navigation",
+    "skipToResults": "Skip to results",
+    "formProgress": "Form is {percent}% complete",
+    "fieldError": "Error: {message}",
+    "fieldCleared": "Error cleared",
+    "newResults": "Results updated",
+    "loading": "Loading, please wait"
+  },
+  "legal": {
+    "disclaimer": "™VERNEN يوفر إرشادات نماذج قانونية وفحص الامتثال. لا يقدم استشارات قانونية. للحصول على مشورة قانونية، استشر محامياً مرخصاً في نطاق اختصاصك القضائي.",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "trademark": "VERNEN™ is a trademark of Michael Vernen Thomas Hartmann.",
+    "ipManifest": "IP Manifest Filed February 2, 2026."
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "logout": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "displayName": "اسم العرض",
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "resetPassword": "إعادة تعيين كلمة المرور",
+    "resetSent": "تم إرسال بريد إعادة التعيين. تحقق من بريدك الوارد.",
+    "loginSuccess": "تم تسجيل الدخول بنجاح.",
+    "registerSuccess": "تم إنشاء الحساب. مرحباً بك في VERNEN™.",
+    "logoutSuccess": "تم تسجيل الخروج.",
+    "loginError": "فشل تسجيل الدخول. تحقق من بريدك وكلمة المرور.",
+    "registerError": "فشل التسجيل. يرجى المحاولة مرة أخرى.",
+    "sessionExpired": "انتهت الجلسة. يرجى تسجيل الدخول مرة أخرى.",
+    "requiredField": "هذا الحقل مطلوب.",
+    "invalidEmail": "يرجى إدخال بريد إلكتروني صالح.",
+    "passwordMinLength": "يجب أن تكون كلمة المرور 8 أحرف على الأقل.",
+    "passwordMismatch": "كلمتا المرور غير متطابقتين.",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟",
+    "noAccount": "ليس لديك حساب؟",
+    "tier": {
+      "guest": "زائر",
+      "free": "مجاني",
+      "pro": "احترافي",
+      "advocate": "محامي"
+    },
+    "tierRequired": "هذه الميزة تتطلب اشتراك {tier}.",
+    "upgradePrompt": "قم بالترقية إلى {tier} للوصول إلى هذه الميزة.",
+    "upgradeNow": "ترقية الآن"
+  },
+  "payments": {
+    "pricing": "الأسعار",
+    "plans": "الخطط",
+    "currentPlan": "الخطة الحالية",
+    "monthly": "شهري",
+    "annual": "سنوي",
+    "perMonth": "/شهر",
+    "perYear": "/سنة",
+    "save": "وفر {percent}%",
+    "freePlan": {
+      "name": "مجاني",
+      "description": "إرشادات النماذج الأساسية.",
+      "price": "$0"
+    },
+    "proPlan": {
+      "name": "احترافي",
+      "description": "تدقيق كامل وتصدير ودعم متعدد اللغات.",
+      "priceMonthly": "$19.99",
+      "priceAnnual": "$191.88"
+    },
+    "advocatePlan": {
+      "name": "محامي",
+      "description": "منصة كاملة مع تجميع المستندات والتقديم.",
+      "priceMonthly": "$39.99",
+      "priceAnnual": "$383.88"
+    },
+    "subscribe": "اشتراك",
+    "upgrade": "ترقية",
+    "downgrade": "تخفيض",
+    "manageBilling": "إدارة الفواتير",
+    "cancelSubscription": "إلغاء الاشتراك",
+    "checkoutRedirect": "جارٍ التوجيه إلى الدفع الآمن...",
+    "checkoutSuccess": "تم تفعيل الاشتراك!",
+    "checkoutCanceled": "تم إلغاء الدفع.",
+    "paymentFailed": "فشل الدفع. يرجى تحديث طريقة الدفع.",
+    "subscriptionActive": "اشتراكك فعال حتى {date}.",
+    "subscriptionCanceled": "سينتهي اشتراكك في {date}."
+  },
+  "esignature": {
+    "title": "التوقيع الإلكتروني",
+    "signHere": "وقّع هنا",
+    "drawSignature": "ارسم التوقيع",
+    "typeSignature": "اكتب التوقيع",
+    "uploadSignature": "ارفع التوقيع",
+    "clearSignature": "مسح",
+    "acceptSignature": "قبول التوقيع",
+    "signatureRequired": "التوقيع مطلوب في هذا الحقل.",
+    "wetInkRequired": "هذا الحقل يتطلب توقيعاً بالحبر. اطبع ووقّع وامسح ضوئياً.",
+    "notarizationRequired": "هذا الحقل يتطلب توثيقاً.",
+    "intentDeclaration": "بتوقيعي، أعلن تحت طائلة عقوبة الحنث باليمين وفقاً لقوانين ولاية كاليفورنيا أن المعلومات الواردة في هذا المستند صحيحة.",
+    "consentCheckbox": "أفهم أن هذا التوقيع الإلكتروني له نفس الأثر القانوني للتوقيع بخط اليد (القانون المدني لكاليفورنيا § 1633.7).",
+    "signed": "موقّع",
+    "unsigned": "غير موقّع",
+    "signedBy": "وقّعه {name} في {date}",
+    "revoke": "إلغاء التوقيع",
+    "revokeConfirm": "هل أنت متأكد من إلغاء هذا التوقيع؟",
+    "documentChanged": "تم تعديل المستند بعد التوقيع. يلزم إعادة التوقيع.",
+    "certificate": "شهادة التوقيع",
+    "viewCertificate": "عرض شهادة التوقيع",
+    "legalBasis": "القانون المدني لكاليفورنيا § 1633 (UETA)"
+  },
+  "filing": {
+    "title": "تقديم للمحكمة",
+    "createPackage": "إنشاء حزمة التقديم",
+    "filingType": "نوع التقديم",
+    "selectCourt": "اختيار المحكمة",
+    "caseNumber": "رقم القضية",
+    "newCase": "قضية جديدة",
+    "documents": "المستندات",
+    "addDocument": "إضافة مستند",
+    "proofOfService": "إثبات التبليغ",
+    "filingFee": "رسوم التقديم",
+    "feeWaiver": "تم منح الإعفاء من الرسوم (FW-003)",
+    "estimatedFee": "الرسوم المقدرة: {amount}",
+    "validate": "التحقق من الحزمة",
+    "validationPassed": "الحزمة جاهزة للتقديم.",
+    "validationFailed": "الحزمة تحتوي على {count} خطأ.",
+    "submit": "تقديم للمحكمة",
+    "submitConfirm": "تقديم هذه الحزمة إلى {court}؟",
+    "submitting": "جارٍ التقديم...",
+    "submitted": "تم التقديم بنجاح.",
+    "confirmationNumber": "رقم التأكيد: {number}",
+    "checkStatus": "التحقق من الحالة",
+    "status": {
+      "draft": "مسودة",
+      "ready": "جاهز",
+      "submitting": "قيد التقديم",
+      "submitted": "تم التقديم",
+      "accepted": "قيد المراجعة",
+      "rejected": "مرفوض",
+      "filed": "مسجّل",
+      "error": "خطأ"
+    },
+    "rejected": "تم رفض التقديم: {reason}",
+    "filedStamped": "النسخة المختومة متاحة.",
+    "downloadFiled": "تحميل النسخة المختومة",
+    "history": "سجل التقديمات",
+    "noFilings": "لا توجد تقديمات.",
+    "wetInkWarning": "هذا النموذج يحتوي على حقول تتطلب توقيعاً بالحبر."
+  },
+  "traceability": {
+    "title": "سجل التتبع القانوني",
+    "description": "سجل جميع المصادر القانونية المرجعية.",
+    "sources": "المصادر المرجعية",
+    "statutes": "القوانين",
+    "regulations": "الأنظمة",
+    "rulesOfCourt": "قواعد المحكمة",
+    "federalCode": "القانون الفيدرالي",
+    "contentHash": "بصمة المحتوى (SHA-256)",
+    "retrievedAt": "وقت الاسترجاع",
+    "linkedFinding": "النتيجة المرتبطة",
+    "logFinalized": "تم إنهاء السجل وقفله.",
+    "viewLog": "عرض السجل",
+    "downloadLog": "تحميل السجل (PDF)",
+    "compliance": "هذا السجل يفي بمتطلبات الشفافية."
+  },
+  "remediation": {
+    "title": "دليل الإصلاح",
+    "description": "تعليمات خطوة بخطوة لحل النتائج.",
+    "summary": "ملخص",
+    "totalSteps": "{count} خطوات للإكمال",
+    "estimatedTime": "الوقت المقدر: {minutes} دقيقة",
+    "phase": "المرحلة {number}: {name}",
+    "phases": {
+      "critical": "إصلاحات حرجة",
+      "high": "أولوية عالية",
+      "compliance": "فجوات الامتثال",
+      "bestPractice": "أفضل الممارسات"
+    },
+    "step": "الخطوة {number}",
+    "priority": "الأولوية",
+    "complexity": {
+      "simple": "بسيط (~ دقيقتان)",
+      "moderate": "متوسط (~ 10 دقائق)",
+      "complex": "معقد (~ 25 دقيقة)",
+      "requires_review": "يتطلب مراجعة محامي (~ 60 دقيقة)"
+    },
+    "goToField": "الانتقال إلى الحقل",
+    "markComplete": "تمييز كمكتمل",
+    "skip": "تخطي",
+    "undo": "تراجع",
+    "progress": "{completed} من {total} خطوات مكتملة ({percent}%)",
+    "allComplete": "تم إكمال جميع خطوات الإصلاح!",
+    "nextStep": "الخطوة التالية",
+    "filingReady": "جاهز للتقديم",
+    "notReady": "غير جاهز — {remaining} خطوات متبقية"
+  }
+}

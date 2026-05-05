@@ -1,0 +1,56 @@
+{
+  "project": "VERNEN™ Multilingual Legal Compliance Platform",
+  "version": "2026-03-01",
+  "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+  "ip_manifest": "Filed February 2, 2026",
+  "generated": "2026-03-01T04:30:00Z",
+  "summary": {
+    "total_files": 111,
+    "total_bytes": 1294225,
+    "languages": 13,
+    "test_cases": 71,
+    "backend_routes": 3,
+    "i18n_sections": 12
+  },
+  "directories": {
+    "root": { "files": 6, "bytes": 40198, "contents": ["index.html", "package.json", "setup_project.ps1", "vite.config.js", "vitest.config.js"] },
+    "a11y": { "files": 1, "bytes": 16518 },
+    "assembly": { "files": 2, "bytes": 43850 },
+    "audit": { "files": 2, "bytes": 36243 },
+    "auth": { "files": 2, "bytes": 21031 },
+    "data": { "files": 54, "bytes": 500730, "sub": ["annotations (28 forms)", "annotations/tierb (8 forms)", "annotations/tierc (5 forms)", "glossaries (14 files)", "assembly_field_maps.json", "DataLayerConnector.js"] },
+    "errors": { "files": 1, "bytes": 12629 },
+    "export": { "files": 1, "bytes": 21300 },
+    "filesign": { "files": 2, "bytes": 28943 },
+    "filing_guide": { "files": 2, "bytes": 41401 },
+    "gdn_navigator": { "files": 1, "bytes": 26378 },
+    "help": { "files": 1, "bytes": 16363 },
+    "i18n": { "files": 14, "bytes": 261090, "languages": ["en","es","zh","vi","ko","ar","pt","ru","tl","ht","so","ti","am"] },
+    "payments": { "files": 2, "bytes": 19341 },
+    "persistence": { "files": 1, "bytes": 14921 },
+    "platform": { "files": 4, "bytes": 38442 },
+    "remediation": { "files": 1, "bytes": 14443 },
+    "server": { "files": 7, "bytes": 33113, "routes": ["auth.js", "payments.js", "efiling.js"] },
+    "src": { "files": 1, "bytes": 915 },
+    "styles": { "files": 1, "bytes": 14832 },
+    "tests": { "files": 1, "bytes": 42525, "groups": 12, "cases": 71 },
+    "traceability": { "files": 1, "bytes": 11933 },
+    "validation_engine": { "files": 2, "bytes": 37086 }
+  },
+  "mcp_server": {
+    "live_url": "https://vernen-legal-mcp.onrender.com",
+    "live_version": "2.0.0",
+    "staged_version": "3.1.0",
+    "staged_tools": 15,
+    "local_repo": "C:\\Users\\SagFi\\vernen-legal-mcp",
+    "deploy_script": "C:\\Users\\SagFi\\deploy_mcp.ps1",
+    "status": "AWAITING_GITHUB_AUTH"
+  },
+  "pipeline": [
+    "GDN Navigator → Form Validation Engine → Filing Guide Generator → Audit Report Generator",
+    "→ Document Assembly Engine → E-Signature Capture → EFSP Gateway",
+    "→ Traceability Logger → Remediation Engine",
+    "Auth Context gates all modules by tier (guest/free/pro/advocate)",
+    "Payment Context manages Stripe checkout/portal/webhooks"
+  ]
+}

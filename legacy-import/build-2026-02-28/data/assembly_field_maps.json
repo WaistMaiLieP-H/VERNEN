@@ -1,0 +1,639 @@
+{
+  "__meta": {
+    "version": "1.0.0",
+    "description": "VERNEN™ Assembly Field Maps — Maps party/case/children profile data to specific Judicial Council form field names for cross-form data propagation.",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "trademark": "VERNEN™ is a trademark of Michael Vernen Thomas Hartmann.",
+    "lastUpdated": "2026-02-28",
+    "formCount": 28,
+    "sourceKeys": ["petitioner", "respondent", "caseInfo", "children", "attorney"]
+  },
+
+  "FL-100": {
+    "formTitle": "Petition — Marriage/Domestic Partnership",
+    "category": "family_law",
+    "fields": {
+      "petitioner.fullName": "PETITIONER_NAME",
+      "respondent.fullName": "RESPONDENT_NAME",
+      "petitioner.address": "PETITIONER_STREET",
+      "petitioner.city": "PETITIONER_CITY",
+      "petitioner.state": "PETITIONER_STATE",
+      "petitioner.zip": "PETITIONER_ZIP",
+      "petitioner.phone": "PETITIONER_PHONE",
+      "petitioner.email": "PETITIONER_EMAIL",
+      "attorney.fullName": "ATTORNEY_NAME",
+      "attorney.barNumber": "ATTORNEY_BAR_NO",
+      "attorney.address": "ATTORNEY_STREET",
+      "attorney.city": "ATTORNEY_CITY",
+      "attorney.state": "ATTORNEY_STATE",
+      "attorney.zip": "ATTORNEY_ZIP",
+      "attorney.phone": "ATTORNEY_PHONE",
+      "attorney.email": "ATTORNEY_EMAIL",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF",
+      "caseInfo.courtAddress": "COURT_ADDRESS"
+    },
+    "computed": {
+      "MARRIAGE_DATE": { "source": "caseInfo.marriageDate", "format": "date" },
+      "DATE_OF_SEPARATION": { "source": "caseInfo.separationDate", "format": "date" }
+    },
+    "childrenMap": {
+      "repeating": true,
+      "maxChildren": 6,
+      "fields": {
+        "children[i].fullName": "CHILD_{i}_NAME",
+        "children[i].dob": "CHILD_{i}_DOB",
+        "children[i].age": "CHILD_{i}_AGE"
+      }
+    }
+  },
+
+  "FL-110": {
+    "formTitle": "Summons (Family Law)",
+    "category": "family_law",
+    "fields": {
+      "petitioner.fullName": "PETITIONER_NAME",
+      "respondent.fullName": "RESPONDENT_NAME",
+      "petitioner.address": "PETITIONER_STREET",
+      "petitioner.city": "PETITIONER_CITY",
+      "petitioner.state": "PETITIONER_STATE",
+      "petitioner.zip": "PETITIONER_ZIP",
+      "attorney.fullName": "ATTORNEY_NAME",
+      "attorney.barNumber": "ATTORNEY_BAR_NO",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF",
+      "caseInfo.courtAddress": "COURT_ADDRESS"
+    }
+  },
+
+  "FL-115": {
+    "formTitle": "Proof of Service of Summons (Family Law)",
+    "category": "family_law",
+    "fields": {
+      "petitioner.fullName": "PETITIONER_NAME",
+      "respondent.fullName": "RESPONDENT_NAME",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "respondent.address": "SERVED_AT_ADDRESS",
+      "respondent.city": "SERVED_AT_CITY",
+      "respondent.state": "SERVED_AT_STATE",
+      "respondent.zip": "SERVED_AT_ZIP"
+    },
+    "computed": {
+      "DATE_OF_SERVICE": { "source": "caseInfo.serviceDate", "format": "date" }
+    }
+  },
+
+  "FL-120": {
+    "formTitle": "Response — Marriage/Domestic Partnership",
+    "category": "family_law",
+    "fields": {
+      "petitioner.fullName": "PETITIONER_NAME",
+      "respondent.fullName": "RESPONDENT_NAME",
+      "respondent.address": "RESPONDENT_STREET",
+      "respondent.city": "RESPONDENT_CITY",
+      "respondent.state": "RESPONDENT_STATE",
+      "respondent.zip": "RESPONDENT_ZIP",
+      "respondent.phone": "RESPONDENT_PHONE",
+      "respondent.email": "RESPONDENT_EMAIL",
+      "attorney.fullName": "ATTORNEY_NAME",
+      "attorney.barNumber": "ATTORNEY_BAR_NO",
+      "attorney.address": "ATTORNEY_STREET",
+      "attorney.city": "ATTORNEY_CITY",
+      "attorney.state": "ATTORNEY_STATE",
+      "attorney.zip": "ATTORNEY_ZIP",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF",
+      "caseInfo.courtAddress": "COURT_ADDRESS"
+    },
+    "childrenMap": {
+      "repeating": true,
+      "maxChildren": 6,
+      "fields": {
+        "children[i].fullName": "CHILD_{i}_NAME",
+        "children[i].dob": "CHILD_{i}_DOB",
+        "children[i].age": "CHILD_{i}_AGE"
+      }
+    }
+  },
+
+  "FL-150": {
+    "formTitle": "Income and Expense Declaration",
+    "category": "family_law",
+    "fields": {
+      "petitioner.fullName": "PETITIONER_NAME",
+      "respondent.fullName": "RESPONDENT_NAME",
+      "petitioner.address": "PARTY_STREET",
+      "petitioner.city": "PARTY_CITY",
+      "petitioner.state": "PARTY_STATE",
+      "petitioner.zip": "PARTY_ZIP",
+      "petitioner.phone": "PARTY_PHONE",
+      "petitioner.dob": "PARTY_DOB",
+      "attorney.fullName": "ATTORNEY_NAME",
+      "attorney.barNumber": "ATTORNEY_BAR_NO",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF"
+    },
+    "childrenMap": {
+      "repeating": true,
+      "maxChildren": 10,
+      "fields": {
+        "children[i].fullName": "CHILD_{i}_NAME",
+        "children[i].dob": "CHILD_{i}_DOB",
+        "children[i].age": "CHILD_{i}_AGE",
+        "children[i].residessWith": "CHILD_{i}_LIVES_WITH"
+      }
+    },
+    "notes": "Filing party fills their own info regardless of petitioner/respondent status. Map dynamically based on who is filing."
+  },
+
+  "FL-160": {
+    "formTitle": "Property Declaration",
+    "category": "family_law",
+    "fields": {
+      "petitioner.fullName": "PETITIONER_NAME",
+      "respondent.fullName": "RESPONDENT_NAME",
+      "attorney.fullName": "ATTORNEY_NAME",
+      "attorney.barNumber": "ATTORNEY_BAR_NO",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF"
+    }
+  },
+
+  "FL-300": {
+    "formTitle": "Request for Order (RFO)",
+    "category": "family_law",
+    "fields": {
+      "petitioner.fullName": "PETITIONER_NAME",
+      "respondent.fullName": "RESPONDENT_NAME",
+      "petitioner.address": "REQUESTING_PARTY_STREET",
+      "petitioner.city": "REQUESTING_PARTY_CITY",
+      "petitioner.state": "REQUESTING_PARTY_STATE",
+      "petitioner.zip": "REQUESTING_PARTY_ZIP",
+      "petitioner.phone": "REQUESTING_PARTY_PHONE",
+      "petitioner.email": "REQUESTING_PARTY_EMAIL",
+      "attorney.fullName": "ATTORNEY_NAME",
+      "attorney.barNumber": "ATTORNEY_BAR_NO",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF",
+      "caseInfo.courtAddress": "COURT_ADDRESS",
+      "caseInfo.hearingDate": "HEARING_DATE",
+      "caseInfo.hearingTime": "HEARING_TIME",
+      "caseInfo.department": "DEPARTMENT"
+    },
+    "childrenMap": {
+      "repeating": true,
+      "maxChildren": 6,
+      "fields": {
+        "children[i].fullName": "CHILD_{i}_NAME",
+        "children[i].dob": "CHILD_{i}_DOB",
+        "children[i].age": "CHILD_{i}_AGE"
+      }
+    }
+  },
+
+  "FL-305": {
+    "formTitle": "Temporary Emergency Court Orders",
+    "category": "family_law",
+    "fields": {
+      "petitioner.fullName": "PETITIONER_NAME",
+      "respondent.fullName": "RESPONDENT_NAME",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.hearingDate": "HEARING_DATE",
+      "caseInfo.hearingTime": "HEARING_TIME",
+      "caseInfo.department": "DEPARTMENT"
+    },
+    "childrenMap": {
+      "repeating": true,
+      "maxChildren": 6,
+      "fields": {
+        "children[i].fullName": "CHILD_{i}_NAME",
+        "children[i].dob": "CHILD_{i}_DOB"
+      }
+    }
+  },
+
+  "FL-311": {
+    "formTitle": "Child Custody and Visitation Application Attachment",
+    "category": "custody",
+    "fields": {
+      "petitioner.fullName": "PETITIONER_NAME",
+      "respondent.fullName": "RESPONDENT_NAME",
+      "caseInfo.caseNumber": "CASE_NUMBER"
+    },
+    "childrenMap": {
+      "repeating": true,
+      "maxChildren": 6,
+      "fields": {
+        "children[i].fullName": "CHILD_{i}_NAME",
+        "children[i].dob": "CHILD_{i}_DOB",
+        "children[i].age": "CHILD_{i}_AGE",
+        "children[i].residessWith": "CHILD_{i}_CURRENT_CUSTODY"
+      }
+    }
+  },
+
+  "FL-312": {
+    "formTitle": "Request for Child Abduction Prevention Orders",
+    "category": "custody",
+    "fields": {
+      "petitioner.fullName": "PETITIONER_NAME",
+      "respondent.fullName": "RESPONDENT_NAME",
+      "respondent.dob": "RESPONDENT_DOB",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY"
+    },
+    "childrenMap": {
+      "repeating": true,
+      "maxChildren": 6,
+      "fields": {
+        "children[i].fullName": "CHILD_{i}_NAME",
+        "children[i].dob": "CHILD_{i}_DOB"
+      }
+    }
+  },
+
+  "FL-320": {
+    "formTitle": "Responsive Declaration to RFO",
+    "category": "family_law",
+    "fields": {
+      "petitioner.fullName": "PETITIONER_NAME",
+      "respondent.fullName": "RESPONDENT_NAME",
+      "respondent.address": "RESPONDING_PARTY_STREET",
+      "respondent.city": "RESPONDING_PARTY_CITY",
+      "respondent.state": "RESPONDING_PARTY_STATE",
+      "respondent.zip": "RESPONDING_PARTY_ZIP",
+      "respondent.phone": "RESPONDING_PARTY_PHONE",
+      "respondent.email": "RESPONDING_PARTY_EMAIL",
+      "attorney.fullName": "ATTORNEY_NAME",
+      "attorney.barNumber": "ATTORNEY_BAR_NO",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.hearingDate": "HEARING_DATE",
+      "caseInfo.hearingTime": "HEARING_TIME",
+      "caseInfo.department": "DEPARTMENT"
+    },
+    "childrenMap": {
+      "repeating": true,
+      "maxChildren": 6,
+      "fields": {
+        "children[i].fullName": "CHILD_{i}_NAME",
+        "children[i].dob": "CHILD_{i}_DOB",
+        "children[i].age": "CHILD_{i}_AGE"
+      }
+    }
+  },
+
+  "FL-341": {
+    "formTitle": "Child Custody and Visitation Order Attachment",
+    "category": "custody",
+    "fields": {
+      "petitioner.fullName": "PETITIONER_NAME",
+      "respondent.fullName": "RESPONDENT_NAME",
+      "caseInfo.caseNumber": "CASE_NUMBER"
+    },
+    "childrenMap": {
+      "repeating": true,
+      "maxChildren": 6,
+      "fields": {
+        "children[i].fullName": "CHILD_{i}_NAME",
+        "children[i].dob": "CHILD_{i}_DOB",
+        "children[i].age": "CHILD_{i}_AGE"
+      }
+    }
+  },
+
+  "FL-410": {
+    "formTitle": "Order to Show Cause (Contempt)",
+    "category": "family_law",
+    "fields": {
+      "petitioner.fullName": "PETITIONER_NAME",
+      "respondent.fullName": "RESPONDENT_NAME",
+      "petitioner.address": "REQUESTING_PARTY_STREET",
+      "petitioner.city": "REQUESTING_PARTY_CITY",
+      "petitioner.state": "REQUESTING_PARTY_STATE",
+      "petitioner.zip": "REQUESTING_PARTY_ZIP",
+      "attorney.fullName": "ATTORNEY_NAME",
+      "attorney.barNumber": "ATTORNEY_BAR_NO",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF",
+      "caseInfo.courtAddress": "COURT_ADDRESS",
+      "caseInfo.hearingDate": "HEARING_DATE",
+      "caseInfo.hearingTime": "HEARING_TIME",
+      "caseInfo.department": "DEPARTMENT"
+    }
+  },
+
+  "FL-411": {
+    "formTitle": "Affidavit of Facts Constituting Contempt",
+    "category": "family_law",
+    "fields": {
+      "petitioner.fullName": "PETITIONER_NAME",
+      "respondent.fullName": "RESPONDENT_NAME",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY"
+    }
+  },
+
+  "DV-100": {
+    "formTitle": "Request for Domestic Violence Restraining Order",
+    "category": "domestic_violence",
+    "fields": {
+      "petitioner.fullName": "PERSON_ASKING_FOR_PROTECTION_NAME",
+      "petitioner.address": "PROTECTED_PERSON_STREET",
+      "petitioner.city": "PROTECTED_PERSON_CITY",
+      "petitioner.state": "PROTECTED_PERSON_STATE",
+      "petitioner.zip": "PROTECTED_PERSON_ZIP",
+      "petitioner.phone": "PROTECTED_PERSON_PHONE",
+      "petitioner.email": "PROTECTED_PERSON_EMAIL",
+      "petitioner.dob": "PROTECTED_PERSON_DOB",
+      "respondent.fullName": "PERSON_TO_BE_RESTRAINED_NAME",
+      "respondent.dob": "RESTRAINED_PERSON_DOB",
+      "respondent.address": "RESTRAINED_PERSON_STREET",
+      "respondent.city": "RESTRAINED_PERSON_CITY",
+      "respondent.state": "RESTRAINED_PERSON_STATE",
+      "respondent.zip": "RESTRAINED_PERSON_ZIP",
+      "attorney.fullName": "ATTORNEY_NAME",
+      "attorney.barNumber": "ATTORNEY_BAR_NO",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF",
+      "caseInfo.courtAddress": "COURT_ADDRESS"
+    },
+    "childrenMap": {
+      "repeating": true,
+      "maxChildren": 6,
+      "fields": {
+        "children[i].fullName": "CHILD_{i}_NAME",
+        "children[i].dob": "CHILD_{i}_DOB",
+        "children[i].age": "CHILD_{i}_AGE",
+        "children[i].residessWith": "CHILD_{i}_LIVES_WITH"
+      }
+    },
+    "notes": "DV forms use 'protected person' and 'restrained person' instead of petitioner/respondent."
+  },
+
+  "DV-109": {
+    "formTitle": "Notice of Court Hearing (DV)",
+    "category": "domestic_violence",
+    "fields": {
+      "petitioner.fullName": "PROTECTED_PERSON_NAME",
+      "respondent.fullName": "RESTRAINED_PERSON_NAME",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF",
+      "caseInfo.courtAddress": "COURT_ADDRESS",
+      "caseInfo.hearingDate": "HEARING_DATE",
+      "caseInfo.hearingTime": "HEARING_TIME",
+      "caseInfo.department": "DEPARTMENT"
+    }
+  },
+
+  "DV-110": {
+    "formTitle": "Temporary Restraining Order (DV)",
+    "category": "domestic_violence",
+    "fields": {
+      "petitioner.fullName": "PROTECTED_PERSON_NAME",
+      "petitioner.address": "PROTECTED_PERSON_STREET",
+      "petitioner.city": "PROTECTED_PERSON_CITY",
+      "petitioner.state": "PROTECTED_PERSON_STATE",
+      "petitioner.zip": "PROTECTED_PERSON_ZIP",
+      "respondent.fullName": "RESTRAINED_PERSON_NAME",
+      "respondent.dob": "RESTRAINED_PERSON_DOB",
+      "respondent.address": "RESTRAINED_PERSON_STREET",
+      "respondent.city": "RESTRAINED_PERSON_CITY",
+      "respondent.state": "RESTRAINED_PERSON_STATE",
+      "respondent.zip": "RESTRAINED_PERSON_ZIP",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF",
+      "caseInfo.courtAddress": "COURT_ADDRESS",
+      "caseInfo.hearingDate": "HEARING_DATE",
+      "caseInfo.hearingTime": "HEARING_TIME",
+      "caseInfo.department": "DEPARTMENT"
+    },
+    "childrenMap": {
+      "repeating": true,
+      "maxChildren": 6,
+      "fields": {
+        "children[i].fullName": "CHILD_{i}_NAME",
+        "children[i].dob": "CHILD_{i}_DOB",
+        "children[i].age": "CHILD_{i}_AGE"
+      }
+    }
+  },
+
+  "DV-130": {
+    "formTitle": "Restraining Order After Hearing (DV)",
+    "category": "domestic_violence",
+    "fields": {
+      "petitioner.fullName": "PROTECTED_PERSON_NAME",
+      "petitioner.address": "PROTECTED_PERSON_STREET",
+      "petitioner.city": "PROTECTED_PERSON_CITY",
+      "petitioner.state": "PROTECTED_PERSON_STATE",
+      "petitioner.zip": "PROTECTED_PERSON_ZIP",
+      "respondent.fullName": "RESTRAINED_PERSON_NAME",
+      "respondent.dob": "RESTRAINED_PERSON_DOB",
+      "respondent.address": "RESTRAINED_PERSON_STREET",
+      "respondent.city": "RESTRAINED_PERSON_CITY",
+      "respondent.state": "RESTRAINED_PERSON_STATE",
+      "respondent.zip": "RESTRAINED_PERSON_ZIP",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF",
+      "caseInfo.courtAddress": "COURT_ADDRESS"
+    },
+    "childrenMap": {
+      "repeating": true,
+      "maxChildren": 6,
+      "fields": {
+        "children[i].fullName": "CHILD_{i}_NAME",
+        "children[i].dob": "CHILD_{i}_DOB",
+        "children[i].age": "CHILD_{i}_AGE"
+      }
+    }
+  },
+
+  "FW-001": {
+    "formTitle": "Request to Waive Court Fees",
+    "category": "fee_waiver",
+    "fields": {
+      "petitioner.fullName": "APPLICANT_NAME",
+      "petitioner.address": "APPLICANT_STREET",
+      "petitioner.city": "APPLICANT_CITY",
+      "petitioner.state": "APPLICANT_STATE",
+      "petitioner.zip": "APPLICANT_ZIP",
+      "petitioner.phone": "APPLICANT_PHONE",
+      "petitioner.email": "APPLICANT_EMAIL",
+      "petitioner.dob": "APPLICANT_DOB",
+      "attorney.fullName": "ATTORNEY_NAME",
+      "attorney.barNumber": "ATTORNEY_BAR_NO",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF",
+      "caseInfo.courtAddress": "COURT_ADDRESS"
+    },
+    "notes": "Fee waiver uses 'applicant' — always the filing party regardless of petitioner/respondent status."
+  },
+
+  "FW-003": {
+    "formTitle": "Order on Court Fee Waiver",
+    "category": "fee_waiver",
+    "fields": {
+      "petitioner.fullName": "APPLICANT_NAME",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF"
+    }
+  },
+
+  "MC-031": {
+    "formTitle": "Attached Declaration",
+    "category": "general",
+    "fields": {
+      "petitioner.fullName": "DECLARANT_NAME",
+      "respondent.fullName": "OTHER_PARTY_NAME",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF"
+    },
+    "notes": "MC-031 declarant is the filing party. Map dynamically."
+  },
+
+  "MC-030": {
+    "formTitle": "Declaration",
+    "category": "general",
+    "fields": {
+      "petitioner.fullName": "DECLARANT_NAME",
+      "respondent.fullName": "OTHER_PARTY_NAME",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF"
+    }
+  },
+
+  "SC-100": {
+    "formTitle": "Plaintiff's Claim and Order to Go to Small Claims Court",
+    "category": "small_claims",
+    "fields": {
+      "petitioner.fullName": "PLAINTIFF_NAME",
+      "petitioner.address": "PLAINTIFF_STREET",
+      "petitioner.city": "PLAINTIFF_CITY",
+      "petitioner.state": "PLAINTIFF_STATE",
+      "petitioner.zip": "PLAINTIFF_ZIP",
+      "petitioner.phone": "PLAINTIFF_PHONE",
+      "respondent.fullName": "DEFENDANT_1_NAME",
+      "respondent.address": "DEFENDANT_1_STREET",
+      "respondent.city": "DEFENDANT_1_CITY",
+      "respondent.state": "DEFENDANT_1_STATE",
+      "respondent.zip": "DEFENDANT_1_ZIP",
+      "respondent.phone": "DEFENDANT_1_PHONE",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "COURT_NAME",
+      "caseInfo.courtAddress": "COURT_ADDRESS"
+    },
+    "notes": "Small claims uses plaintiff/defendant terminology."
+  },
+
+  "CH-100": {
+    "formTitle": "Request for Civil Harassment Restraining Orders",
+    "category": "civil_harassment",
+    "fields": {
+      "petitioner.fullName": "PERSON_ASKING_FOR_PROTECTION_NAME",
+      "petitioner.address": "PROTECTED_PERSON_STREET",
+      "petitioner.city": "PROTECTED_PERSON_CITY",
+      "petitioner.state": "PROTECTED_PERSON_STATE",
+      "petitioner.zip": "PROTECTED_PERSON_ZIP",
+      "petitioner.phone": "PROTECTED_PERSON_PHONE",
+      "petitioner.dob": "PROTECTED_PERSON_DOB",
+      "respondent.fullName": "PERSON_TO_BE_RESTRAINED_NAME",
+      "respondent.dob": "RESTRAINED_PERSON_DOB",
+      "respondent.address": "RESTRAINED_PERSON_STREET",
+      "respondent.city": "RESTRAINED_PERSON_CITY",
+      "respondent.state": "RESTRAINED_PERSON_STATE",
+      "respondent.zip": "RESTRAINED_PERSON_ZIP",
+      "attorney.fullName": "ATTORNEY_NAME",
+      "attorney.barNumber": "ATTORNEY_BAR_NO",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF",
+      "caseInfo.courtAddress": "COURT_ADDRESS"
+    }
+  },
+
+  "EA-100": {
+    "formTitle": "Request for Elder/Dependent Adult Abuse Restraining Orders",
+    "category": "elder_abuse",
+    "fields": {
+      "petitioner.fullName": "PERSON_ASKING_FOR_PROTECTION_NAME",
+      "petitioner.address": "PROTECTED_PERSON_STREET",
+      "petitioner.city": "PROTECTED_PERSON_CITY",
+      "petitioner.state": "PROTECTED_PERSON_STATE",
+      "petitioner.zip": "PROTECTED_PERSON_ZIP",
+      "petitioner.phone": "PROTECTED_PERSON_PHONE",
+      "petitioner.dob": "PROTECTED_PERSON_DOB",
+      "respondent.fullName": "PERSON_TO_BE_RESTRAINED_NAME",
+      "respondent.dob": "RESTRAINED_PERSON_DOB",
+      "respondent.address": "RESTRAINED_PERSON_STREET",
+      "respondent.city": "RESTRAINED_PERSON_CITY",
+      "respondent.state": "RESTRAINED_PERSON_STATE",
+      "respondent.zip": "RESTRAINED_PERSON_ZIP",
+      "attorney.fullName": "ATTORNEY_NAME",
+      "attorney.barNumber": "ATTORNEY_BAR_NO",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF",
+      "caseInfo.courtAddress": "COURT_ADDRESS"
+    }
+  },
+
+  "APP-002": {
+    "formTitle": "Appellant's Notice Designating Record on Appeal",
+    "category": "appeals",
+    "fields": {
+      "petitioner.fullName": "APPELLANT_NAME",
+      "petitioner.address": "APPELLANT_STREET",
+      "petitioner.city": "APPELLANT_CITY",
+      "petitioner.state": "APPELLANT_STATE",
+      "petitioner.zip": "APPELLANT_ZIP",
+      "petitioner.phone": "APPELLANT_PHONE",
+      "respondent.fullName": "RESPONDENT_NAME",
+      "attorney.fullName": "ATTORNEY_NAME",
+      "attorney.barNumber": "ATTORNEY_BAR_NO",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF"
+    },
+    "notes": "Appeals use appellant/respondent. Map petitioner to appellant."
+  },
+
+  "APP-010": {
+    "formTitle": "Notice of Appeal / Cross-Appeal",
+    "category": "appeals",
+    "fields": {
+      "petitioner.fullName": "APPELLANT_NAME",
+      "petitioner.address": "APPELLANT_STREET",
+      "petitioner.city": "APPELLANT_CITY",
+      "petitioner.state": "APPELLANT_STATE",
+      "petitioner.zip": "APPELLANT_ZIP",
+      "petitioner.phone": "APPELLANT_PHONE",
+      "petitioner.email": "APPELLANT_EMAIL",
+      "respondent.fullName": "RESPONDENT_NAME",
+      "attorney.fullName": "ATTORNEY_NAME",
+      "attorney.barNumber": "ATTORNEY_BAR_NO",
+      "caseInfo.caseNumber": "CASE_NUMBER",
+      "caseInfo.county": "COUNTY",
+      "caseInfo.courtName": "SUPERIOR_COURT_OF_CALIFORNIA_COUNTY_OF",
+      "caseInfo.courtAddress": "COURT_ADDRESS"
+    }
+  }
+}

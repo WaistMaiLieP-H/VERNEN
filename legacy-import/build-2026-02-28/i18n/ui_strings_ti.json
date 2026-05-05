@@ -1,0 +1,519 @@
+{
+  "__meta": {
+    "version": "1.0.0",
+    "language": "ti",
+    "languageName": "Tigrinya",
+    "direction": "ltr",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "lastUpdated": "2026-02-28",
+    "completeness": "partial",
+    "fallback": "en"
+  },
+  "app": {
+    "title": "VERNEN™",
+    "tagline": "ብዙሕ ቋንቋ ሕጋዊ ምትእስሳር መድረኽ",
+    "loading": "ይጽዓን ኣሎ…",
+    "error": "ጌጋ ተፈጢሩ",
+    "retry": "ደጊምካ ፈትን",
+    "back": "ተመለስ",
+    "next": "ዝቕጽል",
+    "previous": "ዝሓለፈ",
+    "save": "ዓቅብ",
+    "cancel": "ስረዝ",
+    "close": "ዕጸው",
+    "export": "Export",
+    "print": "Print",
+    "download": "Download",
+    "search": "ድለ",
+    "clear": "Clear",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "select": "Select",
+    "required": "ግድን",
+    "optional": "Optional",
+    "yes": "እወ",
+    "no": "ኣይፋል",
+    "none": "None",
+    "all": "All",
+    "other": "Other",
+    "unknown": "Unknown",
+    "notAvailable": "N/A"
+  },
+  "nav": {
+    "dashboard": "ዳሽቦርድ",
+    "documentNavigator": "መምርሒ ሰነድ",
+    "validation": "ምርግጋጽ",
+    "filingGuide": "መምርሒ ምቕራብ",
+    "audit": "ጸብጻብ ኦዲት",
+    "assembly": "ምጥርናፍ ሰነድ",
+    "settings": "ምቕራጽ",
+    "help": "ሓገዝ",
+    "collapse": "Collapse sidebar",
+    "expand": "Expand sidebar"
+  },
+  "dashboard": {
+    "welcome": "ናብ VERNEN™ እንቋዕ ብደሓን መጻእኩም",
+    "subtitle": "ንምጅማር ሞዱል ምረጹ",
+    "cards": {
+      "gdn": {
+        "title": "Document Navigator",
+        "desc": "Browse and fill Judicial Council forms with guided annotations"
+      },
+      "validation": {
+        "title": "Pre-Filing Validation",
+        "desc": "Check forms for errors, missing fields, and compliance issues"
+      },
+      "filing": {
+        "title": "Filing Guide",
+        "desc": "Court-specific instructions, fees, and service requirements"
+      },
+      "audit": {
+        "title": "Audit Report",
+        "desc": "Generate compliance documentation and risk assessments"
+      },
+      "assembly": {
+        "title": "Document Assembly",
+        "desc": "Build multi-form filing packages with automatic data propagation"
+      }
+    }
+  },
+  "gdn": {
+    "title": "Guided Document Navigator",
+    "selectCategory": "Select a category",
+    "selectForm": "Select a form",
+    "searchForms": "Search forms…",
+    "fieldAnnotation": "Field Guidance",
+    "legalDefinition": "Legal Definition",
+    "commonMistakes": "Common Mistakes",
+    "statutoryRef": "Statutory Reference",
+    "categories": {
+      "family_law": "Family Law",
+      "domestic_violence": "Domestic Violence",
+      "custody": "Child Custody & Visitation",
+      "support": "Child & Spousal Support",
+      "fee_waiver": "Fee Waiver",
+      "small_claims": "Small Claims",
+      "civil_harassment": "Civil Harassment",
+      "elder_abuse": "Elder/Dependent Adult Abuse",
+      "appeals": "Appeals",
+      "general": "General Use"
+    },
+    "noResults": "No forms match your search.",
+    "formFields": "Form Fields",
+    "requiredFields": "Required Fields",
+    "optionalFields": "Optional Fields",
+    "piiWarning": "This field contains personally identifiable information (PII)"
+  },
+  "validation": {
+    "title": "Pre-Filing Validation",
+    "runValidation": "Run Validation",
+    "revalidate": "Re-Validate",
+    "selectForms": "Select forms to validate",
+    "overallScore": "Overall Compliance Score",
+    "filingReady": "Filing Ready",
+    "needsReview": "Needs Review",
+    "notReady": "Not Ready",
+    "findings": "Findings",
+    "noFindings": "No issues found — form is ready for filing.",
+    "severity": {
+      "critical": "Critical",
+      "error": "Error",
+      "warning": "Warning",
+      "info": "Info"
+    },
+    "categories": {
+      "completeness": "Completeness",
+      "format": "Format",
+      "compliance": "Compliance",
+      "deadline": "Deadline",
+      "crossForm": "Cross-Form",
+      "service": "Service",
+      "procedural": "Procedural"
+    },
+    "messages": {
+      "requiredMissing": "Required field is missing",
+      "invalidFormat": "Field format is invalid",
+      "deadlinePassed": "Filing deadline may have passed",
+      "serviceIncomplete": "Proof of service is incomplete",
+      "crossFormMismatch": "Data does not match across forms"
+    }
+  },
+  "filingGuide": {
+    "title": "Filing Guide",
+    "selectCounty": "Select your county",
+    "courtInfo": "Court Information",
+    "filingFees": "Filing Fees",
+    "serviceReqs": "Service Requirements",
+    "deadlines": "Deadlines",
+    "eFiling": "E-Filing",
+    "inPerson": "In-Person Filing",
+    "byMail": "Filing by Mail",
+    "hours": "Court Hours",
+    "address": "Court Address",
+    "phone": "Phone",
+    "feeWaivable": "Fee Waiver Eligible",
+    "counties": {
+      "alameda": "Alameda County",
+      "solano": "Solano County",
+      "marin": "Marin County",
+      "san_francisco": "San Francisco County",
+      "contra_costa": "Contra Costa County"
+    },
+    "serviceTypes": {
+      "personal": "Personal Service",
+      "mail": "Service by Mail",
+      "electronic": "Electronic Service"
+    }
+  },
+  "audit": {
+    "title": "Audit Report",
+    "generate": "Generate Report",
+    "regenerate": "Regenerate",
+    "overallRisk": "Overall Risk Level",
+    "findings": "Audit Findings",
+    "recommendations": "Recommendations",
+    "riskLevels": {
+      "critical": "Critical Risk",
+      "high": "High Risk",
+      "medium": "Medium Risk",
+      "low": "Low Risk",
+      "info": "Informational"
+    },
+    "categories": {
+      "completeness": "Completeness",
+      "accuracy": "Accuracy",
+      "compliance": "Statutory Compliance",
+      "service": "Service of Process",
+      "deadlines": "Filing Deadlines",
+      "crossForm": "Cross-Form Consistency",
+      "procedural": "Procedural Requirements"
+    },
+    "summary": "Executive Summary",
+    "details": "Detailed Findings",
+    "noFindings": "No audit findings — documents meet compliance standards."
+  },
+  "assembly": {
+    "title": "Document Assembly",
+    "subtitle": "Build multi-form filing packages with automatic cross-form data propagation.",
+    "tabs": {
+      "parties": "Parties",
+      "case": "Case Info",
+      "children": "Children",
+      "package": "Package Builder",
+      "review": "Review & Export"
+    },
+    "petitioner": "Petitioner (Filing Party)",
+    "respondent": "Respondent (Other Party)",
+    "caseInfo": "Case Information",
+    "children": {
+      "title": "Minor Children",
+      "add": "Add Child",
+      "remove": "Remove",
+      "empty": "No children added yet.",
+      "emptyHint": "Add children if filing custody, visitation, or support forms.",
+      "child": "Child"
+    },
+    "package": {
+      "title": "Select Filing Package",
+      "forms": "forms",
+      "formsInPackage": "Forms in this package:",
+      "types": {
+        "dissolution": "Dissolution of Marriage",
+        "custody_rfo": "Custody RFO Package",
+        "dvro": "DV Restraining Order",
+        "fee_waiver": "Fee Waiver Package",
+        "custody_modification": "Custody Modification",
+        "support_modification": "Support Modification",
+        "contempt": "Contempt Proceeding",
+        "small_claims": "Small Claims",
+        "appeal": "Appeal Package"
+      }
+    },
+    "review": {
+      "completeness": "Completeness",
+      "readyForAssembly": "Ready for Assembly",
+      "partiallyComplete": "Partially Complete",
+      "needsMoreInfo": "Needs More Information",
+      "consistencyCheck": "Cross-Form Consistency",
+      "runCheck": "Run Check",
+      "allConsistent": "All cross-form fields are consistent.",
+      "summary": "Assembly Summary"
+    },
+    "fields": {
+      "fullName": "Full Legal Name",
+      "address": "Street Address",
+      "city": "City",
+      "state": "State",
+      "zip": "ZIP Code",
+      "phone": "Phone",
+      "email": "Email",
+      "dob": "Date of Birth",
+      "attorney": "Attorney Name (or \"In Pro Per\")",
+      "barNumber": "State Bar Number",
+      "caseNumber": "Case Number",
+      "county": "County",
+      "courtName": "Court Name",
+      "courtAddress": "Court Address",
+      "department": "Department",
+      "filingDate": "Filing Date",
+      "hearingDate": "Hearing Date",
+      "hearingTime": "Hearing Time",
+      "childName": "Child Full Name",
+      "childDob": "Date of Birth",
+      "childAge": "Current Age",
+      "residessWith": "Currently Resides With"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "selectLanguage": "Select language",
+    "accessibility": "Accessibility",
+    "highContrast": "High Contrast Mode",
+    "largeText": "Large Text",
+    "reducedMotion": "Reduced Motion",
+    "focusIndicators": "Enhanced Focus Indicators",
+    "errorLogs": "Error Logs",
+    "exportLogs": "Export Error Logs",
+    "clearLogs": "Clear Logs",
+    "about": "About"
+  },
+  "help": {
+    "title": "Help",
+    "thisPage": "This Page",
+    "shortcuts": "Shortcuts",
+    "about": "About",
+    "gettingStarted": "Getting Started",
+    "closePanel": "Close help panel"
+  },
+  "export": {
+    "title": "Export",
+    "formats": {
+      "html": "HTML (Print-Ready)",
+      "json": "JSON",
+      "csv": "CSV",
+      "markdown": "Markdown",
+      "text": "Plain Text"
+    },
+    "options": {
+      "maskPII": "Mask PII Fields",
+      "includeMetadata": "Include Metadata",
+      "includeCitations": "Include Statutory Citations"
+    },
+    "success": "Export completed successfully.",
+    "error": "Export failed. Please try again."
+  },
+  "errors": {
+    "generic": "An unexpected error occurred.",
+    "network": "Network error. Please check your connection.",
+    "formLoad": "Failed to load form data.",
+    "validationFailed": "Validation could not be completed.",
+    "exportFailed": "Export failed.",
+    "sessionExpired": "Your session has expired. Data has been saved.",
+    "storageQuota": "Storage limit reached. Please export and clear old data.",
+    "tryAgain": "Try Again",
+    "reportIssue": "Report Issue",
+    "goToDashboard": "Return to Dashboard"
+  },
+  "a11y": {
+    "skipToMain": "Skip to main content",
+    "skipToForm": "Skip to form section",
+    "skipToNav": "Skip to navigation",
+    "skipToResults": "Skip to results",
+    "formProgress": "Form is {percent}% complete",
+    "fieldError": "Error: {message}",
+    "fieldCleared": "Error cleared",
+    "newResults": "Results updated",
+    "loading": "Loading, please wait"
+  },
+  "legal": {
+    "disclaimer": "VERNEN™ provides legal form guidance and compliance checking. It does not provide legal advice. For legal counsel, consult a licensed attorney in your jurisdiction.",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "trademark": "VERNEN™ is a trademark of Michael Vernen Thomas Hartmann.",
+    "ipManifest": "IP Manifest Filed February 2, 2026."
+  },
+  "auth": {
+    "login": "እቶ",
+    "register": "ሕሳብ ፍጠር",
+    "logout": "ውጻእ",
+    "email": "ኢመይል",
+    "password": "ምስጢራዊ ቃል",
+    "confirmPassword": "ምስጢራዊ ቃል ኣረጋግጽ",
+    "displayName": "ስም",
+    "forgotPassword": "ምስጢራዊ ቃል ረሲዕካ?",
+    "resetPassword": "ምስጢራዊ ቃል ሓድሽ",
+    "resetSent": "ኢመይል ንምሕዳስ ተላኢኹ። ሳጹንኻ ርአ።",
+    "loginSuccess": "ብዓወት ኣቲኻ።",
+    "registerSuccess": "ሕሳብ ተፈጢሩ። ናብ VERNEN™ እንቋዕ ደሓን መጻእካ።",
+    "logoutSuccess": "ወጺእካ።",
+    "loginError": "ምእታው ኣይተኻእለን። ኢመይልን ምስጢራዊ ቃልን ኣረጋግጽ።",
+    "registerError": "ምዝገባ ኣይተኻእለን። ደጊምካ ፈትን።",
+    "sessionExpired": "ግዜ ወዲኡ። ደጊምካ እቶ።",
+    "requiredField": "እዚ ቦታ ግዴታ እዩ።",
+    "invalidEmail": "ቅኑዕ ኢመይል ኣእቱ።",
+    "passwordMinLength": "ምስጢራዊ ቃል ብውሑዱ 8 ፊደል ክኸውን ኣለዎ።",
+    "passwordMismatch": "ምስጢራዊ ቃላት ኣይሰማምዑን።",
+    "alreadyHaveAccount": "ሕሳብ ኣለካ?",
+    "noAccount": "ሕሳብ የብልካን?",
+    "tier": {
+      "guest": "ጋሻ",
+      "free": "ነጻ",
+      "pro": "ፕሮ",
+      "advocate": "ጠበቓ"
+    },
+    "tierRequired": "እዚ ባህሪ {tier} ምዝገባ የድሊ።",
+    "upgradePrompt": "ናብ {tier} ኣሐድሽ እዚ ባህሪ ንምጥቃም።",
+    "upgradeNow": "ሕጂ ኣሐድሽ"
+  },
+  "payments": {
+    "pricing": "ዋጋ",
+    "plans": "መደባት",
+    "currentPlan": "ህሉው መደብ",
+    "monthly": "ወርሓዊ",
+    "annual": "ዓመታዊ",
+    "perMonth": "/ወርሒ",
+    "perYear": "/ዓመት",
+    "save": "{percent}% ቁጠብ",
+    "freePlan": {
+      "name": "ነጻ",
+      "description": "መሰረታዊ መምርሒ ቅጥዒ።",
+      "price": "$0"
+    },
+    "proPlan": {
+      "name": "ፕሮ",
+      "description": "ምሉእ ኦዲት፡ ምውጻእ ከምኡ'ውን ብዙሕ ቋንቋ ደገፍ።",
+      "priceMonthly": "$19.99",
+      "priceAnnual": "$191.88"
+    },
+    "advocatePlan": {
+      "name": "ጠበቓ",
+      "description": "ምሉእ መድረኽ ምስ ምጥርናፍ ሰነድን ምቕራብን።",
+      "priceMonthly": "$39.99",
+      "priceAnnual": "$383.88"
+    },
+    "subscribe": "ተመዝገብ",
+    "upgrade": "ኣሐድሽ",
+    "downgrade": "ኣትሕት",
+    "manageBilling": "ክፍሊት ኣመሓድር",
+    "cancelSubscription": "ምዝገባ ሰርዝ",
+    "checkoutRedirect": "ናብ ውሑስ ክፍሊት ይቕየር ኣሎ...",
+    "checkoutSuccess": "ምዝገባ ንጡፍ ኮይኑ!",
+    "checkoutCanceled": "ክፍሊት ተሰሪዙ።",
+    "paymentFailed": "ክፍሊት ኣይተኻእለን። ኣገባብ ክፍሊት ኣሐድሽ።",
+    "subscriptionActive": "ምዝገባኻ ክሳብ {date} ንጡፍ እዩ።",
+    "subscriptionCanceled": "ምዝገባኻ ኣብ {date} ክውዳእ እዩ።"
+  },
+  "esignature": {
+    "title": "ኤለክትሮኒክ ፊርማ",
+    "signHere": "ኣብዚ ፈርም",
+    "drawSignature": "ፊርማ ስኣል",
+    "typeSignature": "ፊርማ ጽሓፍ",
+    "uploadSignature": "ፊርማ ጽዓን",
+    "clearSignature": "ደምስስ",
+    "acceptSignature": "ፊርማ ተቐበል",
+    "signatureRequired": "ኣብዚ ቦታ ፊርማ የድሊ።",
+    "wetInkRequired": "ኣብዚ ቦታ ብኢድ ፊርማ የድሊ። ሓትም፡ ፈርም ከምኡ'ውን ስካን ግበር።",
+    "notarizationRequired": "ኣብዚ ቦታ ምስክርነት የድሊ።",
+    "intentDeclaration": "ብምፍራም፡ ብመሰረት ሕጊ ግዝኣት ካሊፎርንያ ኣብ ቅጽዓት ሓሶ ምስክርነት እቲ ኣብዚ ሰነድ ዘሎ ሓበሬታ ሓቅን ቅኑዕን ምዃኑ እእውጅ።",
+    "consentCheckbox": "እዚ ኤለክትሮኒክ ፊርማ ከም ብኢድ ፊርማ ሕጋዊ ሓይሊ ከምዘለዎ ይርድኣኒ (Cal. Civ. Code § 1633.7)።",
+    "signed": "ተፈሪሙ",
+    "unsigned": "ኣይተፈረመን",
+    "signedBy": "ብ{name} ኣብ {date} ተፈሪሙ",
+    "revoke": "ፊርማ ስሓብ",
+    "revokeConfirm": "ነዚ ፊርማ ክትስሕቦ ርግጸኛ ዲኻ?",
+    "documentChanged": "ድሕሪ ፊርማ ሰነድ ተቐይሩ። ዳግማይ ፊርማ የድሊ።",
+    "certificate": "ናይ ፊርማ ምስክር ወረቐት",
+    "viewCertificate": "ናይ ፊርማ ምስክር ወረቐት ርአ",
+    "legalBasis": "Cal. Civ. Code § 1633 (UETA)"
+  },
+  "filing": {
+    "title": "ናብ ቤት ፍርዲ ኣቕርብ",
+    "createPackage": "ናይ ምቕራብ ጥርናፈ ፍጠር",
+    "filingType": "ዓይነት ምቕራብ",
+    "selectCourt": "ቤት ፍርዲ ምረጽ",
+    "caseNumber": "ቁጽሪ ጉዳይ",
+    "newCase": "ሓድሽ ጉዳይ",
+    "documents": "ሰነዳት",
+    "addDocument": "ሰነድ ወስኽ",
+    "proofOfService": "መረጋገጺ ኣገልግሎት",
+    "filingFee": "ክፍሊት ምቕራብ",
+    "feeWaiver": "ሕድገት ክፍሊት (FW-003)",
+    "estimatedFee": "ግምት ክፍሊት: {amount}",
+    "validate": "ጥርናፈ ኣረጋግጽ",
+    "validationPassed": "ጥርናፈ ተዳልዩ።",
+    "validationFailed": "ጥርናፈ {count} ጌጋ ኣለዎ።",
+    "submit": "ናብ ቤት ፍርዲ ኣቕርብ",
+    "submitConfirm": "ናብ {court} ኣቕርብ?",
+    "submitting": "ይቐርብ ኣሎ...",
+    "submitted": "ብዓወት ቀሪቡ።",
+    "confirmationNumber": "ቁጽሪ ምርግጋጽ: {number}",
+    "checkStatus": "ኩነታት ርአ",
+    "status": {
+      "draft": "ረቂቕ",
+      "ready": "ድሉው",
+      "submitting": "ይቐርብ ኣሎ",
+      "submitted": "ቀሪቡ",
+      "accepted": "ይርአ ኣሎ",
+      "rejected": "ተነጺጉ",
+      "filed": "ተመዝጊቡ",
+      "error": "ጌጋ"
+    },
+    "rejected": "ምቕራብ ተነጺጉ: {reason}",
+    "filedStamped": "ዝተሓትመ ቅዳሕ ድሉው እዩ።",
+    "downloadFiled": "ዝተሓትመ ቅዳሕ ኣውርድ",
+    "history": "ታሪኽ ምቕራብ",
+    "noFilings": "ምቕራብ የለን።",
+    "wetInkWarning": "እዚ ቅጥዒ ብኢድ ፊርማ ዘድሊ ቦታታት ኣለዎ።"
+  },
+  "traceability": {
+    "title": "ናይ ሕጊ ዝርዝር መዝገብ",
+    "description": "ዝርዝር ኩሎም ዝተጠቐሱ ናይ ሕጊ ምንጭታት።",
+    "sources": "ዝተጠቐሱ ምንጭታት",
+    "statutes": "ሕግታት",
+    "regulations": "ደንብታት",
+    "rulesOfCourt": "ሕግታት ቤት ፍርዲ",
+    "federalCode": "ፈደራል ሕጊ",
+    "contentHash": "ናይ ትሕዝቶ ሃሽ (SHA-256)",
+    "retrievedAt": "ዝተረኽበሉ ግዜ",
+    "linkedFinding": "ዝተኣሳሰረ ረኽቢ",
+    "logFinalized": "መዝገብ ተዛዚሙ ተዓጽዩ።",
+    "viewLog": "መዝገብ ርአ",
+    "downloadLog": "መዝገብ ኣውርድ (PDF)",
+    "compliance": "እዚ መዝገብ ናይ ግልጽነት ጠለባት የማልእ።"
+  },
+  "remediation": {
+    "title": "መምርሒ ምዕራይ",
+    "description": "ስጉምቲ ብስጉምቲ ንረኽቢታት ንምፍታሕ።",
+    "summary": "ጽማቕ",
+    "totalSteps": "{count} ስጉምቲ ንምዝዛም",
+    "estimatedTime": "ግምት ግዜ: {minutes} ደቒቕ",
+    "phase": "ምዕራፍ {number}: {name}",
+    "phases": {
+      "critical": "ህጹጽ ምዕራይ",
+      "high": "ልዑል ቀዳምነት",
+      "compliance": "ናይ ምሕዝነት ጉድለት",
+      "bestPractice": "ዝበለጸ ኣሰራርሓ"
+    },
+    "step": "ስጉምቲ {number}",
+    "priority": "ቀዳምነት",
+    "complexity": {
+      "simple": "ቀሊል (~ 2 ደቒቕ)",
+      "moderate": "ማእከላይ (~ 10 ደቒቕ)",
+      "complex": "ከቢድ (~ 25 ደቒቕ)",
+      "requires_review": "ጠበቓ ግምገማ የድሊ (~ 60 ደቒቕ)"
+    },
+    "goToField": "ናብ ቦታ ኺድ",
+    "markComplete": "ተዛዚሙ ኢልካ ምልክት ግበር",
+    "skip": "ዝለል",
+    "undo": "ተመለስ",
+    "progress": "{completed} ካብ {total} ስጉምቲ ({percent}%)",
+    "allComplete": "ኩሎም ስጉምቲ ተዛዚሞም!",
+    "nextStep": "ዝቕጽል ስጉምቲ",
+    "filingReady": "ንምቕራብ ድሉው",
+    "notReady": "ድሉው ኣይኮነን — {remaining} ስጉምቲ ተሪፉ"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "form_id": "FL-310",
+    "title": "Application for Order and Supporting Declaration (Family Law — Custody and Support)",
+    "version": "2.0.0",
+    "created": "2026-03-01",
+    "author": "Michael Vernen Thomas Hartmann",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "governing_statutes": ["FAM §3020-3032","FAM §3040-3049","FAM §3100","FAM §4050-4076","CRC 5.92"],
+    "total_fields": 18
+  },
+  "fields": [
+    {
+      "field_id": "FL310-01",
+      "label_en": "Case Number",
+      "section": "header",
+      "type": "text",
+      "required": true,
+      "max_length": 25,
+      "guidance_en": "Enter the case number from the existing family law case.",
+      "guidance_es": "Ingrese el número de caso del caso de derecho familiar existente.",
+      "guidance_zh": "输入现有家庭法案件的案件编号。",
+      "common_errors": ["Wrong case number","Case filed in different county"],
+      "statutory_basis": "CRC 2.111"
+    },
+    {
+      "field_id": "FL310-02",
+      "label_en": "Orders Requested",
+      "section": "item_1",
+      "type": "checkbox_group",
+      "required": true,
+      "options": ["Child custody","Child visitation","Child support","Spousal support","Attorney fees","Property restraint","Other"],
+      "guidance_en": "Check ALL orders you are requesting. Be specific. Each checked box should be supported by facts in the declaration section below.",
+      "guidance_es": "Marque TODAS las órdenes que solicita. Sea específico. Cada casilla marcada debe estar respaldada por hechos en la sección de declaración.",
+      "guidance_zh": "勾选您请求的所有命令。每个勾选的框应在下方声明部分有事实支持。",
+      "common_errors": ["Checking custody but not specifying legal vs physical","Not supporting each request with facts"],
+      "statutory_basis": "FAM §3020, CRC 5.92"
+    },
+    {
+      "field_id": "FL310-03",
+      "label_en": "Child Custody Requested",
+      "section": "item_2",
+      "type": "structured",
+      "required": false,
+      "guidance_en": "Specify requested custody arrangement: sole or joint legal custody, sole or joint physical custody, and for which children. Include specific timeshare schedule if requesting physical custody.",
+      "guidance_es": "Especifique el arreglo de custodia solicitado: custodia legal exclusiva o compartida, custodia física exclusiva o compartida.",
+      "guidance_zh": "说明请求的监护安排：单独或共同法律监护，单独或共同物理监护。",
+      "common_errors": ["Not distinguishing legal from physical custody","Vague timeshare proposals","Not addressing holidays"],
+      "statutory_basis": "FAM §3003, FAM §3040, FAM §3044"
+    },
+    {
+      "field_id": "FL310-04",
+      "label_en": "Facts in Support (Declaration)",
+      "section": "item_10",
+      "type": "textarea",
+      "required": true,
+      "guidance_en": "State facts supporting your requests under penalty of perjury. Include: dates, specific incidents, children's needs, current arrangements, and why the requested orders serve the children's best interest (FAM §3011).",
+      "guidance_es": "Declare los hechos que respaldan sus solicitudes bajo pena de perjurio. Incluya: fechas, incidentes específicos, necesidades de los niños.",
+      "guidance_zh": "在伪证处罚下陈述支持您请求的事实。包括：日期、具体事件、儿童需求。",
+      "common_errors": ["Conclusory statements without facts","Emotional language without evidence","Not addressing best interest factors","Missing dates and specifics"],
+      "statutory_basis": "FAM §3011, CCP §2015.5"
+    }
+  ]
+}

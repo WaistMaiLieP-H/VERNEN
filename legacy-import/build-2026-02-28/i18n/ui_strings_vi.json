@@ -1,0 +1,519 @@
+{
+  "__meta": {
+    "version": "1.0.0",
+    "language": "vi",
+    "languageName": "Vietnamese",
+    "direction": "ltr",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "lastUpdated": "2026-02-28",
+    "completeness": "partial",
+    "fallback": "en"
+  },
+  "app": {
+    "title": "VERNEN™",
+    "tagline": "Nền tảng Tuân thủ Pháp lý Đa ngôn ngữ",
+    "loading": "Đang tải…",
+    "error": "Đã xảy ra lỗi",
+    "retry": "Thử lại",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "previous": "Trước",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "export": "Xuất",
+    "print": "Print",
+    "download": "Download",
+    "search": "Tìm kiếm",
+    "clear": "Clear",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "select": "Select",
+    "required": "Bắt buộc",
+    "optional": "Optional",
+    "yes": "Có",
+    "no": "Không",
+    "none": "None",
+    "all": "All",
+    "other": "Other",
+    "unknown": "Unknown",
+    "notAvailable": "N/A"
+  },
+  "nav": {
+    "dashboard": "Bảng điều khiển",
+    "documentNavigator": "Trình duyệt Tài liệu",
+    "validation": "Xác nhận",
+    "filingGuide": "Hướng dẫn Nộp đơn",
+    "audit": "Báo cáo Kiểm toán",
+    "assembly": "Lắp ráp Tài liệu",
+    "settings": "Cài đặt",
+    "help": "Trợ giúp",
+    "collapse": "Collapse sidebar",
+    "expand": "Expand sidebar"
+  },
+  "dashboard": {
+    "welcome": "Chào mừng đến với VERNEN™",
+    "subtitle": "Chọn một mô-đun để bắt đầu",
+    "cards": {
+      "gdn": {
+        "title": "Document Navigator",
+        "desc": "Browse and fill Judicial Council forms with guided annotations"
+      },
+      "validation": {
+        "title": "Pre-Filing Validation",
+        "desc": "Check forms for errors, missing fields, and compliance issues"
+      },
+      "filing": {
+        "title": "Filing Guide",
+        "desc": "Court-specific instructions, fees, and service requirements"
+      },
+      "audit": {
+        "title": "Audit Report",
+        "desc": "Generate compliance documentation and risk assessments"
+      },
+      "assembly": {
+        "title": "Document Assembly",
+        "desc": "Build multi-form filing packages with automatic data propagation"
+      }
+    }
+  },
+  "gdn": {
+    "title": "Guided Document Navigator",
+    "selectCategory": "Select a category",
+    "selectForm": "Select a form",
+    "searchForms": "Search forms…",
+    "fieldAnnotation": "Field Guidance",
+    "legalDefinition": "Legal Definition",
+    "commonMistakes": "Common Mistakes",
+    "statutoryRef": "Statutory Reference",
+    "categories": {
+      "family_law": "Family Law",
+      "domestic_violence": "Domestic Violence",
+      "custody": "Child Custody & Visitation",
+      "support": "Child & Spousal Support",
+      "fee_waiver": "Fee Waiver",
+      "small_claims": "Small Claims",
+      "civil_harassment": "Civil Harassment",
+      "elder_abuse": "Elder/Dependent Adult Abuse",
+      "appeals": "Appeals",
+      "general": "General Use"
+    },
+    "noResults": "No forms match your search.",
+    "formFields": "Form Fields",
+    "requiredFields": "Required Fields",
+    "optionalFields": "Optional Fields",
+    "piiWarning": "This field contains personally identifiable information (PII)"
+  },
+  "validation": {
+    "title": "Pre-Filing Validation",
+    "runValidation": "Run Validation",
+    "revalidate": "Re-Validate",
+    "selectForms": "Select forms to validate",
+    "overallScore": "Overall Compliance Score",
+    "filingReady": "Filing Ready",
+    "needsReview": "Needs Review",
+    "notReady": "Not Ready",
+    "findings": "Findings",
+    "noFindings": "No issues found — form is ready for filing.",
+    "severity": {
+      "critical": "Critical",
+      "error": "Error",
+      "warning": "Warning",
+      "info": "Info"
+    },
+    "categories": {
+      "completeness": "Completeness",
+      "format": "Format",
+      "compliance": "Compliance",
+      "deadline": "Deadline",
+      "crossForm": "Cross-Form",
+      "service": "Service",
+      "procedural": "Procedural"
+    },
+    "messages": {
+      "requiredMissing": "Required field is missing",
+      "invalidFormat": "Field format is invalid",
+      "deadlinePassed": "Filing deadline may have passed",
+      "serviceIncomplete": "Proof of service is incomplete",
+      "crossFormMismatch": "Data does not match across forms"
+    }
+  },
+  "filingGuide": {
+    "title": "Filing Guide",
+    "selectCounty": "Select your county",
+    "courtInfo": "Court Information",
+    "filingFees": "Filing Fees",
+    "serviceReqs": "Service Requirements",
+    "deadlines": "Deadlines",
+    "eFiling": "E-Filing",
+    "inPerson": "In-Person Filing",
+    "byMail": "Filing by Mail",
+    "hours": "Court Hours",
+    "address": "Court Address",
+    "phone": "Phone",
+    "feeWaivable": "Fee Waiver Eligible",
+    "counties": {
+      "alameda": "Alameda County",
+      "solano": "Solano County",
+      "marin": "Marin County",
+      "san_francisco": "San Francisco County",
+      "contra_costa": "Contra Costa County"
+    },
+    "serviceTypes": {
+      "personal": "Personal Service",
+      "mail": "Service by Mail",
+      "electronic": "Electronic Service"
+    }
+  },
+  "audit": {
+    "title": "Audit Report",
+    "generate": "Generate Report",
+    "regenerate": "Regenerate",
+    "overallRisk": "Overall Risk Level",
+    "findings": "Audit Findings",
+    "recommendations": "Recommendations",
+    "riskLevels": {
+      "critical": "Critical Risk",
+      "high": "High Risk",
+      "medium": "Medium Risk",
+      "low": "Low Risk",
+      "info": "Informational"
+    },
+    "categories": {
+      "completeness": "Completeness",
+      "accuracy": "Accuracy",
+      "compliance": "Statutory Compliance",
+      "service": "Service of Process",
+      "deadlines": "Filing Deadlines",
+      "crossForm": "Cross-Form Consistency",
+      "procedural": "Procedural Requirements"
+    },
+    "summary": "Executive Summary",
+    "details": "Detailed Findings",
+    "noFindings": "No audit findings — documents meet compliance standards."
+  },
+  "assembly": {
+    "title": "Document Assembly",
+    "subtitle": "Build multi-form filing packages with automatic cross-form data propagation.",
+    "tabs": {
+      "parties": "Parties",
+      "case": "Case Info",
+      "children": "Children",
+      "package": "Package Builder",
+      "review": "Review & Export"
+    },
+    "petitioner": "Petitioner (Filing Party)",
+    "respondent": "Respondent (Other Party)",
+    "caseInfo": "Case Information",
+    "children": {
+      "title": "Minor Children",
+      "add": "Add Child",
+      "remove": "Remove",
+      "empty": "No children added yet.",
+      "emptyHint": "Add children if filing custody, visitation, or support forms.",
+      "child": "Child"
+    },
+    "package": {
+      "title": "Select Filing Package",
+      "forms": "forms",
+      "formsInPackage": "Forms in this package:",
+      "types": {
+        "dissolution": "Dissolution of Marriage",
+        "custody_rfo": "Custody RFO Package",
+        "dvro": "DV Restraining Order",
+        "fee_waiver": "Fee Waiver Package",
+        "custody_modification": "Custody Modification",
+        "support_modification": "Support Modification",
+        "contempt": "Contempt Proceeding",
+        "small_claims": "Small Claims",
+        "appeal": "Appeal Package"
+      }
+    },
+    "review": {
+      "completeness": "Completeness",
+      "readyForAssembly": "Ready for Assembly",
+      "partiallyComplete": "Partially Complete",
+      "needsMoreInfo": "Needs More Information",
+      "consistencyCheck": "Cross-Form Consistency",
+      "runCheck": "Run Check",
+      "allConsistent": "All cross-form fields are consistent.",
+      "summary": "Assembly Summary"
+    },
+    "fields": {
+      "fullName": "Full Legal Name",
+      "address": "Street Address",
+      "city": "City",
+      "state": "State",
+      "zip": "ZIP Code",
+      "phone": "Phone",
+      "email": "Email",
+      "dob": "Date of Birth",
+      "attorney": "Attorney Name (or \"In Pro Per\")",
+      "barNumber": "State Bar Number",
+      "caseNumber": "Case Number",
+      "county": "County",
+      "courtName": "Court Name",
+      "courtAddress": "Court Address",
+      "department": "Department",
+      "filingDate": "Filing Date",
+      "hearingDate": "Hearing Date",
+      "hearingTime": "Hearing Time",
+      "childName": "Child Full Name",
+      "childDob": "Date of Birth",
+      "childAge": "Current Age",
+      "residessWith": "Currently Resides With"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "selectLanguage": "Select language",
+    "accessibility": "Accessibility",
+    "highContrast": "High Contrast Mode",
+    "largeText": "Large Text",
+    "reducedMotion": "Reduced Motion",
+    "focusIndicators": "Enhanced Focus Indicators",
+    "errorLogs": "Error Logs",
+    "exportLogs": "Export Error Logs",
+    "clearLogs": "Clear Logs",
+    "about": "About"
+  },
+  "help": {
+    "title": "Help",
+    "thisPage": "This Page",
+    "shortcuts": "Shortcuts",
+    "about": "About",
+    "gettingStarted": "Getting Started",
+    "closePanel": "Close help panel"
+  },
+  "export": {
+    "title": "Export",
+    "formats": {
+      "html": "HTML (Print-Ready)",
+      "json": "JSON",
+      "csv": "CSV",
+      "markdown": "Markdown",
+      "text": "Plain Text"
+    },
+    "options": {
+      "maskPII": "Mask PII Fields",
+      "includeMetadata": "Include Metadata",
+      "includeCitations": "Include Statutory Citations"
+    },
+    "success": "Export completed successfully.",
+    "error": "Export failed. Please try again."
+  },
+  "errors": {
+    "generic": "An unexpected error occurred.",
+    "network": "Network error. Please check your connection.",
+    "formLoad": "Failed to load form data.",
+    "validationFailed": "Validation could not be completed.",
+    "exportFailed": "Export failed.",
+    "sessionExpired": "Your session has expired. Data has been saved.",
+    "storageQuota": "Storage limit reached. Please export and clear old data.",
+    "tryAgain": "Try Again",
+    "reportIssue": "Report Issue",
+    "goToDashboard": "Return to Dashboard"
+  },
+  "a11y": {
+    "skipToMain": "Skip to main content",
+    "skipToForm": "Skip to form section",
+    "skipToNav": "Skip to navigation",
+    "skipToResults": "Skip to results",
+    "formProgress": "Form is {percent}% complete",
+    "fieldError": "Error: {message}",
+    "fieldCleared": "Error cleared",
+    "newResults": "Results updated",
+    "loading": "Loading, please wait"
+  },
+  "legal": {
+    "disclaimer": "VERNEN™ cung cấp hướng dẫn và kiểm tra tuân thủ biểu mẫu pháp lý. Không cung cấp tư vấn pháp lý. Để được tư vấn pháp lý, hãy tham khảo luật sư được cấp phép tại khu vực tài phán của bạn.",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "trademark": "VERNEN™ is a trademark of Michael Vernen Thomas Hartmann.",
+    "ipManifest": "IP Manifest Filed February 2, 2026."
+  },
+  "auth": {
+    "login": "Đăng Nhập",
+    "register": "Tạo Tài Khoản",
+    "logout": "Đăng Xuất",
+    "email": "Địa Chỉ Email",
+    "password": "Mật Khẩu",
+    "confirmPassword": "Xác Nhận Mật Khẩu",
+    "displayName": "Tên Hiển Thị",
+    "forgotPassword": "Quên Mật Khẩu?",
+    "resetPassword": "Đặt Lại Mật Khẩu",
+    "resetSent": "Email đặt lại mật khẩu đã được gửi.",
+    "loginSuccess": "Đăng nhập thành công.",
+    "registerSuccess": "Tài khoản đã được tạo. Chào mừng đến VERNEN™.",
+    "logoutSuccess": "Đã đăng xuất.",
+    "loginError": "Đăng nhập thất bại. Vui lòng kiểm tra email và mật khẩu.",
+    "registerError": "Đăng ký thất bại. Vui lòng thử lại.",
+    "sessionExpired": "Phiên đã hết hạn. Vui lòng đăng nhập lại.",
+    "requiredField": "Trường này là bắt buộc.",
+    "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ.",
+    "passwordMinLength": "Mật khẩu phải có ít nhất 8 ký tự.",
+    "passwordMismatch": "Mật khẩu không khớp.",
+    "alreadyHaveAccount": "Đã có tài khoản?",
+    "noAccount": "Chưa có tài khoản?",
+    "tier": {
+      "guest": "Khách",
+      "free": "Miễn Phí",
+      "pro": "Chuyên Nghiệp",
+      "advocate": "Luật Sư"
+    },
+    "tierRequired": "Tính năng này yêu cầu gói {tier}.",
+    "upgradePrompt": "Nâng cấp lên {tier} để sử dụng tính năng này.",
+    "upgradeNow": "Nâng Cấp Ngay"
+  },
+  "payments": {
+    "pricing": "Bảng Giá",
+    "plans": "Gói Dịch Vụ",
+    "currentPlan": "Gói Hiện Tại",
+    "monthly": "Hàng Tháng",
+    "annual": "Hàng Năm",
+    "perMonth": "/tháng",
+    "perYear": "/năm",
+    "save": "Tiết kiệm {percent}%",
+    "freePlan": {
+      "name": "Miễn Phí",
+      "description": "Hướng dẫn biểu mẫu cơ bản.",
+      "price": "$0"
+    },
+    "proPlan": {
+      "name": "Chuyên Nghiệp",
+      "description": "Kiểm toán đầy đủ, xuất và hỗ trợ đa ngôn ngữ.",
+      "priceMonthly": "$19.99",
+      "priceAnnual": "$191.88"
+    },
+    "advocatePlan": {
+      "name": "Luật Sư",
+      "description": "Nền tảng hoàn chỉnh với lắp ráp tài liệu và nộp hồ sơ.",
+      "priceMonthly": "$39.99",
+      "priceAnnual": "$383.88"
+    },
+    "subscribe": "Đăng Ký",
+    "upgrade": "Nâng Cấp",
+    "downgrade": "Hạ Cấp",
+    "manageBilling": "Quản Lý Thanh Toán",
+    "cancelSubscription": "Hủy Đăng Ký",
+    "checkoutRedirect": "Đang chuyển hướng đến trang thanh toán an toàn...",
+    "checkoutSuccess": "Đăng ký đã được kích hoạt!",
+    "checkoutCanceled": "Thanh toán đã bị hủy.",
+    "paymentFailed": "Thanh toán thất bại. Vui lòng cập nhật phương thức thanh toán.",
+    "subscriptionActive": "Đăng ký của bạn có hiệu lực đến {date}.",
+    "subscriptionCanceled": "Đăng ký của bạn sẽ kết thúc vào {date}."
+  },
+  "esignature": {
+    "title": "Chữ Ký Điện Tử",
+    "signHere": "Ký Tại Đây",
+    "drawSignature": "Vẽ Chữ Ký",
+    "typeSignature": "Gõ Chữ Ký",
+    "uploadSignature": "Tải Lên Chữ Ký",
+    "clearSignature": "Xóa",
+    "acceptSignature": "Chấp Nhận Chữ Ký",
+    "signatureRequired": "Trường này yêu cầu chữ ký.",
+    "wetInkRequired": "Trường này yêu cầu chữ ký tay. Vui lòng in, ký và quét.",
+    "notarizationRequired": "Trường này yêu cầu công chứng.",
+    "intentDeclaration": "Bằng việc ký, tôi tuyên bố dưới hình phạt khai man theo luật pháp Tiểu bang California rằng thông tin trong tài liệu này là đúng sự thật.",
+    "consentCheckbox": "Tôi hiểu rằng chữ ký điện tử này có hiệu lực pháp lý tương đương chữ ký tay (Bộ luật Dân sự Cal. § 1633.7).",
+    "signed": "Đã Ký",
+    "unsigned": "Chưa Ký",
+    "signedBy": "Ký bởi {name} vào {date}",
+    "revoke": "Thu Hồi Chữ Ký",
+    "revokeConfirm": "Bạn có chắc muốn thu hồi chữ ký này?",
+    "documentChanged": "Tài liệu đã bị thay đổi sau khi ký. Cần ký lại.",
+    "certificate": "Chứng Nhận Chữ Ký",
+    "viewCertificate": "Xem Chứng Nhận Chữ Ký",
+    "legalBasis": "Bộ luật Dân sự Cal. § 1633 (UETA)"
+  },
+  "filing": {
+    "title": "Nộp Hồ Sơ Tòa Án",
+    "createPackage": "Tạo Gói Nộp Hồ Sơ",
+    "filingType": "Loại Hồ Sơ",
+    "selectCourt": "Chọn Tòa Án",
+    "caseNumber": "Số Vụ Án",
+    "newCase": "Vụ Án Mới",
+    "documents": "Tài Liệu",
+    "addDocument": "Thêm Tài Liệu",
+    "proofOfService": "Bằng Chứng Tống Đạt",
+    "filingFee": "Phí Nộp Hồ Sơ",
+    "feeWaiver": "Đã Được Miễn Phí (FW-003)",
+    "estimatedFee": "Phí ước tính: {amount}",
+    "validate": "Xác Nhận Gói",
+    "validationPassed": "Gói hồ sơ đã sẵn sàng.",
+    "validationFailed": "Gói hồ sơ có {count} lỗi.",
+    "submit": "Nộp Tòa Án",
+    "submitConfirm": "Nộp gói hồ sơ này đến {court}?",
+    "submitting": "Đang nộp...",
+    "submitted": "Nộp hồ sơ thành công.",
+    "confirmationNumber": "Số xác nhận: {number}",
+    "checkStatus": "Kiểm Tra Trạng Thái",
+    "status": {
+      "draft": "Bản Nháp",
+      "ready": "Sẵn Sàng",
+      "submitting": "Đang Nộp",
+      "submitted": "Đã Nộp",
+      "accepted": "Đang Xem Xét",
+      "rejected": "Bị Từ Chối",
+      "filed": "Đã Nộp Thành Công",
+      "error": "Lỗi"
+    },
+    "rejected": "Hồ sơ bị từ chối: {reason}",
+    "filedStamped": "Bản sao có dấu đóng đã sẵn sàng.",
+    "downloadFiled": "Tải Bản Sao Có Dấu",
+    "history": "Lịch Sử Nộp Hồ Sơ",
+    "noFilings": "Chưa có hồ sơ nào.",
+    "wetInkWarning": "Biểu mẫu này có trường yêu cầu chữ ký tay."
+  },
+  "traceability": {
+    "title": "Nhật Ký Truy Xuất Pháp Luật",
+    "description": "Hồ sơ tất cả các nguồn pháp luật được tham khảo.",
+    "sources": "Nguồn Tham Khảo",
+    "statutes": "Luật",
+    "regulations": "Quy Định",
+    "rulesOfCourt": "Quy Tắc Tòa Án",
+    "federalCode": "Luật Liên Bang",
+    "contentHash": "Mã Băm Nội Dung (SHA-256)",
+    "retrievedAt": "Thời Gian Truy Xuất",
+    "linkedFinding": "Phát Hiện Liên Quan",
+    "logFinalized": "Nhật ký đã hoàn tất và khóa.",
+    "viewLog": "Xem Nhật Ký",
+    "downloadLog": "Tải Nhật Ký (PDF)",
+    "compliance": "Nhật ký này đáp ứng yêu cầu minh bạch."
+  },
+  "remediation": {
+    "title": "Hướng Dẫn Khắc Phục",
+    "description": "Hướng dẫn từng bước để giải quyết các phát hiện.",
+    "summary": "Tóm Tắt",
+    "totalSteps": "{count} bước cần hoàn thành",
+    "estimatedTime": "Thời gian ước tính: {minutes} phút",
+    "phase": "Giai đoạn {number}: {name}",
+    "phases": {
+      "critical": "Sửa Lỗi Nghiêm Trọng",
+      "high": "Ưu Tiên Cao",
+      "compliance": "Lỗ Hổng Tuân Thủ",
+      "bestPractice": "Thực Hành Tốt Nhất"
+    },
+    "step": "Bước {number}",
+    "priority": "Ưu Tiên",
+    "complexity": {
+      "simple": "Đơn Giản (~ 2 phút)",
+      "moderate": "Trung Bình (~ 10 phút)",
+      "complex": "Phức Tạp (~ 25 phút)",
+      "requires_review": "Cần Luật Sư Xem Xét (~ 60 phút)"
+    },
+    "goToField": "Đến Trường",
+    "markComplete": "Đánh Dấu Hoàn Thành",
+    "skip": "Bỏ Qua",
+    "undo": "Hoàn Tác",
+    "progress": "Đã hoàn thành {completed}/{total} bước ({percent}%)",
+    "allComplete": "Tất cả các bước đã hoàn thành!",
+    "nextStep": "Bước Tiếp Theo",
+    "filingReady": "Sẵn Sàng Nộp",
+    "notReady": "Chưa Sẵn Sàng — còn {remaining} bước"
+  }
+}

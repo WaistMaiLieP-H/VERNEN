@@ -1,0 +1,519 @@
+{
+  "__meta": {
+    "version": "1.0.0",
+    "language": "tl",
+    "languageName": "Tagalog",
+    "direction": "ltr",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "lastUpdated": "2026-02-28",
+    "completeness": "partial",
+    "fallback": "en"
+  },
+  "app": {
+    "title": "VERNEN™",
+    "tagline": "Multilingual na Plataporma ng Legal na Pagsunod",
+    "loading": "Naglo-load…",
+    "error": "May nangyaring mali",
+    "retry": "Subukan Muli",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "previous": "Nakaraan",
+    "save": "I-save",
+    "cancel": "Kanselahin",
+    "close": "Isara",
+    "export": "I-export",
+    "print": "Print",
+    "download": "Download",
+    "search": "Maghanap",
+    "clear": "Clear",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "select": "Select",
+    "required": "Kinakailangan",
+    "optional": "Optional",
+    "yes": "Oo",
+    "no": "Hindi",
+    "none": "None",
+    "all": "All",
+    "other": "Other",
+    "unknown": "Unknown",
+    "notAvailable": "N/A"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "documentNavigator": "Tagapag-navigate ng Dokumento",
+    "validation": "Pagpapatunay",
+    "filingGuide": "Gabay sa Pag-file",
+    "audit": "Ulat ng Pag-audit",
+    "assembly": "Pag-assemble ng Dokumento",
+    "settings": "Mga Setting",
+    "help": "Tulong",
+    "collapse": "Collapse sidebar",
+    "expand": "Expand sidebar"
+  },
+  "dashboard": {
+    "welcome": "Maligayang pagdating sa VERNEN™",
+    "subtitle": "Pumili ng module upang magsimula",
+    "cards": {
+      "gdn": {
+        "title": "Document Navigator",
+        "desc": "Browse and fill Judicial Council forms with guided annotations"
+      },
+      "validation": {
+        "title": "Pre-Filing Validation",
+        "desc": "Check forms for errors, missing fields, and compliance issues"
+      },
+      "filing": {
+        "title": "Filing Guide",
+        "desc": "Court-specific instructions, fees, and service requirements"
+      },
+      "audit": {
+        "title": "Audit Report",
+        "desc": "Generate compliance documentation and risk assessments"
+      },
+      "assembly": {
+        "title": "Document Assembly",
+        "desc": "Build multi-form filing packages with automatic data propagation"
+      }
+    }
+  },
+  "gdn": {
+    "title": "Guided Document Navigator",
+    "selectCategory": "Select a category",
+    "selectForm": "Select a form",
+    "searchForms": "Search forms…",
+    "fieldAnnotation": "Field Guidance",
+    "legalDefinition": "Legal Definition",
+    "commonMistakes": "Common Mistakes",
+    "statutoryRef": "Statutory Reference",
+    "categories": {
+      "family_law": "Family Law",
+      "domestic_violence": "Domestic Violence",
+      "custody": "Child Custody & Visitation",
+      "support": "Child & Spousal Support",
+      "fee_waiver": "Fee Waiver",
+      "small_claims": "Small Claims",
+      "civil_harassment": "Civil Harassment",
+      "elder_abuse": "Elder/Dependent Adult Abuse",
+      "appeals": "Appeals",
+      "general": "General Use"
+    },
+    "noResults": "No forms match your search.",
+    "formFields": "Form Fields",
+    "requiredFields": "Required Fields",
+    "optionalFields": "Optional Fields",
+    "piiWarning": "This field contains personally identifiable information (PII)"
+  },
+  "validation": {
+    "title": "Pre-Filing Validation",
+    "runValidation": "Run Validation",
+    "revalidate": "Re-Validate",
+    "selectForms": "Select forms to validate",
+    "overallScore": "Overall Compliance Score",
+    "filingReady": "Filing Ready",
+    "needsReview": "Needs Review",
+    "notReady": "Not Ready",
+    "findings": "Findings",
+    "noFindings": "No issues found — form is ready for filing.",
+    "severity": {
+      "critical": "Critical",
+      "error": "Error",
+      "warning": "Warning",
+      "info": "Info"
+    },
+    "categories": {
+      "completeness": "Completeness",
+      "format": "Format",
+      "compliance": "Compliance",
+      "deadline": "Deadline",
+      "crossForm": "Cross-Form",
+      "service": "Service",
+      "procedural": "Procedural"
+    },
+    "messages": {
+      "requiredMissing": "Required field is missing",
+      "invalidFormat": "Field format is invalid",
+      "deadlinePassed": "Filing deadline may have passed",
+      "serviceIncomplete": "Proof of service is incomplete",
+      "crossFormMismatch": "Data does not match across forms"
+    }
+  },
+  "filingGuide": {
+    "title": "Filing Guide",
+    "selectCounty": "Select your county",
+    "courtInfo": "Court Information",
+    "filingFees": "Filing Fees",
+    "serviceReqs": "Service Requirements",
+    "deadlines": "Deadlines",
+    "eFiling": "E-Filing",
+    "inPerson": "In-Person Filing",
+    "byMail": "Filing by Mail",
+    "hours": "Court Hours",
+    "address": "Court Address",
+    "phone": "Phone",
+    "feeWaivable": "Fee Waiver Eligible",
+    "counties": {
+      "alameda": "Alameda County",
+      "solano": "Solano County",
+      "marin": "Marin County",
+      "san_francisco": "San Francisco County",
+      "contra_costa": "Contra Costa County"
+    },
+    "serviceTypes": {
+      "personal": "Personal Service",
+      "mail": "Service by Mail",
+      "electronic": "Electronic Service"
+    }
+  },
+  "audit": {
+    "title": "Audit Report",
+    "generate": "Generate Report",
+    "regenerate": "Regenerate",
+    "overallRisk": "Overall Risk Level",
+    "findings": "Audit Findings",
+    "recommendations": "Recommendations",
+    "riskLevels": {
+      "critical": "Critical Risk",
+      "high": "High Risk",
+      "medium": "Medium Risk",
+      "low": "Low Risk",
+      "info": "Informational"
+    },
+    "categories": {
+      "completeness": "Completeness",
+      "accuracy": "Accuracy",
+      "compliance": "Statutory Compliance",
+      "service": "Service of Process",
+      "deadlines": "Filing Deadlines",
+      "crossForm": "Cross-Form Consistency",
+      "procedural": "Procedural Requirements"
+    },
+    "summary": "Executive Summary",
+    "details": "Detailed Findings",
+    "noFindings": "No audit findings — documents meet compliance standards."
+  },
+  "assembly": {
+    "title": "Document Assembly",
+    "subtitle": "Build multi-form filing packages with automatic cross-form data propagation.",
+    "tabs": {
+      "parties": "Parties",
+      "case": "Case Info",
+      "children": "Children",
+      "package": "Package Builder",
+      "review": "Review & Export"
+    },
+    "petitioner": "Petitioner (Filing Party)",
+    "respondent": "Respondent (Other Party)",
+    "caseInfo": "Case Information",
+    "children": {
+      "title": "Minor Children",
+      "add": "Add Child",
+      "remove": "Remove",
+      "empty": "No children added yet.",
+      "emptyHint": "Add children if filing custody, visitation, or support forms.",
+      "child": "Child"
+    },
+    "package": {
+      "title": "Select Filing Package",
+      "forms": "forms",
+      "formsInPackage": "Forms in this package:",
+      "types": {
+        "dissolution": "Dissolution of Marriage",
+        "custody_rfo": "Custody RFO Package",
+        "dvro": "DV Restraining Order",
+        "fee_waiver": "Fee Waiver Package",
+        "custody_modification": "Custody Modification",
+        "support_modification": "Support Modification",
+        "contempt": "Contempt Proceeding",
+        "small_claims": "Small Claims",
+        "appeal": "Appeal Package"
+      }
+    },
+    "review": {
+      "completeness": "Completeness",
+      "readyForAssembly": "Ready for Assembly",
+      "partiallyComplete": "Partially Complete",
+      "needsMoreInfo": "Needs More Information",
+      "consistencyCheck": "Cross-Form Consistency",
+      "runCheck": "Run Check",
+      "allConsistent": "All cross-form fields are consistent.",
+      "summary": "Assembly Summary"
+    },
+    "fields": {
+      "fullName": "Full Legal Name",
+      "address": "Street Address",
+      "city": "City",
+      "state": "State",
+      "zip": "ZIP Code",
+      "phone": "Phone",
+      "email": "Email",
+      "dob": "Date of Birth",
+      "attorney": "Attorney Name (or \"In Pro Per\")",
+      "barNumber": "State Bar Number",
+      "caseNumber": "Case Number",
+      "county": "County",
+      "courtName": "Court Name",
+      "courtAddress": "Court Address",
+      "department": "Department",
+      "filingDate": "Filing Date",
+      "hearingDate": "Hearing Date",
+      "hearingTime": "Hearing Time",
+      "childName": "Child Full Name",
+      "childDob": "Date of Birth",
+      "childAge": "Current Age",
+      "residessWith": "Currently Resides With"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "selectLanguage": "Select language",
+    "accessibility": "Accessibility",
+    "highContrast": "High Contrast Mode",
+    "largeText": "Large Text",
+    "reducedMotion": "Reduced Motion",
+    "focusIndicators": "Enhanced Focus Indicators",
+    "errorLogs": "Error Logs",
+    "exportLogs": "Export Error Logs",
+    "clearLogs": "Clear Logs",
+    "about": "About"
+  },
+  "help": {
+    "title": "Help",
+    "thisPage": "This Page",
+    "shortcuts": "Shortcuts",
+    "about": "About",
+    "gettingStarted": "Getting Started",
+    "closePanel": "Close help panel"
+  },
+  "export": {
+    "title": "Export",
+    "formats": {
+      "html": "HTML (Print-Ready)",
+      "json": "JSON",
+      "csv": "CSV",
+      "markdown": "Markdown",
+      "text": "Plain Text"
+    },
+    "options": {
+      "maskPII": "Mask PII Fields",
+      "includeMetadata": "Include Metadata",
+      "includeCitations": "Include Statutory Citations"
+    },
+    "success": "Export completed successfully.",
+    "error": "Export failed. Please try again."
+  },
+  "errors": {
+    "generic": "An unexpected error occurred.",
+    "network": "Network error. Please check your connection.",
+    "formLoad": "Failed to load form data.",
+    "validationFailed": "Validation could not be completed.",
+    "exportFailed": "Export failed.",
+    "sessionExpired": "Your session has expired. Data has been saved.",
+    "storageQuota": "Storage limit reached. Please export and clear old data.",
+    "tryAgain": "Try Again",
+    "reportIssue": "Report Issue",
+    "goToDashboard": "Return to Dashboard"
+  },
+  "a11y": {
+    "skipToMain": "Skip to main content",
+    "skipToForm": "Skip to form section",
+    "skipToNav": "Skip to navigation",
+    "skipToResults": "Skip to results",
+    "formProgress": "Form is {percent}% complete",
+    "fieldError": "Error: {message}",
+    "fieldCleared": "Error cleared",
+    "newResults": "Results updated",
+    "loading": "Loading, please wait"
+  },
+  "legal": {
+    "disclaimer": "VERNEN™ provides legal form guidance and compliance checking. It does not provide legal advice. For legal counsel, consult a licensed attorney in your jurisdiction.",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "trademark": "VERNEN™ is a trademark of Michael Vernen Thomas Hartmann.",
+    "ipManifest": "IP Manifest Filed February 2, 2026."
+  },
+  "auth": {
+    "login": "Mag-login",
+    "register": "Gumawa ng Account",
+    "logout": "Mag-logout",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Kumpirmahin ang Password",
+    "displayName": "Pangalan",
+    "forgotPassword": "Nakalimutan ang Password?",
+    "resetPassword": "I-reset ang Password",
+    "resetSent": "Naipadala na ang email para sa pag-reset.",
+    "loginSuccess": "Matagumpay na naka-login.",
+    "registerSuccess": "Nagawa na ang account. Maligayang pagdating sa VERNEN™.",
+    "logoutSuccess": "Naka-logout na.",
+    "loginError": "Hindi makapag-login. Suriin ang email at password.",
+    "registerError": "Hindi makapag-register. Subukan ulit.",
+    "sessionExpired": "Nag-expire na ang session. Mag-login ulit.",
+    "requiredField": "Kinakailangan ang field na ito.",
+    "invalidEmail": "Maglagay ng wastong email address.",
+    "passwordMinLength": "Ang password ay dapat hindi bababa sa 8 characters.",
+    "passwordMismatch": "Hindi magkatugma ang mga password.",
+    "alreadyHaveAccount": "May account ka na?",
+    "noAccount": "Wala pang account?",
+    "tier": {
+      "guest": "Bisita",
+      "free": "Libre",
+      "pro": "Pro",
+      "advocate": "Abogado"
+    },
+    "tierRequired": "Ang feature na ito ay nangangailangan ng {tier} subscription.",
+    "upgradePrompt": "Mag-upgrade sa {tier} para ma-access ang feature na ito.",
+    "upgradeNow": "Mag-upgrade Ngayon"
+  },
+  "payments": {
+    "pricing": "Presyo",
+    "plans": "Mga Plano",
+    "currentPlan": "Kasalukuyang Plano",
+    "monthly": "Buwanan",
+    "annual": "Taunan",
+    "perMonth": "/buwan",
+    "perYear": "/taon",
+    "save": "Makatipid ng {percent}%",
+    "freePlan": {
+      "name": "Libre",
+      "description": "Pangunahing gabay sa mga form.",
+      "price": "$0"
+    },
+    "proPlan": {
+      "name": "Pro",
+      "description": "Kumpletong audit, export, at multilingual support.",
+      "priceMonthly": "$19.99",
+      "priceAnnual": "$191.88"
+    },
+    "advocatePlan": {
+      "name": "Abogado",
+      "description": "Kumpletong platform na may document assembly at filing.",
+      "priceMonthly": "$39.99",
+      "priceAnnual": "$383.88"
+    },
+    "subscribe": "Mag-subscribe",
+    "upgrade": "I-upgrade",
+    "downgrade": "I-downgrade",
+    "manageBilling": "Pamahalaan ang Billing",
+    "cancelSubscription": "Kanselahin ang Subscription",
+    "checkoutRedirect": "Nagre-redirect sa secure na pagbabayad...",
+    "checkoutSuccess": "Na-activate na ang subscription!",
+    "checkoutCanceled": "Nakansela ang pagbabayad.",
+    "paymentFailed": "Nabigo ang pagbabayad. I-update ang paraan ng pagbabayad.",
+    "subscriptionActive": "Aktibo ang subscription mo hanggang {date}.",
+    "subscriptionCanceled": "Matatapos ang subscription mo sa {date}."
+  },
+  "esignature": {
+    "title": "E-Lagda",
+    "signHere": "Pumirma Dito",
+    "drawSignature": "Iguhit ang Lagda",
+    "typeSignature": "I-type ang Lagda",
+    "uploadSignature": "I-upload ang Lagda",
+    "clearSignature": "Burahin",
+    "acceptSignature": "Tanggapin ang Lagda",
+    "signatureRequired": "Kinakailangan ng lagda sa field na ito.",
+    "wetInkRequired": "Ang field na ito ay nangangailangan ng sulat-kamay na lagda. I-print, pirmahan, at i-scan.",
+    "notarizationRequired": "Ang field na ito ay nangangailangan ng notarization.",
+    "intentDeclaration": "Sa pamamagitan ng pagpirma, idinedeklara ko sa ilalim ng parusa ng pagsisinungaling ayon sa mga batas ng Estado ng California na ang impormasyon sa dokumentong ito ay totoo at tama.",
+    "consentCheckbox": "Naiintindihan ko na ang electronic signature na ito ay may parehong legal na epekto tulad ng sulat-kamay na lagda (Cal. Civ. Code § 1633.7).",
+    "signed": "Nilagdaan",
+    "unsigned": "Hindi Nilagdaan",
+    "signedBy": "Nilagdaan ni {name} noong {date}",
+    "revoke": "Bawiin ang Lagda",
+    "revokeConfirm": "Sigurado ka bang gustong bawiin ang lagdang ito?",
+    "documentChanged": "Binago ang dokumento matapos lagdaan. Kailangan ng bagong lagda.",
+    "certificate": "Sertipiko ng Lagda",
+    "viewCertificate": "Tingnan ang Sertipiko ng Lagda",
+    "legalBasis": "Cal. Civ. Code § 1633 (UETA)"
+  },
+  "filing": {
+    "title": "I-file sa Korte",
+    "createPackage": "Gumawa ng Filing Package",
+    "filingType": "Uri ng Filing",
+    "selectCourt": "Pumili ng Korte",
+    "caseNumber": "Numero ng Kaso",
+    "newCase": "Bagong Kaso",
+    "documents": "Mga Dokumento",
+    "addDocument": "Magdagdag ng Dokumento",
+    "proofOfService": "Katibayan ng Serbisyo",
+    "filingFee": "Bayad sa Pag-file",
+    "feeWaiver": "Na-approve ang Fee Waiver (FW-003)",
+    "estimatedFee": "Tinatayang bayad: {amount}",
+    "validate": "I-validate ang Package",
+    "validationPassed": "Handa na ang filing package.",
+    "validationFailed": "May {count} na error ang filing package.",
+    "submit": "Isumite sa Korte",
+    "submitConfirm": "Isumite ang package na ito sa {court}?",
+    "submitting": "Isinusumite...",
+    "submitted": "Matagumpay na naisumite.",
+    "confirmationNumber": "Kumpirmasyon: {number}",
+    "checkStatus": "Suriin ang Status",
+    "status": {
+      "draft": "Draft",
+      "ready": "Handa",
+      "submitting": "Isinusumite",
+      "submitted": "Naisumite",
+      "accepted": "Sinusuri",
+      "rejected": "Tinanggihan",
+      "filed": "Na-file",
+      "error": "Error"
+    },
+    "rejected": "Tinanggihan ang filing: {reason}",
+    "filedStamped": "Available na ang filed-stamped copy.",
+    "downloadFiled": "I-download ang Filed Copy",
+    "history": "Kasaysayan ng Filing",
+    "noFilings": "Wala pang nai-file.",
+    "wetInkWarning": "May mga field sa form na ito na nangangailangan ng sulat-kamay na lagda."
+  },
+  "traceability": {
+    "title": "Rekord ng Legal Traceability",
+    "description": "Rekord ng lahat ng legal sources na ginamit.",
+    "sources": "Mga Pinagkunan",
+    "statutes": "Mga Batas",
+    "regulations": "Mga Regulasyon",
+    "rulesOfCourt": "Mga Patakaran ng Korte",
+    "federalCode": "Federal Code",
+    "contentHash": "Content Hash (SHA-256)",
+    "retrievedAt": "Kinuha Noong",
+    "linkedFinding": "Kaugnay na Finding",
+    "logFinalized": "Natapos at na-lock na ang log.",
+    "viewLog": "Tingnan ang Log",
+    "downloadLog": "I-download ang Log (PDF)",
+    "compliance": "Natutugunan ng log na ito ang mga kinakailangan sa transparency."
+  },
+  "remediation": {
+    "title": "Gabay sa Pagwawasto",
+    "description": "Hakbang-hakbang na gabay para ayusin ang mga natuklasan.",
+    "summary": "Buod",
+    "totalSteps": "{count} hakbang na kailangang tapusin",
+    "estimatedTime": "Tinatayang oras: {minutes} minuto",
+    "phase": "Yugto {number}: {name}",
+    "phases": {
+      "critical": "Kritikal na Pagwawasto",
+      "high": "Mataas na Priyoridad",
+      "compliance": "Gaps sa Pagsunod",
+      "bestPractice": "Pinakamahusay na Gawi"
+    },
+    "step": "Hakbang {number}",
+    "priority": "Priyoridad",
+    "complexity": {
+      "simple": "Simple (~ 2 min)",
+      "moderate": "Katamtaman (~ 10 min)",
+      "complex": "Komplikado (~ 25 min)",
+      "requires_review": "Kailangan ng Abogado (~ 60 min)"
+    },
+    "goToField": "Pumunta sa Field",
+    "markComplete": "Markahan na Tapos",
+    "skip": "Laktawan",
+    "undo": "I-undo",
+    "progress": "{completed} sa {total} hakbang ({percent}%)",
+    "allComplete": "Lahat ng hakbang ay tapos na!",
+    "nextStep": "Susunod na Hakbang",
+    "filingReady": "Handa nang I-file",
+    "notReady": "Hindi pa Handa — {remaining} hakbang ang natitira"
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "__meta": {
+    "version": "1.0.0",
+    "language": "so",
+    "languageName": "Somali",
+    "direction": "ltr",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "lastUpdated": "2026-02-28",
+    "completeness": "partial",
+    "fallback": "en"
+  },
+  "app": {
+    "title": "VERNEN™",
+    "tagline": "Barnaamilka Horumarinta Sharciga ee Luqadaha Badan",
+    "loading": "Waa la soo raraya…",
+    "error": "Wax baa khaldan",
+    "retry": "Isku Day Mar",
+    "back": "Dib u noqo",
+    "next": "Xiga",
+    "previous": "Hore",
+    "save": "Kaydi",
+    "cancel": "Jooji",
+    "close": "Xir",
+    "export": "Export",
+    "print": "Print",
+    "download": "Download",
+    "search": "Raadi",
+    "clear": "Clear",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "select": "Select",
+    "required": "Loo baahan yahay",
+    "optional": "Optional",
+    "yes": "Haa",
+    "no": "Maya",
+    "none": "None",
+    "all": "All",
+    "other": "Other",
+    "unknown": "Unknown",
+    "notAvailable": "N/A"
+  },
+  "nav": {
+    "dashboard": "Guddiga",
+    "documentNavigator": "Hagaha Dukumiintiga",
+    "validation": "Xaqiijinta",
+    "filingGuide": "Hagaha Xareynta",
+    "audit": "Warbixinta Baarista",
+    "assembly": "Isku-duubista Dukumiintiga",
+    "settings": "Dejinta",
+    "help": "Caawin",
+    "collapse": "Collapse sidebar",
+    "expand": "Expand sidebar"
+  },
+  "dashboard": {
+    "welcome": "Ku soo dhawoow VERNEN™",
+    "subtitle": "Dooro qaybta aad ku bilaabaneyso",
+    "cards": {
+      "gdn": {
+        "title": "Document Navigator",
+        "desc": "Browse and fill Judicial Council forms with guided annotations"
+      },
+      "validation": {
+        "title": "Pre-Filing Validation",
+        "desc": "Check forms for errors, missing fields, and compliance issues"
+      },
+      "filing": {
+        "title": "Filing Guide",
+        "desc": "Court-specific instructions, fees, and service requirements"
+      },
+      "audit": {
+        "title": "Audit Report",
+        "desc": "Generate compliance documentation and risk assessments"
+      },
+      "assembly": {
+        "title": "Document Assembly",
+        "desc": "Build multi-form filing packages with automatic data propagation"
+      }
+    }
+  },
+  "gdn": {
+    "title": "Guided Document Navigator",
+    "selectCategory": "Select a category",
+    "selectForm": "Select a form",
+    "searchForms": "Search forms…",
+    "fieldAnnotation": "Field Guidance",
+    "legalDefinition": "Legal Definition",
+    "commonMistakes": "Common Mistakes",
+    "statutoryRef": "Statutory Reference",
+    "categories": {
+      "family_law": "Family Law",
+      "domestic_violence": "Domestic Violence",
+      "custody": "Child Custody & Visitation",
+      "support": "Child & Spousal Support",
+      "fee_waiver": "Fee Waiver",
+      "small_claims": "Small Claims",
+      "civil_harassment": "Civil Harassment",
+      "elder_abuse": "Elder/Dependent Adult Abuse",
+      "appeals": "Appeals",
+      "general": "General Use"
+    },
+    "noResults": "No forms match your search.",
+    "formFields": "Form Fields",
+    "requiredFields": "Required Fields",
+    "optionalFields": "Optional Fields",
+    "piiWarning": "This field contains personally identifiable information (PII)"
+  },
+  "validation": {
+    "title": "Pre-Filing Validation",
+    "runValidation": "Run Validation",
+    "revalidate": "Re-Validate",
+    "selectForms": "Select forms to validate",
+    "overallScore": "Overall Compliance Score",
+    "filingReady": "Filing Ready",
+    "needsReview": "Needs Review",
+    "notReady": "Not Ready",
+    "findings": "Findings",
+    "noFindings": "No issues found — form is ready for filing.",
+    "severity": {
+      "critical": "Critical",
+      "error": "Error",
+      "warning": "Warning",
+      "info": "Info"
+    },
+    "categories": {
+      "completeness": "Completeness",
+      "format": "Format",
+      "compliance": "Compliance",
+      "deadline": "Deadline",
+      "crossForm": "Cross-Form",
+      "service": "Service",
+      "procedural": "Procedural"
+    },
+    "messages": {
+      "requiredMissing": "Required field is missing",
+      "invalidFormat": "Field format is invalid",
+      "deadlinePassed": "Filing deadline may have passed",
+      "serviceIncomplete": "Proof of service is incomplete",
+      "crossFormMismatch": "Data does not match across forms"
+    }
+  },
+  "filingGuide": {
+    "title": "Filing Guide",
+    "selectCounty": "Select your county",
+    "courtInfo": "Court Information",
+    "filingFees": "Filing Fees",
+    "serviceReqs": "Service Requirements",
+    "deadlines": "Deadlines",
+    "eFiling": "E-Filing",
+    "inPerson": "In-Person Filing",
+    "byMail": "Filing by Mail",
+    "hours": "Court Hours",
+    "address": "Court Address",
+    "phone": "Phone",
+    "feeWaivable": "Fee Waiver Eligible",
+    "counties": {
+      "alameda": "Alameda County",
+      "solano": "Solano County",
+      "marin": "Marin County",
+      "san_francisco": "San Francisco County",
+      "contra_costa": "Contra Costa County"
+    },
+    "serviceTypes": {
+      "personal": "Personal Service",
+      "mail": "Service by Mail",
+      "electronic": "Electronic Service"
+    }
+  },
+  "audit": {
+    "title": "Audit Report",
+    "generate": "Generate Report",
+    "regenerate": "Regenerate",
+    "overallRisk": "Overall Risk Level",
+    "findings": "Audit Findings",
+    "recommendations": "Recommendations",
+    "riskLevels": {
+      "critical": "Critical Risk",
+      "high": "High Risk",
+      "medium": "Medium Risk",
+      "low": "Low Risk",
+      "info": "Informational"
+    },
+    "categories": {
+      "completeness": "Completeness",
+      "accuracy": "Accuracy",
+      "compliance": "Statutory Compliance",
+      "service": "Service of Process",
+      "deadlines": "Filing Deadlines",
+      "crossForm": "Cross-Form Consistency",
+      "procedural": "Procedural Requirements"
+    },
+    "summary": "Executive Summary",
+    "details": "Detailed Findings",
+    "noFindings": "No audit findings — documents meet compliance standards."
+  },
+  "assembly": {
+    "title": "Document Assembly",
+    "subtitle": "Build multi-form filing packages with automatic cross-form data propagation.",
+    "tabs": {
+      "parties": "Parties",
+      "case": "Case Info",
+      "children": "Children",
+      "package": "Package Builder",
+      "review": "Review & Export"
+    },
+    "petitioner": "Petitioner (Filing Party)",
+    "respondent": "Respondent (Other Party)",
+    "caseInfo": "Case Information",
+    "children": {
+      "title": "Minor Children",
+      "add": "Add Child",
+      "remove": "Remove",
+      "empty": "No children added yet.",
+      "emptyHint": "Add children if filing custody, visitation, or support forms.",
+      "child": "Child"
+    },
+    "package": {
+      "title": "Select Filing Package",
+      "forms": "forms",
+      "formsInPackage": "Forms in this package:",
+      "types": {
+        "dissolution": "Dissolution of Marriage",
+        "custody_rfo": "Custody RFO Package",
+        "dvro": "DV Restraining Order",
+        "fee_waiver": "Fee Waiver Package",
+        "custody_modification": "Custody Modification",
+        "support_modification": "Support Modification",
+        "contempt": "Contempt Proceeding",
+        "small_claims": "Small Claims",
+        "appeal": "Appeal Package"
+      }
+    },
+    "review": {
+      "completeness": "Completeness",
+      "readyForAssembly": "Ready for Assembly",
+      "partiallyComplete": "Partially Complete",
+      "needsMoreInfo": "Needs More Information",
+      "consistencyCheck": "Cross-Form Consistency",
+      "runCheck": "Run Check",
+      "allConsistent": "All cross-form fields are consistent.",
+      "summary": "Assembly Summary"
+    },
+    "fields": {
+      "fullName": "Full Legal Name",
+      "address": "Street Address",
+      "city": "City",
+      "state": "State",
+      "zip": "ZIP Code",
+      "phone": "Phone",
+      "email": "Email",
+      "dob": "Date of Birth",
+      "attorney": "Attorney Name (or \"In Pro Per\")",
+      "barNumber": "State Bar Number",
+      "caseNumber": "Case Number",
+      "county": "County",
+      "courtName": "Court Name",
+      "courtAddress": "Court Address",
+      "department": "Department",
+      "filingDate": "Filing Date",
+      "hearingDate": "Hearing Date",
+      "hearingTime": "Hearing Time",
+      "childName": "Child Full Name",
+      "childDob": "Date of Birth",
+      "childAge": "Current Age",
+      "residessWith": "Currently Resides With"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "selectLanguage": "Select language",
+    "accessibility": "Accessibility",
+    "highContrast": "High Contrast Mode",
+    "largeText": "Large Text",
+    "reducedMotion": "Reduced Motion",
+    "focusIndicators": "Enhanced Focus Indicators",
+    "errorLogs": "Error Logs",
+    "exportLogs": "Export Error Logs",
+    "clearLogs": "Clear Logs",
+    "about": "About"
+  },
+  "help": {
+    "title": "Help",
+    "thisPage": "This Page",
+    "shortcuts": "Shortcuts",
+    "about": "About",
+    "gettingStarted": "Getting Started",
+    "closePanel": "Close help panel"
+  },
+  "export": {
+    "title": "Export",
+    "formats": {
+      "html": "HTML (Print-Ready)",
+      "json": "JSON",
+      "csv": "CSV",
+      "markdown": "Markdown",
+      "text": "Plain Text"
+    },
+    "options": {
+      "maskPII": "Mask PII Fields",
+      "includeMetadata": "Include Metadata",
+      "includeCitations": "Include Statutory Citations"
+    },
+    "success": "Export completed successfully.",
+    "error": "Export failed. Please try again."
+  },
+  "errors": {
+    "generic": "An unexpected error occurred.",
+    "network": "Network error. Please check your connection.",
+    "formLoad": "Failed to load form data.",
+    "validationFailed": "Validation could not be completed.",
+    "exportFailed": "Export failed.",
+    "sessionExpired": "Your session has expired. Data has been saved.",
+    "storageQuota": "Storage limit reached. Please export and clear old data.",
+    "tryAgain": "Try Again",
+    "reportIssue": "Report Issue",
+    "goToDashboard": "Return to Dashboard"
+  },
+  "a11y": {
+    "skipToMain": "Skip to main content",
+    "skipToForm": "Skip to form section",
+    "skipToNav": "Skip to navigation",
+    "skipToResults": "Skip to results",
+    "formProgress": "Form is {percent}% complete",
+    "fieldError": "Error: {message}",
+    "fieldCleared": "Error cleared",
+    "newResults": "Results updated",
+    "loading": "Loading, please wait"
+  },
+  "legal": {
+    "disclaimer": "VERNEN™ provides legal form guidance and compliance checking. It does not provide legal advice. For legal counsel, consult a licensed attorney in your jurisdiction.",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "trademark": "VERNEN™ is a trademark of Michael Vernen Thomas Hartmann.",
+    "ipManifest": "IP Manifest Filed February 2, 2026."
+  },
+  "auth": {
+    "login": "Soo Gal",
+    "register": "Samee Akoon",
+    "logout": "Ka Bax",
+    "email": "Ciwaanka Iimaylka",
+    "password": "Furaha Sirta",
+    "confirmPassword": "Xaqiiji Furaha Sirta",
+    "displayName": "Magaca Muuqaalka",
+    "forgotPassword": "Ma Illowday Furaha Sirta?",
+    "resetPassword": "Dib u Dejiso Furaha Sirta",
+    "resetSent": "Iimaylka dib-u-dejinta waa la diray. Hubi sanduuqaaga.",
+    "loginSuccess": "Soo galitaanka waa lagu guuleystay.",
+    "registerSuccess": "Akoonka waa la sameeyay. Ku soo dhawoow VERNEN™.",
+    "logoutSuccess": "Waa la ka baxay.",
+    "loginError": "Soo galitaanku wuu fashilmay. Hubi iimaylka iyo furaha sirta.",
+    "registerError": "Diiwaangelintu way fashilantay. Isku day mar kale.",
+    "sessionExpired": "Kulanka wuu dhacay. Soo gal mar kale.",
+    "requiredField": "Goobtan waa lagama maarmaan.",
+    "invalidEmail": "Geli ciwaanka iimaylka oo sax ah.",
+    "passwordMinLength": "Furaha sirta waa inuu ugu yaraan yahay 8 xaraf.",
+    "passwordMismatch": "Fureyaasha sirta iskuma midna.",
+    "alreadyHaveAccount": "Horey ma u leedahay akoon?",
+    "noAccount": "Ma lihid akoon?",
+    "tier": {
+      "guest": "Marti",
+      "free": "Bilaash",
+      "pro": "Xirfadle",
+      "advocate": "Qareen"
+    },
+    "tierRequired": "Sifadan waxay u baahan tahay rukunka {tier}.",
+    "upgradePrompt": "U kor u qaad {tier} si aad u hesho sifadan.",
+    "upgradeNow": "Hadda Kor u Qaad"
+  },
+  "payments": {
+    "pricing": "Qiimaha",
+    "plans": "Qorsheyaasha",
+    "currentPlan": "Qorshaha Hadda",
+    "monthly": "Bil kasta",
+    "annual": "Sanad kasta",
+    "perMonth": "/bil",
+    "perYear": "/sanad",
+    "save": "Kaydi {percent}%",
+    "freePlan": {
+      "name": "Bilaash",
+      "description": "Hagid aasaasi ah oo foomam.",
+      "price": "$0"
+    },
+    "proPlan": {
+      "name": "Xirfadle",
+      "description": "Baaritaan buuxda, dhoofin iyo taageero luqadaha badan.",
+      "priceMonthly": "$19.99",
+      "priceAnnual": "$191.88"
+    },
+    "advocatePlan": {
+      "name": "Qareen",
+      "description": "Nidaamka oo dhan oo leh ururin dukumeenti iyo xareyn.",
+      "priceMonthly": "$39.99",
+      "priceAnnual": "$383.88"
+    },
+    "subscribe": "Isdiiwaangeli",
+    "upgrade": "Kor u Qaad",
+    "downgrade": "Hoos u Dhig",
+    "manageBilling": "Maamul Biilasha",
+    "cancelSubscription": "Jooji Isdiiwaangelinta",
+    "checkoutRedirect": "Waxaa loo wareejinayaa lacag bixinta ammaanka ah...",
+    "checkoutSuccess": "Isdiiwaangelintu way shaqeysaa!",
+    "checkoutCanceled": "Lacag bixintu way joojisay.",
+    "paymentFailed": "Lacag bixintu way fashilantay. Cusboonaysii qaabka lacag bixinta.",
+    "subscriptionActive": "Isdiiwaangelintaadu way shaqeysaa ilaa {date}.",
+    "subscriptionCanceled": "Isdiiwaangelintaadu way dhammaan doontaa {date}."
+  },
+  "esignature": {
+    "title": "Saxiixa Elektaroonigga",
+    "signHere": "Halkan Saxiix",
+    "drawSignature": "Sawir Saxiixa",
+    "typeSignature": "Ku Qor Saxiixa",
+    "uploadSignature": "Soo Rar Saxiixa",
+    "clearSignature": "Nadiifi",
+    "acceptSignature": "Aqbal Saxiixa",
+    "signatureRequired": "Goobtan waxay u baahan tahay saxiix.",
+    "wetInkRequired": "Goobtan waxay u baahan tahay saxiix gacanta. Daabac, saxiix oo scan.",
+    "notarizationRequired": "Goobtan waxay u baahan tahay xaqiijin.",
+    "intentDeclaration": "Markaan saxiixayo, waxaan ku sheegayaa ciqaab been abuur ah ee sharciyada Gobolka California in macluumaadka dukumeentigan ay run iyo sax yihiin.",
+    "consentCheckbox": "Waan fahmay in saxiixa elektarooniggu uu leeyahay saamayn sharci oo la mid ah saxiixa gacanta (Cal. Civ. Code § 1633.7).",
+    "signed": "La Saxiixay",
+    "unsigned": "Aan La Saxiixin",
+    "signedBy": "Waxaa saxiixay {name} {date}",
+    "revoke": "Ka Noqo Saxiixa",
+    "revokeConfirm": "Ma hubtaa inaad ka noqonayso saxiixan?",
+    "documentChanged": "Dukumeentiga waa la bedelay kadib saxiixa. Waxaa loo baahan yahay saxiix cusub.",
+    "certificate": "Shahaadada Saxiixa",
+    "viewCertificate": "Arag Shahaadada",
+    "legalBasis": "Cal. Civ. Code § 1633 (UETA)"
+  },
+  "filing": {
+    "title": "U Xarey Maxkamadda",
+    "createPackage": "Samee Xirmada Xareynta",
+    "filingType": "Nooca Xareynta",
+    "selectCourt": "Dooro Maxkamadda",
+    "caseNumber": "Lambarka Kiiska",
+    "newCase": "Kiis Cusub",
+    "documents": "Dukumeentiyada",
+    "addDocument": "Kudar Dukumeenti",
+    "proofOfService": "Caddaynta Adeegga",
+    "filingFee": "Khidmadda Xareynta",
+    "feeWaiver": "Cafinta Khidmadda (FW-003)",
+    "estimatedFee": "Khidmadda qiyaasta: {amount}",
+    "validate": "Xaqiiji Xirmada",
+    "validationPassed": "Xirmadu way diyaar tahay.",
+    "validationFailed": "Xirmadu waxay leedahay {count} qalad.",
+    "submit": "U Dir Maxkamadda",
+    "submitConfirm": "Ma u direysaa xirmadan {court}?",
+    "submitting": "Waa la dirayaa...",
+    "submitted": "Xareyntu way guuleysatay.",
+    "confirmationNumber": "Xaqiijinta: {number}",
+    "checkStatus": "Hubi Xaaladda",
+    "status": {
+      "draft": "Qoraal",
+      "ready": "Diyaar",
+      "submitting": "La Dirayaa",
+      "submitted": "La Diray",
+      "accepted": "La Eegayaa",
+      "rejected": "La Diiday",
+      "filed": "La Xareeyay",
+      "error": "Qalad"
+    },
+    "rejected": "Xareyntu way diiday: {reason}",
+    "filedStamped": "Koobiga la shaabadeeyay waa diyaar.",
+    "downloadFiled": "Soo Deg Koobiga",
+    "history": "Taariikhda Xareynta",
+    "noFilings": "Xareyn ma jirto.",
+    "wetInkWarning": "Foomkan wuxuu leeyahay goobab u baahan saxiix gacanta."
+  },
+  "traceability": {
+    "title": "Diiwaanka Raadraaca Sharciga",
+    "description": "Diiwaanka dhammaan ilaha sharciga ee la isticmaalay.",
+    "sources": "Ilaha La Eegay",
+    "statutes": "Sharciyadda",
+    "regulations": "Xeerarka",
+    "rulesOfCourt": "Xeerarka Maxkamadda",
+    "federalCode": "Xeerka Federaalka",
+    "contentHash": "Hash-ka Nuxurka (SHA-256)",
+    "retrievedAt": "La Helay",
+    "linkedFinding": "Natiijooyinka Xidhiidhka",
+    "logFinalized": "Diiwaanku waa la xidhay.",
+    "viewLog": "Arag Diiwaanka",
+    "downloadLog": "Soo Deg Diiwaanka (PDF)",
+    "compliance": "Diiwaankan wuxuu buuxiyaa shuruudaha daahfurnaanta."
+  },
+  "remediation": {
+    "title": "Hagaha Sixitaanka",
+    "description": "Tillaabooyin tallaabo-tallaabo ah oo lagu xalliyo natiijooyinka.",
+    "summary": "Soo Koobid",
+    "totalSteps": "{count} tallaabo oo la dhammeystiro",
+    "estimatedTime": "Waqtiga qiyaasta: {minutes} daqiiqo",
+    "phase": "Marxalad {number}: {name}",
+    "phases": {
+      "critical": "Sixitaan Degdeg ah",
+      "high": "Mudnaanta Sare",
+      "compliance": "Farqiga Waafaqsanaanta",
+      "bestPractice": "Hab Wanaagsan"
+    },
+    "step": "Tallaabo {number}",
+    "priority": "Mudnaanta",
+    "complexity": {
+      "simple": "Fudud (~ 2 daq)",
+      "moderate": "Dhexdhexaad (~ 10 daq)",
+      "complex": "Adag (~ 25 daq)",
+      "requires_review": "Waxay u Baahan Tahay Qareen (~ 60 daq)"
+    },
+    "goToField": "Aad Goobta",
+    "markComplete": "Calaamadee Dhammaystiran",
+    "skip": "Ka Bood",
+    "undo": "Ka Noqo",
+    "progress": "{completed} ka mid ah {total} tallaabo ({percent}%)",
+    "allComplete": "Dhammaan tallaabooyinku way dhammaadeen!",
+    "nextStep": "Tallaabooyinka Xiga",
+    "filingReady": "Diyaar Xareyn",
+    "notReady": "Aan Diyaar Ahayn — {remaining} tallaabo ayaa haray"
+  }
+}

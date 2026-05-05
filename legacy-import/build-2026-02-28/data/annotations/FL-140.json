@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "form_id": "FL-140",
+    "title": "Declaration of Disclosure",
+    "version": "2.0.0",
+    "created": "2026-03-01",
+    "author": "Michael Vernen Thomas Hartmann",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "governing_statutes": ["FAM §2100-2113","FAM §2104","FAM §2105"],
+    "total_fields": 10
+  },
+  "fields": [
+    {
+      "field_id": "FL140-01",
+      "label_en": "Case Number",
+      "section": "header",
+      "type": "text",
+      "required": true,
+      "max_length": 25,
+      "guidance_en": "Enter the case number from your filed Petition.",
+      "guidance_es": "Ingrese el número de caso de su Petición presentada.",
+      "guidance_zh": "输入已提交请愿书的案件编号。",
+      "common_errors": ["Wrong case number"],
+      "statutory_basis": "CRC 2.111"
+    },
+    {
+      "field_id": "FL140-02",
+      "label_en": "Preliminary or Final Declaration",
+      "section": "item_1",
+      "type": "checkbox_group",
+      "required": true,
+      "options": ["Preliminary","Final"],
+      "guidance_en": "Preliminary declaration is due within 60 days of filing Response (or true default). Final declaration is due before or at time of settlement or trial. Parties may waive final declaration per FAM §2105.",
+      "guidance_es": "La declaración preliminar vence dentro de 60 días de presentar la Respuesta. La declaración final vence antes o al momento del acuerdo o juicio.",
+      "guidance_zh": "初步声明应在提交答辩后60天内到期。最终声明应在和解或审判时或之前到期。",
+      "common_errors": ["Filing final when preliminary not yet served","Missing supporting schedules"],
+      "statutory_basis": "FAM §2104"
+    },
+    {
+      "field_id": "FL140-03",
+      "label_en": "Schedule of Assets and Debts",
+      "section": "item_2",
+      "type": "attachment_reference",
+      "required": true,
+      "guidance_en": "Attach a completed Schedule of Assets and Debts (FL-142) or Property Declaration (FL-160). Must list ALL assets and debts, community and separate.",
+      "guidance_es": "Adjunte un Programa de Bienes y Deudas (FL-142) o Declaración de Propiedad (FL-160) completado.",
+      "guidance_zh": "附上已完成的资产和债务清单（FL-142）或财产声明（FL-160）。",
+      "common_errors": ["Omitting separate property","Undervaluing assets","Missing retirement accounts"],
+      "statutory_basis": "FAM §2104(c)"
+    },
+    {
+      "field_id": "FL140-04",
+      "label_en": "Income and Expense Declaration",
+      "section": "item_3",
+      "type": "attachment_reference",
+      "required": true,
+      "guidance_en": "Attach a completed Income and Expense Declaration (FL-150). Required for both preliminary and final disclosures.",
+      "guidance_es": "Adjunte una Declaración de Ingresos y Gastos (FL-150) completada.",
+      "guidance_zh": "附上已完成的收入和支出声明（FL-150）。",
+      "common_errors": ["Outdated income figures","Missing tax returns","Not attaching pay stubs"],
+      "statutory_basis": "FAM §2104(d)"
+    }
+  ]
+}

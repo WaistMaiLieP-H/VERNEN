@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "form_id": "MC-030",
+    "form_title": "Declaration",
+    "judicial_council": true,
+    "category": "General Civil",
+    "tier": "A",
+    "version": "4.0.0",
+    "created": "2026-03-01",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved. VERNEN™ is a trademark of Michael Vernen Thomas Hartmann.",
+    "languages": ["en","es","zh","vi","so","ti","am","ar","ht","ko","pt","ru","tl"],
+    "governing_statutes": ["CCP §2015.5","CCP §2009","EVID §710","EVID §702","EVID §1200"],
+    "purpose": "General-purpose sworn declaration form used to present facts under penalty of perjury in any California court proceeding."
+  },
+  "sections": [
+    {
+      "section_id": "header",
+      "section_title": {
+        "en": "Case Information Header",
+        "es": "Encabezado de información del caso",
+        "zh": "案件信息标题",
+        "vi": "Tiêu đề thông tin vụ án",
+        "so": "Madaxa macluumaadka kiiska",
+        "ti": "ናይ ጉዳይ ሓበሬታ ኣርእስቲ",
+        "am": "የጉዳይ መረጃ ራስጌ",
+        "ar": "عنوان معلومات القضية",
+        "ht": "Antèt enfòmasyon dosye a",
+        "ko": "사건 정보 헤더",
+        "pt": "Cabeçalho de informações do caso",
+        "ru": "Заголовок информации о деле",
+        "tl": "Header ng Impormasyon ng Kaso"
+      },
+      "fields": [
+        {
+          "field_id": "MC030-01",
+          "label": {
+            "en": "Attorney or Party Without Attorney (Name, Address, Phone)",
+            "es": "Abogado o parte sin abogado (nombre, dirección, teléfono)",
+            "zh": "律师或无律师当事人（姓名、地址、电话）",
+            "vi": "Luật sư hoặc bên không có luật sư (tên, địa chỉ, điện thoại)",
+            "so": "Qareen ama dhinac qareen la'aan ah (magac, cinwaan, telefoon)",
+            "ti": "ጠበቓ ወይ ብዘይ ጠበቓ ዝቐርብ ሰብ (ስም፣ ኣድራሻ፣ ቴለፎን)",
+            "am": "ጠበቃ ወይም ያለ ጠበቃ ወገን (ስም፣ አድራሻ፣ ስልክ)",
+            "ar": "محامي أو طرف بدون محامي (الاسم والعنوان والهاتف)",
+            "ht": "Avoka oswa pati san avoka (non, adrès, telefòn)",
+            "ko": "변호사 또는 변호사 없는 당사자 (이름, 주소, 전화번호)",
+            "pt": "Advogado ou parte sem advogado (nome, endereço, telefone)",
+            "ru": "Адвокат или сторона без адвоката (имя, адрес, телефон)",
+            "tl": "Abogado o partido na walang abogado (pangalan, address, telepono)"
+          },
+          "type": "text",
+          "required": true,
+          "guidance": {
+            "en": "Enter your full legal name, mailing address, city, state, ZIP code, and telephone number. If self-represented, check the box for 'Attorney for (name): IN PRO PER' or write 'Self-Represented' in the Attorney for field.",
+            "es": "Ingrese su nombre legal completo, dirección postal, ciudad, estado, código postal y número de teléfono. Si se representa a sí mismo, marque la casilla 'Abogado de (nombre): EN PROPIA PERSONA' o escriba 'Auto-representado'.",
+            "zh": "输入您的完整法定姓名、邮寄地址、城市、州、邮编和电话号码。如果自我代理，在律师栏写'自我代理'。",
+            "vi": "Nhập đầy đủ tên pháp lý, địa chỉ gửi thư, thành phố, tiểu bang, mã ZIP và số điện thoại. Nếu tự đại diện, ghi 'Tự đại diện' vào ô luật sư.",
+            "so": "Geli magacaaga sharciga oo buuxa, cinwaanka boostada, magaalada, gobolka, ZIP iyo telefoonka. Haddii aad iska mataleysid, ku qor 'Is-matalaad'.",
+            "ti": "ምሉእ ሕጋዊ ስምካ፣ ኣድራሻ ፖስጣ፣ ከተማ፣ ስቴት፣ ዚፕ ኮድን ቴለፎንን ኣእቱ። ባዕልኻ እንተተወኪልካ 'ባዕለይ ተወኪለ' ጸሓፍ።",
+            "am": "ሙሉ ህጋዊ ስምዎን፣ የፖስታ አድራሻ፣ ከተማ፣ ስቴት፣ ዚፕ ኮድ እና ስልክ ቁጥር ያስገቡ። እራስዎን የሚወክሉ ከሆነ 'ራሴን እወክላለሁ' ይጻፉ።",
+            "ar": "أدخل اسمك القانوني الكامل وعنوان البريد والمدينة والولاية والرمز البريدي ورقم الهاتف. إذا كنت تمثل نفسك، اكتب 'ممثل ذاتي'.",
+            "ht": "Antre non legal konplè ou, adrès postal, vil, eta, kòd postal ak nimewo telefòn. Si ou reprezante tèt ou, ekri 'Reprezantan tèt mwen'.",
+            "ko": "전체 법적 이름, 우편 주소, 도시, 주, 우편번호 및 전화번호를 입력하세요. 자기 대리인인 경우 '자기 대리'라고 기재하세요.",
+            "pt": "Insira seu nome legal completo, endereço postal, cidade, estado, CEP e número de telefone. Se auto-representado, escreva 'Auto-representado'.",
+            "ru": "Введите полное юридическое имя, почтовый адрес, город, штат, индекс и телефон. Если представляете себя сами, напишите 'Самопредставление'.",
+            "tl": "Ilagay ang iyong buong legal na pangalan, mailing address, lungsod, estado, ZIP code at numero ng telepono. Kung sariling kinatawan, isulat ang 'Sariling Kinatawan'."
+          }
+        },        {
+          "field_id": "MC030-02",
+          "label": {
+            "en": "Case Name",
+            "es": "Nombre del caso",
+            "zh": "案件名称",
+            "vi": "Tên vụ án",
+            "so": "Magaca kiiska",
+            "ti": "ስም ጉዳይ",
+            "am": "የጉዳይ ስም",
+            "ar": "اسم القضية",
+            "ht": "Non dosye a",
+            "ko": "사건명",
+            "pt": "Nome do caso",
+            "ru": "Название дела",
+            "tl": "Pangalan ng Kaso"
+          },
+          "type": "text",
+          "required": true,
+          "guidance": {
+            "en": "Enter the case name exactly as it appears on your filed documents (e.g., 'In re Marriage of Hartmann' or 'Hartmann v. Hartmann'). Consistency with previously filed documents is essential.",
+            "es": "Ingrese el nombre del caso exactamente como aparece en sus documentos presentados. La consistencia con los documentos anteriores es esencial.",
+            "zh": "按照已提交文件中的格式输入案件名称。与之前提交文件的一致性至关重要。",
+            "vi": "Nhập tên vụ án chính xác như trên các tài liệu đã nộp. Sự nhất quán với các tài liệu trước đó là cần thiết.",
+            "so": "Geli magaca kiiska sida saxda ah sida ku qoran dukumentiyada la xareeyay. Isku xidhnaanta dukumentiyada hore waa muhiim.",
+            "ti": "ኣብ ዝቐረቡ ሰነዳት ከምዝስፈር ብትኽክል ስም ጉዳይ ኣእቱ። ምስ ቀዳሞት ሰነዳት ምስምማዕ ኣገዳሲ እዩ።",
+            "am": "በቀረቡ ሰነዶች ላይ እንደሚታየው በትክክል የጉዳዩን ስም ያስገቡ። ከቀድሞ ሰነዶች ጋር ወጥነት አስፈላጊ ነው።",
+            "ar": "أدخل اسم القضية كما يظهر بالضبط في مستنداتك المقدمة. الاتساق مع المستندات السابقة ضروري.",
+            "ht": "Antre non dosye a egzakteman jan li parèt sou dokiman ou yo. Konsistans ak dokiman anvan yo esansyèl.",
+            "ko": "접수된 서류에 나타난 것과 정확히 동일하게 사건명을 입력하세요. 이전 서류와의 일관성이 필수적입니다.",
+            "pt": "Insira o nome do caso exatamente como aparece nos documentos protocolados. A consistência com documentos anteriores é essencial.",
+            "ru": "Введите название дела точно так, как указано в поданных документах. Соответствие ранее поданным документам обязательно.",
+            "tl": "Ilagay ang pangalan ng kaso na eksaktong tulad sa iyong mga nai-file na dokumento. Ang pagiging pare-pareho sa naunang mga dokumento ay mahalaga."
+          }
+        },        {
+          "field_id": "MC030-03",
+          "label": {
+            "en": "Case Number",
+            "es": "Número de caso",
+            "zh": "案件编号",
+            "vi": "Số vụ án",
+            "so": "Nambarka kiiska",
+            "ti": "ቁጽሪ ጉዳይ",
+            "am": "የጉዳይ ቁጥር",
+            "ar": "رقم القضية",
+            "ht": "Nimewo dosye a",
+            "ko": "사건 번호",
+            "pt": "Número do caso",
+            "ru": "Номер дела",
+            "tl": "Numero ng Kaso"
+          },
+          "type": "text",
+          "required": true,
+          "guidance": {
+            "en": "Enter the court case number assigned by the clerk. If this is a new filing and no case number has been assigned yet, write 'NEW' or leave blank per local court rules.",
+            "es": "Ingrese el número de caso asignado por el secretario del tribunal. Si es una nueva presentación y aún no se ha asignado número, escriba 'NUEVO' o déjelo en blanco.",
+            "zh": "输入法庭书记员分配的案件编号。如果是新提交且尚未分配编号，写'新'或按当地法院规则留空。",
+            "vi": "Nhập số vụ án do thư ký tòa án chỉ định. Nếu là đơn mới chưa có số, ghi 'MỚI' hoặc để trống.",
+            "so": "Geli nambarka kiiska ee xafiiska maxkamadda. Haddii ay tahay xareysi cusub, qor 'CUSUB' ama ka tag banaan.",
+            "ti": "ብጸሓፊ ቤት ፍርዲ ዝተዋህበ ቁጽሪ ጉዳይ ኣእቱ። ሓድሽ ጥርዓን እንተኾይኑ 'ሓድሽ' ጸሓፍ ወይ ባዶ ግደፎ።",
+            "am": "በፍርድ ቤት ጸሐፊ የተሰጠውን የጉዳይ ቁጥር ያስገቡ። አዲስ ማቅረቢያ ከሆነ 'አዲስ' ይጻፉ ወይም ባዶ ይተውት።",
+            "ar": "أدخل رقم القضية المعين من كاتب المحكمة. إذا كان إيداعاً جديداً ولم يتم تعيين رقم بعد، اكتب 'جديد' أو اتركه فارغاً.",
+            "ht": "Antre nimewo dosye tribinal la ba ou. Si se yon nouvo dosye epi yo poko bay nimewo, ekri 'NOUVO' oswa kite li vid.",
+            "ko": "법원 서기가 부여한 사건 번호를 입력하세요. 신규 접수로 번호가 아직 없으면 '신규'라고 기재하거나 비워두세요.",
+            "pt": "Insira o número do caso atribuído pelo cartório. Se for uma nova petição sem número ainda, escreva 'NOVO' ou deixe em branco.",
+            "ru": "Введите номер дела, присвоенный секретарём суда. Если это новая подача и номер ещё не присвоен, напишите 'НОВОЕ' или оставьте пустым.",
+            "tl": "Ilagay ang numero ng kaso na ibinigay ng clerk. Kung bagong filing at wala pang numero, isulat ang 'BAGO' o iwanan na blangko."
+          }
+        }
+      ]
+    },    {
+      "section_id": "declaration_body",
+      "section_title": {
+        "en": "Declaration Content",
+        "es": "Contenido de la declaración",
+        "zh": "声明内容",
+        "vi": "Nội dung tuyên bố",
+        "so": "Waxa ku jira bayaanka",
+        "ti": "ትሕዝቶ ቃል ምኽሪ",
+        "am": "የመግለጫ ይዘት",
+        "ar": "محتوى الإقرار",
+        "ht": "Kontni deklarasyon an",
+        "ko": "선언 내용",
+        "pt": "Conteúdo da declaração",
+        "ru": "Содержание заявления",
+        "tl": "Nilalaman ng Deklarasyon"
+      },
+      "fields": [
+        {
+          "field_id": "MC030-04",
+          "label": {
+            "en": "Declarant Name and Relationship to Case",
+            "es": "Nombre del declarante y relación con el caso",
+            "zh": "声明人姓名及与案件的关系",
+            "vi": "Tên người khai và mối quan hệ với vụ án",
+            "so": "Magaca qofka bayaanka bixinaya iyo xiriirka kiiska",
+            "ti": "ስም ቃል ዝህብን ምስ ጉዳይ ዘለዎ ርክብን",
+            "am": "ቃል የሚሰጥ ሰው ስም እና ከጉዳዩ ጋር ያለው ግንኙነት",
+            "ar": "اسم المقر وعلاقته بالقضية",
+            "ht": "Non moun ki fè deklarasyon an ak relasyon li ak dosye a",
+            "ko": "선언인 이름 및 사건과의 관계",
+            "pt": "Nome do declarante e relação com o caso",
+            "ru": "Имя заявителя и отношение к делу",
+            "tl": "Pangalan ng nagdedeklara at relasyon sa kaso"
+          },
+          "type": "text",
+          "required": true,          "guidance": {
+            "en": "State your full legal name and your relationship to the case. Establish personal knowledge: 'I, [Name], declare: I am the [Petitioner/Respondent/witness] in this matter. I have personal knowledge of the facts stated herein except as otherwise noted.' This foundation is required by Evidence Code §702.",
+            "es": "Declare su nombre legal completo y relación con el caso. Establezca conocimiento personal: 'Yo, [Nombre], declaro: Soy el [Peticionario/Demandado/testigo]. Tengo conocimiento personal de los hechos aquí declarados.' Esto es requerido por el Código de Evidencia §702.",
+            "zh": "说明您的完整法定姓名及与案件的关系。建立个人知识基础：'我，[姓名]，声明：我是本案的[申请人/被申请人/证人]。我对此处陈述的事实具有个人知识。'这是《证据法》§702的要求。",
+            "vi": "Nêu đầy đủ tên pháp lý và mối quan hệ với vụ án. Thiết lập kiến thức cá nhân theo Bộ luật Chứng cứ §702.",
+            "so": "Sheeg magacaaga sharciga oo buuxa iyo xiriirkaaga kiiska. Dhis aqoon shakhsi ah sida Xeerka Caddaynta §702 u baahdo.",
+            "ti": "ምሉእ ሕጋዊ ስምካን ምስ ጉዳይ ዘሎካ ርክብን ግለጽ። ብመሰረት ሕጊ ምስክርነት §702 ውልቃዊ ፍልጠት ኣቐምጥ።",
+            "am": "ሙሉ ህጋዊ ስምዎን እና ከጉዳዩ ጋር ያለዎትን ግንኙነት ይግለጹ። በማስረጃ ህግ §702 መሰረት የግል እውቀት ያቋቁሙ።",
+            "ar": "اذكر اسمك القانوني الكامل وعلاقتك بالقضية. أسس المعرفة الشخصية وفقاً لقانون الإثبات §702.",
+            "ht": "Deklare non legal konplè ou ak relasyon ou ak dosye a. Etabli konesans pèsonèl selon Kòd Prèv §702.",
+            "ko": "전체 법적 이름과 사건과의 관계를 진술하세요. 증거법 §702에 따라 개인적 지식을 확립하세요.",
+            "pt": "Declare seu nome legal completo e relação com o caso. Estabeleça conhecimento pessoal conforme o Código de Evidência §702.",
+            "ru": "Укажите полное юридическое имя и отношение к делу. Установите личное знание фактов согласно Кодексу доказательств §702.",
+            "tl": "Sabihin ang iyong buong legal na pangalan at relasyon sa kaso. Itatag ang personal na kaalaman ayon sa Evidence Code §702."
+          }
+        },        {
+          "field_id": "MC030-05",
+          "label": {
+            "en": "Numbered Declaration Paragraphs",
+            "es": "Párrafos numerados de la declaración",
+            "zh": "编号声明段落",
+            "vi": "Các đoạn khai có đánh số",
+            "so": "Qodobbada bayaanka oo tireysan",
+            "ti": "ዝተቑጸሩ ሕጡበ-ጽሑፍ ቃል",
+            "am": "ቁጥር የተሰጣቸው የመግለጫ አንቀጾች",
+            "ar": "فقرات الإقرار المرقمة",
+            "ht": "Paragraf deklarasyon ki nimewote",
+            "ko": "번호가 매겨진 선언 단락",
+            "pt": "Parágrafos numerados da declaração",
+            "ru": "Пронумерованные параграфы заявления",
+            "tl": "Mga may-numerong talata ng deklarasyon"
+          },
+          "type": "textarea",
+          "required": true,
+          "guidance": {
+            "en": "State facts you personally know, numbered sequentially. Each paragraph should address one fact or topic. Avoid opinions, legal conclusions, or hearsay unless identifying the source and applicable exception (EVID §1200 et seq.). Use specific dates, times, and locations. If attaching additional pages, use MC-031 (Attached Declaration) and reference them here as 'See Attachment MC-031, page X.' Keep language factual and professional.",
+            "es": "Declare hechos que conoce personalmente, numerados secuencialmente. Cada párrafo debe abordar un hecho. Evite opiniones, conclusiones legales o rumores a menos que identifique la fuente y excepción aplicable (EVID §1200). Use fechas, horas y ubicaciones específicas. Si adjunta páginas adicionales, use MC-031.",
+            "zh": "按顺序编号陈述您个人了解的事实。每段应涉及一个事实或主题。除非确定来源和适用例外（证据法§1200），否则避免意见、法律结论或传闻。使用具体日期、时间和地点。如附加页面，使用MC-031。",
+            "vi": "Trình bày các sự kiện bạn biết trực tiếp, đánh số tuần tự. Mỗi đoạn nêu một sự kiện. Tránh ý kiến hoặc tin đồn trừ khi nêu nguồn và ngoại lệ (EVID §1200). Dùng ngày giờ cụ thể. Nếu đính kèm thêm, dùng MC-031.",
+            "so": "Sheeg xaqiiqooyin aad shakhsi ahaan taqaan, tireysan si isku xiga. Qodob kastaa ha ka hadlo hal xaqiiqo. Ka fogow ra'yiyo ama warar aan la xaqiijin (EVID §1200). Isticmaal taariikhaha gaarka ah.",
+            "ti": "ብውልቂ ትፈልጦም ሓቅታት ብቁጽሪ ተራ ግለጽ። ነፍሲ ወከፍ ሕጡበ-ጽሑፍ ሓደ ሓቂ ይሓዝ። ርእይቶ ወይ ሰማዕ-ዜና ኣይትጠቐም (EVID §1200)። ፍሉይ ዕለታት ተጠቐም።",
+            "am": "በግልዎ የሚያውቋቸውን እውነታዎች በቅደም ተከተል ቁጥር ይግለጹ። እያንዳንዱ አንቀጽ አንድ እውነታ ይዳስስ። ምንጩን ካልለዩ አስተያየት ወይም ወሬ ያስወግዱ (EVID §1200)። የተለየ ቀናት ይጠቀሙ።",
+            "ar": "اذكر الوقائع التي تعرفها شخصياً مرقمة بالتسلسل. كل فقرة تتناول واقعة واحدة. تجنب الآراء أو الإشاعات إلا بتحديد المصدر والاستثناء (EVID §1200). استخدم تواريخ محددة.",
+            "ht": "Deklare reyalite ou konnen pèsonèlman, nimewote an sekans. Chak paragraf ta trete yon reyalite. Evite opinyon oswa rimè sof si ou idantifye sous la (EVID §1200). Itilize dat espesifik.",
+            "ko": "개인적으로 아는 사실을 순서대로 번호를 매겨 진술하세요. 각 단락은 하나의 사실을 다뤄야 합니다. 출처와 예외를 확인하지 않는 한 의견이나 전문 증거를 피하세요 (EVID §1200).",
+            "pt": "Declare fatos que conhece pessoalmente, numerados sequencialmente. Cada parágrafo deve abordar um fato. Evite opiniões ou boatos sem identificar fonte e exceção (EVID §1200). Use datas específicas.",
+            "ru": "Излагайте факты, которые знаете лично, пронумерованные последовательно. Каждый параграф — один факт. Избегайте мнений или слухов без указания источника и исключения (EVID §1200). Используйте конкретные даты.",
+            "tl": "Sabihin ang mga katotohanang personal mong alam, may numero sa pagkakasunod. Bawat talata ay isang katotohanan. Iwasan ang opinyon o sabi-sabi maliban kung tinukoy ang pinagmulan (EVID §1200). Gumamit ng tiyak na petsa."
+          }
+        }
+      ]
+    },    {
+      "section_id": "signature_verification",
+      "section_title": {
+        "en": "Signature and Verification Under Penalty of Perjury",
+        "es": "Firma y verificación bajo pena de perjurio",
+        "zh": "签名及伪证处罚下的验证",
+        "vi": "Chữ ký và xác minh dưới hình phạt khai man",
+        "so": "Saxiixa iyo xaqiijinta ciqaabta been-sheegashada",
+        "ti": "ፊርማን ብመቕጻዕቲ ሓሶ ምስክርነት ምርግጋጽን",
+        "am": "ፊርማ እና በሐሰት ምስክርነት ቅጣት ስር ማረጋገጥ",
+        "ar": "التوقيع والتحقق تحت طائلة عقوبة الحنث باليمين",
+        "ht": "Siyati ak verifikasyon anba penalite pou fo sèman",
+        "ko": "위증 처벌 하의 서명 및 확인",
+        "pt": "Assinatura e verificação sob pena de perjúrio",
+        "ru": "Подпись и подтверждение под страхом наказания за лжесвидетельство",
+        "tl": "Pirma at pagpapatunay sa ilalim ng parusa ng pagsisinungaling"
+      },
+      "fields": [
+        {
+          "field_id": "MC030-06",
+          "label": {
+            "en": "Penalty of Perjury Declaration",
+            "es": "Declaración de pena de perjurio",
+            "zh": "伪证处罚声明",
+            "vi": "Tuyên bố hình phạt khai man",
+            "so": "Bayaanka ciqaabta been-sheegashada",
+            "ti": "ቃል መቕጻዕቲ ሓሶ ምስክርነት",
+            "am": "የሐሰት ምስክርነት ቅጣት መግለጫ",
+            "ar": "إقرار عقوبة الحنث باليمين",
+            "ht": "Deklarasyon penalite fo sèman",
+            "ko": "위증 처벌 선언",
+            "pt": "Declaração de pena de perjúrio",
+            "ru": "Заявление под страхом наказания за лжесвидетельство",
+            "tl": "Deklarasyon ng parusa sa pagsisinungaling"
+          },
+          "type": "signature_block",
+          "required": true,          "guidance": {
+            "en": "You MUST include the exact statutory language: 'I declare under penalty of perjury under the laws of the State of California that the foregoing is true and correct.' Then state the city, state, and date of execution, followed by your signature. The declaration is legally defective without the exact statutory phrase (CCP §2015.5). Do NOT use notarized jurat language — California permits declarations in lieu of affidavits.",
+            "es": "DEBE incluir el lenguaje estatutario exacto de CCP §2015.5: 'Declaro bajo pena de perjurio bajo las leyes del Estado de California que lo anterior es verdadero y correcto.' Luego indique ciudad, estado y fecha, seguido de su firma. La declaración es legalmente defectuosa sin la frase exacta.",
+            "zh": "必须包含CCP §2015.5的确切法定语言。然后注明城市、州和签署日期，后跟签名。没有确切法定短语，声明在法律上无效。",
+            "vi": "PHẢI bao gồm ngôn ngữ luật định chính xác của CCP §2015.5. Sau đó ghi thành phố, tiểu bang và ngày ký, kèm chữ ký. Tuyên bố không hợp lệ nếu thiếu cụm từ chính xác.",
+            "so": "WAAJABTIR in aad ku darto luqadda xeerka ee saxda ah ee CCP §2015.5. Kadib sheeg magaalada, gobolka, taariikhda, saxiixa. Bayaanku sharci ahaan wuu cilladaysan yahay haddii aan lahayn.",
+            "ti": "ብCCP §2015.5 ዝተወሰነ ልክዕ ሕጋዊ ቋንቋ ከተእቱ ኣለካ። ከተማ፣ ስቴት፣ ዕለትን ፊርማን ስዓብ። ብዘይ ልክዕ ሕጋዊ ሓረግ ቃል-ኣቃልቦ ኣይሰርሕን።",
+            "am": "የCCP §2015.5 ትክክለኛ የህግ ቋንቋ ማካተት አለብዎት። ከዚያ ከተማ፣ ስቴት እና ቀን ይግለጹ፣ ከዚያ ፊርማ። ያለ ትክክለኛ ሕጋዊ ሐረግ መግለጫው ሕጋዊ ጉድለት አለበት።",
+            "ar": "يجب تضمين النص القانوني الدقيق لـ CCP §2015.5. ثم اذكر المدينة والولاية والتاريخ متبوعاً بتوقيعك. الإقرار معيب قانونياً بدون العبارة الدقيقة.",
+            "ht": "Ou DWE mete lang legal egzak CCP §2015.5 la. Apre sa di vil, eta, ak dat, epi siyati ou. Deklarasyon an gen defo legal san fraz egzak la.",
+            "ko": "CCP §2015.5의 정확한 법정 문구를 반드시 포함해야 합니다. 그런 다음 도시, 주, 날짜를 기재하고 서명하세요. 정확한 법정 문구 없이는 법적 결함이 있습니다.",
+            "pt": "DEVE incluir a linguagem estatutária exata do CCP §2015.5. Em seguida, declare cidade, estado e data, seguido de assinatura. A declaração é juridicamente defeituosa sem a frase exata.",
+            "ru": "НЕОБХОДИМО включить точную формулировку CCP §2015.5. Затем укажите город, штат и дату, затем подпись. Заявление юридически дефектно без точной формулировки.",
+            "tl": "DAPAT isama ang eksaktong legal na wika ng CCP §2015.5. Pagkatapos sabihin ang lungsod, estado, at petsa, na sinusundan ng iyong pirma. May legal na depekto ang deklarasyon nang wala ang eksaktong parirala."
+          }
+        },        {
+          "field_id": "MC030-07",
+          "label": {
+            "en": "Date of Execution",
+            "es": "Fecha de ejecución",
+            "zh": "签署日期",
+            "vi": "Ngày ký",
+            "so": "Taariikhda fulinta",
+            "ti": "ዕለት ምፍጻም",
+            "am": "የፊርማ ቀን",
+            "ar": "تاريخ التنفيذ",
+            "ht": "Dat siyati a",
+            "ko": "서명 날짜",
+            "pt": "Data de assinatura",
+            "ru": "Дата подписания",
+            "tl": "Petsa ng paglagda"
+          },
+          "type": "date",
+          "required": true,
+          "guidance": {
+            "en": "Enter the date you actually sign the declaration. This must be the same date written in the perjury clause. Do NOT pre-date or post-date. The date must be on or before the filing date. A mismatch between the perjury clause date and the signed date can invalidate the declaration.",
+            "es": "Ingrese la fecha en que realmente firma la declaración. Debe ser la misma fecha escrita en la cláusula de perjurio. NO antedatar ni posdatar. Una discrepancia puede invalidar la declaración.",
+            "zh": "输入您实际签署声明的日期。必须与伪证条款中的日期相同。不要提前或推后日期。日期不匹配可能使声明无效。",
+            "vi": "Nhập ngày bạn thực sự ký tuyên bố. Phải trùng ngày trong điều khoản khai man. KHÔNG ghi ngày trước hoặc sau. Không khớp có thể làm vô hiệu.",
+            "so": "Geli taariikhda aad dhab ahaantii bayaanka saxiixdo. Waa in ay isla tahay taariikhda qodobka been-sheegashada. HA horey u taariikhin ama dib u taariikhin.",
+            "ti": "ብሓቂ ቃል ዝፍርመሉ ዕለት ኣእቱ። ምስ ናይ ሓሶ ምስክርነት ኣብ ዝተጻሕፈ ዕለት ሓደ ክኸውን ኣለዎ። ኣይትቕድም ወይ ኣይትድሕር።",
+            "am": "መግለጫውን በትክክል የሚፈርሙበትን ቀን ያስገቡ። ከሐሰት ምስክርነት አንቀጽ ቀን ጋር ተመሳሳይ መሆን አለበት። ቀን አያስቀድሙ ወይም አያዘገዩ።",
+            "ar": "أدخل التاريخ الذي توقع فيه الإقرار فعلاً. يجب أن يكون نفس التاريخ المكتوب في بند الحنث. لا تقدم أو تؤخر التاريخ.",
+            "ht": "Antre dat ou reyèlman siyen deklarasyon an. Li dwe menm dat ki ekri nan klòz pèji a. PA mete dat avan oswa apre.",
+            "ko": "실제로 선언서에 서명하는 날짜를 입력하세요. 위증 조항의 날짜와 동일해야 합니다. 선행 또는 후행 날짜를 기재하지 마세요.",
+            "pt": "Insira a data em que realmente assina a declaração. Deve ser a mesma data escrita na cláusula de perjúrio. NÃO antedatar ou pós-datar.",
+            "ru": "Введите дату фактического подписания заявления. Она должна совпадать с датой в пункте о лжесвидетельстве. НЕ ставьте более раннюю или более позднюю дату.",
+            "tl": "Ilagay ang petsang talagang pinirmahan mo ang deklarasyon. Dapat kapareho ito ng petsang nakasulat sa perjury clause. HUWAG i-pre-date o post-date."
+          }
+        },        {
+          "field_id": "MC030-08",
+          "label": {
+            "en": "Signature",
+            "es": "Firma",
+            "zh": "签名",
+            "vi": "Chữ ký",
+            "so": "Saxiixa",
+            "ti": "ፊርማ",
+            "am": "ፊርማ",
+            "ar": "التوقيع",
+            "ht": "Siyati",
+            "ko": "서명",
+            "pt": "Assinatura",
+            "ru": "Подпись",
+            "tl": "Pirma"
+          },
+          "type": "signature",
+          "required": true,
+          "guidance": {
+            "en": "Sign your legal name. An unsigned declaration has no legal effect and will be disregarded by the court. If filing electronically, use '/s/ [Your Name]' format per local court e-filing rules. Your signature confirms you have read the entire declaration and attest to its truth under penalty of perjury.",
+            "es": "Firme con su nombre legal. Una declaración sin firma no tiene efecto legal. Si presenta electrónicamente, use el formato '/s/ [Su Nombre]'. Su firma confirma que ha leído toda la declaración.",
+            "zh": "签署您的法定姓名。未签名的声明没有法律效力。如电子提交，使用'/s/ [您的姓名]'格式。签名确认您已阅读整个声明。",
+            "vi": "Ký tên pháp lý của bạn. Tuyên bố không ký không có hiệu lực pháp lý. Nếu nộp điện tử, dùng '/s/ [Tên Bạn]'.",
+            "so": "Ku saxiix magacaaga sharciga. Bayaan aan la saxiixin sharci ahaan ma shaqeeyaan. Haddii elektaroonik, isticmaal '/s/ [Magacaaga]'.",
+            "ti": "ብሕጋዊ ስምካ ፍረም። ዘይተፈረመ ቃል ሕጋዊ ግብረ-ሓይሊ የብሉን። ብኤሌክትሮኒክ እንተኾይኑ '/s/ [ስምካ]' ተጠቐም።",
+            "am": "በህጋዊ ስምዎ ይፈርሙ። ያልተፈረመ መግለጫ ህጋዊ ውጤት የለውም። በኤሌክትሮኒክ ከሆነ '/s/ [ስምዎ]' ይጠቀሙ።",
+            "ar": "وقع باسمك القانوني. الإقرار غير الموقع لا أثر قانوني له. إذا كان الإيداع إلكترونياً، استخدم '/s/ [اسمك]'.",
+            "ht": "Siyen non legal ou. Yon deklarasyon san siyati pa gen efè legal. Si ou depoze elektwonikman, itilize '/s/ [Non Ou]'.",
+            "ko": "법적 이름으로 서명하세요. 미서명 선언서는 법적 효력이 없습니다. 전자 접수 시 '/s/ [이름]' 형식을 사용하세요.",
+            "pt": "Assine com seu nome legal. Declaração sem assinatura não tem efeito legal. Se protocolar eletronicamente, use '/s/ [Seu Nome]'.",
+            "ru": "Подпишите вашим юридическим именем. Неподписанное заявление не имеет юридической силы. При электронной подаче используйте '/s/ [Ваше Имя]'.",
+            "tl": "Pirmahan ng iyong legal na pangalan. Ang di-nilagdaang deklarasyon ay walang legal na epekto. Kung e-filing, gamitin ang '/s/ [Pangalan Mo]'."
+          }
+        }
+      ]
+    }
+  ]
+}

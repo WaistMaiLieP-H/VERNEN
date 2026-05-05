@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "form_id": "FL-130",
+    "title": "Appearance, Stipulations, and Waivers",
+    "version": "2.0.0",
+    "created": "2026-03-01",
+    "author": "Michael Vernen Thomas Hartmann",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved.",
+    "governing_statutes": ["FAM §2012","CCP §594","CRC 5.98"],
+    "total_fields": 12
+  },
+  "fields": [
+    {
+      "field_id": "FL130-01",
+      "label_en": "Case Number",
+      "section": "header",
+      "type": "text",
+      "required": true,
+      "max_length": 25,
+      "guidance_en": "Enter the case number assigned when the Petition was filed.",
+      "guidance_es": "Ingrese el número de caso asignado cuando se presentó la Petición.",
+      "guidance_zh": "输入提交请愿书时分配的案件编号。",
+      "common_errors": ["Wrong case number","Missing county prefix"],
+      "statutory_basis": "CRC 2.111"
+    },
+    {
+      "field_id": "FL130-02",
+      "label_en": "Respondent Appearance",
+      "section": "item_1",
+      "type": "checkbox_group",
+      "required": true,
+      "options": ["Makes a general appearance","Agrees case may proceed without further notice"],
+      "guidance_en": "Respondent agrees to participate in the case. A general appearance waives defects in service of process.",
+      "guidance_es": "El demandado acepta participar en el caso. Una comparecencia general renuncia a los defectos en la notificación.",
+      "guidance_zh": "被告同意参与案件。一般出庭放弃送达程序中的缺陷。",
+      "common_errors": ["Not understanding waiver implications","Confusing general and special appearance"],
+      "statutory_basis": "CCP §418.10, CCP §594"
+    },
+    {
+      "field_id": "FL130-03",
+      "label_en": "Waiver of Service of Summons",
+      "section": "item_2",
+      "type": "checkbox",
+      "required": false,
+      "guidance_en": "Respondent waives formal service of the Summons. Only check if respondent received actual notice of the petition and voluntarily appears.",
+      "guidance_es": "El demandado renuncia a la notificación formal de la Citación.",
+      "guidance_zh": "被告放弃传票的正式送达。",
+      "common_errors": ["Waiving service without actual notice","Coerced waivers"],
+      "statutory_basis": "FAM §2012"
+    },
+    {
+      "field_id": "FL130-04",
+      "label_en": "Stipulation to Judicial Officer",
+      "section": "item_3",
+      "type": "checkbox",
+      "required": false,
+      "guidance_en": "Both parties agree to have the case heard by a commissioner or temporary judge instead of a judge.",
+      "guidance_es": "Ambas partes acuerdan que el caso sea escuchado por un comisionado o juez temporal.",
+      "guidance_zh": "双方同意由专员或临时法官审理案件。",
+      "common_errors": ["Not understanding right to refuse","Missing signature of both parties"],
+      "statutory_basis": "CRC 2.816"
+    },
+    {
+      "field_id": "FL130-05",
+      "label_en": "Waiver of Disclosure Requirements",
+      "section": "item_4",
+      "type": "checkbox_group",
+      "required": false,
+      "options": ["Preliminary declaration of disclosure","Final declaration of disclosure"],
+      "guidance_en": "Parties may waive final declarations of disclosure (FAM §2105). Preliminary disclosures can only be waived by court order showing good cause.",
+      "guidance_es": "Las partes pueden renunciar a las declaraciones finales de divulgación (FAM §2105).",
+      "guidance_zh": "双方可以放弃最终披露声明（FAM §2105）。",
+      "common_errors": ["Waiving preliminary without court order","Not understanding disclosure obligations"],
+      "statutory_basis": "FAM §2104, FAM §2105"
+    }
+  ]
+}
