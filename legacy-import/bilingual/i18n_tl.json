@@ -1,0 +1,115 @@
+{
+  "app": {
+    "name": "Hartmann Legal Analytics",
+    "tagline": "Pinapatakbo ng VERNEN™",
+    "copyright": "© 2026 Michael Vernen Thomas Hartmann. Lahat ng karapatan ay nakalaan."
+  },
+  "nav": {
+    "home": "Home",
+    "audit": "Pagsusuri ng Pagsunod",
+    "results": "Mga Resulta",
+    "glossary": "Mga Terminong Legal",
+    "pricing": "Presyo",
+    "about": "Tungkol Sa",
+    "login": "Mag-log In",
+    "signup": "Mag-sign Up",
+    "language": "English"
+  },
+  "hero": {
+    "headline": "Pagsusuri ng Pagsunod sa Batas Gamit ang AI",
+    "subheadline": "Tukuyin ang mga depekto sa proseso, paglabag sa karapatan at kabiguan sa pagsunod sa 14 na espesyalisadong larangan.",
+    "cta_primary": "Simulan ang Pagsusuri",
+    "cta_secondary": "Tingnan Kung Paano Gumagana"
+  },
+  "audit": {
+    "title": "Pagsusuri ng Pagsunod",
+    "upload_label": "Mag-upload ng Dokumento",
+    "upload_hint": "PDF, DOCX o plain text — mga utos ng hukuman, sulat mula sa ahensya, ulat ng pulis, medikal na pagsusuri, desisyon ng CPS",
+    "select_domain": "Pumili ng Larangan ng Pagsusuri",
+    "domains": {
+      "constitutional": "Mga Karapatan sa Konstitusyon at Sibil",
+      "family_court": "Mga Utos ng Hukuman ng Pamilya",
+      "cps": "CPS / Kapakanan ng Bata",
+      "law_enforcement": "Pag-uugali ng Tagapagpatupad ng Batas (POST)",
+      "fbi": "FBI / Pederal na Pagpapatupad ng Batas",
+      "attorney_conduct": "Etika ng Abogado",
+      "psychiatry": "Sikyatriya at Neurolohiya (ABPN)",
+      "fcs_mediator": "Pag-uugali ng Tagapamagitan sa Kustodiya (FCS)",
+      "victim_rights": "Batas Marsy / Mga Karapatan ng Biktima",
+      "labor": "Paggawa at Trabaho",
+      "state_agency": "Sulat mula sa Ahensya ng Estado",
+      "fcra": "FCRA / Ulat ng Mamimili",
+      "ssa_disability": "Pagpapasya ng Kapansanan ng SSA",
+      "military": "Mga Pamantayang Militar ng USMC"
+    },
+    "language_output": "Wika ng Ulat",
+    "language_english": "Ingles",
+    "language_native": "Tagalog",
+    "language_both": "Dalawang Wika (Ingles + Tagalog)",
+    "submit": "Patakbuhin ang Pagsusuri",
+    "processing": "Sinusuri ang dokumento laban sa mga naaangkop na pamantayan...",
+    "estimated_time": "Tinatayang oras: 30–90 segundo"
+  },
+  "results": {
+    "title": "Mga Natuklasan sa Pagsusuri",
+    "summary": "Buod",
+    "findings": "Mga Natuklasan",
+    "standard_violated": "Pamantayang Nilabag",
+    "evidence": "Sumusuportang Ebidensya",
+    "severity": "Kalubhaan",
+    "severity_critical": "Kritikal",
+    "severity_major": "Malaki",
+    "severity_minor": "Maliit",
+    "severity_advisory": "Payo",
+    "recommendation": "Inirerekumendang Aksyon",
+    "download_pdf": "I-download ang Ulat na PDF",
+    "download_docx": "I-download ang Dokumentong Word",
+    "new_audit": "Magsagawa ng Isa Pang Pagsusuri",
+    "disclaimer": "Ang pagsusuring ito ay para sa impormasyon lamang at hindi bumubuo ng legal na payo. Kumonsulta sa isang kwalipikadong abogado para sa mga legal na pagpapasya."
+  },
+  "glossary": {
+    "title": "Talaan ng Mga Terminong Legal",
+    "search_placeholder": "Maghanap ng mga terminong legal...",
+    "english": "Ingles",
+    "native": "Tagalog",
+    "definition": "Kahulugan",
+    "context": "Legal na Konteksto",
+    "no_results": "Walang nahanap na tumutugmang termino."
+  },
+  "pricing": {
+    "title": "Presyo",
+    "per_audit": "Bawat Pagsusuri",
+    "monthly": "Buwanan",
+    "annual": "Taunan",
+    "tier_basic": "Pangunahin",
+    "tier_professional": "Propesyonal",
+    "tier_enterprise": "Negosyo",
+    "feature_audits": "pagsusuri bawat buwan",
+    "feature_domains": "larangan ng pagsusuri",
+    "feature_bilingual": "Ulat na dalawang wika",
+    "feature_priority": "Prayoridad na pagproseso",
+    "feature_api": "Access sa API",
+    "get_started": "Magsimula",
+    "contact_us": "Makipag-ugnayan"
+  },
+  "about": {
+    "title": "Tungkol Sa",
+    "description": "Ang Hartmann Legal Analytics ay nagbibigay ng pagsusuri ng pagsunod gamit ang AI sa mga larangang legal, regulatoryo at institusyonal. Itinayo sa makina ng pagsusuri ng VERNEN™, tinutukoy ng plataporma ang mga depekto sa proseso, paglabag sa karapatan at kabiguan sa pagsunod na madalas malagpasan ng manu-manong pagsusuri.",
+    "creator": "Nilikha ni Michael Vernen Thomas Hartmann",
+    "methodology": "Pamamaraan ng Pamantayan ng Paglikha (S.o.C.)",
+    "methodology_desc": "Bawat dokumento ay sinusuri laban sa partikular na legal na pamantayan na namamahala sa paglikha nito — hindi pangkalahatang prinsipyo, kundi ang eksaktong batas, regulasyon o propesyonal na kodigo na naaangkop."
+  },
+  "footer": {
+    "privacy": "Patakaran sa Privacy",
+    "terms": "Mga Tuntunin ng Serbisyo",
+    "contact": "Makipag-ugnayan",
+    "accessibility": "Aksesibilidad"
+  },
+  "errors": {
+    "upload_failed": "Nabigo ang pag-upload. Pakisubukan muli.",
+    "file_too_large": "Lumampas ang file sa maximum na laki (10 MB).",
+    "unsupported_format": "Hindi suportadong format ng file. Mangyaring mag-upload ng PDF, DOCX o TXT.",
+    "audit_failed": "Nabigo ang pagproseso ng pagsusuri. Pakisubukan muli.",
+    "network_error": "Error sa network. Suriin ang iyong koneksyon at subukan muli."
+  }
+}

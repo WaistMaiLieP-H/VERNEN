@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "updated": "2026-02-02",
+    "author": "Michael Vernen Thomas Hartmann",
+    "description": "EN↔ES legal terminology glossary for Hartmann Legal Analytics / VERNEN™",
+    "note": "Legal citations (e.g., 'Family Code § 3044') are NEVER translated — they appear in original language in both EN and ES contexts."
+  },
+  "terms": [
+    {
+      "id": "custody",
+      "en": "Custody",
+      "es": "Custodia",
+      "en_def": "Legal right to make decisions about a child's care and/or physical possession of a child.",
+      "es_def": "Derecho legal para tomar decisiones sobre el cuidado de un menor y/o posesión física del menor.",
+      "domain": "family_court"
+    },
+    {
+      "id": "sole_legal_custody",
+      "en": "Sole Legal Custody",
+      "es": "Custodia Legal Exclusiva",
+      "en_def": "One parent has the right and responsibility to make decisions relating to the health, education, and welfare of the child.",
+      "es_def": "Un padre tiene el derecho y la responsabilidad de tomar decisiones relacionadas con la salud, educación y bienestar del menor.",
+      "domain": "family_court"
+    },
+    {
+      "id": "joint_legal_custody",
+      "en": "Joint Legal Custody",
+      "es": "Custodia Legal Compartida",
+      "en_def": "Both parents share the right and responsibility to make decisions relating to the health, education, and welfare of the child.",
+      "es_def": "Ambos padres comparten el derecho y la responsabilidad de tomar decisiones relacionadas con la salud, educación y bienestar del menor.",
+      "domain": "family_court"
+    },
+    {
+      "id": "physical_custody",
+      "en": "Physical Custody",
+      "es": "Custodia Física",
+      "en_def": "Refers to where the child lives on a day-to-day basis.",
+      "es_def": "Se refiere a dónde vive el menor en su vida diaria.",
+      "domain": "family_court"
+    },
+    {
+      "id": "visitation",
+      "en": "Visitation",
+      "es": "Régimen de Visitas",
+      "en_def": "The schedule of time a non-custodial parent spends with the child.",
+      "es_def": "El calendario de tiempo que el padre sin custodia pasa con el menor.",
+      "domain": "family_court"
+    },
+    {
+      "id": "restraining_order",
+      "en": "Restraining Order",
+      "es": "Orden de Restricción",
+      "en_def": "A court order that prohibits a person from specific acts, such as contacting or approaching another person.",
+      "es_def": "Una orden judicial que prohíbe a una persona realizar actos específicos, como contactar o acercarse a otra persona.",
+      "domain": "family_court"
+    },
+    {
+      "id": "domestic_violence",
+      "en": "Domestic Violence",
+      "es": "Violencia Doméstica",
+      "en_def": "Abuse committed against a current or former spouse, cohabitant, co-parent, or person in a dating relationship.",
+      "es_def": "Abuso cometido contra un cónyuge actual o anterior, conviviente, co-padre/madre, o persona en una relación sentimental.",
+      "domain": "family_court"
+    },
+    {
+      "id": "due_process",
+      "en": "Due Process",
+      "es": "Debido Proceso",
+      "en_def": "Constitutional guarantee that legal proceedings will be fair and that individuals will be given notice and an opportunity to be heard.",
+      "es_def": "Garantía constitucional de que los procedimientos legales serán justos y que las personas recibirán notificación y oportunidad de ser escuchadas.",
+      "domain": "constitutional"
+    },
+    {
+      "id": "equal_protection",
+      "en": "Equal Protection",
+      "es": "Protección Igualitaria",
+      "en_def": "Constitutional guarantee under the 14th Amendment that no person shall be denied equal protection of the laws.",
+      "es_def": "Garantía constitucional bajo la Enmienda 14 que ninguna persona será privada de la protección igualitaria de las leyes.",
+      "domain": "constitutional"
+    },
+    {
+      "id": "section_1983",
+      "en": "Section 1983 Claim",
+      "es": "Demanda bajo Sección 1983",
+      "en_def": "Federal civil rights action against state actors who violate constitutional rights under color of law (42 USC § 1983).",
+      "es_def": "Acción federal de derechos civiles contra actores estatales que violan derechos constitucionales bajo apariencia de ley (42 USC § 1983).",
+      "domain": "constitutional"
+    },
+    {
+      "id": "custodial_interference",
+      "en": "Custodial Interference",
+      "es": "Interferencia de Custodia",
+      "en_def": "The act of taking, detaining, or concealing a child in violation of a custody order.",
+      "es_def": "El acto de tomar, detener u ocultar a un menor en violación de una orden de custodia.",
+      "domain": "family_court"
+    },
+    {
+      "id": "mandated_reporter",
+      "en": "Mandated Reporter",
+      "es": "Reportero Obligatorio",
+      "en_def": "A person required by law to report suspected child abuse or neglect (Penal Code § 11165.7).",
+      "es_def": "Una persona obligada por ley a reportar sospecha de abuso o negligencia infantil (Penal Code § 11165.7).",
+      "domain": "cps"
+    },
+    {
+      "id": "substantiated_allegation",
+      "en": "Substantiated Allegation",
+      "es": "Alegación Sustanciada",
+      "en_def": "A CPS finding that credible evidence supports the allegation of abuse or neglect.",
+      "es_def": "Un hallazgo de CPS que indica que evidencia creíble apoya la alegación de abuso o negligencia.",
+      "domain": "cps"
+    },
+    {
+      "id": "exigent_circumstances",
+      "en": "Exigent Circumstances",
+      "es": "Circunstancias Urgentes",
+      "en_def": "Emergency conditions that justify immediate action without a warrant, such as imminent danger to a child.",
+      "es_def": "Condiciones de emergencia que justifican acción inmediata sin orden judicial, como peligro inminente para un menor.",
+      "domain": "law_enforcement"
+    },
+    {
+      "id": "probable_cause",
+      "en": "Probable Cause",
+      "es": "Causa Probable",
+      "en_def": "Sufficient reason based on known facts to believe a crime has been committed or evidence will be found.",
+      "es_def": "Razón suficiente basada en hechos conocidos para creer que se ha cometido un delito o se encontrará evidencia.",
+      "domain": "law_enforcement"
+    },
+    {
+      "id": "miranda_rights",
+      "en": "Miranda Rights",
+      "es": "Derechos Miranda",
+      "en_def": "The right to remain silent and have an attorney during custodial interrogation.",
+      "es_def": "El derecho a permanecer en silencio y tener un abogado durante un interrogatorio bajo custodia.",
+      "domain": "law_enforcement"
+    },
+    {
+      "id": "best_interest",
+      "en": "Best Interest of the Child",
+      "es": "Mejor Interés del Menor",
+      "en_def": "The standard courts use to make custody and visitation decisions (Family Code § 3011).",
+      "es_def": "El estándar que los tribunales utilizan para tomar decisiones de custodia y visitas (Family Code § 3011).",
+      "domain": "family_court"
+    },
+    {
+      "id": "ex_parte",
+      "en": "Ex Parte",
+      "es": "Ex Parte",
+      "en_def": "A proceeding or communication made by one party without notice to the opposing party.",
+      "es_def": "Un procedimiento o comunicación realizado por una parte sin notificación a la parte contraria.",
+      "domain": "family_court"
+    },
+    {
+      "id": "continuance",
+      "en": "Continuance",
+      "es": "Aplazamiento",
+      "en_def": "Postponement of a court hearing to a future date.",
+      "es_def": "Posposición de una audiencia judicial a una fecha futura.",
+      "domain": "family_court"
+    },
+    {
+      "id": "discovery",
+      "en": "Discovery",
+      "es": "Descubrimiento de Pruebas",
+      "en_def": "Pre-trial process where parties exchange relevant information and evidence.",
+      "es_def": "Proceso previo al juicio donde las partes intercambian información y evidencia relevante.",
+      "domain": "family_court"
+    },
+    {
+      "id": "contempt_of_court",
+      "en": "Contempt of Court",
+      "es": "Desacato al Tribunal",
+      "en_def": "Willful disobedience of a court order, punishable by fine or imprisonment.",
+      "es_def": "Desobediencia intencional de una orden judicial, sancionable con multa o encarcelamiento.",
+      "domain": "family_court"
+    },
+    {
+      "id": "petition",
+      "en": "Petition",
+      "es": "Petición",
+      "en_def": "A formal written request submitted to the court asking for a specific action.",
+      "es_def": "Una solicitud formal por escrito presentada al tribunal pidiendo una acción específica.",
+      "domain": "family_court"
+    },
+    {
+      "id": "respondent",
+      "en": "Respondent",
+      "es": "Demandado/a",
+      "en_def": "The party against whom a petition or motion is filed.",
+      "es_def": "La parte contra quien se presenta una petición o moción.",
+      "domain": "family_court"
+    },
+    {
+      "id": "petitioner",
+      "en": "Petitioner",
+      "es": "Peticionario/a",
+      "en_def": "The party who files a petition or initiates a legal proceeding.",
+      "es_def": "La parte que presenta una petición o inicia un procedimiento legal.",
+      "domain": "family_court"
+    },
+    {
+      "id": "subpoena",
+      "en": "Subpoena",
+      "es": "Citación Judicial",
+      "en_def": "A court order requiring a person to testify or produce documents.",
+      "es_def": "Una orden judicial que requiere que una persona testifique o produzca documentos.",
+      "domain": "family_court"
+    },
+    {
+      "id": "civil_rights_violation",
+      "en": "Civil Rights Violation",
+      "es": "Violación de Derechos Civiles",
+      "en_def": "An act by a government official that deprives a person of rights guaranteed by the Constitution or federal law.",
+      "es_def": "Un acto de un funcionario gubernamental que priva a una persona de derechos garantizados por la Constitución o la ley federal.",
+      "domain": "constitutional"
+    },
+    {
+      "id": "color_of_law",
+      "en": "Under Color of Law",
+      "es": "Bajo Apariencia de Ley",
+      "en_def": "Actions taken by government officials using their authority, whether or not the actions are lawful.",
+      "es_def": "Acciones tomadas por funcionarios gubernamentales usando su autoridad, sean o no legales.",
+      "domain": "constitutional"
+    },
+    {
+      "id": "qualified_immunity",
+      "en": "Qualified Immunity",
+      "es": "Inmunidad Calificada",
+      "en_def": "Legal doctrine that protects government officials from civil liability unless they violated clearly established law.",
+      "es_def": "Doctrina legal que protege a funcionarios gubernamentales de responsabilidad civil a menos que hayan violado ley claramente establecida.",
+      "domain": "constitutional"
+    },
+    {
+      "id": "welfare_check",
+      "en": "Welfare Check",
+      "es": "Verificación de Bienestar",
+      "en_def": "A law enforcement visit to check on a person's safety and well-being.",
+      "es_def": "Una visita de la policía para verificar la seguridad y bienestar de una persona.",
+      "domain": "law_enforcement"
+    },
+    {
+      "id": "cad_report",
+      "en": "CAD Report",
+      "es": "Informe CAD",
+      "en_def": "Computer-Aided Dispatch report documenting law enforcement calls for service.",
+      "es_def": "Informe de Despacho Asistido por Computadora que documenta llamadas de servicio policial.",
+      "domain": "law_enforcement"
+    },
+    {
+      "id": "upl",
+      "en": "Unauthorized Practice of Law",
+      "es": "Ejercicio No Autorizado de la Abogacía",
+      "en_def": "Engaging in legal practice without a license, prohibited under Business and Professions Code § 6125.",
+      "es_def": "Ejercer la abogacía sin licencia, prohibido bajo Business and Professions Code § 6125.",
+      "domain": "attorney_conduct"
+    },
+    {
+      "id": "fiduciary_duty",
+      "en": "Fiduciary Duty",
+      "es": "Deber Fiduciario",
+      "en_def": "A legal obligation to act in the best interest of another party.",
+      "es_def": "Una obligación legal de actuar en el mejor interés de otra parte.",
+      "domain": "attorney_conduct"
+    },
+    {
+      "id": "writ_of_habeas_corpus",
+      "en": "Writ of Habeas Corpus",
+      "es": "Recurso de Habeas Corpus",
+      "en_def": "A court order requiring that a detained person be brought before the court to determine whether detention is lawful.",
+      "es_def": "Una orden judicial que requiere que una persona detenida sea presentada ante el tribunal para determinar si la detención es legal.",
+      "domain": "constitutional"
+    },
+    {
+      "id": "pro_se",
+      "en": "Pro Se / Self-Represented",
+      "es": "Pro Se / Auto-Representado",
+      "en_def": "A party who represents themselves in court without an attorney.",
+      "es_def": "Una parte que se representa a sí misma en el tribunal sin abogado.",
+      "domain": "family_court"
+    },
+    {
+      "id": "disposition",
+      "en": "Disposition",
+      "es": "Disposición",
+      "en_def": "The final outcome or decision in a legal proceeding or investigation.",
+      "es_def": "El resultado final o decisión en un procedimiento legal o investigación.",
+      "domain": "family_court"
+    },
+    {
+      "id": "preponderance_of_evidence",
+      "en": "Preponderance of Evidence",
+      "es": "Preponderancia de la Evidencia",
+      "en_def": "The standard of proof in civil cases requiring that something is more likely true than not.",
+      "es_def": "El estándar de prueba en casos civiles que requiere que algo sea más probablemente cierto que falso.",
+      "domain": "family_court"
+    }
+  ]
+}

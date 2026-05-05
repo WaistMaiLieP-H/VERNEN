@@ -1,0 +1,115 @@
+{
+  "app": {
+    "name": "Hartmann Legal Analytics",
+    "tagline": "VERNEN™ 기반",
+    "copyright": "© 2026 Michael Vernen Thomas Hartmann. 모든 권리 보유."
+  },
+  "nav": {
+    "home": "홈",
+    "audit": "준법 감사",
+    "results": "결과",
+    "glossary": "법률 용어",
+    "pricing": "가격",
+    "about": "소개",
+    "login": "로그인",
+    "signup": "회원가입",
+    "language": "English"
+  },
+  "hero": {
+    "headline": "AI 기반 법률 준법 감사",
+    "subheadline": "14개 전문 영역에서 절차적 결함, 권리 침해 및 준법 실패를 식별합니다.",
+    "cta_primary": "감사 시작",
+    "cta_secondary": "작동 방식 보기"
+  },
+  "audit": {
+    "title": "준법 감사",
+    "upload_label": "문서 업로드",
+    "upload_hint": "PDF, DOCX 또는 일반 텍스트 — 법원 명령, 기관 서신, 경찰 보고서, 의료 평가, CPS 결정",
+    "select_domain": "감사 영역 선택",
+    "domains": {
+      "constitutional": "헌법 및 시민권",
+      "family_court": "가정법원 명령",
+      "cps": "CPS / 아동 복지",
+      "law_enforcement": "법 집행 행위 (POST)",
+      "fbi": "FBI / 연방 법 집행",
+      "attorney_conduct": "변호사 윤리",
+      "psychiatry": "정신의학 및 신경학 (ABPN)",
+      "fcs_mediator": "FCS 양육권 조정관 행위",
+      "victim_rights": "마시법 / 피해자 권리",
+      "labor": "노동 및 고용",
+      "state_agency": "주 기관 서신",
+      "fcra": "FCRA / 소비자 보고서",
+      "ssa_disability": "SSA 장애 판정",
+      "military": "USMC 군사 기준"
+    },
+    "language_output": "보고서 언어",
+    "language_english": "영어",
+    "language_native": "한국어",
+    "language_both": "이중 언어 (영어 + 한국어)",
+    "submit": "감사 실행",
+    "processing": "적용 가능한 기준에 따라 문서를 분석하는 중...",
+    "estimated_time": "예상 시간: 30–90초"
+  },
+  "results": {
+    "title": "감사 결과",
+    "summary": "요약",
+    "findings": "발견 사항",
+    "standard_violated": "위반된 기준",
+    "evidence": "지지 증거",
+    "severity": "심각도",
+    "severity_critical": "심각",
+    "severity_major": "중대",
+    "severity_minor": "경미",
+    "severity_advisory": "권고",
+    "recommendation": "권장 조치",
+    "download_pdf": "PDF 보고서 다운로드",
+    "download_docx": "Word 문서 다운로드",
+    "new_audit": "다른 감사 실행",
+    "disclaimer": "본 분석은 정보 제공 목적으로만 제공되며 법률 자문을 구성하지 않습니다. 법적 판단을 위해 자격을 갖춘 변호사와 상담하십시오."
+  },
+  "glossary": {
+    "title": "법률 용어집",
+    "search_placeholder": "법률 용어 검색...",
+    "english": "영어",
+    "native": "한국어",
+    "definition": "정의",
+    "context": "법적 맥락",
+    "no_results": "일치하는 용어를 찾을 수 없습니다."
+  },
+  "pricing": {
+    "title": "가격",
+    "per_audit": "감사 건당",
+    "monthly": "월간",
+    "annual": "연간",
+    "tier_basic": "기본",
+    "tier_professional": "전문가",
+    "tier_enterprise": "기업",
+    "feature_audits": "월간 감사 횟수",
+    "feature_domains": "감사 영역",
+    "feature_bilingual": "이중 언어 보고서",
+    "feature_priority": "우선 처리",
+    "feature_api": "API 액세스",
+    "get_started": "시작하기",
+    "contact_us": "문의하기"
+  },
+  "about": {
+    "title": "소개",
+    "description": "Hartmann Legal Analytics는 법률, 규제 및 기관 영역 전반에 걸쳐 AI 기반 준법 감사를 제공합니다. VERNEN™ 분석 엔진을 기반으로 구축된 이 플랫폼은 수동 검토에서 자주 놓치는 절차적 결함, 권리 침해 및 준법 실패를 식별합니다.",
+    "creator": "Michael Vernen Thomas Hartmann 제작",
+    "methodology": "생성 기준 (S.o.C.) 방법론",
+    "methodology_desc": "각 문서는 생성을 관장했던 특정 법률 기준에 따라 감사됩니다 — 일반 원칙이 아닌, 적용되는 정확한 법률, 규정 또는 전문 규범입니다."
+  },
+  "footer": {
+    "privacy": "개인정보 보호정책",
+    "terms": "서비스 약관",
+    "contact": "연락처",
+    "accessibility": "접근성"
+  },
+  "errors": {
+    "upload_failed": "업로드 실패. 다시 시도해 주세요.",
+    "file_too_large": "파일이 최대 크기(10 MB)를 초과합니다.",
+    "unsupported_format": "지원되지 않는 파일 형식입니다. PDF, DOCX 또는 TXT를 업로드해 주세요.",
+    "audit_failed": "감사 처리 실패. 다시 시도해 주세요.",
+    "network_error": "네트워크 오류. 연결을 확인하고 다시 시도해 주세요."
+  }
+}

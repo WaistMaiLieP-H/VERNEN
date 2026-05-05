@@ -1,0 +1,115 @@
+{
+  "app": {
+    "name": "Hartmann Legal Analytics",
+    "tagline": "በ VERNEN™ የተጎላበተ",
+    "copyright": "© 2026 Michael Vernen Thomas Hartmann። መብቱ በሙሉ የተጠበቀ ነው።"
+  },
+  "nav": {
+    "home": "መነሻ",
+    "audit": "የማክበር ኦዲት",
+    "results": "ውጤቶች",
+    "glossary": "የሕግ ቃላት",
+    "pricing": "ዋጋ",
+    "about": "ስለ እኛ",
+    "login": "ግባ",
+    "signup": "ተመዝገብ",
+    "language": "English"
+  },
+  "hero": {
+    "headline": "በ AI የተጎላበተ የሕግ ማክበር ኦዲት",
+    "subheadline": "በ14 ልዩ ዘርፎች የሥነ-ስርዓት ጉድለቶችን፣ የመብት ጥሰቶችን እና የማክበር ውድቀቶችን ለይ።",
+    "cta_primary": "ኦዲትዎን ይጀምሩ",
+    "cta_secondary": "እንዴት እንደሚሰራ ይመልከቱ"
+  },
+  "audit": {
+    "title": "የማክበር ኦዲት",
+    "upload_label": "ሰነድ ይስቀሉ",
+    "upload_hint": "PDF፣ DOCX ወይም ንጹህ ጽሑፍ — የፍርድ ቤት ትዕዛዞች፣ የተቋም ደብዳቤዎች፣ የፖሊስ ሪፖርቶች፣ የሕክምና ግምገማዎች፣ የ CPS ውሳኔዎች",
+    "select_domain": "የኦዲት ዘርፍ ይምረጡ",
+    "domains": {
+      "constitutional": "ህገ-መንግስታዊ እና ሲቪል መብቶች",
+      "family_court": "የቤተሰብ ፍርድ ቤት ትዕዛዞች",
+      "cps": "CPS / የልጆች ደህንነት",
+      "law_enforcement": "የሕግ አስከባሪ ባህሪ (POST)",
+      "fbi": "FBI / የፌዴራል ሕግ አስከባሪ",
+      "attorney_conduct": "የጠበቃ ስነ-ምግባር",
+      "psychiatry": "ሳይካትሪ እና ኒውሮሎጂ (ABPN)",
+      "fcs_mediator": "የ FCS ሞግዚትነት አስማሚ ባህሪ",
+      "victim_rights": "የማርሲ ሕግ / የተጠቂ መብቶች",
+      "labor": "ሥራ እና ቅጥር",
+      "state_agency": "የክልል ተቋም ደብዳቤዎች",
+      "fcra": "FCRA / የሸማች ሪፖርቶች",
+      "ssa_disability": "የ SSA አካል ጉዳት ውሳኔ",
+      "military": "የ USMC ወታደራዊ ደረጃዎች"
+    },
+    "language_output": "የሪፖርት ቋንቋ",
+    "language_english": "እንግሊዝኛ",
+    "language_native": "አማርኛ",
+    "language_both": "ባለሁለት ቋንቋ (እንግሊዝኛ + አማርኛ)",
+    "submit": "ኦዲት አስኪድ",
+    "processing": "ሰነዱን ከሚመለከተው ደረጃ ጋር በማነጻጸር ላይ...",
+    "estimated_time": "የሚገመተው ጊዜ: 30–90 ሰከንድ"
+  },
+  "results": {
+    "title": "የኦዲት ግኝቶች",
+    "summary": "ማጠቃለያ",
+    "findings": "ግኝቶች",
+    "standard_violated": "የተጣሰው ደረጃ",
+    "evidence": "ደጋፊ ማስረጃ",
+    "severity": "ክብደት",
+    "severity_critical": "ወሳኝ",
+    "severity_major": "ከፍተኛ",
+    "severity_minor": "ቀላል",
+    "severity_advisory": "ምክር",
+    "recommendation": "የሚመከር እርምጃ",
+    "download_pdf": "PDF ሪፖርት ያውርዱ",
+    "download_docx": "Word ሰነድ ያውርዱ",
+    "new_audit": "ሌላ ኦዲት ያካሂዱ",
+    "disclaimer": "ይህ ትንተና ለመረጃ ዓላማ ብቻ ነው እና የሕግ ምክር አይደለም። ለሕግ ውሳኔዎች ብቁ ጠበቃ ያማክሩ።"
+  },
+  "glossary": {
+    "title": "የሕግ ቃላት መዝገበ-ቃላት",
+    "search_placeholder": "የሕግ ቃላት ይፈልጉ...",
+    "english": "እንግሊዝኛ",
+    "native": "አማርኛ",
+    "definition": "ትርጓሜ",
+    "context": "የሕግ አውድ",
+    "no_results": "ተመሳሳይ ቃላት አልተገኙም።"
+  },
+  "pricing": {
+    "title": "ዋጋ",
+    "per_audit": "በኦዲት",
+    "monthly": "ወርሃዊ",
+    "annual": "ዓመታዊ",
+    "tier_basic": "መሠረታዊ",
+    "tier_professional": "ሙያዊ",
+    "tier_enterprise": "ድርጅታዊ",
+    "feature_audits": "ኦዲቶች በወር",
+    "feature_domains": "የኦዲት ዘርፎች",
+    "feature_bilingual": "ባለሁለት ቋንቋ ሪፖርቶች",
+    "feature_priority": "ቅድሚያ ማስኬድ",
+    "feature_api": "የ API ተደራሽነት",
+    "get_started": "ይጀምሩ",
+    "contact_us": "ያግኙን"
+  },
+  "about": {
+    "title": "ስለ እኛ",
+    "description": "Hartmann Legal Analytics በ AI የተጎላበተ የማክበር ኦዲት በሕግ፣ በደንብ እና በተቋማዊ ዘርፎች ያቀርባል። በ VERNEN™ ትንተና ሞተር ላይ የተገነባ ሲሆን መድረኩ የእጅ ግምገማ ብዙ ጊዜ የሚያመልጡ የሥነ-ስርዓት ጉድለቶችን፣ የመብት ጥሰቶችን እና የማክበር ውድቀቶችን ይለያል።",
+    "creator": "በ Michael Vernen Thomas Hartmann የተፈጠረ",
+    "methodology": "የፍጥረት ደረጃ (S.o.C.) ዘዴ",
+    "methodology_desc": "እያንዳንዱ ሰነድ ፍጥረቱን ያስተዳደረው ልዩ የሕግ ደረጃ ላይ ተመስርቶ ይመረመራል — አጠቃላይ መርሆዎች ሳይሆን፣ የሚመለከተው ትክክለኛ ሕግ፣ ደንብ ወይም ሙያዊ ኮድ።"
+  },
+  "footer": {
+    "privacy": "የግላዊነት ፖሊሲ",
+    "terms": "የአገልግሎት ውሎች",
+    "contact": "ያግኙን",
+    "accessibility": "ተደራሽነት"
+  },
+  "errors": {
+    "upload_failed": "ስቀላ አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+    "file_too_large": "ፋይሉ ከከፍተኛው መጠን (10 MB) በላይ ነው።",
+    "unsupported_format": "የማይደገፍ የፋይል ቅርጸት። እባክዎ PDF፣ DOCX ወይም TXT ይስቀሉ።",
+    "audit_failed": "የኦዲት ማስኬድ አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+    "network_error": "የአውታረ መረብ ስህተት። ግንኙነትዎን ያረጋግጡ እና እንደገና ይሞክሩ።"
+  }
+}

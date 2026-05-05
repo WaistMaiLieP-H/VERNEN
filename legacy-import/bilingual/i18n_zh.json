@@ -1,0 +1,115 @@
+{
+  "app": {
+    "name": "Hartmann Legal Analytics",
+    "tagline": "由 VERNEN™ 驱动",
+    "copyright": "© 2026 Michael Vernen Thomas Hartmann。保留所有权利。"
+  },
+  "nav": {
+    "home": "首页",
+    "audit": "合规审计",
+    "results": "结果",
+    "glossary": "法律词汇",
+    "pricing": "价格",
+    "about": "关于",
+    "login": "登录",
+    "signup": "注册",
+    "language": "English"
+  },
+  "hero": {
+    "headline": "人工智能驱动的法律合规审计",
+    "subheadline": "在14个专业领域中识别程序缺陷、权利侵犯和合规失误。",
+    "cta_primary": "开始审计",
+    "cta_secondary": "了解运作方式"
+  },
+  "audit": {
+    "title": "合规审计",
+    "upload_label": "上传文件",
+    "upload_hint": "PDF、DOCX 或纯文本 — 法院命令、机构信函、警方报告、医学评估、CPS 裁定",
+    "select_domain": "选择审计领域",
+    "domains": {
+      "constitutional": "宪法与公民权利",
+      "family_court": "家庭法院命令",
+      "cps": "CPS / 儿童福利",
+      "law_enforcement": "执法行为 (POST)",
+      "fbi": "FBI / 联邦执法",
+      "attorney_conduct": "律师职业道德",
+      "psychiatry": "精神病学与神经学 (ABPN)",
+      "fcs_mediator": "FCS 监护调解员行为",
+      "victim_rights": "玛西法 / 受害者权利",
+      "labor": "劳动与就业",
+      "state_agency": "州机构信函",
+      "fcra": "FCRA / 消费者报告",
+      "ssa_disability": "SSA 残疾认定",
+      "military": "USMC 军事标准"
+    },
+    "language_output": "报告语言",
+    "language_english": "英文",
+    "language_native": "中文",
+    "language_both": "双语（英文 + 中文）",
+    "submit": "运行审计",
+    "processing": "正在根据适用标准分析文件...",
+    "estimated_time": "预计时间：30–90秒"
+  },
+  "results": {
+    "title": "审计结果",
+    "summary": "摘要",
+    "findings": "发现",
+    "standard_violated": "违反的标准",
+    "evidence": "支持证据",
+    "severity": "严重程度",
+    "severity_critical": "严重",
+    "severity_major": "重大",
+    "severity_minor": "轻微",
+    "severity_advisory": "建议",
+    "recommendation": "建议措施",
+    "download_pdf": "下载 PDF 报告",
+    "download_docx": "下载 Word 文档",
+    "new_audit": "进行新审计",
+    "disclaimer": "本分析仅供参考，不构成法律建议。如需法律判断，请咨询合格律师。"
+  },
+  "glossary": {
+    "title": "法律词汇表",
+    "search_placeholder": "搜索法律术语...",
+    "english": "英文",
+    "native": "中文",
+    "definition": "定义",
+    "context": "法律背景",
+    "no_results": "未找到匹配的术语。"
+  },
+  "pricing": {
+    "title": "价格",
+    "per_audit": "每次审计",
+    "monthly": "月度",
+    "annual": "年度",
+    "tier_basic": "基础版",
+    "tier_professional": "专业版",
+    "tier_enterprise": "企业版",
+    "feature_audits": "每月审计次数",
+    "feature_domains": "审计领域",
+    "feature_bilingual": "双语报告",
+    "feature_priority": "优先处理",
+    "feature_api": "API 访问",
+    "get_started": "立即开始",
+    "contact_us": "联系我们"
+  },
+  "about": {
+    "title": "关于",
+    "description": "Hartmann Legal Analytics 提供跨法律、监管和机构领域的人工智能合规审计。基于 VERNEN™ 分析引擎，该平台可识别人工审查经常遗漏的程序缺陷、权利侵犯和合规失误。",
+    "creator": "创建者：Michael Vernen Thomas Hartmann",
+    "methodology": "创建标准 (S.o.C.) 方法论",
+    "methodology_desc": "每份文件均依据其创建时适用的具体法律标准进行审计——不是一般原则，而是适用的确切法规、条例或专业守则。"
+  },
+  "footer": {
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "contact": "联系方式",
+    "accessibility": "无障碍访问"
+  },
+  "errors": {
+    "upload_failed": "上传失败。请重试。",
+    "file_too_large": "文件超过最大限制（10 MB）。",
+    "unsupported_format": "不支持的文件格式。请上传 PDF、DOCX 或 TXT。",
+    "audit_failed": "审计处理失败。请重试。",
+    "network_error": "网络错误。请检查连接后重试。"
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "meta": {
+    "form_id": "FL-120",
+    "version": "1.0.0",
+    "updated": "2026-02-05",
+    "author": "Michael Vernen Thomas Hartmann",
+    "module": "GDN_field_annotations",
+    "languages": ["en","es","zh","vi","so","ti","am","ar","ht","ko","pt","ru","tl"]
+  },
+  "sections": [
+    {
+      "section_id": "header",
+      "fields": [
+        {
+          "field_id": "header_attorney_party",
+          "field_label": "Attorney or Party Without Attorney",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "If you do not have a lawyer, enter YOUR full legal name, street address, city, state, ZIP code, phone number, and email address. Where it says 'State Bar Number,' write 'In Pro Per' (this means you are representing yourself).",
+            "es": "Si no tiene abogado, escriba SU nombre legal completo, dirección, ciudad, estado, código postal, teléfono y correo electrónico. Donde dice 'State Bar Number,' escriba 'In Pro Per' (esto significa que se representa a sí mismo).",
+            "zh": "如果您没有律师，请输入您的完整法定姓名、街道地址、城市、州、邮编、电话号码和电子邮件地址。在'State Bar Number'处写'In Pro Per'（意思是您自己代表自己）。",
+            "vi": "Nếu bạn không có luật sư, hãy nhập TÊN pháp lý đầy đủ, địa chỉ, thành phố, tiểu bang, mã ZIP, số điện thoại và email. Nơi ghi 'State Bar Number,' hãy viết 'In Pro Per' (nghĩa là bạn tự đại diện cho mình).",
+            "so": "Haddii aadan haysan qareen, geli magacaaga sharciga oo buuxa, cinwaankaaga, magaalada, gobolka, ZIP-ka, telefoonka iyo emailka. Halka ay ku qoran tahay 'State Bar Number,' ku qor 'In Pro Per'.",
+            "ti": "ጠበቓ እንተዘይብልካ፡ ምሉእ ሕጋዊ ስምካ፡ ኣድራሻኻ፡ ከተማ፡ ግዝኣት፡ ዚፕ ኮድ፡ ቁጽሪ ተሌፎንን ኢመይልን ኣእቱ። 'State Bar Number' ኣብ ዝብል ቦታ 'In Pro Per' ጸሓፍ።",
+            "am": "ጠበቃ ከሌለዎት፣ ሙሉ ሕጋዊ ስምዎን፣ የመኖሪያ አድራሻዎን፣ ከተማ፣ ግዛት፣ ዚፕ ኮድ፣ ስልክ ቁጥር እና ኢሜይል ያስገቡ። 'State Bar Number' በሚለው ቦታ 'In Pro Per' ይጻፉ።",
+            "ar": "إذا لم يكن لديك محامٍ، أدخل اسمك القانوني الكامل وعنوانك ومدينتك وولايتك والرمز البريدي ورقم هاتفك وبريدك الإلكتروني. حيث يقول 'State Bar Number'، اكتب 'In Pro Per'.",
+            "ht": "Si ou pa gen avoka, mete NON legal konplè ou, adrès, vil, eta, kòd postal, nimewo telefòn ak imèl. Kote li di 'State Bar Number,' ekri 'In Pro Per'.",
+            "ko": "변호사가 없는 경우, 본인의 정식 법적 이름, 주소, 도시, 주, 우편번호, 전화번호, 이메일을 입력하세요. 'State Bar Number' 란에 'In Pro Per'라고 쓰세요.",
+            "pt": "Se você não tem advogado, insira SEU nome legal completo, endereço, cidade, estado, CEP, telefone e e-mail. Onde diz 'State Bar Number,' escreva 'In Pro Per'.",
+            "ru": "Если у вас нет адвоката, введите ВАШЕ полное юридическое имя, адрес, город, штат, почтовый индекс, номер телефона и электронную почту. Где написано 'State Bar Number,' напишите 'In Pro Per'.",
+            "tl": "Kung wala kang abogado, ilagay ang IYONG buong legal na pangalan, address, lungsod, estado, ZIP code, numero ng telepono, at email. Sa bahaging 'State Bar Number,' isulat ang 'In Pro Per'."
+          }
+        },        {
+          "field_id": "header_court_name",
+          "field_label": "Superior Court of California, County of",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Enter the county where the case was filed. This is the same county shown on the Petition (FL-100) and Summons (FL-110) you were served. Copy it exactly.",
+            "es": "Escriba el condado donde se presentó el caso. Es el mismo condado que aparece en la Petición (FL-100) y la Citación (FL-110) que le entregaron. Cópielo exactamente.",
+            "zh": "输入案件提交的县名。这与送达给您的请愿书(FL-100)和传票(FL-110)上显示的县相同。请准确抄写。",
+            "vi": "Nhập tên quận nơi vụ án được nộp. Đây là quận giống như trên Đơn kiện (FL-100) và Trát đòi (FL-110) bạn được tống đạt. Sao chép chính xác.",
+            "so": "Geli magaca degmada dacwadda laga xareeyay. Waa isla degmada ku qoran Codsiga (FL-100) iyo Waasiiqada (FL-110) laguu soo gaarsiiyay.",
+            "ti": "ነቲ ጉዳይ ዝቐረበሉ ካውንቲ ስም ኣእትዉ። ኣብቲ ዝተዋህበኩም ጥርዓን (FL-100) ን ጻዊዒት (FL-110) ን ዘሎ ካውንቲ እዩ።",
+            "am": "መዝገቡ የተከፈተበትን ካውንቲ ያስገቡ። ይህ በተሰጠዎት ማመልከቻ (FL-100) እና መጥሪያ (FL-110) ላይ ያለው ካውንቲ ነው።",
+            "ar": "أدخل اسم المقاطعة التي قُدمت فيها القضية. هي نفس المقاطعة المذكورة في العريضة (FL-100) والاستدعاء (FL-110) التي تم تبليغك بها.",
+            "ht": "Mete non konte kote yo te depoze dosye a. Se menm konte ki sou Petisyon (FL-100) ak Sitasyon (FL-110) yo te remèt ou a.",
+            "ko": "소송이 제기된 카운티 이름을 입력하세요. 송달받은 청원서(FL-100)와 소환장(FL-110)에 표시된 카운티와 동일합니다.",
+            "pt": "Insira o condado onde o caso foi protocolado. É o mesmo condado mostrado na Petição (FL-100) e Citação (FL-110) que você recebeu.",
+            "ru": "Введите название округа, в котором было подано дело. Это тот же округ, указанный в Петиции (FL-100) и Повестке (FL-110), которые вам были вручены.",
+            "tl": "Ilagay ang county kung saan nai-file ang kaso. Ito ang parehong county na nasa Petisyon (FL-100) at Summons (FL-110) na natanggap mo."
+          }
+        },
+        {
+          "field_id": "header_case_number",
+          "field_label": "Case Number",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Enter the case number exactly as it appears on the Summons (FL-110) you were served. Do NOT leave this blank — your Response must match the existing case number.",
+            "es": "Escriba el número de caso exactamente como aparece en la Citación (FL-110) que le entregaron. NO lo deje en blanco — su Respuesta debe coincidir con el número de caso existente.",
+            "zh": "准确输入送达给您的传票(FL-110)上的案件编号。不要留空——您的答辩书必须与现有案件编号匹配。",
+            "vi": "Nhập số vụ án chính xác như trên Trát đòi (FL-110) bạn được tống đạt. KHÔNG để trống — Phúc đáp phải khớp với số vụ án hiện có.",
+            "so": "Geli lambarka dacwadda sida ay u qoran tahay Waasiiqada (FL-110). HA banaan ka tagin — Jawaabta waa inay la mid tahay lambarka dacwadda.",
+            "ti": "ኣብ ጻዊዒት (FL-110) ከምዘሎ ቁጽሪ ጉዳይ ብትኽክል ኣእትዎ። ባዶ ኣይትግደፎ — መልስኻ ምስ ቁጽሪ ጉዳይ ክሰማማዕ ኣለዎ።",
+            "am": "በመጥሪያ (FL-110) ላይ ባለው መልኩ የመዝገብ ቁጥሩን ያስገቡ። ባዶ አይተውት — መልስዎ ከነባሩ የመዝገብ ቁጥር ጋር መዛመድ አለበት።",
+            "ar": "أدخل رقم القضية كما يظهر بالضبط على الاستدعاء (FL-110). لا تتركه فارغًا — يجب أن يتطابق ردك مع رقم القضية الحالي.",
+            "ht": "Mete nimewo dosye a egzakteman jan li parèt sou Sitasyon (FL-110) a. PA kite l vid — Repons ou a dwe matche ak nimewo dosye ki deja egziste a.",
+            "ko": "소환장(FL-110)에 표시된 사건 번호를 정확히 입력하세요. 비워두지 마세요 — 답변서는 기존 사건 번호와 일치해야 합니다.",
+            "pt": "Insira o número do caso exatamente como aparece na Citação (FL-110). NÃO deixe em branco — sua Resposta deve corresponder ao número do caso existente.",
+            "ru": "Введите номер дела в точности как на Повестке (FL-110). НЕ оставляйте пустым — ваш Ответ должен соответствовать существующему номеру дела.",
+            "tl": "Ilagay ang case number nang eksakto gaya ng nasa Summons (FL-110). HUWAG iwanang — ang iyong Response ay dapat tumugma sa existing case number."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_1",
+      "fields": [
+        {
+          "field_id": "item_1_legal_relationship",
+          "field_label": "Item 1 — This proceeding is for",
+          "field_type": "checkbox_group",
+          "checkbox_guidance": [
+            {
+              "box": "1a",
+              "label": "Dissolution (Divorce) of: Marriage / Domestic Partnership",
+              "check_if": {
+                "en": "Check 'Marriage' if you and the Petitioner were legally married. Check 'Domestic Partnership' if you registered a domestic partnership with the California Secretary of State. Check both if you had both.",
+                "es": "Marque 'Marriage' si usted y el Peticionario estaban legalmente casados. Marque 'Domestic Partnership' si registraron una unión doméstica con el Secretario de Estado de California.",
+                "zh": "如果您和请愿人已合法结婚，请勾选'Marriage'。如果您在加州州务卿处登记了家庭伴侣关系，请勾选'Domestic Partnership'。",
+                "vi": "Đánh dấu 'Marriage' nếu bạn và Nguyên đơn đã kết hôn hợp pháp. Đánh dấu 'Domestic Partnership' nếu bạn đã đăng ký quan hệ bạn đời tại Bộ Ngoại vụ California.",
+                "so": "Calaamadee 'Marriage' haddii adigu iyo Codsadahu si sharci ah isku guursateen. Calaamadee 'Domestic Partnership' haddii aad ka diiwaangeliseen Xoghayaha Dawladda California.",
+                "ti": "ንስኻን ነቲ ጥርዓን ዘቕረበን ብሕጊ ዝተመርዓኹም እንተኾንኩም 'Marriage' ምረጹ። ኣብ ጸሓፊ ግዝኣት ካሊፎርንያ ናይ ቤት ብጻይነት ዝተመዝገብኩም እንተኾንኩም 'Domestic Partnership' ምረጹ።",
+                "am": "እርስዎና ማመልከቻ አቅራቢው በሕጋዊ መንገድ ያገቡ ከሆነ 'Marriage' ምልክት ያድርጉ። በካሊፎርኒያ የግዛት ጸሐፊ የቤት ውስጥ ጓደኝነት ከተመዘገቡ 'Domestic Partnership' ምልክት ያድርጉ።",
+                "ar": "ضع علامة على 'Marriage' إذا كنت أنت ومقدم العريضة متزوجين قانونيًا. ضع علامة على 'Domestic Partnership' إذا سجلتم شراكة منزلية لدى وزير خارجية كاليفورنيا.",
+                "ht": "Make 'Marriage' si ou ak Petisyonè a te marye legalman. Make 'Domestic Partnership' si ou te anrejistre yon patenarya domestik ak Sekretè Deta Kalifòni.",
+                "ko": "본인과 청원인이 법적으로 결혼한 경우 'Marriage'에 체크하세요. 캘리포니아 국무장관에 동거 파트너십을 등록한 경우 'Domestic Partnership'에 체크하세요.",
+                "pt": "Marque 'Marriage' se você e o Peticionário eram legalmente casados. Marque 'Domestic Partnership' se registraram uma parceria doméstica com o Secretário de Estado da Califórnia.",
+                "ru": "Отметьте 'Marriage', если вы и Истец состояли в законном браке. Отметьте 'Domestic Partnership', если вы зарегистрировали домашнее партнёрство у Государственного секретаря Калифорнии.",
+                "tl": "I-check ang 'Marriage' kung ikaw at ang Petitioner ay legal na kasal. I-check ang 'Domestic Partnership' kung nagrehistro kayo ng domestic partnership sa California Secretary of State."
+              }
+            },
+            {
+              "box": "1b",
+              "label": "Legal Separation of: Marriage / Domestic Partnership",
+              "check_if": {
+                "en": "Check this ONLY if the Petitioner asked for legal separation (not divorce) and you agree. Legal separation means you remain legally married but divide assets and debts. This is less common.",
+                "es": "Marque esto SOLO si el Peticionario pidió separación legal (no divorcio) y usted está de acuerdo. Separación legal significa que siguen casados pero dividen bienes y deudas.",
+                "zh": "仅在请愿人要求合法分居（非离婚）且您同意时勾选。合法分居意味着您仍然合法结婚但分割资产和债务。",
+                "vi": "Chỉ đánh dấu nếu Nguyên đơn yêu cầu ly thân hợp pháp (không phải ly hôn) và bạn đồng ý. Ly thân hợp pháp nghĩa là bạn vẫn kết hôn hợp pháp nhưng chia tài sản và nợ.",
+                "so": "Calaamadee KALIYA haddii Codsaduhu uu codsaday kala-go sharci ah (ma aha furiin) aadna raacsan tahay.",
+                "ti": "ነቲ ጥርዓን ዘቕረበ ሕጋዊ ፍልልይ (ፍትሕ ዘይኮነ) ዝሓተተ ኮይኑ ንስኻ ዝሰማማዕካ እንተኾይንካ ጥራይ ምረጽ።",
+                "am": "ማመልከቻ አቅራቢው ሕጋዊ መለያየት (ፍቺ ሳይሆን) ከጠየቀ እና እርስዎ ከተስማሙ ብቻ ምልክት ያድርጉ።",
+                "ar": "ضع علامة فقط إذا طلب مقدم العريضة انفصالًا قانونيًا (وليس طلاقًا) وأنت موافق.",
+                "ht": "Make sa SÈLMAN si Petisyonè a te mande separasyon legal (pa divòs) epi ou dakò.",
+                "ko": "청원인이 법적 별거(이혼이 아닌)를 요청했고 동의하는 경우에만 체크하세요.",
+                "pt": "Marque APENAS se o Peticionário pediu separação legal (não divórcio) e você concorda.",
+                "ru": "Отметьте ТОЛЬКО если Истец просил юридическое разделение (не развод) и вы согласны.",
+                "tl": "I-check ito LAMANG kung ang Petitioner ay humingi ng legal separation (hindi divorce) at sumasang-ayon ka."
+              }
+            },
+            {
+              "box": "1c",
+              "label": "Nullity (Annulment) of: Marriage / Domestic Partnership",
+              "check_if": {
+                "en": "Check this ONLY if the Petitioner asked for an annulment and you agree. Annulment means the marriage was never legally valid (e.g., fraud, bigamy, incest, underage). This is rare and requires specific legal grounds under Family Code § 2210.",
+                "es": "Marque esto SOLO si el Peticionario pidió anulación y usted está de acuerdo. La anulación significa que el matrimonio nunca fue legalmente válido. Esto es raro y requiere fundamentos específicos bajo Family Code § 2210.",
+                "zh": "仅在请愿人要求宣告婚姻无效且您同意时勾选。宣告无效意味着婚姻从未合法有效。这很少见，需要Family Code § 2210规定的特定法律依据。",
+                "vi": "Chỉ đánh dấu nếu Nguyên đơn yêu cầu hủy hôn và bạn đồng ý. Hủy hôn nghĩa là hôn nhân chưa bao giờ hợp pháp. Điều này hiếm và cần căn cứ pháp lý cụ thể theo Family Code § 2210.",
+                "so": "Calaamadee KALIYA haddii Codsaduhu uu codsaday burin guur oo aad raacsan tahay. Tani waa wax aan caadi ahayn waxayna u baahan tahay sababo gaar ah sida Family Code § 2210.",
+                "ti": "ነቲ ጥርዓን ዘቕረበ ምፍራስ ዝሓተተ ኮይኑ ንስኻ ዝሰማማዕካ እንተኾይንካ ጥራይ ምረጽ። ብFamily Code § 2210 መሰረት ፍሉይ ሕጋዊ ምኽንያት የድሊ።",
+                "am": "ማመልከቻ አቅራቢው ሰርዝ ከጠየቀ እና ከተስማሙ ብቻ ምልክት ያድርጉ። በFamily Code § 2210 መሰረት የተለየ ሕጋዊ ምክንያት ያስፈልጋል።",
+                "ar": "ضع علامة فقط إذا طلب مقدم العريضة إبطال الزواج وأنت موافق. يتطلب أسبابًا قانونية محددة بموجب Family Code § 2210.",
+                "ht": "Make sa SÈLMAN si Petisyonè a te mande anilasyon epi ou dakò. Sa ra epi li bezwen rezon legal espesifik anba Family Code § 2210.",
+                "ko": "청원인이 혼인 무효를 요청했고 동의하는 경우에만 체크하세요. Family Code § 2210에 따른 특정 법적 근거가 필요합니다.",
+                "pt": "Marque APENAS se o Peticionário pediu anulação e você concorda. Requer fundamentos legais específicos sob Family Code § 2210.",
+                "ru": "Отметьте ТОЛЬКО если Истец просил аннулирование и вы согласны. Требуются конкретные правовые основания по Family Code § 2210.",
+                "tl": "I-check ito LAMANG kung ang Petitioner ay humingi ng annulment at sumasang-ayon ka. Nangangailangan ng espesipikong legal grounds sa ilalim ng Family Code § 2210."
+              }
+            }
+          ]
+        }
+      ]
+    },    {
+      "section_id": "item_2",
+      "fields": [
+        {
+          "field_id": "item_2_residency",
+          "field_label": "Item 2 — Residency Requirements",
+          "field_type": "checkbox_group",
+          "guidance": {
+            "en": "This section asks about residency. For a California court to grant a divorce, at least one spouse must have lived in California for 6 months AND in the county where the case is filed for 3 months. As the Respondent, you are confirming or denying these facts.",
+            "es": "Esta sección pregunta sobre residencia. Para que un tribunal de California otorgue un divorcio, al menos un cónyuge debe haber vivido en California por 6 meses Y en el condado donde se presentó el caso por 3 meses.",
+            "zh": "此部分涉及居住要求。加州法院判决离婚要求至少一方配偶在加州居住满6个月且在案件提交的县居住满3个月。",
+            "vi": "Phần này hỏi về cư trú. Để tòa California cấp ly hôn, ít nhất một bên phải sống ở California 6 tháng VÀ ở quận nộp đơn 3 tháng.",
+            "so": "Qaybtan waxay su'aashaa ku saabsan deganaansho. Si maxkamad California ah u oggolaato furiin, ugu yaraan hal xaas ah waa inuu California ku noolaa 6 bilood IYO degmada 3 bilood.",
+            "ti": "እዚ ክፋል ብዛዕባ መንበሪ ይሓትት። ንፍትሕ ቤት ፍርዲ ካሊፎርንያ ኣብ ካሊፎርንያ 6 ወርሒ ኣብ ካውንቲ ድማ 3 ወርሒ ዝተቐመጠ ሓደ ብጻይ ክህሉ ኣለዎ።",
+            "am": "ይህ ክፍል ስለ መኖሪያ ይጠይቃል። የካሊፎርኒያ ፍርድ ቤት ፍቺ ለመስጠት ቢያንስ አንድ ባለቤት በካሊፎርኒያ 6 ወራት እና በካውንቲ 3 ወራት መኖር አለበት።",
+            "ar": "يسأل هذا القسم عن الإقامة. لمنح الطلاق، يجب أن يكون أحد الزوجين قد عاش في كاليفورنيا 6 أشهر وفي المقاطعة 3 أشهر.",
+            "ht": "Seksyon sa mande enfòmasyon sou rezidans. Pou tribinal Kalifòni bay divòs, omwen youn nan konjwen yo dwe te rete nan Kalifòni pou 6 mwa E nan konte a pou 3 mwa.",
+            "ko": "이 항목은 거주 요건에 관한 것입니다. 캘리포니아 법원이 이혼을 허가하려면 배우자 중 한 명이 캘리포니아에 6개월, 해당 카운티에 3개월 이상 거주해야 합니다.",
+            "pt": "Esta seção pergunta sobre residência. Para um tribunal da Califórnia conceder divórcio, pelo menos um cônjuge deve ter morado na Califórnia por 6 meses E no condado por 3 meses.",
+            "ru": "Этот раздел касается проживания. Для развода в Калифорнии хотя бы один супруг должен проживать в Калифорнии 6 месяцев И в округе подачи 3 месяца.",
+            "tl": "Ang seksyong ito ay tungkol sa residency. Para magbigay ng divorce ang korte ng California, kahit isang asawa ay dapat naninirahan sa California ng 6 na buwan AT sa county ng 3 buwan."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_3",
+      "fields": [
+        {
+          "field_id": "item_3_date_of_marriage",
+          "field_label": "Item 3a — Date of Marriage/Partnership",
+          "field_type": "date_field",
+          "guidance": {
+            "en": "Enter the date you and the Petitioner were married or registered your domestic partnership. If you disagree with the date the Petitioner listed on FL-100, enter what you believe is the correct date.",
+            "es": "Escriba la fecha en que usted y el Peticionario se casaron o registraron su unión doméstica. Si no está de acuerdo con la fecha que el Peticionario puso en FL-100, escriba la fecha que usted cree correcta.",
+            "zh": "输入您和请愿人结婚或登记家庭伴侣关系的日期。如果您不同意请愿人在FL-100上列出的日期，请输入您认为正确的日期。",
+            "vi": "Nhập ngày bạn và Nguyên đơn kết hôn hoặc đăng ký quan hệ bạn đời. Nếu không đồng ý ngày trong FL-100, nhập ngày bạn cho là đúng.",
+            "so": "Geli taariikhda adigu iyo Codsaduhu aad isku guursateen. Haddii aadan ku raacin taariikhda FL-100, geli taariikhda aad rumaysan tahay inay sax tahay.",
+            "ti": "ንስኻን ነቲ ጥርዓን ዘቕረበን ዝተመርዓኹምሉ ዕለት ኣእትዉ። ኣብ FL-100 ዘሎ ዕለት ዘይትሰማማዕ እንተኾንካ ትኽክል ዝብልዎ ኣእትዉ።",
+            "am": "እርስዎና ማመልከቻ አቅራቢው ያገቡበትን ቀን ያስገቡ። FL-100 ላይ ያለውን ቀን ካልተስማሙ ትክክል ነው ብለው የሚያምኑትን ቀን ያስገቡ።",
+            "ar": "أدخل تاريخ زواجك أو تسجيل شراكتك. إذا لم توافق على التاريخ في FL-100، أدخل التاريخ الذي تعتقد أنه صحيح.",
+            "ht": "Mete dat ou ak Petisyonè a te marye oswa anrejistre patenarya domestik. Si ou pa dakò ak dat nan FL-100, mete dat ou kwè ki kòrèk la.",
+            "ko": "본인과 청원인이 결혼하거나 동거 파트너십을 등록한 날짜를 입력하세요. FL-100의 날짜에 동의하지 않으면 정확하다고 생각하는 날짜를 입력하세요.",
+            "pt": "Insira a data em que você e o Peticionário se casaram ou registraram a parceria doméstica. Se discorda da data no FL-100, insira a data que acredita ser correta.",
+            "ru": "Введите дату вашего брака или регистрации партнёрства. Если вы не согласны с датой в FL-100, введите дату, которую считаете правильной.",
+            "tl": "Ilagay ang petsa ng kasal o pagparehistro ng domestic partnership. Kung hindi ka sumasang-ayon sa petsa sa FL-100, ilagay ang petsa na tama sa tingin mo."
+          }
+        },
+        {
+          "field_id": "item_3_date_of_separation",
+          "field_label": "Item 3b — Date of Separation",
+          "field_type": "date_field",
+          "guidance": {
+            "en": "Enter the date you and your spouse separated. Under Family Code § 70, separation occurs when one spouse communicates to the other their intent to end the marriage AND takes action consistent with that intent. This date affects property division — community property ends at separation.",
+            "es": "Escriba la fecha en que usted y su cónyuge se separaron. Bajo Family Code § 70, la separación ocurre cuando un cónyuge comunica al otro su intención de terminar el matrimonio Y actúa conforme. Esta fecha afecta la división de bienes.",
+            "zh": "输入您和配偶分居的日期。根据Family Code § 70，分居发生在一方配偶向另一方表达结束婚姻的意图并采取相应行动时。此日期影响财产分割。",
+            "vi": "Nhập ngày bạn và vợ/chồng ly thân. Theo Family Code § 70, ly thân xảy ra khi một bên thông báo ý định chấm dứt hôn nhân VÀ hành động phù hợp. Ngày này ảnh hưởng đến phân chia tài sản.",
+            "so": "Geli taariikhda adigu iyo xaaskaagu aad kala tagteen. Sida Family Code § 70, kala-go waxay dhacda marka xaas uu sheego inuu rabo inuu guurka dhammaystiro. Taariikhdan waxay saamaysaa qaybsiga hantida.",
+            "ti": "ንስኻን ናይ ቤትካን ዝተፈላለኹምሉ ዕለት ኣእትዉ። ብFamily Code § 70 መሰረት ፍልልይ ሓደ ብጻይ ንኻልኣይ ሓሳቡ ክገልጽ ከሎ ይኽሰት። እዚ ዕለት ንምምቃል ንብረት ይጸልዎ።",
+            "am": "እርስዎና ባለቤትዎ የተለያዩበትን ቀን ያስገቡ። በFamily Code § 70 መሰረት መለያየት የሚከሰተው አንድ ባለቤት ለሌላው ጋብቻውን ለማቆም ፍላጎቱን ሲገልጽ ነው። ይህ ቀን የንብረት ክፍፍልን ይነካል።",
+            "ar": "أدخل تاريخ انفصالك عن زوجك. بموجب Family Code § 70، يحدث الانفصال عندما يُبلغ أحد الزوجين الآخر بنية إنهاء الزواج. هذا التاريخ يؤثر على تقسيم الممتلكات.",
+            "ht": "Mete dat ou ak konjwen ou te separe. Anba Family Code § 70, separasyon rive lè yon konjwen kominike lòt la entansyon li pou fini maryaj la. Dat sa afekte divizyon pwopriyete.",
+            "ko": "배우자와 별거한 날짜를 입력하세요. Family Code § 70에 따라 별거는 한 배우자가 혼인 종료 의사를 전달하고 그에 따라 행동할 때 발생합니다. 이 날짜는 재산 분할에 영향을 미칩니다.",
+            "pt": "Insira a data em que você e seu cônjuge se separaram. Sob Family Code § 70, a separação ocorre quando um cônjuge comunica ao outro a intenção de encerrar o casamento. Esta data afeta a divisão de bens.",
+            "ru": "Введите дату разделения с супругом. По Family Code § 70 разделение происходит, когда один супруг сообщает другому о намерении прекратить брак. Эта дата влияет на раздел имущества.",
+            "tl": "Ilagay ang petsa ng paghihiwalay ninyo ng iyong asawa. Sa ilalim ng Family Code § 70, ang paghihiwalay ay nangyayari kapag ipinahayag ng isang asawa ang intensyon na tapusin ang kasal. Ang petsang ito ay nakakaapekto sa hatian ng ari-arian."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_4",
+      "fields": [
+        {
+          "field_id": "item_4_minor_children",
+          "field_label": "Item 4 — Minor Children",
+          "field_type": "checkbox_group",
+          "checkbox_guidance": [
+            {
+              "box": "4a",
+              "label": "There are no minor children",
+              "check_if": {
+                "en": "Check this if you and the Petitioner have no children together under age 18 and no children are expected.",
+                "es": "Marque esto si usted y el Peticionario no tienen hijos menores de 18 años juntos y no esperan hijos.",
+                "zh": "如果您和请愿人没有18岁以下的共同子女且没有预期子女，请勾选。",
+                "vi": "Đánh dấu nếu bạn và Nguyên đơn không có con chung dưới 18 tuổi và không dự kiến có con.",
+                "so": "Calaamadee haddii adigu iyo Codsaduhu aydaan caruur ka hooseeya 18-jir wadaagin.",
+                "ti": "ንስኻን ነቲ ጥርዓን ዘቕረበን ትሕቲ 18 ዓመት ቆልዑ ዘይብልኩም እንተኾንኩም ምረጹ።",
+                "am": "እርስዎና ማመልከቻ አቅራቢው ከ18 ዓመት በታች ልጆች ከሌሏችሁ ምልክት ያድርጉ።",
+                "ar": "ضع علامة إذا لم يكن لديكم أطفال مشتركون تحت 18 سنة.",
+                "ht": "Make sa si ou ak Petisyonè a pa gen pitit ansanm ki gen mwens pase 18 an.",
+                "ko": "청원인과 18세 미만의 자녀가 없는 경우 체크하세요.",
+                "pt": "Marque se você e o Peticionário não têm filhos menores de 18 anos juntos.",
+                "ru": "Отметьте, если у вас и Истца нет совместных детей до 18 лет.",
+                "tl": "I-check kung walang anak na wala pang 18 taong gulang kayo ng Petitioner."
+              }
+            },
+            {
+              "box": "4b",
+              "label": "The minor children are",
+              "check_if": {
+                "en": "Check this if you and the Petitioner have children together under age 18. List EACH child's full name, date of birth, and current age. Include children born during the marriage and any children you both agreed are children of the relationship. If the Petitioner's list on FL-100 is wrong, enter the correct information here.",
+                "es": "Marque esto si tienen hijos menores de 18 años. Liste el nombre completo, fecha de nacimiento y edad de CADA niño. Si la lista del Peticionario en FL-100 es incorrecta, escriba la información correcta aquí.",
+                "zh": "如果您有18岁以下的共同子女请勾选。列出每个孩子的全名、出生日期和当前年龄。如果FL-100上的信息有误，在此更正。",
+                "vi": "Đánh dấu nếu có con chung dưới 18 tuổi. Liệt kê tên đầy đủ, ngày sinh và tuổi hiện tại của MỖI đứa trẻ. Nếu thông tin trên FL-100 sai, nhập đúng ở đây.",
+                "so": "Calaamadee haddii aad wada leedihiin caruur ka hooseeya 18 jir. Ku qor magaca buuxa, taariikhda dhalashada iyo da'da ILMO kasta.",
+                "ti": "ትሕቲ 18 ዓመት ቆልዑ ዘለዉኹም እንተኾይንኩም ምረጹ። ናይ ነፍሲ ወከፍ ቆልዓ ምሉእ ስም፡ ዕለተ ልደትን ዕድመን ጸሓፉ።",
+                "am": "ከ18 ዓመት በታች ልጆች ካላችሁ ምልክት ያድርጉ። የእያንዳንዱ ልጅ ሙሉ ስም፣ የልደት ቀን እና ዕድሜ ይዘርዝሩ።",
+                "ar": "ضع علامة إذا كان لديكم أطفال مشتركون تحت 18 سنة. اذكر الاسم الكامل وتاريخ الميلاد والعمر لكل طفل.",
+                "ht": "Make sa si ou gen pitit ansanm ki gen mwens pase 18 an. Mete non konplè, dat nesans ak laj CHAK timoun.",
+                "ko": "18세 미만 자녀가 있으면 체크하세요. 각 자녀의 성명, 생년월일, 현재 나이를 기재하세요.",
+                "pt": "Marque se têm filhos menores de 18 anos juntos. Liste nome completo, data de nascimento e idade de CADA criança.",
+                "ru": "Отметьте при наличии совместных детей до 18 лет. Укажите полное имя, дату рождения и возраст КАЖДОГО ребёнка.",
+                "tl": "I-check kung may mga anak kayong magkasama na wala pang 18 taong gulang. Ilista ang buong pangalan, petsa ng kapanganakan at kasalukuyang edad ng BAWAT bata."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "item_5",
+      "fields": [
+        {
+          "field_id": "item_5_respondent_requests",
+          "field_label": "Item 5 — Respondent Requests",
+          "field_type": "checkbox_group",
+          "guidance": {
+            "en": "THIS IS THE MOST IMPORTANT SECTION. Here you tell the court what YOU want. You can agree with the Petitioner's requests, disagree, or make your own different requests. You are NOT required to agree with the Petition.",
+            "es": "ESTA ES LA SECCIÓN MÁS IMPORTANTE. Aquí le dice al tribunal lo que USTED quiere. Puede estar de acuerdo con el Peticionario, en desacuerdo, o hacer sus propias solicitudes. NO está obligado a estar de acuerdo.",
+            "zh": "这是最重要的部分。在这里您告诉法院您想要什么。您可以同意请愿人的请求、不同意或提出自己不同的请求。您不必同意请愿书。",
+            "vi": "ĐÂY LÀ PHẦN QUAN TRỌNG NHẤT. Tại đây bạn nói với tòa bạn muốn gì. Bạn có thể đồng ý, không đồng ý, hoặc đưa ra yêu cầu riêng. Bạn KHÔNG bắt buộc phải đồng ý.",
+            "so": "QAYBTAN WAXAY TAHAY TAN UGU MUHIIMSAN. Halkan waxaad maxkamadda u sheegtaa waxa AAD rabto. Uma baahnid inaad raacdo Codsiga.",
+            "ti": "እዚ እቲ ዝዓበየ ኣገዳሲ ክፋል እዩ። ኣብዚ ነቲ ቤት ፍርዲ እንታይ ከምትደሊ ትነግሮ። ምስ ጥርዓን ክትሰማማዕ ኣየድልየካን።",
+            "am": "ይህ በጣም አስፈላጊው ክፍል ነው። እዚህ ፍርድ ቤቱን ምን እንደሚፈልጉ ይነግሩታል። ከማመልከቻው ጋር መስማማት አያስፈልግም።",
+            "ar": "هذا هو القسم الأهم. هنا تخبر المحكمة بما تريده أنت. لست ملزمًا بالموافقة على العريضة.",
+            "ht": "SA SE SEKSYON KI PI ENPÒTAN. Isit la ou di tribinal la sa OU vle. Ou PA oblije dakò ak Petisyon an.",
+            "ko": "가장 중요한 항목입니다. 여기서 법원에 본인이 원하는 것을 말합니다. 청원에 동의할 의무가 없습니다.",
+            "pt": "ESTA É A SEÇÃO MAIS IMPORTANTE. Aqui você diz ao tribunal o que VOCÊ quer. Você NÃO é obrigado a concordar com a Petição.",
+            "ru": "ЭТО САМЫЙ ВАЖНЫЙ РАЗДЕЛ. Здесь вы сообщаете суду, что хотите ВЫ. Вы НЕ обязаны соглашаться с Петицией.",
+            "tl": "ITO ANG PINAKAMAHALAGANG SEKSYON. Dito sinasabi mo sa korte kung ano ang gusto MO. HINDI ka obligadong sumang-ayon sa Petisyon."
+          },
+          "checkbox_guidance": [
+            {
+              "box": "5a",
+              "label": "Dissolution (Divorce)",
+              "check_if": {
+                "en": "Check this if you agree the marriage should end in divorce. Even if you disagree about custody, support, or property, you can still agree to the divorce itself.",
+                "es": "Marque si está de acuerdo en que el matrimonio debe terminar en divorcio. Aunque no esté de acuerdo sobre custodia, manutención o bienes, puede aceptar el divorcio.",
+                "zh": "如果您同意以离婚结束婚姻请勾选。即使对监护权、赡养费或财产有异议，您仍可同意离婚本身。",
+                "vi": "Đánh dấu nếu đồng ý hôn nhân nên kết thúc bằng ly hôn. Ngay cả nếu không đồng ý về quyền nuôi con, trợ cấp hoặc tài sản, vẫn có thể đồng ý ly hôn.",
+                "so": "Calaamadee haddii aad ku raacsan tahay in guurku ku dhammaado furiin.",
+                "ti": "ሓዳር ብፍትሕ ክውዳእ ኣለዎ ዝብል ትሰማማዕ እንተኾንካ ምረጽ።",
+                "am": "ጋብቻው በፍቺ መጠናቀቅ አለበት ብለው ከተስማሙ ምልክት ያድርጉ።",
+                "ar": "ضع علامة إذا كنت توافق على أن الزواج يجب أن ينتهي بالطلاق.",
+                "ht": "Make si ou dakò maryaj la dwe fini ak divòs.",
+                "ko": "결혼이 이혼으로 끝나야 한다고 동의하면 체크하세요.",
+                "pt": "Marque se concorda que o casamento deve terminar em divórcio.",
+                "ru": "Отметьте, если согласны, что брак должен быть расторгнут.",
+                "tl": "I-check kung sumasang-ayon ka na dapat magtapos ang kasal sa divorce."
+              }
+            }
+          ]
+        }
+      ]
+    },    {
+      "section_id": "item_6",
+      "fields": [
+        {
+          "field_id": "item_6_child_custody",
+          "field_label": "Item 6 — Child Custody",
+          "field_type": "checkbox_group",
+          "guidance": {
+            "en": "If you have minor children, this section is where you request custody. Legal custody = who makes major decisions (health, education, welfare). Physical custody = where the child lives. You can request sole or joint for either type.",
+            "es": "Si tiene hijos menores, aquí solicita custodia. Custodia legal = quién toma decisiones importantes. Custodia física = dónde vive el niño. Puede pedir exclusiva o compartida.",
+            "zh": "如果有未成年子女，此处请求监护权。法定监护=重大决策权。人身监护=孩子居住地。可以请求独占或共同监护。",
+            "vi": "Nếu có con dưới 18 tuổi, đây là nơi yêu cầu quyền nuôi con. Quyền nuôi con pháp lý = ai quyết định chính. Quyền nuôi con thực tế = trẻ sống đâu.",
+            "so": "Haddii aad leedihiin caruur yar, qaybtan waxaad ku codsataa xadaanada. Xadaanada sharciga = cidda go'aaminta. Xadaanada jireed = halkuu cunugu ku nool yahay.",
+            "ti": "ቆልዑ ዘለዉኹም እንተኾይንኩም ኣብዚ ክፋል ሞግዚትነት ትሓቱ። ሕጋዊ ሞግዚትነት = ዓበይቲ ውሳኔታት። ኣካላዊ ሞግዚትነት = ቆልዓ ኣበይ ይቕመጥ።",
+            "am": "ልጆች ካሏችሁ ይህ የሞግዚትነት ክፍል ነው። ሕጋዊ ሞግዚትነት = ዋና ውሳኔዎች። አካላዊ ሞግዚትነት = ልጅ የት ይኖራል።",
+            "ar": "إذا كان لديكم أطفال، هنا تطلب الحضانة. الحضانة القانونية = من يتخذ القرارات الكبرى. الحضانة الجسدية = أين يعيش الطفل.",
+            "ht": "Si ou gen pitit minè, isit la ou mande gad. Gad legal = ki moun ki pran desizyon enpòtan. Gad fizik = kote timoun nan rete.",
+            "ko": "미성년 자녀가 있으면 여기서 양육권을 요청합니다. 법적 양육권 = 주요 결정권. 물리적 양육권 = 자녀 거주지.",
+            "pt": "Se tem filhos menores, aqui solicita a guarda. Guarda legal = quem toma decisões importantes. Guarda física = onde a criança mora.",
+            "ru": "При наличии несовершеннолетних детей здесь запрашивается опека. Юридическая опека = кто принимает важные решения. Физическая опека = где живёт ребёнок.",
+            "tl": "Kung may mga minor na anak, dito humihiling ng custody. Legal custody = sino ang gumagawa ng malalaking desisyon. Physical custody = saan nakatira ang bata."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_7",
+      "fields": [
+        {
+          "field_id": "item_7_child_support",
+          "field_label": "Item 7 — Child Support",
+          "field_type": "checkbox_group",
+          "guidance": {
+            "en": "Check this if you want the court to order child support. California uses a formula (guideline) based on income and time with the child. You may be ordered to pay OR receive support depending on custody and income. Filing an Income and Expense Declaration (FL-150) will be required.",
+            "es": "Marque si desea que el tribunal ordene manutención de menores. California usa una fórmula basada en ingresos y tiempo con el niño. Se requerirá una Declaración de Ingresos y Gastos (FL-150).",
+            "zh": "如果希望法院命令支付子女抚养费请勾选。加州使用基于收入和与孩子相处时间的公式。需要提交收入和支出声明(FL-150)。",
+            "vi": "Đánh dấu nếu muốn tòa ra lệnh cấp dưỡng con. California dùng công thức dựa trên thu nhập và thời gian với con. Cần nộp Khai báo Thu nhập và Chi phí (FL-150).",
+            "so": "Calaamadee haddii aad rabto maxkamadda inay amarto masruufka cunuga. California waxay isticmaashaa qaacido ku salaysan dakhliga iyo waqtiga la qaato cunuga.",
+            "ti": "ቤት ፍርዲ ናይ ቆልዓ ሓገዝ ክእዝዝ ትደሊ እንተኾንካ ምረጽ። ካሊፎርንያ ኣብ ኣታዊን ምስ ቆልዓ ዝሕለፍ ግዜን ዝተመስረተ ቀመር ይጥቀም።",
+            "am": "ፍርድ ቤቱ የልጅ ድጋፍ እንዲያዝ ከፈለጉ ምልክት ያድርጉ። ካሊፎርኒያ በገቢ እና ከልጁ ጋር በሚያሳልፉት ጊዜ ላይ የተመሰረተ ቀመር ይጠቀማል።",
+            "ar": "ضع علامة إذا كنت تريد من المحكمة أن تأمر بنفقة الطفل. تستخدم كاليفورنيا معادلة تعتمد على الدخل والوقت مع الطفل.",
+            "ht": "Make si ou vle tribinal la bay lòd pou sipò timoun. Kalifòni sèvi ak yon fòmil ki baze sou revni ak tan ak timoun nan.",
+            "ko": "법원이 양육비를 명령하도록 원하면 체크하세요. 캘리포니아는 소득과 자녀와의 시간에 기반한 공식을 사용합니다.",
+            "pt": "Marque se deseja que o tribunal ordene pensão alimentícia. A Califórnia usa uma fórmula baseada na renda e no tempo com a criança.",
+            "ru": "Отметьте, если хотите, чтобы суд назначил алименты. Калифорния использует формулу на основе дохода и времени с ребёнком.",
+            "tl": "I-check kung gusto mong mag-utos ang korte ng child support. Gumagamit ang California ng formula batay sa kita at oras kasama ang bata."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_8",
+      "fields": [
+        {
+          "field_id": "item_8_spousal_support",
+          "field_label": "Item 8 — Spousal or Partner Support",
+          "field_type": "checkbox_group",
+          "guidance": {
+            "en": "Check this if you want the court to order spousal support (alimony) — either for you to receive it or to terminate the Petitioner's right to receive it. The court considers factors under Family Code § 4320 including length of marriage, income difference, and standard of living during marriage.",
+            "es": "Marque si desea que el tribunal ordene manutención conyugal — ya sea para recibirla o para terminar el derecho del Peticionario. El tribunal considera factores bajo Family Code § 4320.",
+            "zh": "如果希望法院命令配偶赡养费请勾选——无论是接收还是终止请愿人的权利。法院考虑Family Code § 4320规定的因素。",
+            "vi": "Đánh dấu nếu muốn tòa ra lệnh cấp dưỡng vợ/chồng. Tòa xem xét các yếu tố theo Family Code § 4320.",
+            "so": "Calaamadee haddii aad rabto maxkamadda inay amarto masruufka xaaska. Maxkamadda waxay tixgelisaa arrimaha Family Code § 4320.",
+            "ti": "ቤት ፍርዲ ናይ ሰብኣይ/ሰበይቲ ሓገዝ ክእዝዝ ትደሊ እንተኾንካ ምረጽ። ቤት ፍርዲ ብFamily Code § 4320 ዝተዘርዘሩ ነገራት ይሓስብ።",
+            "am": "ፍርድ ቤቱ የትዳር አጋር ድጋፍ እንዲያዝ ከፈለጉ ምልክት ያድርጉ። ፍርድ ቤቱ በFamily Code § 4320 ያሉ ሁኔታዎችን ይመለከታል።",
+            "ar": "ضع علامة إذا كنت تريد نفقة زوجية. تنظر المحكمة في عوامل بموجب Family Code § 4320.",
+            "ht": "Make si ou vle tribinal la bay lòd pou sipò konjwen. Tribinal la konsidere faktè anba Family Code § 4320.",
+            "ko": "법원이 배우자 부양비를 명령하도록 원하면 체크하세요. 법원은 Family Code § 4320에 따른 요소를 고려합니다.",
+            "pt": "Marque se deseja que o tribunal ordene pensão ao cônjuge. O tribunal considera fatores sob Family Code § 4320.",
+            "ru": "Отметьте, если хотите, чтобы суд назначил содержание супруга. Суд учитывает факторы по Family Code § 4320.",
+            "tl": "I-check kung gusto mong mag-utos ang korte ng spousal support. Isinasaalang-alang ng korte ang mga factors sa ilalim ng Family Code § 4320."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_9",
+      "fields": [
+        {
+          "field_id": "item_9_property",
+          "field_label": "Item 9 — Property",
+          "field_type": "checkbox_group",
+          "guidance": {
+            "en": "Check this to ask the court to divide community property (assets acquired during marriage) and debts. California is a community property state — generally, everything acquired during marriage is split 50/50. Separate property (owned before marriage or received as a gift/inheritance) stays with that person.",
+            "es": "Marque para pedir al tribunal que divida los bienes comunitarios y las deudas. California es un estado de bienes gananciales — generalmente todo lo adquirido durante el matrimonio se divide 50/50.",
+            "zh": "勾选此项要求法院分割共同财产和债务。加州是共同财产州——婚姻期间获得的一切通常平分。",
+            "vi": "Đánh dấu để yêu cầu tòa phân chia tài sản cộng đồng và nợ. California là tiểu bang tài sản cộng đồng — tài sản trong hôn nhân thường chia 50/50.",
+            "so": "Calaamadee si aad maxkamadda u codsato inay qaybiso hantida wadaagga iyo deymaha. California waa gobol hanti wadaag ah — guud ahaan wax kasta oo la helay xilliga guurka waxaa la qaybiyaa 50/50.",
+            "ti": "ቤት ፍርዲ ናይ ሓባር ንብረት ክመቕል ንምሕታት ምረጽ። ካሊፎርንያ ናይ ሓባር ንብረት ግዝኣት እያ — ኣብ ግዜ ሓዳር ዝተረኽበ ብ50/50 ይምቀል።",
+            "am": "ፍርድ ቤቱ የጋራ ንብረት እና ዕዳ እንዲከፋፍል ለመጠየቅ ምልክት ያድርጉ። ካሊፎርኒያ የጋራ ንብረት ግዛት ነች — በአጠቃላይ በጋብቻ ወቅት የተገኘ ሁሉ 50/50 ይከፈላል።",
+            "ar": "ضع علامة لطلب من المحكمة تقسيم الممتلكات المشتركة والديون. كاليفورنيا ولاية ملكية مشتركة — عمومًا كل ما اكتُسب أثناء الزواج يُقسم 50/50.",
+            "ht": "Make pou mande tribinal la divize pwopriyete kominote ak dèt. Kalifòni se yon eta pwopriyete kominote — jeneralman tout sa yo te jwenn pandan maryaj la divize 50/50.",
+            "ko": "법원에 공동 재산과 부채 분할을 요청하려면 체크하세요. 캘리포니아는 공동재산 주입니다 — 혼인 중 취득한 것은 일반적으로 50/50으로 분할됩니다.",
+            "pt": "Marque para pedir ao tribunal que divida bens comunitários e dívidas. A Califórnia é um estado de propriedade comunitária — geralmente tudo adquirido durante o casamento é dividido 50/50.",
+            "ru": "Отметьте для запроса раздела совместного имущества и долгов. Калифорния — штат совместной собственности — всё приобретённое в браке обычно делится 50/50.",
+            "tl": "I-check para hilingin sa korte na hatiin ang community property at mga utang. Ang California ay community property state — karaniwang lahat ng nakuha sa kasal ay hinahati 50/50."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_10",
+      "fields": [
+        {
+          "field_id": "item_10_attorney_fees",
+          "field_label": "Item 10 — Attorney Fees and Costs",
+          "field_type": "checkbox_group",
+          "guidance": {
+            "en": "Check this if you want the court to order the other party to pay your attorney fees and court costs. Under Family Code § 2030, the court can order one party to pay the other's fees to ensure both sides have access to legal representation. Even if you are self-represented, you can request costs.",
+            "es": "Marque si desea que el tribunal ordene a la otra parte pagar sus honorarios de abogado y costos. Bajo Family Code § 2030, el tribunal puede ordenar esto.",
+            "zh": "如果希望法院命令对方支付您的律师费和诉讼费用请勾选。根据Family Code § 2030，法院可以命令一方支付另一方的费用。",
+            "vi": "Đánh dấu nếu muốn tòa ra lệnh đối phương trả phí luật sư và chi phí tòa. Theo Family Code § 2030, tòa có thể ra lệnh này.",
+            "so": "Calaamadee haddii aad rabto maxkamadda inay amarto dhinaca kale inuu bixiyo kharashkaaga. Sida Family Code § 2030.",
+            "ti": "ቤት ፍርዲ ነቲ ካልኣይ ወገን ናይ ጠበቓ ክፍሊትካ ክኸፍል ክእዝዝ ትደሊ እንተኾንካ ምረጽ። ብFamily Code § 2030 መሰረት።",
+            "am": "ፍርድ ቤቱ ሌላውን ወገን የጠበቃ ክፍያዎን እንዲከፍል ከፈለጉ ምልክት ያድርጉ። በFamily Code § 2030 መሰረት።",
+            "ar": "ضع علامة إذا كنت تريد من المحكمة أن تأمر الطرف الآخر بدفع أتعاب محاميك. بموجب Family Code § 2030.",
+            "ht": "Make si ou vle tribinal la fòse lòt pati a peye frè avoka ou ak depans tribinal. Anba Family Code § 2030.",
+            "ko": "상대방이 변호사 비용을 지불하도록 법원에 요청하려면 체크하세요. Family Code § 2030에 따라 가능합니다.",
+            "pt": "Marque se deseja que o tribunal ordene a outra parte a pagar seus honorários advocatícios. Sob Family Code § 2030.",
+            "ru": "Отметьте, если хотите, чтобы суд обязал другую сторону оплатить ваши расходы на адвоката. По Family Code § 2030.",
+            "tl": "I-check kung gusto mong iutos ng korte sa kabilang partido na bayaran ang iyong attorney fees. Sa ilalim ng Family Code § 2030."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_11_deadline_warning",
+      "fields": [
+        {
+          "field_id": "item_11_30day_deadline",
+          "field_label": "CRITICAL: 30-Day Filing Deadline",
+          "field_type": "warning",
+          "guidance": {
+            "en": "YOU MUST FILE THIS RESPONSE WITHIN 30 DAYS of being served with the Petition and Summons. If you do not respond within 30 days, the Petitioner can ask the court to enter a default judgment — meaning the court can grant everything the Petitioner asked for WITHOUT your input. Do not miss this deadline.",
+            "es": "DEBE PRESENTAR ESTA RESPUESTA DENTRO DE 30 DÍAS de haber recibido la Petición y Citación. Si no responde en 30 días, el Peticionario puede pedir un fallo en rebeldía — el tribunal puede otorgar todo lo que pidió SIN su participación.",
+            "zh": "您必须在收到请愿书和传票后30天内提交此答辩书。如果未在30天内回应，请愿人可以请求缺席判决——法院可以在没有您参与的情况下批准请愿人的所有请求。",
+            "vi": "BẠN PHẢI NỘP PHÚC ĐÁP NÀY TRONG VÒNG 30 NGÀY kể từ khi được tống đạt. Nếu không phúc đáp trong 30 ngày, Nguyên đơn có thể xin tòa ra phán quyết vắng mặt.",
+            "so": "WAA INAAD XAREYSAA JAWAABTAN GUDAHA 30 MAALMOOD. Haddii aadan ka jawaabin 30 maalmood, Codsaduhu wuxuu codsan karaa go'aan khaldan — maxkamadda ayaa siin karta wax kasta uu codsaday ADIGOON lagugu xisaabin.",
+            "ti": "ነዚ መልሲ ኣብ ውሽጢ 30 መዓልቲ ክትቕርብ ኣለካ። እንተዘይመለስካ ኣብ 30 መዓልቲ ቤት ፍርዲ ብዘይ ተሳትፎኻ ንኹሉ ክህብ ይኽእል።",
+            "am": "ይህን መልስ በ30 ቀናት ውስጥ ማስገባት አለብዎት። ካልመለሱ ማመልከቻ አቅራቢው ያለ እርስዎ ተሳትፎ ሁሉንም ማግኘት ይችላል።",
+            "ar": "يجب تقديم هذا الرد خلال 30 يومًا. إذا لم ترد خلال 30 يومًا، يمكن لمقدم العريضة الحصول على حكم غيابي بدون مشاركتك.",
+            "ht": "OU DWE DEPOZE REPONS SA NAN 30 JOU. Si ou pa reponn nan 30 jou, Petisyonè a ka mande tribinal la bay yon jijman pa defo — tribinal la ka bay tout sa li te mande SAN patisipasyon ou.",
+            "ko": "청원서와 소환장을 송달받은 날로부터 30일 이내에 답변서를 제출해야 합니다. 30일 내 답변하지 않으면 궐석판결이 내려질 수 있습니다.",
+            "pt": "VOCÊ DEVE PROTOCOLAR ESTA RESPOSTA DENTRO DE 30 DIAS. Se não responder em 30 dias, pode haver julgamento à revelia sem sua participação.",
+            "ru": "ВЫ ДОЛЖНЫ ПОДАТЬ ЭТОТ ОТВЕТ В ТЕЧЕНИЕ 30 ДНЕЙ. Если не ответите в течение 30 дней, суд может вынести заочное решение без вашего участия.",
+            "tl": "DAPAT MO I-FILE ANG RESPONSE NA ITO SA LOOB NG 30 ARAW. Kung hindi ka tumugon sa loob ng 30 araw, maaaring magkaroon ng default judgment nang wala ang iyong partisipasyon."
+          }
+        }
+      ]
+    },    {
+      "section_id": "signature",
+      "fields": [
+        {
+          "field_id": "signature_declaration",
+          "field_label": "Declaration Under Penalty of Perjury",
+          "field_type": "signature_block",
+          "guidance": {
+            "en": "By signing, you declare under penalty of perjury under California law that everything in this Response is true and correct. 'Penalty of perjury' means you can face criminal charges if you knowingly lie. Sign your full legal name, print the date, and print your name. If filing electronically, an electronic signature is acceptable.",
+            "es": "Al firmar, declara bajo pena de perjurio según la ley de California que todo en esta Respuesta es verdadero y correcto. 'Pena de perjurio' significa que puede enfrentar cargos criminales si miente a sabiendas.",
+            "zh": "签名即表示您根据加州法律在伪证罪处罚下声明此答辩书中的一切真实正确。'伪证罪处罚'意味着如果您故意撒谎可能面临刑事指控。",
+            "vi": "Bằng cách ký, bạn khai báo dưới hình phạt khai man theo luật California rằng mọi thứ trong Phúc đáp là đúng sự thật. 'Hình phạt khai man' nghĩa là bạn có thể bị truy tố hình sự nếu cố tình nói dối.",
+            "so": "Marka aad saxeexdo, waxaad ku dhaartay ciqaabta been abuurnimada in wax kasta oo ku jira Jawaabtan ay run iyo sax yihiin.",
+            "ti": "ብምፍራም ኣብ ትሕቲ ቅጽዓት ሓሶ ብሕጊ ካሊፎርንያ ኩሉ ኣብዚ መልሲ ዘሎ ሓቂ ምዃኑ ትእውጅ።",
+            "am": "በመፈረም በካሊፎርኒያ ሕግ መሰረት በሐሰት ቅጣት ስር በዚህ መልስ ያለው ሁሉ እውነት መሆኑን ያውጃሉ።",
+            "ar": "بتوقيعك تصرح تحت طائلة عقوبة الحنث بالقسم أن كل ما في هذا الرد صحيح ودقيق.",
+            "ht": "Lè ou siyen, ou deklare anba penalite fo temwayaj selon lwa Kalifòni ke tout sa ki nan Repons sa a se verite.",
+            "ko": "서명함으로써 캘리포니아 법률에 따라 위증 처벌 하에 이 답변서의 모든 내용이 사실이고 정확하다고 선언합니다.",
+            "pt": "Ao assinar, você declara sob pena de perjúrio pela lei da Califórnia que tudo nesta Resposta é verdadeiro e correto.",
+            "ru": "Подписывая, вы заявляете под страхом наказания за лжесвидетельство по закону Калифорнии, что всё в этом Ответе является правдой.",
+            "tl": "Sa pagpirma, idineklara mo sa ilalim ng parusa ng perjury sa batas ng California na lahat sa Response na ito ay totoo at tama."
+          }
+        }
+      ]
+    }
+  ]
+}

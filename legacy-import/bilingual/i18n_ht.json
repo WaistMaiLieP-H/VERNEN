@@ -1,0 +1,115 @@
+{
+  "app": {
+    "name": "Hartmann Legal Analytics",
+    "tagline": "Alimante pa VERNEN™",
+    "copyright": "© 2026 Michael Vernen Thomas Hartmann. Tout dwa rezève."
+  },
+  "nav": {
+    "home": "Akèy",
+    "audit": "Odit Konfòmite",
+    "results": "Rezilta",
+    "glossary": "Glosè Legal",
+    "pricing": "Pri",
+    "about": "Sou Nou",
+    "login": "Konekte",
+    "signup": "Enskri",
+    "language": "English"
+  },
+  "hero": {
+    "headline": "Odit Konfòmite Legal ak Entèlijans Atifisyèl",
+    "subheadline": "Idantifye defo nan pwosedi, vyolasyon dwa, ak echèk nan konfòmite nan 14 domèn espesyalize.",
+    "cta_primary": "Kòmanse Odit Ou",
+    "cta_secondary": "Gade Kijan Li Fonksyone"
+  },
+  "audit": {
+    "title": "Odit Konfòmite",
+    "upload_label": "Telechaje Dokiman",
+    "upload_hint": "PDF, DOCX oswa tèks senp — lòd tribinal, korespondans ajans, rapò polis, evalyasyon medikal, desizyon CPS",
+    "select_domain": "Chwazi Domèn Odit",
+    "domains": {
+      "constitutional": "Dwa Konstitisyonèl ak Dwa Sivil",
+      "family_court": "Lòd Tribinal Fanmi",
+      "cps": "CPS / Byennèt Timoun",
+      "law_enforcement": "Konduit Lapolis (POST)",
+      "fbi": "FBI / Fòs Lòd Federal",
+      "attorney_conduct": "Etik Avoka",
+      "psychiatry": "Sikiyatri ak Newoloji (ABPN)",
+      "fcs_mediator": "Konduit Medyatè Gad Timoun (FCS)",
+      "victim_rights": "Lwa Marsy / Dwa Viktim",
+      "labor": "Travay ak Anplwa",
+      "state_agency": "Korespondans Ajans Eta",
+      "fcra": "FCRA / Rapò Konsomatè",
+      "ssa_disability": "Detèminasyon Andikap SSA",
+      "military": "Estanda Milite USMC"
+    },
+    "language_output": "Lang Rapò",
+    "language_english": "Anglè",
+    "language_native": "Kreyòl Ayisyen",
+    "language_both": "De Lang (Anglè + Kreyòl Ayisyen)",
+    "submit": "Kouri Odit",
+    "processing": "Ap analize dokiman selon estanda ki aplikab yo...",
+    "estimated_time": "Tan estime: 30–90 segonn"
+  },
+  "results": {
+    "title": "Rezilta Odit",
+    "summary": "Rezime",
+    "findings": "Dekouvèt",
+    "standard_violated": "Estanda ki Vyole",
+    "evidence": "Prèv ki Sipòte",
+    "severity": "Gravite",
+    "severity_critical": "Kritik",
+    "severity_major": "Grav",
+    "severity_minor": "Minè",
+    "severity_advisory": "Konsèy",
+    "recommendation": "Aksyon Rekòmande",
+    "download_pdf": "Telechaje Rapò PDF",
+    "download_docx": "Telechaje Dokiman Word",
+    "new_audit": "Fè Yon Lòt Odit",
+    "disclaimer": "Analiz sa a se pou enfòmasyon sèlman e li pa konstitye konsèy legal. Konsilte yon avoka kalifye pou desizyon legal."
+  },
+  "glossary": {
+    "title": "Glosè Tèm Legal",
+    "search_placeholder": "Chèche tèm legal...",
+    "english": "Anglè",
+    "native": "Kreyòl Ayisyen",
+    "definition": "Definisyon",
+    "context": "Kontèks Legal",
+    "no_results": "Okenn tèm ki matche pa jwenn."
+  },
+  "pricing": {
+    "title": "Pri",
+    "per_audit": "Pa Odit",
+    "monthly": "Chak Mwa",
+    "annual": "Chak Ane",
+    "tier_basic": "Debaz",
+    "tier_professional": "Pwofesyonèl",
+    "tier_enterprise": "Antrepriz",
+    "feature_audits": "odit pa mwa",
+    "feature_domains": "domèn odit",
+    "feature_bilingual": "Rapò de lang",
+    "feature_priority": "Tretman priyorite",
+    "feature_api": "Aksè API",
+    "get_started": "Kòmanse",
+    "contact_us": "Kontakte Nou"
+  },
+  "about": {
+    "title": "Sou Nou",
+    "description": "Hartmann Legal Analytics bay odit konfòmite ak entèlijans atifisyèl nan domèn legal, regilasyon ak enstitisyonèl. Bati sou motè analiz VERNEN™, platfòm nan idantifye defo nan pwosedi, vyolasyon dwa ak echèk nan konfòmite ke revizyon manyèl souvan rate.",
+    "creator": "Kreye pa Michael Vernen Thomas Hartmann",
+    "methodology": "Metodoloji Estanda Kreyasyon (S.o.C.)",
+    "methodology_desc": "Chak dokiman odit selon estanda legal espesifik ki te gouvène kreyasyon li — pa prensip jeneral, men lwa egzak, règleman oswa kòd pwofesyonèl ki aplikab."
+  },
+  "footer": {
+    "privacy": "Politik Konfidansyalite",
+    "terms": "Kondisyon Sèvis",
+    "contact": "Kontak",
+    "accessibility": "Aksesibilite"
+  },
+  "errors": {
+    "upload_failed": "Telechajman echwe. Tanpri eseye ankò.",
+    "file_too_large": "Fichye a depase gwosè maksimòm (10 MB).",
+    "unsupported_format": "Fòma fichye pa sipòte. Tanpri telechaje PDF, DOCX oswa TXT.",
+    "audit_failed": "Tretman odit echwe. Tanpri eseye ankò.",
+    "network_error": "Erè rezo. Tcheke koneksyon ou epi eseye ankò."
+  }
+}

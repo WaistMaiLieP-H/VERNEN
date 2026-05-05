@@ -1,0 +1,91 @@
+# FOURTEENTH AMENDMENT TO THE UNITED STATES CONSTITUTION
+## Section 1 — Rights
+
+**Source:** Cornell Law School, Legal Information Institute
+**URL:** https://www.law.cornell.edu/constitution/amendmentxiv
+
+---
+
+## FULL TEXT — SECTION 1
+
+All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the state wherein they reside. No state shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States; nor shall any state deprive any person of life, liberty, or property, without due process of law; nor deny to any person within its jurisdiction the equal protection of the laws.
+
+---
+
+## KEY CLAUSES FOR CIVIL RIGHTS AUDITING
+
+### 1. CITIZENSHIP CLAUSE
+"All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the state wherein they reside."
+
+### 2. PRIVILEGES OR IMMUNITIES CLAUSE
+"No state shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States"
+
+### 3. DUE PROCESS CLAUSE
+"nor shall any state deprive any person of life, liberty, or property, without due process of law"
+
+**Two Components:**
+- **Procedural Due Process:** Government must follow fair procedures before depriving someone of life, liberty, or property
+- **Substantive Due Process:** Certain fundamental rights cannot be infringed even with fair procedures
+
+### 4. EQUAL PROTECTION CLAUSE
+"nor deny to any person within its jurisdiction the equal protection of the laws"
+
+---
+
+## APPLICATION TO STATE ACTORS (42 USC § 1983)
+
+The 14th Amendment applies to STATE actors (police, courts, CPS, public officials). Combined with 42 USC § 1983, it provides the basis for federal civil rights claims against:
+
+- State and local law enforcement
+- State court judges (limited immunity)
+- Child protective services workers
+- Any person acting "under color of state law"
+
+---
+
+## FUNDAMENTAL RIGHTS PROTECTED (via Due Process)
+
+Through "incorporation," the 14th Amendment applies most Bill of Rights protections against the states, including:
+
+- 4th Amendment (search and seizure)
+- 5th Amendment (self-incrimination)
+- 6th Amendment (right to counsel)
+- 1st Amendment (speech, religion)
+- 2nd Amendment (bear arms)
+
+---
+
+## PARENTAL RIGHTS (Substantive Due Process)
+
+The Supreme Court has recognized parental rights as fundamental liberty interests protected by the 14th Amendment:
+
+- **Meyer v. Nebraska (1923):** Right to raise children
+- **Pierce v. Society of Sisters (1925):** Right to direct upbringing
+- **Troxel v. Granville (2000):** Fit parents presumed to act in child's best interest
+- **Santosky v. Kramer (1982):** Clear and convincing evidence required to terminate parental rights
+
+---
+
+## AUDIT CHECKLIST FOR 14TH AMENDMENT VIOLATIONS
+
+| Element | Audit Question |
+|---------|----------------|
+| State Actor | Was the defendant acting under color of state law? |
+| Deprivation | Was there a deprivation of life, liberty, or property? |
+| Procedural Due Process | Was notice provided? Was there opportunity to be heard? |
+| Substantive Due Process | Was a fundamental right infringed? |
+| Equal Protection | Was enforcement applied discriminatorily? |
+
+---
+
+## LANDMARK CASES
+
+- **Brown v. Board of Education (1954):** Racial segregation violates Equal Protection
+- **Gideon v. Wainwright (1963):** Right to counsel incorporated against states
+- **Roe v. Wade (1973):** Privacy/reproductive rights (partially overruled by Dobbs)
+- **Obergefell v. Hodges (2015):** Same-sex marriage protected
+
+---
+
+**Document prepared for legal research purposes.**
+**For comprehensive annotated analysis, consult Constitution Annotated (Congress.gov) or Westlaw/LexisNexis.**

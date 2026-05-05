@@ -1,0 +1,539 @@
+{
+  "meta": {
+    "form_id": "FL-305",
+    "version": "1.0.0",
+    "updated": "2026-02-06",
+    "author": "VERNEN™",
+    "module": "GDN_field_annotations",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved. VERNEN™ is a trademark of Michael Vernen Thomas Hartmann.",
+    "languages": ["en","es","zh","vi","so","ti","am","ar","ht","ko","pt","ru","tl"]
+  },
+  "sections": [
+    {
+      "section_id": "header",
+      "fields": [
+        {
+          "field_id": "header_attorney_party",
+          "field_label": "Attorney or Party Without Attorney",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "If you do not have a lawyer, enter YOUR full legal name, street address, city, state, ZIP code, phone number, and email address. Where it says 'State Bar Number,' write 'In Pro Per' (this means you are representing yourself).",
+            "es": "Si no tiene abogado, escriba SU nombre legal completo, dirección, ciudad, estado, código postal, teléfono y correo electrónico. Donde dice 'State Bar Number,' escriba 'In Pro Per' (significa que se representa a sí mismo).",
+            "zh": "如果您没有律师，请输入您的完整法定姓名、街道地址、城市、州、邮编、电话号码和电子邮件地址。在'State Bar Number'处写'In Pro Per'（意思是您自己代表自己）。",
+            "vi": "Nếu bạn không có luật sư, hãy nhập TÊN pháp lý đầy đủ, địa chỉ, thành phố, tiểu bang, mã ZIP, số điện thoại và email. Nơi ghi 'State Bar Number,' viết 'In Pro Per' (nghĩa là bạn tự đại diện cho mình).",
+            "so": "Haddii aadan haysan qareen, geli magacaaga sharciga oo buuxa, cinwaanka, magaalada, gobolka, ZIP, telefoonka iyo emailka. Halka ay ku qoran tahay 'State Bar Number,' ku qor 'In Pro Per' (waxay ka dhigan tahay inaad naftaada u matashahay).",
+            "ti": "ጠበቓ እንተዘይብልካ፡ ምሉእ ሕጋዊ ስምካ፡ ኣድራሻ፡ ከተማ፡ ግዝኣት፡ ዚፕ ኮድ፡ ቁጽሪ ተሌፎንን ኢመይልን ኣእቱ። 'State Bar Number' ኣብ ዝብል 'In Pro Per' ጸሓፍ (ንርእስኻ ትውክል ማለት እዩ)።",
+            "am": "ጠበቃ ከሌለዎት፣ ሙሉ ሕጋዊ ስምዎን፣ አድራሻ፣ ከተማ፣ ግዛት፣ ዚፕ ኮድ፣ ስልክ ቁጥር እና ኢሜይል ያስገቡ። 'State Bar Number' ላይ 'In Pro Per' ይጻፉ (እራስዎን ይወክላሉ ማለት ነው)።",
+            "ar": "إذا لم يكن لديك محامٍ، أدخل اسمك القانوني الكامل وعنوانك ومدينتك وولايتك والرمز البريدي ورقم هاتفك وبريدك الإلكتروني. حيث يقول 'State Bar Number'، اكتب 'In Pro Per' (يعني أنك تمثل نفسك).",
+            "ht": "Si ou pa gen avoka, mete NON legal konplè ou, adrès, vil, eta, kòd postal, nimewo telefòn ak imèl. Kote li di 'State Bar Number,' ekri 'In Pro Per' (sa vle di ou reprezante tèt ou).",
+            "ko": "변호사가 없는 경우 본인의 정식 법적 이름, 주소, 도시, 주, 우편번호, 전화번호, 이메일을 입력하세요. 'State Bar Number' 란에 'In Pro Per'라고 쓰세요 (본인이 스스로를 대리한다는 의미입니다).",
+            "pt": "Se você não tem advogado, insira SEU nome legal completo, endereço, cidade, estado, CEP, telefone e e-mail. Onde diz 'State Bar Number,' escreva 'In Pro Per' (significa que você está se representando).",
+            "ru": "Если у вас нет адвоката, введите ВАШЕ полное юридическое имя, адрес, город, штат, почтовый индекс, телефон и электронную почту. Где написано 'State Bar Number,' напишите 'In Pro Per' (вы представляете себя сами).",
+            "tl": "Kung wala kang abogado, ilagay ang IYONG buong legal na pangalan, address, lungsod, estado, ZIP code, numero ng telepono, at email. Sa 'State Bar Number,' isulat ang 'In Pro Per' (kinakatawan mo ang sarili mo)."
+          }
+        },        {
+          "field_id": "header_court_name",
+          "field_label": "Superior Court of California, County of",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Enter the county where your existing case is filed. FL-305 is filed in an existing case — use the same county as your original petition.",
+            "es": "Escriba el condado donde está su caso existente. FL-305 se presenta en un caso existente — use el mismo condado de su petición original.",
+            "zh": "输入您现有案件所在的县。FL-305在现有案件中提交——使用与原始请愿相同的县。",
+            "vi": "Nhập quận nơi vụ án hiện tại của bạn được nộp. FL-305 được nộp trong vụ án hiện có — dùng cùng quận như đơn gốc.",
+            "so": "Geli degmada kiiskiisu ku jiro. FL-305 waxaa lagu xareeyaa kiis jira — isticmaal degmaddii dacwaddaada asalka ahayd.",
+            "ti": "ጉዳይካ ዝቐረበሉ ካውንቲ ኣእቱ። FL-305 ኣብ ዘሎ ጉዳይ ይቐርብ — ከምቲ ናይ መጀመርያ ጥርዓንካ ካውንቲ ተጠቐም።",
+            "am": "ጉዳይዎ የተመዘገበበት ካውንቲ ያስገቡ። FL-305 ባለ ጉዳይ ላይ ይቀርባል — ከዋናው ጥያቄዎ ጋር ተመሳሳይ ካውንቲ ይጠቀሙ።",
+            "ar": "أدخل المقاطعة التي رُفعت فيها قضيتك. FL-305 يُقدَّم في قضية موجودة — استخدم نفس مقاطعة عريضتك الأصلية.",
+            "ht": "Mete non konte kote dosye ou ye. FL-305 depoze nan yon dosye ki egziste — itilize menm konte ak petisyon orijinal ou.",
+            "ko": "기존 사건이 접수된 카운티를 입력하세요. FL-305은 기존 사건에서 제출됩니다 — 원래 청원서와 같은 카운티를 사용하세요.",
+            "pt": "Insira o condado onde seu caso existente está registrado. FL-305 é protocolado em um caso existente — use o mesmo condado da petição original.",
+            "ru": "Введите округ, где зарегистрировано ваше существующее дело. FL-305 подаётся в существующее дело — используйте тот же округ, что и в первоначальной петиции.",
+            "tl": "Ilagay ang county kung saan naka-file ang iyong existing case. FL-305 ay ini-file sa existing case — gamitin ang parehong county gaya ng original petition."
+          }
+        },
+        {
+          "field_id": "header_case_number",
+          "field_label": "Case Number",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Enter your existing case number exactly as it appears on your other family law documents. You must already have a case number to file FL-305.",
+            "es": "Escriba su número de caso existente exactamente como aparece en sus otros documentos de derecho familiar. Debe tener un número de caso para presentar FL-305.",
+            "zh": "准确输入您现有的案件编号，与其他家庭法文件上显示的完全一致。提交FL-305必须已有案件编号。",
+            "vi": "Nhập số vụ án hiện tại chính xác như trên các tài liệu luật gia đình khác. Bạn phải đã có số vụ án để nộp FL-305.",
+            "so": "Geli lambarka kiiskaaga sida ugu qoran tahay waraaqahaaga kale. Waa inaad haysataa lambar kiis si aad u xareysid FL-305.",
+            "ti": "ቁጽሪ ጉዳይካ ከምቲ ኣብ ካልኦት ሰነዳትካ ዘሎ ኣእትዎ። FL-305 ንምቕራብ ቁጽሪ ጉዳይ ክህልወካ ኣለዎ።",
+            "am": "የመዝገብ ቁጥርዎን በሌሎች የቤተሰብ ሕግ ሰነዶች ላይ እንደሚታየው ያስገቡ። FL-305 ለማቅረብ የመዝገብ ቁጥር ሊኖርዎት ይገባል።",
+            "ar": "أدخل رقم قضيتك الحالي كما يظهر بالضبط على مستنداتك الأخرى. يجب أن يكون لديك رقم قضية لتقديم FL-305.",
+            "ht": "Mete nimewo dosye ou egzakteman jan li parèt sou lòt dokiman lwa familyal ou. Ou dwe deja gen yon nimewo dosye pou depoze FL-305.",
+            "ko": "다른 가족법 서류에 표시된 대로 기존 사건 번호를 정확히 입력하세요. FL-305을 제출하려면 사건 번호가 있어야 합니다.",
+            "pt": "Insira seu número de caso existente exatamente como aparece em seus outros documentos. Você precisa ter um número de caso para protocolar FL-305.",
+            "ru": "Введите существующий номер дела в точности как на других документах. Для подачи FL-305 у вас уже должен быть номер дела.",
+            "tl": "Ilagay ang iyong existing case number nang eksakto gaya sa iba mong family law documents. Kailangan mo nang case number para mag-file ng FL-305."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_1",
+      "fields": [
+        {
+          "field_id": "item_1_applicant",
+          "field_label": "Applicant (person asking for emergency orders)",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "Enter YOUR full legal name. You are the person asking the court for emergency orders. Also check whether you are the Petitioner or Respondent in the existing case.",
+            "es": "Escriba SU nombre legal completo. Usted es la persona que solicita órdenes de emergencia al tribunal. Marque si es el Demandante o el Demandado en el caso existente.",
+            "zh": "输入您的完整法定姓名。您是向法院请求紧急命令的人。还要勾选您在现有案件中是请愿人还是被请愿人。",
+            "vi": "Nhập TÊN pháp lý đầy đủ của bạn. Bạn là người yêu cầu tòa án ra lệnh khẩn cấp. Cũng đánh dấu bạn là Người thỉnh cầu hay Người bị thỉnh cầu trong vụ án hiện có.",
+            "so": "Geli magacaaga sharciga oo buuxa. Waxaad tahay qofka ka codsanaya maxkamadda amarro degdeg ah. Sidoo kale calaamadee inaad tahay Dacwad-bixiyaha ama Dacwad-laha.",
+            "ti": "ምሉእ ሕጋዊ ስምካ ኣእቱ። ንስኻ ኢኻ ንቤት ፍርዲ ህጹጽ ትእዛዛት ትሓትት ዘለኻ። ኣብቲ ዘሎ ጉዳይ ጠራዓይ ወይ ተጠራዓይ ምዃንካ ድማ ምልክት ግበር።",
+            "am": "ሙሉ ሕጋዊ ስምዎን ያስገቡ። እርስዎ ፍርድ ቤቱን ለአስቸኳይ ትእዛዝ የሚጠይቁ ሰው ነዎት። ባለው ጉዳይ ውስጥ አመልካች ወይም ተጠሪ መሆንዎን ምልክት ያድርጉ።",
+            "ar": "أدخل اسمك القانوني الكامل. أنت الشخص الذي يطلب من المحكمة أوامر طارئة. حدد أيضًا ما إذا كنت المدعي أو المدعى عليه في القضية الحالية.",
+            "ht": "Mete NON legal konplè OU. Ou se moun ki mande tribinal la pou lòd ijans. Tcheke tou si ou se Petitioner oswa Respondent nan dosye ki egziste a.",
+            "ko": "본인의 정식 법적 이름을 입력하세요. 귀하는 법원에 긴급 명령을 요청하는 사람입니다. 기존 사건에서 청원인인지 피청원인인지도 체크하세요.",
+            "pt": "Insira SEU nome legal completo. Você é a pessoa pedindo ordens de emergência ao tribunal. Marque também se é o Requerente ou Requerido no caso existente.",
+            "ru": "Введите ВАШЕ полное юридическое имя. Вы — лицо, запрашивающее экстренные распоряжения суда. Также отметьте, являетесь ли вы Заявителем или Ответчиком в существующем деле.",
+            "tl": "Ilagay ang IYONG buong legal na pangalan. Ikaw ang taong humihiling sa korte ng emergency orders. I-check din kung ikaw ang Petitioner o Respondent sa existing case."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_2",
+      "fields": [
+        {
+          "field_id": "item_2_custody_orders",
+          "field_label": "Temporary emergency custody orders",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you need the court to immediately change who has custody of the children because of an emergency. This is for situations where a child is in immediate danger — not for routine custody disagreements.",
+            "es": "Marque esto si necesita que el tribunal cambie inmediatamente quién tiene la custodia de los hijos debido a una emergencia. Esto es para situaciones donde un niño está en peligro inmediato — no para desacuerdos rutinarios de custodia.",
+            "zh": "如果您需要法院因紧急情况立即更改谁拥有孩子的监护权，请勾选此项。这适用于孩子面临直接危险的情况——不适用于常规监护权分歧。",
+            "vi": "Đánh dấu nếu bạn cần tòa án thay đổi ngay lập tức ai có quyền nuôi con vì tình huống khẩn cấp. Đây là cho các trường hợp trẻ em đang gặp nguy hiểm trước mắt — không phải cho các bất đồng về quyền nuôi con thông thường.",
+            "so": "Calaamadee haddii aad u baahan tahay in maxkamaddu degdeg u beddesho qofka xanaanada haysta carruurta sabab degdeg ah. Tani waxay ku haboon tahay xaaladaha carruurtey khatar degdeg ah — ma aha khilaafyada caadiga ah ee xanaanada.",
+            "ti": "ህጹጽ ኩነታት ስለዘሎ ቤት ፍርዲ ንመን ሕጻናት ክሕዝ ብቕጽበት ክቕይር እንተደሊኻ ምልክት ግበር። ቆልዓ ኣብ ቅጽበታዊ ሓደጋ ንዘለዉ ኩነታት እዩ — ንልሙድ ናይ ሕጻናት ምቕማጥ ዘይምስምማዕ ኣይኮነን።",
+            "am": "በአስቸኳይ ሁኔታ ምክንያት ፍርድ ቤቱ የልጆችን ሞግዚትነት ወዲያውኑ እንዲቀይር ከፈለጉ ይህን ምልክት ያድርጉ። ይህ ልጅ ቅርብ አደጋ ውስጥ ላለበት ሁኔታ ነው — ለመደበኛ የሞግዚትነት አለመግባባት አይደለም።",
+            "ar": "حدد هذا إذا كنت بحاجة إلى أن تغير المحكمة فورًا من لديه حضانة الأطفال بسبب حالة طوارئ. هذا للحالات التي يكون فيها الطفل في خطر فوري — وليس للخلافات الروتينية حول الحضانة.",
+            "ht": "Tcheke sa si ou bezwen tribinal la chanje imedyatman ki moun ki gen gad timoun yo akoz yon ijans. Sa se pou sitiyasyon kote yon timoun an danje imedyat — pa pou dezakò gad woutin.",
+            "ko": "긴급 상황으로 인해 법원이 아이의 양육권을 즉시 변경해야 하는 경우 체크하세요. 이것은 아이가 즉각적인 위험에 처해 있는 상황을 위한 것입니다 — 일상적인 양육권 분쟁을 위한 것이 아닙니다.",
+            "pt": "Marque se precisa que o tribunal mude imediatamente quem tem a guarda dos filhos devido a uma emergência. Isto é para situações onde uma criança está em perigo imediato — não para desacordos rotineiros de guarda.",
+            "ru": "Отметьте, если вам нужно, чтобы суд немедленно изменил опеку над детьми из-за чрезвычайной ситуации. Это для случаев, когда ребёнок в непосредственной опасности — не для обычных споров об опеке.",
+            "tl": "I-check ito kung kailangan mong baguhin agad ng korte kung sino ang may custody sa mga bata dahil sa emergency. Ito ay para sa mga sitwasyon kung saan ang bata ay nasa agarang panganib — hindi para sa karaniwang hindi pagkakasundo sa custody."
+          },
+          "do_not_check_if": {
+            "en": "Do not check this if your situation is not an emergency. If you simply want to change custody but there is no immediate danger to the children, file FL-300 (Request for Order) instead and request a regular hearing.",
+            "es": "No marque esto si su situación no es una emergencia. Si simplemente quiere cambiar la custodia pero no hay peligro inmediato, presente FL-300 en su lugar y solicite una audiencia regular.",
+            "zh": "如果您的情况不是紧急情况，请不要勾选此项。如果只想更改监护权但没有直接危险，请改为提交FL-300并申请常规听证。",
+            "vi": "Không đánh dấu nếu tình huống của bạn không khẩn cấp. Nếu bạn chỉ muốn thay đổi quyền nuôi con nhưng không có nguy hiểm trước mắt, hãy nộp FL-300 thay thế và yêu cầu phiên tòa thường.",
+            "so": "Ha calaamadayn haddii xaaladdaadu aysan degdeg ahayn. Haddii aad rabto inaad bedesho xanaanada laakiin aysan jirin khatar degdeg ah, xaree FL-300 beddelkeeda oo codso dhageysiga caadiga ah.",
+            "ti": "ኩነታትካ ህጹጽ እንተዘይኮይኑ ምልክት ኣይትግበር። ሕጻናት ምቕማጥ ክቕይር ትደሊ ግን ቅጽበታዊ ሓደጋ እንተዘየለ፡ FL-300 ኣቕርብ ኣብ ክንዲኡ ልሙድ ቃለ-ምልልስ ሕተት።",
+            "am": "ሁኔታዎ አስቸኳይ ካልሆነ ይህን ምልክት አያድርጉ። ሞግዚትነት ለመቀየር ከፈለጉ ግን ቅርብ አደጋ ከሌለ፣ በ FL-300 ያመልክቱ እና መደበኛ ችሎት ይጠይቁ።",
+            "ar": "لا تحدد هذا إذا لم تكن حالتك طارئة. إذا كنت تريد ببساطة تغيير الحضانة دون خطر فوري، قدم FL-300 بدلاً من ذلك واطلب جلسة عادية.",
+            "ht": "Pa tcheke sa si sitiyasyon ou pa yon ijans. Si ou jis vle chanje gad men pa gen danje imedyat, depoze FL-300 pito epi mande yon odyans regilye.",
+            "ko": "상황이 긴급하지 않으면 체크하지 마세요. 단순히 양육권을 변경하고 싶지만 즉각적인 위험이 없다면 대신 FL-300을 제출하고 일반 심리를 요청하세요.",
+            "pt": "Não marque se sua situação não é emergência. Se quer simplesmente mudar a guarda sem perigo imediato, protocole FL-300 e solicite audiência regular.",
+            "ru": "Не отмечайте, если ваша ситуация не является экстренной. Если вы просто хотите изменить опеку без непосредственной опасности, подайте FL-300 и запросите обычное слушание.",
+            "tl": "Huwag i-check ito kung hindi emergency ang sitwasyon mo. Kung gusto mo lang baguhin ang custody pero walang agarang panganib, mag-file ng FL-300 sa halip at humiling ng regular hearing."
+          }
+        },        {
+          "field_id": "item_2_visitation_orders",
+          "field_label": "Temporary emergency visitation orders",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you need the court to immediately change or restrict visitation because of an emergency — for example, if the other parent is endangering the children during visits.",
+            "es": "Marque si necesita que el tribunal cambie o restrinja inmediatamente la visitación debido a una emergencia — por ejemplo, si el otro padre pone en peligro a los hijos durante las visitas.",
+            "zh": "如果您需要法院因紧急情况立即更改或限制探视，请勾选——例如，另一方父母在探视期间危及孩子。",
+            "vi": "Đánh dấu nếu bạn cần tòa án thay đổi hoặc hạn chế ngay lập tức quyền thăm nuôi vì tình huống khẩn cấp — ví dụ, cha/mẹ kia đang gây nguy hiểm cho con trong các lần thăm.",
+            "so": "Calaamadee haddii aad u baahan tahay in maxkamaddu degdeg u beddesho ama xaddiddo booqashada sabab degdeg ah — tusaale, haddii waalidka kale uu khatar gelinayo carruurta inta lagu jiro booqashada.",
+            "ti": "ህጹጽ ኩነታት ስለዘሎ ቤት ፍርዲ ብቕጽበት ናይ ምብጻሕ ትእዛዛት ክቕይር ወይ ክድርት ዝደሊ እንተኮይኑ ምልክት ግበር — ንኣብነት ካልኣይ ወላዲ ኣብ ግዜ ምብጻሕ ንቆልዑ ኣብ ሓደጋ ዘእትው እንተኾይኑ።",
+            "am": "ፍርድ ቤቱ በአስቸኳይ ሁኔታ ምክንያት የጉብኝት መብትን ወዲያውኑ እንዲቀይር ወይም እንዲገድብ ከፈለጉ ይህን ምልክት ያድርጉ — ለምሳሌ ሌላ ወላጅ በጉብኝት ወቅት ልጆችን አደጋ ላይ የሚጥል ከሆነ።",
+            "ar": "حدد هذا إذا كنت بحاجة إلى تغيير أو تقييد الزيارة فورًا بسبب حالة طوارئ — مثلاً إذا كان الوالد الآخر يعرض الأطفال للخطر أثناء الزيارات.",
+            "ht": "Tcheke sa si ou bezwen tribinal la chanje oswa limite vizit imedyatman akoz yon ijans — pa egzanp, si lòt paran an mete timoun yo an danje pandan vizit.",
+            "ko": "긴급 상황으로 인해 법원이 방문권을 즉시 변경하거나 제한해야 하는 경우 체크하세요 — 예를 들어, 상대 부모가 방문 중 자녀를 위험에 빠뜨리는 경우.",
+            "pt": "Marque se precisa que o tribunal mude ou restrinja imediatamente as visitas por emergência — por exemplo, se o outro genitor coloca os filhos em perigo durante as visitas.",
+            "ru": "Отметьте, если вам нужно, чтобы суд немедленно изменил или ограничил посещения из-за чрезвычайной ситуации — например, если другой родитель подвергает детей опасности при встречах.",
+            "tl": "I-check ito kung kailangan mong baguhin o limitahan agad ng korte ang visitation dahil sa emergency — halimbawa, kung ang kabilang magulang ay naglalagay sa panganib sa mga bata sa mga pagbisita."
+          },
+          "do_not_check_if": {
+            "en": "Do not check this if you want to change the visitation schedule but there is no emergency. Use FL-300 for non-emergency visitation changes.",
+            "es": "No marque si quiere cambiar el horario de visitas pero no hay emergencia. Use FL-300 para cambios no urgentes.",
+            "zh": "如果只想更改探视时间表但没有紧急情况，请不要勾选。非紧急探视更改请使用FL-300。",
+            "vi": "Không đánh dấu nếu bạn muốn thay đổi lịch thăm nuôi nhưng không có tình huống khẩn cấp. Dùng FL-300 cho thay đổi không khẩn cấp.",
+            "so": "Ha calaamadayn haddii aad rabto inaad bedesho jadwalka booqashada laakiin aysan jirin degdeg. Isticmaal FL-300 isbeddelada aan degdeg ahayn.",
+            "ti": "ናይ ምብጻሕ ሰሌዳ ክቕይር ትደሊ ግን ህጹጽ ኩነታት እንተዘየለ ምልክት ኣይትግበር። FL-300 ተጠቐም ንዘይህጹጽ ለውጥታት።",
+            "am": "የጉብኝት መርሃ ግብር ለመቀየር ከፈለጉ ግን አስቸኳይ ሁኔታ ከሌለ ምልክት አያድርጉ። ለአስቸኳይ ያልሆነ ለውጥ FL-300 ይጠቀሙ።",
+            "ar": "لا تحدد إذا أردت تغيير جدول الزيارة دون حالة طوارئ. استخدم FL-300 للتغييرات غير الطارئة.",
+            "ht": "Pa tcheke si ou vle chanje orè vizit men pa gen ijans. Itilize FL-300 pou chanjman ki pa ijans.",
+            "ko": "방문 일정을 변경하고 싶지만 긴급 상황이 아닌 경우 체크하지 마세요. 비긴급 방문 변경에는 FL-300을 사용하세요.",
+            "pt": "Não marque se quer mudar o cronograma de visitas sem emergência. Use FL-300 para mudanças não emergenciais.",
+            "ru": "Не отмечайте, если хотите изменить график посещений без экстренной ситуации. Используйте FL-300 для неэкстренных изменений.",
+            "tl": "Huwag i-check kung gusto mo lang baguhin ang visitation schedule pero walang emergency. Gamitin ang FL-300 para sa non-emergency changes."
+          }
+        },        {
+          "field_id": "item_2_property_orders",
+          "field_label": "Temporary emergency orders regarding property",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you need the court to immediately protect property from being destroyed, hidden, or transferred — for example, if the other party is emptying bank accounts or selling assets.",
+            "es": "Marque si necesita que el tribunal proteja inmediatamente la propiedad de ser destruida, ocultada o transferida — por ejemplo, si la otra parte está vaciando cuentas bancarias o vendiendo bienes.",
+            "zh": "如果需要法院立即保护财产不被销毁、隐藏或转移，请勾选——例如对方正在清空银行账户或出售资产。",
+            "vi": "Đánh dấu nếu bạn cần tòa án bảo vệ tài sản ngay lập tức khỏi bị phá hủy, giấu hoặc chuyển nhượng — ví dụ, bên kia đang rút hết tiền ngân hàng hoặc bán tài sản.",
+            "so": "Calaamadee haddii aad u baahan tahay in maxkamaddu degdeg u ilaaliso hantida in aan la burburin, la qarin ama la wareejin — tusaale, haddii dhinaca kale uu faaruqaynayo akoonada bangiga.",
+            "ti": "ንብረት ካብ ምብራስ፡ ምሕባእ ወይ ምስግጋር ቤት ፍርዲ ብቕጽበት ክከላኸል ዝደሊ እንተኮይኑ ምልክት ግበር — ንኣብነት ካልኣይ ወገን ናይ ባንክ ሕሳብ ዝርቅቕ ዘሎ እንተኾይኑ።",
+            "am": "ንብረት ከመጥፋት፣ ከመደበቅ ወይም ከመዘዋወር ፍርድ ቤቱ ወዲያውኑ እንዲከላከል ከፈለጉ ምልክት ያድርጉ — ለምሳሌ ሌላ ወገን ባንክ ሂሳቦችን የሚያራቁት ወይም ንብረት የሚሸጡ ከሆነ።",
+            "ar": "حدد هذا إذا كنت بحاجة لحماية الممتلكات فورًا من التدمير أو الإخفاء أو النقل — مثلاً إذا كان الطرف الآخر يفرغ الحسابات المصرفية.",
+            "ht": "Tcheke sa si ou bezwen tribinal la pwoteje pwopriyete imedyatman kont destriksyon, kache, oswa transfè — pa egzanp, si lòt pati a ap vid kont labank oswa vann byen.",
+            "ko": "재산이 파괴, 은닉 또는 양도되는 것을 즉시 보호해야 하는 경우 체크하세요 — 예를 들어, 상대방이 은행 계좌를 비우거나 자산을 매각하는 경우.",
+            "pt": "Marque se precisa que o tribunal proteja bens imediatamente de destruição, ocultação ou transferência — por exemplo, se a outra parte está esvaziando contas bancárias.",
+            "ru": "Отметьте, если нужна немедленная защита имущества от уничтожения, сокрытия или передачи — например, если другая сторона опустошает банковские счета или продаёт активы.",
+            "tl": "I-check ito kung kailangan mong protektahan agad ng korte ang property mula sa pagkasira, pagtago, o paglipat — halimbawa, kung ang kabilang partido ay nag-aalis ng pera sa bank accounts."
+          },
+          "do_not_check_if": {
+            "en": "Do not check this if property matters can wait for a regular hearing. Emergency property orders require showing that assets will be lost or destroyed without immediate court action.",
+            "es": "No marque si los asuntos de propiedad pueden esperar una audiencia regular. Las órdenes de propiedad de emergencia requieren demostrar que los bienes se perderán sin acción judicial inmediata.",
+            "zh": "如果财产事项可以等到常规听证，请不要勾选。紧急财产令需要证明如果没有法院立即行动，资产将会损失。",
+            "vi": "Không đánh dấu nếu vấn đề tài sản có thể đợi phiên tòa thường. Lệnh tài sản khẩn cấp yêu cầu chứng minh tài sản sẽ bị mất nếu không có hành động ngay lập tức.",
+            "so": "Ha calaamadayn haddii arrimaha hantidu sugi karaan dhageysiga caadiga ah. Amarrada hantida degdega waxay u baahan yihiin in la muujiyo in hantidu lumayso.",
+            "ti": "ጉዳያት ንብረት ንልሙድ ቃለ-ምልልስ ክጽበ ዝኽእል እንተኾይኑ ምልክት ኣይትግበር። ህጹጽ ናይ ንብረት ትእዛዛት ብዘይ ቅጽበታዊ ስጉምቲ ንብረት ከምዝጠፍእ ምርኣይ ይሓቱ።",
+            "am": "የንብረት ጉዳዮች መደበኛ ችሎት ሊጠብቁ ከሚችሉ ምልክት አያድርጉ። የአስቸኳይ ንብረት ትእዛዛት ያለ ቅርብ የፍርድ ቤት እርምጃ ንብረት ተጠፊ መሆኑን ማረጋገጥ ይፈልጋሉ።",
+            "ar": "لا تحدد إذا كانت مسائل الممتلكات يمكنها الانتظار لجلسة عادية. أوامر الطوارئ تتطلب إثبات أن الأصول ستُفقد بدون إجراء فوري.",
+            "ht": "Pa tcheke si zafè pwopriyete ka tann yon odyans regilye. Lòd pwopriyete ijans mande pou montre byen yo pral pèdi san aksyon tribinal imedyat.",
+            "ko": "재산 문제가 일반 심리를 기다릴 수 있다면 체크하지 마세요. 긴급 재산 명령은 즉각적인 법원 조치 없이 자산이 손실될 것임을 보여야 합니다.",
+            "pt": "Não marque se questões patrimoniais podem esperar audiência regular. Ordens emergenciais de patrimônio exigem demonstrar que bens serão perdidos sem ação judicial imediata.",
+            "ru": "Не отмечайте, если имущественные вопросы могут подождать обычного слушания. Экстренные имущественные распоряжения требуют доказательства того, что активы будут утрачены.",
+            "tl": "Huwag i-check kung ang property matters ay maaaring maghintay ng regular hearing. Ang emergency property orders ay nangangailangan ng pagpapakita na mawawala ang assets nang walang agarang aksyon ng korte."
+          }
+        },
+        {
+          "field_id": "item_2_stay_away",
+          "field_label": "Stay-away or other protective orders",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you need the court to order the other party to stay away from you, your children, your home, or your workplace on an emergency basis. Note: For domestic violence protection, form DV-100 may be more appropriate.",
+            "es": "Marque si necesita que el tribunal ordene a la otra parte mantenerse alejada de usted, sus hijos, su hogar o trabajo de forma urgente. Nota: Para protección contra violencia doméstica, DV-100 puede ser más apropiado.",
+            "zh": "如果需要法院紧急命令对方远离您、您的孩子、家或工作场所，请勾选。注意：家庭暴力保护请使用DV-100。",
+            "vi": "Đánh dấu nếu bạn cần tòa ra lệnh khẩn cấp cho bên kia tránh xa bạn, con bạn, nhà hoặc nơi làm việc. Lưu ý: Để bảo vệ bạo lực gia đình, form DV-100 có thể phù hợp hơn.",
+            "so": "Calaamadee haddii aad u baahan tahay in maxkamaddu amarto dhinaca kale inuu kaa fogaado adiga, carruurta, gurigaaga, ama goobta shaqada. Ogsoon: DV-100 ayaa u fiican rabsho qoyska.",
+            "ti": "ካልኣይ ወገን ካባኻ፡ ደቅኻ፡ ገዛኻ ወይ ስራሕካ ክርሕቕ ቤት ፍርዲ ብህጹጽ ክእዝዝ ዝደሊ እንተኮይኑ ምልክት ግበር። ኣስተውዕል: ንዓመጽ ቤተ-ሰብ ሓለዋ DV-100 ክጥቀም ይሓይሽ።",
+            "am": "ሌላው ወገን ከእርስዎ፣ ልጆችዎ፣ ቤትዎ ወይም ሥራ ቦታዎ በአስቸኳይ እንዲርቅ ፍርድ ቤቱ ትእዛዝ እንዲሰጥ ከፈለጉ ምልክት ያድርጉ። ማሳሰቢያ: ለቤተሰብ ጥቃት DV-100 ይጠቀሙ።",
+            "ar": "حدد إذا كنت بحاجة لأمر المحكمة الطرف الآخر بالابتعاد عنك أو عن أطفالك أو منزلك أو مكان عملك بشكل طارئ. ملاحظة: لحماية العنف الأسري قد يكون DV-100 أنسب.",
+            "ht": "Tcheke si ou bezwen tribinal la bay lòd lòt pati a rete lwen ou, timoun ou, kay ou, oswa travay ou sou yon baz ijans. Nòt: Pou pwoteksyon vyolans domestik, DV-100 ka pi apwopriye.",
+            "ko": "상대방이 귀하, 자녀, 집 또는 직장에서 긴급으로 떨어져 있으라는 명령이 필요한 경우 체크하세요. 참고: 가정폭력 보호에는 DV-100이 더 적합할 수 있습니다.",
+            "pt": "Marque se precisa que o tribunal ordene o afastamento da outra parte de você, seus filhos, sua casa ou trabalho em caráter emergencial. Nota: Para violência doméstica, DV-100 pode ser mais apropriado.",
+            "ru": "Отметьте, если нужно экстренное распоряжение суда о запрете приближения другой стороны к вам, детям, дому или работе. Примечание: Для защиты от домашнего насилия форма DV-100 может быть более уместной.",
+            "tl": "I-check ito kung kailangan mong ipag-utos ng korte na lumayo ang kabilang partido sa iyo, mga anak, bahay, o trabaho mo nang emergency. Paalala: Para sa domestic violence protection, ang DV-100 ay maaaring mas angkop."
+          },
+          "do_not_check_if": {
+            "en": "Do not check this if you already have a domestic violence restraining order (DVRO) under DV-100/DV-130. Also do not check if the stay-away is not needed on an emergency basis.",
+            "es": "No marque si ya tiene una orden de restricción por violencia doméstica (DVRO). Tampoco marque si la orden de alejamiento no se necesita de forma urgente.",
+            "zh": "如果已有家庭暴力限制令（DVRO），请不要勾选。如果不需要紧急远离令也不要勾选。",
+            "vi": "Không đánh dấu nếu bạn đã có lệnh cấm bạo lực gia đình (DVRO). Cũng không đánh dấu nếu lệnh tránh xa không cần thiết khẩn cấp.",
+            "so": "Ha calaamadayn haddii aad hore u haysatay amarka xaddidida rabsho qoyska (DVRO). Sidoo kale ha calaamadayn haddii fogaanshaha aan loo baahnayn degdeg.",
+            "ti": "ናይ ዓመጽ ቤተ-ሰብ ናይ ሕጊ ትእዛዝ (DVRO) ኣቐዲሙ እንተለካ ምልክት ኣይትግበር። ህጹጽ ዘይኮነ ናይ ምርሓቕ ትእዛዝ እንተዘድሊ'ውን ኣይትግበር።",
+            "am": "የቤተሰብ ጥቃት ገደብ ትእዛዝ (DVRO) ካለዎት ምልክት አያድርጉ። ማራቂያ ትእዛዝ አስቸኳይ ካልሆነም ምልክት አያድርጉ።",
+            "ar": "لا تحدد إذا كان لديك أمر حماية من العنف الأسري (DVRO). أيضًا لا تحدد إذا لم يكن أمر الابتعاد مطلوبًا بشكل طارئ.",
+            "ht": "Pa tcheke si ou deja gen yon lòd restriksyon vyolans domestik (DVRO). Epitou pa tcheke si lòd rete-lwen an pa nesesè sou yon baz ijans.",
+            "ko": "이미 가정폭력 접근금지명령(DVRO)이 있으면 체크하지 마세요. 접근금지가 긴급으로 필요하지 않은 경우에도 체크하지 마세요.",
+            "pt": "Não marque se já tem ordem restritiva de violência doméstica (DVRO). Também não marque se o afastamento não é necessário em caráter emergencial.",
+            "ru": "Не отмечайте, если у вас уже есть охранный ордер о домашнем насилии (DVRO). Также не отмечайте, если запрет приближения не нужен экстренно.",
+            "tl": "Huwag i-check kung mayroon ka nang domestic violence restraining order (DVRO). Huwag din i-check kung hindi kailangan ng stay-away sa emergency basis."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_3",
+      "fields": [
+        {
+          "field_id": "item_3_children_info",
+          "field_label": "Children's information (names, ages, current residence)",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "List each child's full legal name, date of birth, and age. Also state where each child currently lives (address and with whom). If any child is not currently with you, state where the child is and who has the child.",
+            "es": "Liste el nombre legal completo, fecha de nacimiento y edad de cada hijo. Indique dónde vive actualmente cada hijo (dirección y con quién). Si algún hijo no está con usted, diga dónde está y quién lo tiene.",
+            "zh": "列出每个孩子的完整法定姓名、出生日期和年龄。还说明每个孩子目前住在哪里（地址和与谁住）。如果孩子不在您身边，说明孩子在哪里、与谁在一起。",
+            "vi": "Liệt kê tên pháp lý đầy đủ, ngày sinh và tuổi của mỗi trẻ. Cũng cho biết mỗi trẻ hiện đang sống ở đâu (địa chỉ và với ai). Nếu trẻ không ở với bạn, nêu rõ trẻ ở đâu và ai đang giữ trẻ.",
+            "so": "Ku qor magaca sharciga, taariikhda dhalashada, iyo da'da cunug kasta. Sidoo kale sheeg halka cunug kasta ku nool yahay (cinwaanka iyo qofka la jooga). Haddii cunugyadu kula joogaan, sheeg halka ay joogaan.",
+            "ti": "ናይ ነፍሲ ወከፍ ቆልዓ ምሉእ ሕጋዊ ስም፡ ዕለት ልደት፡ ዕድመ ጸሓፍ። ነፍሲ ወከፍ ቆልዓ ሕጂ ኣበይ ይነብር (ኣድራሻን ምስ መንን) ሓብር። ቆልዓ ምሳኻ ዘየለ እንተኾይኑ፡ ኣበይ ምስ መን ከምዘሎ ሓብር።",
+            "am": "የእያንዳንዱ ልጅ ሙሉ ሕጋዊ ስም፣ የትውልድ ቀን እና ዕድሜ ይዘርዝሩ። እያንዳንዱ ልጅ አሁን የሚኖርበት (አድራሻ እና ከማን ጋር) ያስቀምጡ። ልጅ ከእርስዎ ጋር ካልሆነ፣ ልጁ የት እና ከማን ጋር እንዳለ ይግለጹ።",
+            "ar": "اذكر الاسم القانوني الكامل وتاريخ الميلاد وعمر كل طفل. اذكر أيضًا أين يعيش كل طفل حاليًا (العنوان ومع من). إذا لم يكن الطفل معك، اذكر أين هو ومع من.",
+            "ht": "Mete non legal konplè, dat nesans, ak laj chak timoun. Di kote chak timoun rete kounye a (adrès ak kiyès). Si yon timoun pa avèk ou, di kote timoun nan ye ak ki moun ki gen li.",
+            "ko": "각 자녀의 정식 법적 이름, 생년월일, 나이를 나열하세요. 각 자녀가 현재 어디에 사는지(주소와 누구와 함께)도 기재하세요. 자녀가 귀하와 함께 있지 않다면 어디에 누구와 있는지 기재하세요.",
+            "pt": "Liste o nome legal completo, data de nascimento e idade de cada filho. Informe onde cada filho mora atualmente (endereço e com quem). Se algum filho não está com você, diga onde e com quem está.",
+            "ru": "Укажите полное юридическое имя, дату рождения и возраст каждого ребёнка. Также укажите, где каждый ребёнок сейчас проживает (адрес и с кем). Если ребёнок не с вами, укажите, где он и с кем.",
+            "tl": "Ilista ang buong legal na pangalan, petsa ng kapanganakan, at edad ng bawat bata. Sabihin din kung saan nakatira ang bawat bata ngayon (address at kasama nino). Kung ang bata ay wala sa iyo, sabihin kung nasaan at kasama nino."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_4",
+      "fields": [
+        {
+          "field_id": "item_4_emergency_basis",
+          "field_label": "Why emergency orders are needed",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "This is the MOST IMPORTANT part of FL-305. You must explain WHY you need emergency orders RIGHT NOW instead of waiting for a regular hearing. The court requires you to show 'immediate danger' to children OR 'irreparable harm' to property. Be specific: describe what happened, when it happened, and why waiting for a regular hearing would cause harm. General statements like 'I'm worried' are not enough.",
+            "es": "Esta es la parte MÁS IMPORTANTE de FL-305. Debe explicar POR QUÉ necesita órdenes de emergencia AHORA en vez de esperar una audiencia regular. El tribunal requiere 'peligro inmediato' para los hijos O 'daño irreparable' a la propiedad. Sea específico: describa qué pasó, cuándo y por qué esperar causaría daño.",
+            "zh": "这是FL-305最重要的部分。您必须解释为什么现在需要紧急命令而不是等待常规听证。法院要求您证明儿童面临'直接危险'或财产面临'不可挽回的损害'。具体说明发生了什么、何时发生、以及为什么等待会造成伤害。",
+            "vi": "Đây là phần QUAN TRỌNG NHẤT của FL-305. Bạn phải giải thích TẠI SAO cần lệnh khẩn cấp NGAY BÂY GIỜ thay vì đợi phiên tòa thường. Tòa yêu cầu chứng minh 'nguy hiểm trước mắt' cho con hoặc 'thiệt hại không thể khắc phục' cho tài sản. Hãy cụ thể.",
+            "so": "Tani waa qaybta UGU MUHIIMSAN ee FL-305. Waa inaad sharaxdaa SABABTA aad ugu baahan tahay amarrada degdega HADDA halkii aad u sugi lahayd dhageysiga caadiga ah. Maxkamaddu waxay u baahan tahay 'khatar degdeg ah' ama 'dhaawac aan la soo celin karin.'",
+            "ti": "እዚ ናይ FL-305 ኣዝዩ ኣገዳሲ ክፋል እዩ። ስለምንታይ ህጹጽ ትእዛዛት ሕጂ ከምዝደሊ ክትገልጽ ኣለካ ኣብ ክንዲ ልሙድ ቃለ-ምልልስ ምጽባይ። ቤት ፍርዲ 'ቅጽበታዊ ሓደጋ' ንቆልዑ ወይ 'ዘይምለስ ጕድኣት' ንንብረት ምርኣይ ይሓትት።",
+            "am": "ይህ የFL-305 በጣም አስፈላጊ ክፍል ነው። ለምን አሁን አስቸኳይ ትእዛዝ እንደሚያስፈልግ ማብራራት አለብዎት። ፍርድ ቤቱ ለልጆች 'ቅርብ አደጋ' ወይም ለንብረት 'የማይመለስ ጉዳት' ማሳየት ይፈልጋል። ግልጽ ይሁኑ።",
+            "ar": "هذا أهم جزء في FL-305. يجب أن تشرح لماذا تحتاج أوامر طارئة الآن بدلاً من انتظار جلسة عادية. تتطلب المحكمة إثبات 'خطر فوري' على الأطفال أو 'ضرر لا يمكن إصلاحه' للممتلكات. كن محددًا.",
+            "ht": "Sa se pati PI ENPÒTAN nan FL-305. Ou dwe eksplike POUKISA ou bezwen lòd ijans KOUNYE A olye ou tann yon odyans regilye. Tribinal la mande 'danje imedyat' pou timoun OSWA 'domaj ireversib' pou pwopriyete. Swa espesifik.",
+            "ko": "이것은 FL-305에서 가장 중요한 부분입니다. 일반 심리를 기다리지 않고 지금 긴급 명령이 왜 필요한지 설명해야 합니다. 법원은 아동에 대한 '즉각적 위험' 또는 재산에 대한 '돌이킬 수 없는 피해'를 요구합니다. 구체적으로 작성하세요.",
+            "pt": "Esta é a parte MAIS IMPORTANTE do FL-305. Você deve explicar POR QUE precisa de ordens emergenciais AGORA em vez de esperar audiência regular. O tribunal exige 'perigo imediato' para filhos OU 'dano irreparável' a bens. Seja específico.",
+            "ru": "Это САМАЯ ВАЖНАЯ часть FL-305. Вы должны объяснить, ПОЧЕМУ вам нужны экстренные распоряжения СЕЙЧАС, а не ждать обычного слушания. Суд требует доказать 'непосредственную опасность' для детей ИЛИ 'непоправимый ущерб' имуществу. Будьте конкретны.",
+            "tl": "Ito ang PINAKAMAHALAGANG bahagi ng FL-305. Dapat mong ipaliwanag BAKIT kailangan mo ng emergency orders NGAYON sa halip na maghintay ng regular hearing. Kinakailangan ng korte ang 'agarang panganib' sa mga bata O 'hindi maibabalik na pinsala' sa property. Maging tiyak."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_5",
+      "fields": [
+        {
+          "field_id": "item_5_temp_custody",
+          "field_label": "Temporary custody/visitation orders requested",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "Describe the specific temporary custody and visitation orders you want. Be clear: state who should have custody, what visitation schedule you propose, and any conditions (such as supervised visitation). These orders are TEMPORARY — they last only until the next regular hearing.",
+            "es": "Describa las órdenes temporales de custodia y visitas que solicita. Sea claro: diga quién debería tener la custodia, qué horario de visitas propone y cualquier condición (como visitas supervisadas). Estas órdenes son TEMPORALES hasta la próxima audiencia.",
+            "zh": "描述您请求的具体临时监护权和探视令。明确说明：谁应有监护权、您建议的探视时间表以及任何条件（如监督探视）。这些命令是临时的——仅持续到下次常规听证。",
+            "vi": "Mô tả các lệnh tạm thời cụ thể về quyền nuôi con và thăm nuôi mà bạn muốn. Rõ ràng: nêu ai nên có quyền nuôi con, lịch thăm nuôi đề xuất, và bất kỳ điều kiện nào. Các lệnh này là TẠM THỜI — chỉ kéo dài đến phiên tòa tiếp theo.",
+            "so": "Sharrax amarrada xanaanada iyo booqashada ku meel gaar ah ee aad rabto. Caddee: qofka xanaanada haysan lahaa, jadwalka booqashada, iyo wax shuruudo ah. Amarradani waa KU MEEL GAAR — waxay socdaan ilaa dhageysiga xiga.",
+            "ti": "ዝደልዮ ግዝያዊ ናይ ሕጻናት ምቕማጥን ምብጻሕን ትእዛዛት ገልጽ። ንጹር ኩን: መን ሕጻናት ክሕዝ ከምዘለዎ፡ ናይ ምብጻሕ ሰሌዳ፡ ኩነታት (ከም ብቁጽጽር ዝኸውን ምብጻሕ)። እዞም ትእዛዛት ግዝያዊ እዮም — ክሳብ ዝቕጽል ቃለ-ምልልስ ጥራይ።",
+            "am": "የሚፈልጓቸውን ልዩ ጊዜያዊ የሞግዚትነት እና የጉብኝት ትእዛዛት ይግለጹ። ግልጽ ይሁኑ: ማን ሞግዚትነት ሊኖረው እንደሚገባ፣ የጉብኝት መርሃ ግብር፣ ማንኛውም ሁኔታ ያስቀምጡ። እነዚህ ትእዛዛት ጊዜያዊ ናቸው — እስከ ቀጣዩ ችሎት ብቻ።",
+            "ar": "صف أوامر الحضانة والزيارة المؤقتة المحددة. كن واضحًا: من يجب أن يحصل على الحضانة، جدول الزيارة المقترح، أي شروط. هذه أوامر مؤقتة — تستمر فقط حتى الجلسة التالية.",
+            "ht": "Dekri lòd gad ak vizit tanporè espesifik ou vle. Swa klè: di ki moun ta dwe gen gad la, ki orè vizit ou pwopoze, ak nenpòt kondisyon. Lòd sa yo TANPORÈ — yo dire sèlman jiska pwochen odyans regilye.",
+            "ko": "원하는 구체적인 임시 양육권 및 방문 명령을 설명하세요. 명확하게: 누가 양육권을 가져야 하는지, 제안하는 방문 일정, 조건(감독 하 방문 등)을 기술하세요. 이 명령은 임시입니다 — 다음 일반 심리까지만 유효합니다.",
+            "pt": "Descreva as ordens temporárias específicas de guarda e visitas. Seja claro: quem deve ter a guarda, cronograma de visitas proposto, condições. Estas ordens são TEMPORÁRIAS — duram até a próxima audiência regular.",
+            "ru": "Опишите конкретные временные распоряжения об опеке и посещениях. Укажите: кто должен иметь опеку, какой график посещений, условия (например, контролируемые посещения). Эти распоряжения ВРЕМЕННЫЕ — действуют только до следующего слушания.",
+            "tl": "Ilarawan ang mga tiyak na pansamantalang custody at visitation orders na gusto mo. Maging malinaw: sabihin kung sino ang dapat magkaroon ng custody, anong visitation schedule ang iminumungkahi, at anumang kondisyon. Ang mga orders na ito ay PANSAMANTALA — hanggang sa susunod na regular hearing lamang."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_6",
+      "fields": [
+        {
+          "field_id": "item_6_other_orders",
+          "field_label": "Other emergency orders requested",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "Use this section for any other emergency orders not covered above — for example, orders preventing a parent from traveling with the children, orders to surrender passports, or orders to maintain existing health insurance. Leave blank if you have no additional requests.",
+            "es": "Use esta sección para otras órdenes de emergencia no cubiertas arriba — por ejemplo, órdenes para impedir que un padre viaje con los hijos, entregar pasaportes, o mantener seguro médico. Déjelo en blanco si no tiene solicitudes adicionales.",
+            "zh": "用此部分申请上述未涵盖的其他紧急命令——例如，禁止一方父母带孩子旅行、交出护照或维持现有健康保险的命令。如果没有其他请求，可留空。",
+            "vi": "Dùng phần này cho các lệnh khẩn cấp khác chưa được đề cập ở trên — ví dụ, lệnh ngăn cha/mẹ đi du lịch với con, nộp hộ chiếu, hoặc duy trì bảo hiểm y tế. Để trống nếu không có yêu cầu thêm.",
+            "so": "Isticmaal qaybtan wixii amarrado degdeg ah oo kale oo aan kor lagu sheegin — tusaale, amarrada ka hortagaya waalidka inuu carruurta la safro, inuu baasboorka dhiibo, ama inuu caymiska caafimaadka sii wado. Banaan ka tag haddii aadan codsi dheeraad ah lahayn.",
+            "ti": "ኣብ ላዕሊ ዘይተሸፈኑ ካልኦት ህጹጽ ትእዛዛት ንምሕታት ጠቐሞ — ንኣብነት ወላዲ ምስ ቆልዑ ካብ ምጋሽ ምኽልካል፡ ፓስፖርት ምሃብ፡ ወይ ናይ ጥዕና መድሕን ምቕጻል። ተወሳኺ ሕቶ እንተዘየልካ ባዶ ግደፎ።",
+            "am": "ከላይ ያልተሸፈኑ ሌሎች አስቸኳይ ትእዛዞችን ለመጠየቅ ይህን ክፍል ይጠቀሙ — ለምሳሌ ወላጅ ከልጆች ጋር እንዳይጓዝ፣ ፓስፖርት እንዲያስረክብ፣ ወይም የጤና ኢንሹራንስ እንዲጠብቅ። ተጨማሪ ጥያቄ ከሌለ ባዶ ይተውት።",
+            "ar": "استخدم هذا القسم لأي أوامر طارئة أخرى — مثل منع أحد الوالدين من السفر مع الأطفال، تسليم جوازات السفر، أو الحفاظ على التأمين الصحي. اتركه فارغًا إذا لم يكن لديك طلبات إضافية.",
+            "ht": "Itilize seksyon sa pou nenpòt lòt lòd ijans ki pa kouvri anwo a — pa egzanp, lòd pou anpeche yon paran vwayaje ak timoun yo, remèt paspò, oswa kenbe asirans sante. Kite li vid si ou pa gen demann anplis.",
+            "ko": "위에서 다루지 않은 기타 긴급 명령에 이 섹션을 사용하세요 — 예: 부모가 자녀와 함께 여행하는 것 금지, 여권 제출, 기존 건강보험 유지 명령. 추가 요청이 없으면 비워두세요.",
+            "pt": "Use esta seção para outras ordens emergenciais não cobertas acima — por exemplo, impedir viagem com filhos, entregar passaportes, manter seguro saúde. Deixe em branco se não tiver pedidos adicionais.",
+            "ru": "Используйте этот раздел для других экстренных распоряжений — например, запрет на выезд родителя с детьми, сдача паспортов, сохранение медицинской страховки. Оставьте пустым, если нет дополнительных запросов.",
+            "tl": "Gamitin ang seksyon na ito para sa ibang emergency orders na hindi sakop sa itaas — halimbawa, mga utos na pigilan ang isang magulang sa paglalakbay kasama ang mga bata, pagsuko ng passport, o pagpapanatili ng health insurance. Iwanan itong blangko kung walang karagdagang kahilingan."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_7",
+      "fields": [
+        {
+          "field_id": "item_7_facts",
+          "field_label": "Facts supporting this request",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "This is the MOST CRITICAL section. Describe the specific facts that show why you need emergency orders RIGHT NOW. Include: WHAT happened, WHEN it happened, WHO was involved, and WHY waiting for a regular hearing would cause harm. Use dates and specific details — not general statements like 'he is dangerous.' If you need more space, check the box to attach form MC-031 (Declaration).",
+            "es": "Esta es la sección MÁS IMPORTANTE. Describa los hechos específicos que demuestran por qué necesita órdenes de emergencia AHORA MISMO. Incluya: QUÉ pasó, CUÁNDO pasó, QUIÉN estuvo involucrado, y POR QUÉ esperar una audiencia regular causaría daño. Use fechas y detalles específicos. Si necesita más espacio, marque la casilla para adjuntar el formulario MC-031 (Declaración).",
+            "zh": "这是最关键的部分。描述具体事实，说明为什么您现在就需要紧急命令。包括：发生了什么、何时发生、谁参与了、为什么等待正常听证会会造成伤害。使用日期和具体细节——不要笼统陈述。如需更多空间，勾选方框附上MC-031表格（声明）。",
+            "vi": "Đây là phần QUAN TRỌNG NHẤT. Mô tả các sự kiện cụ thể cho thấy tại sao bạn cần lệnh khẩn cấp NGAY BÂY GIỜ. Bao gồm: chuyện GÌ xảy ra, KHI NÀO, AI liên quan, và TẠI SAO chờ phiên tòa thường sẽ gây hại. Dùng ngày tháng và chi tiết cụ thể. Nếu cần thêm chỗ, đánh dấu ô để đính kèm mẫu MC-031.",
+            "so": "Kani waa qaybta UGU MUHIIMSAN. Sharax xaqiiqooyinka gaarka ah ee muujinaya sababta aad u baahan tahay amarrado degdeg ah HADDA. Ku dar: MAXAA dhacay, GOORMA, YAA ku lug lahaa, iyo SABABTA sugitaanku wax u dhamayn karo. Isticmaal taariikhaha. Haddii aad goob dheeraad ah u baahan tahay, calaamadee sanduuqa si aad ugu lifaaqdo foomka MC-031.",
+            "ti": "እዚ እቲ ዝበለጸ ኣገዳሲ ክፋል እዩ። ሕጂ ህጹጽ ትእዛዛት ስለምንታይ ከምዘድልዩኻ ዘርኢ ፍሉይ ሓቅታት ግለጽ። ዘጠቓልል: እንታይ ኮነ፡ መዓስ፡ መን ተሳተፈ፡ ስለምንታይ ንቡር ስምዒት ምጽባይ ጉድኣት ከስዕብ ይኽእል። ዕለታትን ፍሉይ ዝርዝራትን ተጠቐም። ተወሳኺ ቦታ እንተደሊኻ MC-031 ኣላግብ።",
+            "am": "ይህ በጣም ወሳኝ ክፍል ነው። አሁኑኑ ለምን አስቸኳይ ትእዛዞች እንደሚያስፈልጉ የሚያሳዩ ልዩ እውነታዎችን ይግለጹ። ያካትቱ: ምን ሆነ፣ መቼ፣ ማን ተሳተፈ፣ ለምን መደበኛ ችሎት መጠበቅ ጉዳት ያስከትላል። ቀኖችንና ዝርዝሮችን ይጠቀሙ። ተጨማሪ ቦታ ከፈለጉ MC-031 ቅጽ ያያይዙ።",
+            "ar": "هذا هو القسم الأكثر أهمية. اذكر الوقائع المحددة التي تبين لماذا تحتاج أوامر طارئة الآن. اشمل: ماذا حدث، متى، من كان متورطًا، ولماذا الانتظار سيسبب ضررًا. استخدم تواريخ وتفاصيل محددة. إذا احتجت مساحة أكبر، ضع علامة لإرفاق نموذج MC-031.",
+            "ht": "Sa a se seksyon ki PI ENPÒTAN. Dekri faits espesifik ki montre poukisa ou bezwen lòd ijans KOUNYE A. Enkli: KISA ki te pase, KILÈ, KIMOUN ki te enplike, e POUKISA tann yon odyans regilye ta ka lakòz danje. Itilize dat ak detay espesifik. Si ou bezwen plis espas, tcheke bwat la pou ajoute fòm MC-031.",
+            "ko": "이것이 가장 중요한 섹션입니다. 지금 당장 긴급 명령이 필요한 이유를 보여주는 구체적인 사실을 설명하세요. 포함할 것: 무슨 일이 있었는지, 언제, 누가 관련되었는지, 왜 일반 청문회를 기다리면 해가 되는지. 날짜와 구체적 세부사항을 사용하세요. 공간이 더 필요하면 MC-031 양식을 첨부하세요.",
+            "pt": "Esta é a seção MAIS IMPORTANTE. Descreva os fatos específicos que mostram por que você precisa de ordens emergenciais AGORA. Inclua: O QUE aconteceu, QUANDO, QUEM estava envolvido, e POR QUE esperar uma audiência regular causaria dano. Use datas e detalhes específicos. Se precisar de mais espaço, marque a caixa para anexar o formulário MC-031.",
+            "ru": "Это САМЫЙ ВАЖНЫЙ раздел. Опишите конкретные факты, показывающие, почему вам нужны экстренные распоряжения ПРЯМО СЕЙЧАС. Включите: ЧТО произошло, КОГДА, КТО был вовлечён, ПОЧЕМУ ожидание обычного слушания причинит вред. Используйте даты и конкретные детали. Если нужно больше места, отметьте поле для приложения формы MC-031.",
+            "tl": "Ito ang PINAKAMAHALAGANG seksyon. Ilarawan ang mga tiyak na katotohanan na nagpapakita kung bakit kailangan mo ng emergency orders NGAYON. Isama: ANO ang nangyari, KAILAN, SINO ang sangkot, at BAKIT ang paghihintay sa regular hearing ay magdudulot ng pinsala. Gumamit ng mga petsa at tiyak na detalye. Kung kailangan ng mas maraming espasyo, lagyan ng tsek ang kahon para i-attach ang form MC-031."
+          }
+        },
+        {
+          "field_id": "item_7_mc031_attachment",
+          "field_label": "Continued on Attachment MC-031",
+          "field_type": "attachment_indicator",
+          "guidance": {
+            "en": "Check this box if your facts take more space than the form allows. Attach a separate MC-031 (Declaration) form with your full statement. Number your paragraphs and write 'Attachment to Item 7' at the top.",
+            "es": "Marque esta casilla si sus hechos necesitan más espacio. Adjunte un formulario MC-031 (Declaración) separado. Numere sus párrafos y escriba 'Anexo al Punto 7' arriba.",
+            "zh": "如果事实陈述需要更多空间，请勾选此框。附上单独的MC-031（声明）表格。给段落编号并在顶部写'第7项附件'。",
+            "vi": "Đánh dấu ô này nếu phần trình bày sự kiện cần thêm chỗ. Đính kèm mẫu MC-031 (Bản Khai) riêng. Đánh số các đoạn và ghi 'Đính kèm Mục 7' ở đầu trang.",
+            "so": "Calaamadee sanduuqan haddii xaqiiqooyinkaagu u baahan yihiin goob dheeraad ah. Ku lifaaq foom MC-031 (Bayaan) gooni ah. Nambar qodobadaada oo ku qor 'Lifaaq Qodobka 7' xagga sare.",
+            "ti": "ሓቅታትካ ዝበለጸ ቦታ እንተደሊዮም እዚ ሳንዱቕ ምልክት ግበር። ፍሉይ MC-031 (መግለጺ) ፎርም ኣላግብ። ሕጡባትካ ቁጽሪ ሃብ ኣብ ላዕሊ ድማ 'ኣባ ዓንቀጽ 7 ዝተላገበ' ጸሓፍ።",
+            "am": "እውነታዎ ተጨማሪ ቦታ ከፈለጉ ይህን ሳጥን ምልክት ያድርጉ። የተለየ MC-031 (ማስታወቂያ) ቅጽ ያያይዙ። አንቀጾችን ቁጥር ይስጡ እና ከላይ 'የንጥል 7 አባሪ' ብለው ይጻፉ።",
+            "ar": "ضع علامة هنا إذا كانت الوقائع تحتاج مساحة أكبر. أرفق نموذج MC-031 (إعلان) منفصل. رقّم فقراتك واكتب 'ملحق البند 7' في الأعلى.",
+            "ht": "Tcheke bwat sa si faits ou yo bezwen plis espas. Ajoute yon fòm MC-031 (Deklarasyon) apa. Nimewote paragraf yo epi ekri 'Atachman Atik 7' anwo.",
+            "ko": "사실 설명에 더 많은 공간이 필요하면 이 상자를 체크하세요. 별도의 MC-031(선언서) 양식을 첨부하세요. 단락에 번호를 매기고 상단에 '항목 7 첨부'라고 쓰세요.",
+            "pt": "Marque esta caixa se os fatos precisam de mais espaço. Anexe um formulário MC-031 (Declaração) separado. Numere os parágrafos e escreva 'Anexo ao Item 7' no topo.",
+            "ru": "Отметьте это поле, если фактам нужно больше места. Приложите отдельную форму MC-031 (Заявление). Пронумеруйте абзацы и напишите сверху 'Приложение к Пункту 7'.",
+            "tl": "Lagyan ng tsek ang kahon na ito kung kailangan ng mas maraming espasyo. Mag-attach ng hiwalay na MC-031 (Declaration) form. I-number ang mga talata at isulat ang 'Attachment sa Item 7' sa itaas."
+          }
+        }
+      ]
+    },    {
+      "section_id": "notice",
+      "fields": [
+        {
+          "field_id": "notice_given",
+          "field_label": "Notice was given to the other party",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you told the other party (or their attorney) about this ex parte request BEFORE filing. California Rules of Court 5.151 REQUIRES you to give notice — by phone, in person, email, or fax — by 10:00 AM the court day before the hearing. You must try to give notice even if you think the other side will oppose.",
+            "es": "Marque esto si avisó a la otra parte (o su abogado) sobre esta solicitud ex parte ANTES de presentarla. Las Reglas de la Corte de California 5.151 REQUIEREN que dé aviso — por teléfono, en persona, correo electrónico o fax — antes de las 10:00 AM del día hábil anterior a la audiencia.",
+            "zh": "如果您在提交前已通知对方（或其律师）此紧急申请，请勾选。加州法院规则5.151要求您在听证前一个法庭工作日上午10:00之前以电话、当面、电子邮件或传真方式通知对方。",
+            "vi": "Đánh dấu nếu bạn đã thông báo cho bên kia (hoặc luật sư) về yêu cầu ex parte này TRƯỚC KHI nộp. Quy tắc Tòa án California 5.151 YÊU CẦU thông báo trước 10:00 sáng ngày tòa trước phiên.",
+            "so": "Calaamadee haddii aad dhinaca kale (ama qareenkooda) u sheegtay codsigan ex parte KA HOR inta aadan xareynin. Xeerka Maxkamadda California 5.151 wuxuu u BAAHAN YAHAY inaad ogeysiis siiso — taleefan, qof ahaan, iimayl — 10:00 subaxnimo ka hor maalinta maxkamadda.",
+            "ti": "ነቲ ካልእ ወገን (ወይ ጠበቓኦም) ብዛዕባ እዚ ex parte ሕቶ ቅድሚ ምቕራብ እንተሓቢርካዮም ምልክት ግበር። ናይ ካሊፎርንያ ሕጊ ቤት ፍርዲ 5.151 ቅድሚ 10:00 ንግሆ ናይቲ ቅድሚ ስምዒት ዘሎ ናይ ቤት ፍርዲ መዓልቲ ምሕባር ይጠልብ።",
+            "am": "ይህን ex parte ጥያቄ ከማቅረብ በፊት ለሌላው ወገን (ወይም ጠበቃቸው) ካሳወቁ ይህን ምልክት ያድርጉ። የካሊፎርኒያ ፍርድ ቤት ደንብ 5.151 ከችሎት በፊት ባለው የፍርድ ቤት ቀን ከጠዋቱ 10:00 በፊት ማሳወቅ ይጠይቃል።",
+            "ar": "ضع علامة إذا أبلغت الطرف الآخر (أو محاميهم) بهذا الطلب العاجل قبل تقديمه. قواعد محكمة كاليفورنيا 5.151 تتطلب إخطارًا قبل الساعة 10:00 صباحًا في يوم المحكمة السابق للجلسة.",
+            "ht": "Tcheke si ou te di lòt pati a (oswa avoka yo) sou demann ex parte sa a AVAN ou depoze li. Règ Tribinal Kalifòni 5.151 EGZIJE ou bay avi — pa telefòn, an pèsòn, imel — anvan 10:00 AM jou tribinal anvan odyans lan.",
+            "ko": "제출 전에 상대방(또는 그 변호사)에게 이 긴급 신청에 대해 알렸다면 체크하세요. 캘리포니아 법원 규칙 5.151은 청문회 전 법원 영업일 오전 10시까지 통지할 것을 요구합니다.",
+            "pt": "Marque se você avisou a outra parte (ou advogado) sobre este pedido ex parte ANTES de protocolar. As Regras do Tribunal da Califórnia 5.151 EXIGEM aviso até às 10:00 da manhã do dia útil anterior à audiência.",
+            "ru": "Отметьте, если вы уведомили другую сторону (или их адвоката) об этом экстренном запросе ДО подачи. Правила суда Калифорнии 5.151 ТРЕБУЮТ уведомления до 10:00 утра судебного дня перед слушанием.",
+            "tl": "I-check ito kung sinabi mo sa kabilang partido (o kanilang abogado) tungkol sa ex parte request na ito BAGO mag-file. California Rules of Court 5.151 ay NANGANGAILANGAN ng notice bago mag-10:00 AM sa court day bago ang hearing."
+          },
+          "do_not_check_if": {
+            "en": "Do not check this if you were unable to reach the other party or did not attempt notice. Use the next field to explain why notice was not given.",
+            "es": "No marque si no pudo contactar a la otra parte o no intentó dar aviso. Use el siguiente campo para explicar por qué.",
+            "zh": "如果无法联系对方或未尝试通知，请勿勾选。使用下一个字段解释未通知的原因。",
+            "vi": "Không đánh dấu nếu không liên lạc được với bên kia hoặc chưa thử thông báo. Dùng ô tiếp theo để giải thích lý do.",
+            "so": "Ha calaamadaynin haddii aadan la xiriiri karin dhinaca kale ama aadan isku dayin ogeysiis. Isticmaal goobta xigta si aad u sharaxdo sababta.",
+            "ti": "ነቲ ካልእ ወገን ክትረኽቦ እንተዘይክኢልካ ወይ ምሕባር እንተዘይፈቲንካ ምልክት ኣይትግበር። ዝስዕብ ቦታ ተጠቒምካ ምኽንያት ግለጽ።",
+            "am": "ሌላውን ወገን ማግኘት ካልቻሉ ወይም ማሳወቅ ካልሞከሩ ምልክት አያድርጉ። ቀጣዩን ቦታ ተጠቅመው ምክንያቱን ያብራሩ።",
+            "ar": "لا تضع علامة إذا لم تتمكن من الوصول للطرف الآخر أو لم تحاول الإخطار. استخدم الحقل التالي لشرح السبب.",
+            "ht": "Pa tcheke si ou pa t kapab jwenn lòt pati a oswa ou pa t eseye bay avi. Itilize espas ki vin apre a pou eksplike poukisa.",
+            "ko": "상대방에게 연락할 수 없었거나 통지를 시도하지 않았다면 체크하지 마세요. 다음 칸에서 이유를 설명하세요.",
+            "pt": "Não marque se não conseguiu contato ou não tentou avisar. Use o próximo campo para explicar o motivo.",
+            "ru": "Не отмечайте, если не смогли связаться с другой стороной или не пытались уведомить. Используйте следующее поле для объяснения причины.",
+            "tl": "Huwag i-check kung hindi mo nakausap ang kabilang partido o hindi mo sinubukan ang notice. Gamitin ang susunod na field para ipaliwanag kung bakit."
+          }
+        },        {
+          "field_id": "notice_how_given",
+          "field_label": "How notice was given",
+          "field_type": "checkbox_group",
+          "guidance": {
+            "en": "If you gave notice, check ALL methods you used: in person, by telephone, by fax, by email, or by other means. Describe the date, time, and who you contacted. Keep a record of your attempts.",
+            "es": "Si dio aviso, marque TODOS los métodos usados: en persona, teléfono, fax, correo electrónico u otro. Describa fecha, hora y a quién contactó.",
+            "zh": "如果已通知，勾选所有使用的方式：当面、电话、传真、电子邮件或其他。描述日期、时间和联系对象。",
+            "vi": "Nếu đã thông báo, đánh dấu TẤT CẢ phương thức đã dùng: gặp trực tiếp, điện thoại, fax, email hoặc khác. Ghi rõ ngày, giờ và người liên hệ.",
+            "so": "Haddii aad ogeysiis bixisay, calaamadee DHAMMAAN habab aad isticmaashay: qof ahaan, taleefan, fakis, iimayl ama hab kale. Sharax taariikhda, waqtiga, iyo cidda aad la xiriirtay.",
+            "ti": "ምሕባር እንተሂብካ ኩሉ ዝተጠቐምካዮ ኣገባብ ምልክት ግበር: ብኣካል፡ ብተሌፎን፡ ብፋክስ፡ ብኢ-መይል ወይ ብኻልእ። ዕለት፡ ሰዓትን ዝረኸብካዮ ሰብን ግለጽ።",
+            "am": "ማሳወቅ ከሰጡ ሁሉንም ዘዴዎች ምልክት ያድርጉ: በአካል፣ በስልክ፣ በፋክስ፣ በኢሜል ወይም በሌላ። ቀን፣ ሰዓት እና ያነጋገሩትን ሰው ይግለጹ።",
+            "ar": "إذا أعطيت إخطارًا، ضع علامة على جميع الطرق المستخدمة: شخصيًا، هاتفيًا، فاكس، بريد إلكتروني أو غير ذلك. اذكر التاريخ والوقت ومن اتصلت به.",
+            "ht": "Si ou te bay avi, tcheke TOUT metòd ou te itilize: an pèsòn, pa telefòn, pa faks, pa imel oswa lòt fason. Dekri dat, lè, ak moun ou te kontakte.",
+            "ko": "통지를 했다면 사용한 모든 방법을 체크하세요: 직접, 전화, 팩스, 이메일 또는 기타. 날짜, 시간, 연락한 사람을 기술하세요.",
+            "pt": "Se deu aviso, marque TODOS os métodos usados: pessoalmente, telefone, fax, email ou outro. Descreva data, hora e quem contatou.",
+            "ru": "Если уведомили, отметьте ВСЕ использованные способы: лично, по телефону, факсу, электронной почте или иным способом. Укажите дату, время и кого вы контактировали.",
+            "tl": "Kung nagbigay ng notice, i-check ang LAHAT ng paraan na ginamit: personal, telepono, fax, email o iba pa. Ilarawan ang petsa, oras, at sino ang kinontakto."
+          }
+        },
+        {
+          "field_id": "notice_excused",
+          "field_label": "Request that notice requirement be excused",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this ONLY if giving notice would put your children in danger or cause serious harm — for example, if the other parent might flee with the children or become violent upon learning of the request. You MUST explain specifically why notice should be excused. Courts rarely excuse the notice requirement, so your reason must be compelling.",
+            "es": "Marque SOLO si dar aviso pondría a sus hijos en peligro — por ejemplo, si el otro padre podría huir con los hijos o volverse violento. DEBE explicar específicamente por qué debe excusarse el aviso. Los tribunales raramente excusan este requisito.",
+            "zh": "仅在通知会使您的孩子处于危险时才勾选——例如对方可能带孩子逃跑或变得暴力。您必须具体解释为什么应免除通知要求。法院很少免除此要求。",
+            "vi": "CHỈ đánh dấu nếu việc thông báo sẽ gây nguy hiểm cho con bạn — ví dụ bên kia có thể bỏ trốn với con hoặc trở nên bạo lực. Bạn PHẢI giải thích cụ thể. Tòa hiếm khi miễn yêu cầu thông báo.",
+            "so": "KALIYA calaamadee haddii ogeysiis bixintu carruurta khatar gelin karto — tusaale, waalid kale oo la caraari kara carruurta. WAXAAD sharxi MUSTTAHIL sababta ogeysiiska la cafin karo. Maxkamadaha dhif ayey cafiyaan shuruuddan.",
+            "ti": "ምሕባር ንቆልዑኻ ኣብ ሓደጋ ዘእቱ እንተኾይኑ ጥራይ ምልክት ግበር — ንኣብነት እቲ ካልእ ወላዲ ምስ ቆልዑ ክሃድም ወይ ዓመጽ ክፍጽም ይኽእል። ስለምንታይ ምሕባር ክሕደግ ከምዘለዎ ብፍላይ ክትገልጽ ኣለካ።",
+            "am": "ማሳወቅ ልጆችዎን አደጋ ላይ የሚጥል ከሆነ ብቻ ምልክት ያድርጉ — ለምሳሌ ሌላው ወላጅ ከልጆች ጋር ሊሸሽ ወይም ሊነጋገር ይችላል። ለምን ማሳወቅ መሰረዝ እንዳለበት በግልጽ ማብራራት አለብዎት።",
+            "ar": "ضع علامة فقط إذا كان الإخطار سيعرض أطفالك للخطر — مثلاً قد يهرب الطرف الآخر بالأطفال أو يصبح عنيفًا. يجب أن تشرح تحديدًا لماذا يجب إعفاء شرط الإخطار.",
+            "ht": "Tcheke sa SÈLMAN si bay avi ta ka mete timoun ou yo an danje — pa egzanp, si lòt paran an ta ka kouri ak timoun yo oswa vin vyolan. Ou OBLIJE eksplike espesifikman poukisa yo ta dwe eskize avi a.",
+            "ko": "통지가 자녀를 위험에 빠뜨릴 경우에만 체크하세요 — 예: 상대 부모가 자녀와 도주하거나 폭력적이 될 수 있는 경우. 왜 통지 요건이 면제되어야 하는지 구체적으로 설명해야 합니다.",
+            "pt": "Marque APENAS se dar aviso colocaria seus filhos em perigo — por exemplo, o outro pai poderia fugir com as crianças ou se tornar violento. Você DEVE explicar especificamente por que o aviso deve ser dispensado.",
+            "ru": "Отмечайте ТОЛЬКО если уведомление подвергнет ваших детей опасности — например, другой родитель может скрыться с детьми или стать агрессивным. Вы ДОЛЖНЫ объяснить конкретно, почему уведомление следует отменить.",
+            "tl": "I-check ito LAMANG kung ang pagbibigay ng notice ay maglalagay sa iyong mga anak sa panganib — halimbawa, kung ang kabilang magulang ay maaaring tumakas kasama ang mga bata o maging marahas. KAILANGAN mong ipaliwanag kung bakit dapat i-excuse ang notice."
+          },
+          "do_not_check_if": {
+            "en": "Do not check this if you simply could not reach the other party. That is different from notice being dangerous. If you tried but failed to reach them, explain your attempts in the notice field above — do not ask for notice to be excused.",
+            "es": "No marque si simplemente no pudo contactar a la otra parte. Eso es diferente de que el aviso sea peligroso. Si intentó pero no logró contactarlos, explique sus intentos arriba.",
+            "zh": "如果只是无法联系到对方，请勿勾选。这与通知本身有危险不同。如果尝试但未能联系，请在上方通知字段中说明。",
+            "vi": "Không đánh dấu nếu đơn giản là không liên lạc được. Điều đó khác với việc thông báo gây nguy hiểm. Nếu đã cố gắng nhưng không thành, hãy giải thích ở phần trên.",
+            "so": "Ha calaamadaynin haddii aadan la xiriiri karin dhinaca kale. Taas waa ka duwan in ogeysiiska khatar yahay. Haddii aad isku dayday laakin ku guuldaraysatay, sharax isku dayayaadaada goobta kore.",
+            "ti": "ነቲ ካልእ ወገን ክትረኽቦ ጥራይ እንተዘይክኢልካ ምልክት ኣይትግበር። እዚ ምሕባር ሓደገኛ ምዃኑ ዝተፈልየ እዩ። ክትረኽቦ ፈቲንካ እንተዘይተዓዊትካ ኣብ ላዕሊ ናይ ምሕባር ቦታ ፈተነታትካ ግለጽ።",
+            "am": "ሌላውን ወገን ማግኘት ባለመቻልዎ ብቻ ምልክት አያድርጉ። ይህ ማሳወቅ አደገኛ ከመሆን የተለየ ነው። ሞክረው ካልተሳካ ከላይ ባለው የማሳወቂያ ቦታ ሙከራዎትን ያብራሩ።",
+            "ar": "لا تضع علامة إذا ببساطة لم تتمكن من الوصول. هذا يختلف عن كون الإخطار خطيرًا. إذا حاولت لكن فشلت، اشرح محاولاتك أعلاه.",
+            "ht": "Pa tcheke si ou jis pa t kapab jwenn lòt pati a. Sa diferan de avi a ta ka danjere. Si ou te eseye men ou pa t reyisi, eksplike tantativ ou yo anwo.",
+            "ko": "단순히 상대방에게 연락할 수 없었다면 체크하지 마세요. 이는 통지가 위험한 것과 다릅니다. 연락을 시도했지만 실패했다면 위의 통지 칸에서 시도를 설명하세요.",
+            "pt": "Não marque se simplesmente não conseguiu contato. Isso é diferente de aviso ser perigoso. Se tentou mas não conseguiu, explique as tentativas acima.",
+            "ru": "Не отмечайте, если вы просто не смогли связаться. Это отличается от ситуации, когда уведомление опасно. Если пытались, но не удалось — объясните попытки выше.",
+            "tl": "Huwag i-check kung hindi mo lang nakausap ang kabilang partido. Iba iyon sa notice na mapanganib. Kung sinubukan mo pero hindi nagtagumpay, ipaliwanag ang mga pagtatangka sa itaas."
+          }
+        }
+      ]
+    },    {
+      "section_id": "footer",
+      "fields": [
+        {
+          "field_id": "footer_declaration",
+          "field_label": "Declaration under penalty of perjury",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "This is a legal declaration that everything you wrote on this form is true. By signing below, you are stating UNDER PENALTY OF PERJURY that your statements are true and correct. Perjury is a crime. Make sure everything you wrote is accurate before signing.",
+            "es": "Esta es una declaración legal de que todo lo que escribió es verdadero. Al firmar, está declarando BAJO PENA DE PERJURIO que sus declaraciones son verdaderas. El perjurio es un delito. Asegúrese de que todo sea exacto antes de firmar.",
+            "zh": "这是一项法律声明，表明您在表格上所写的一切都是真实的。签名即表示您在伪证处罚下声明您的陈述真实无误。伪证是犯罪行为。签名前请确保所有内容准确。",
+            "vi": "Đây là tuyên bố pháp lý rằng mọi thứ bạn viết trên mẫu này là đúng sự thật. Bằng việc ký tên, bạn tuyên bố DƯỚI HÌNH PHẠT KHAI MAN rằng các phát biểu là đúng. Khai man là tội hình sự. Hãy đảm bảo mọi thứ chính xác trước khi ký.",
+            "so": "Kani waa bayaan sharci ah oo ah wax walba oo aad ku qortay foomkan waa run. Saxiixaadaada waxaad ku sheegaysaa CIQAABTA BEEN-MAALMEEDKA IN ay run tahay. Hubso in wax walba sax yihiin ka hor inta aadan saxiixin.",
+            "ti": "እዚ ኣብዚ ፎርም ዝጸሓፍካዮ ኩሉ ሓቂ ምዃኑ ዝገልጽ ሕጋዊ መግለጺ እዩ። ብምፍራምካ ኣብ ትሕቲ ቅጣት ሓሶ ዝህብ ትገልጽ ኣለኻ። ቅድሚ ምፍራም ኩሉ ልክዕ ምዃኑ ኣረጋግጽ።",
+            "am": "ይህ በቅጹ ላይ የጻፉት ሁሉ እውነት መሆኑን የሚገልጽ ህጋዊ ማስታወቂያ ነው። በመፈረምዎ በሐሰት ቃል ቅጣት ስር ትክክል መሆኑን ይገልጻሉ። ሐሰት ምስክርነት ወንጀል ነው። ከመፈረም በፊት ሁሉም ነገር ትክክል መሆኑን ያረጋግጡ።",
+            "ar": "هذا إقرار قانوني بأن كل ما كتبته صحيح. بالتوقيع، تصرح تحت طائلة عقوبة الحنث أن أقوالك صحيحة. الحنث جريمة. تأكد من دقة كل شيء قبل التوقيع.",
+            "ht": "Sa se yon deklarasyon legal ke tout sa ou ekri sou fòm sa a se verite. Lè ou siyen, ou deklare ANBA PENALITE PÈJI ke deklarasyon ou yo vre. Pèji se yon krim. Asire tout bagay kòrèk anvan ou siyen.",
+            "ko": "이것은 이 양식에 적은 모든 내용이 사실이라는 법적 선언입니다. 서명함으로써 위증 처벌 하에 진술이 진실하고 정확하다고 선언합니다. 위증은 범죄입니다. 서명 전 모든 내용이 정확한지 확인하세요.",
+            "pt": "Esta é uma declaração legal de que tudo que você escreveu é verdadeiro. Ao assinar, você declara SOB PENA DE PERJÚRIO que suas declarações são verdadeiras. Perjúrio é crime. Certifique-se de que tudo está correto antes de assinar.",
+            "ru": "Это юридическое заявление о том, что всё написанное вами правда. Подписывая, вы заявляете ПОД УГРОЗОЙ НАКАЗАНИЯ ЗА ЛЖЕСВИДЕТЕЛЬСТВО, что ваши утверждения верны. Лжесвидетельство — преступление. Убедитесь в точности всего перед подписанием.",
+            "tl": "Ito ay isang legal na deklarasyon na lahat ng isinulat mo sa form na ito ay totoo. Sa pagpirma, sinasabi mo SA ILALIM NG PARUSA NG PAGSISINUNGALING NA SINUMPAANAN na totoo ang iyong mga pahayag. Ang perjury ay isang krimen. Siguraduhing tama ang lahat bago pumirma."
+          }
+        },
+        {
+          "field_id": "footer_date",
+          "field_label": "Date",
+          "field_type": "date_field",
+          "guidance": {
+            "en": "Enter today's date — the date you are signing this form. Use the format the court requires (usually MM/DD/YYYY).",
+            "es": "Ingrese la fecha de hoy — la fecha en que firma. Use el formato requerido (generalmente MM/DD/AAAA).",
+            "zh": "输入今天的日期——您签署此表格的日期。使用法院要求的格式（通常为月/日/年）。",
+            "vi": "Nhập ngày hôm nay — ngày bạn ký mẫu này. Dùng định dạng tòa yêu cầu (thường là MM/DD/YYYY).",
+            "so": "Geli taariikhda maanta — maalinta aad saxiixayso. Isticmaal qaabka maxkamaddu u baahan tahay (caadi ahaan BB/MM/SSSS).",
+            "ti": "ናይ ሎሚ ዕለት — ነዚ ፎርም ዝፍርመሉ ዕለት ኣእቱ።",
+            "am": "የዛሬውን ቀን ያስገቡ — ይህን ቅጽ የሚፈርሙበት ቀን።",
+            "ar": "أدخل تاريخ اليوم — تاريخ توقيعك على هذا النموذج.",
+            "ht": "Mete dat jodi a — dat ou ap siyen fòm sa a.",
+            "ko": "오늘 날짜를 입력하세요 — 이 양식에 서명하는 날짜입니다.",
+            "pt": "Insira a data de hoje — a data em que está assinando este formulário.",
+            "ru": "Введите сегодняшнюю дату — дату подписания этой формы.",
+            "tl": "Ilagay ang petsa ngayon — ang petsa na pinipirmahan mo ang form na ito."
+          }
+        },        {
+          "field_id": "footer_signature",
+          "field_label": "Signature of declarant",
+          "field_type": "signature",
+          "guidance": {
+            "en": "Sign your full legal name. This must be YOUR signature — no one else can sign for you. If filing in person, sign in front of the clerk. If filing electronically, follow the court's e-filing signature rules.",
+            "es": "Firme con su nombre legal completo. Debe ser SU firma — nadie más puede firmar por usted. Si presenta en persona, firme frente al secretario.",
+            "zh": "签署您的完整法定姓名。必须是您本人签名——他人不能代签。如果亲自提交，在书记员面前签名。",
+            "vi": "Ký tên đầy đủ theo pháp luật. Phải là chữ ký CỦA BẠN — không ai khác có thể ký thay. Nếu nộp trực tiếp, ký trước mặt thư ký tòa.",
+            "so": "Ku saxiix magacaaga sharciga buuxa. Waa inay noqotaa SAXIIXA ADIGA — qof kale kugu saxiixi karo. Haddii aad si shakhsi ah u xareyso, ku saxiix horta xoghayaha.",
+            "ti": "ምሉእ ሕጋዊ ስምካ ፈርም። ናትካ ፊርማ ክኸውን ኣለዎ — ካልእ ሰብ ብኣንጻርካ ክፍርም ኣይክእልን።",
+            "am": "ሙሉ ህጋዊ ስምዎን ይፈርሙ። የእርስዎ ፊርማ መሆን አለበት — ሌላ ሰው በእርስዎ ስም መፈረም አይችልም።",
+            "ar": "وقّع باسمك القانوني الكامل. يجب أن يكون توقيعك أنت — لا أحد آخر يمكنه التوقيع عنك.",
+            "ht": "Siyen non legal konplè ou. Sa dwe siyati PA OU — pèsonn lòt pa ka siyen pou ou.",
+            "ko": "전체 법적 이름으로 서명하세요. 반드시 본인 서명이어야 합니다 — 다른 사람이 대신 서명할 수 없습니다.",
+            "pt": "Assine com seu nome legal completo. Deve ser SUA assinatura — ninguém pode assinar por você.",
+            "ru": "Подпишите полным юридическим именем. Это должна быть ВАША подпись — никто другой не может подписать за вас.",
+            "tl": "Pirmahan gamit ang iyong buong legal na pangalan. Dapat IKAW ang pumirma — walang ibang pwedeng pumirma para sa iyo."
+          }
+        }
+      ]
+    }
+  ]
+}

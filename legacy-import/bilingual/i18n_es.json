@@ -1,0 +1,115 @@
+{
+  "app": {
+    "name": "Hartmann Legal Analytics",
+    "tagline": "Impulsado por VERNEN™",
+    "copyright": "© 2026 Michael Vernen Thomas Hartmann. Todos los derechos reservados."
+  },
+  "nav": {
+    "home": "Inicio",
+    "audit": "Auditoría de Cumplimiento",
+    "results": "Resultados",
+    "glossary": "Glosario Legal",
+    "pricing": "Precios",
+    "about": "Acerca de",
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse",
+    "language": "English"
+  },
+  "hero": {
+    "headline": "Auditoría de Cumplimiento Legal con Inteligencia Artificial",
+    "subheadline": "Identifique defectos de procedimiento, violaciones de derechos e incumplimientos regulatorios en 14 dominios especializados.",
+    "cta_primary": "Iniciar Su Auditoría",
+    "cta_secondary": "Vea Cómo Funciona"
+  },
+  "audit": {
+    "title": "Auditoría de Cumplimiento",
+    "upload_label": "Subir Documento",
+    "upload_hint": "PDF, DOCX o texto plano — órdenes judiciales, correspondencia de agencias, informes policiales, evaluaciones médicas, determinaciones de CPS",
+    "select_domain": "Seleccionar Dominio de Auditoría",
+    "domains": {
+      "constitutional": "Derechos Constitucionales y Civiles",
+      "family_court": "Órdenes de Tribunal de Familia",
+      "cps": "CPS / Bienestar Infantil",
+      "law_enforcement": "Conducta Policial (POST)",
+      "fbi": "FBI / Fuerzas Federales",
+      "attorney_conduct": "Ética de Abogados (Colegio de Abogados)",
+      "psychiatry": "Psiquiatría y Neurología (ABPN)",
+      "fcs_mediator": "Conducta de Mediadores de Custodia (FCS)",
+      "victim_rights": "Ley de Marsy / Derechos de Víctimas",
+      "labor": "Trabajo y Empleo",
+      "state_agency": "Correspondencia de Agencias Estatales",
+      "fcra": "FCRA / Informes del Consumidor",
+      "ssa_disability": "Determinación de Discapacidad SSA",
+      "military": "Estándares Militares USMC"
+    },
+    "language_output": "Idioma del Informe",
+    "language_english": "Inglés",
+    "language_spanish": "Español",
+    "language_both": "Bilingüe (Inglés + Español)",
+    "submit": "Ejecutar Auditoría",
+    "processing": "Analizando documento contra los estándares aplicables...",
+    "estimated_time": "Tiempo estimado: 30–90 segundos"
+  },
+  "results": {
+    "title": "Hallazgos de la Auditoría",
+    "summary": "Resumen",
+    "findings": "Hallazgos",
+    "standard_violated": "Estándar Violado",
+    "evidence": "Evidencia de Apoyo",
+    "severity": "Gravedad",
+    "severity_critical": "Crítico",
+    "severity_major": "Mayor",
+    "severity_minor": "Menor",
+    "severity_advisory": "Informativo",
+    "recommendation": "Acción Recomendada",
+    "download_pdf": "Descargar Informe PDF",
+    "download_docx": "Descargar Documento Word",
+    "new_audit": "Ejecutar Otra Auditoría",
+    "disclaimer": "Este análisis es solo para fines informativos y no constituye asesoramiento legal. Consulte a un abogado calificado para determinaciones legales."
+  },
+  "glossary": {
+    "title": "Glosario Legal",
+    "search_placeholder": "Buscar términos legales...",
+    "english": "Inglés",
+    "spanish": "Español",
+    "definition": "Definición",
+    "context": "Contexto Legal",
+    "no_results": "No se encontraron términos coincidentes."
+  },
+  "pricing": {
+    "title": "Precios",
+    "per_audit": "Por Auditoría",
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "tier_basic": "Básico",
+    "tier_professional": "Profesional",
+    "tier_enterprise": "Empresarial",
+    "feature_audits": "auditorías por mes",
+    "feature_domains": "dominios de auditoría",
+    "feature_bilingual": "Informes bilingües",
+    "feature_priority": "Procesamiento prioritario",
+    "feature_api": "Acceso a API",
+    "get_started": "Comenzar",
+    "contact_us": "Contáctenos"
+  },
+  "about": {
+    "title": "Acerca de",
+    "description": "Hartmann Legal Analytics proporciona auditoría de cumplimiento impulsada por IA en dominios legales, regulatorios e institucionales. Construido sobre el motor de análisis VERNEN™, la plataforma identifica defectos de procedimiento, violaciones de derechos e incumplimientos que la revisión manual frecuentemente omite.",
+    "creator": "Creado por Michael Vernen Thomas Hartmann",
+    "methodology": "Metodología del Estándar de Creación (S.o.C.)",
+    "methodology_desc": "Cada documento se audita contra el estándar legal específico que gobernó su creación — no principios generales, sino el estatuto, regulación o código profesional exacto que aplica."
+  },
+  "footer": {
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "contact": "Contacto",
+    "accessibility": "Accesibilidad"
+  },
+  "errors": {
+    "upload_failed": "Error al subir. Por favor intente de nuevo.",
+    "file_too_large": "El archivo excede el tamaño máximo (10 MB).",
+    "unsupported_format": "Formato no compatible. Por favor suba PDF, DOCX o TXT.",
+    "audit_failed": "Error en el procesamiento de la auditoría. Por favor intente de nuevo.",
+    "network_error": "Error de red. Verifique su conexión e intente de nuevo."
+  }
+}

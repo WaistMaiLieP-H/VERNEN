@@ -1,0 +1,115 @@
+{
+  "app": {
+    "name": "Hartmann Legal Analytics",
+    "tagline": "Được hỗ trợ bởi VERNEN™",
+    "copyright": "© 2026 Michael Vernen Thomas Hartmann. Bảo lưu mọi quyền."
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "audit": "Kiểm toán Tuân thủ",
+    "results": "Kết quả",
+    "glossary": "Thuật ngữ Pháp lý",
+    "pricing": "Bảng giá",
+    "about": "Giới thiệu",
+    "login": "Đăng nhập",
+    "signup": "Đăng ký",
+    "language": "English"
+  },
+  "hero": {
+    "headline": "Kiểm toán Tuân thủ Pháp lý bằng Trí tuệ Nhân tạo",
+    "subheadline": "Xác định các khiếm khuyết về thủ tục, vi phạm quyền lợi và lỗi tuân thủ trên 14 lĩnh vực chuyên biệt.",
+    "cta_primary": "Bắt đầu Kiểm toán",
+    "cta_secondary": "Xem Cách Hoạt động"
+  },
+  "audit": {
+    "title": "Kiểm toán Tuân thủ",
+    "upload_label": "Tải lên Tài liệu",
+    "upload_hint": "PDF, DOCX hoặc văn bản thuần — lệnh tòa, thư từ cơ quan, báo cáo cảnh sát, đánh giá y tế, quyết định CPS",
+    "select_domain": "Chọn Lĩnh vực Kiểm toán",
+    "domains": {
+      "constitutional": "Quyền Hiến pháp & Dân quyền",
+      "family_court": "Lệnh Tòa Gia đình",
+      "cps": "CPS / Phúc lợi Trẻ em",
+      "law_enforcement": "Hành vi Thực thi Pháp luật (POST)",
+      "fbi": "FBI / Thực thi Pháp luật Liên bang",
+      "attorney_conduct": "Đạo đức Luật sư",
+      "psychiatry": "Tâm thần học & Thần kinh học (ABPN)",
+      "fcs_mediator": "Hành vi Hòa giải viên Quyền nuôi con (FCS)",
+      "victim_rights": "Luật Marsy / Quyền Nạn nhân",
+      "labor": "Lao động & Việc làm",
+      "state_agency": "Thư từ Cơ quan Tiểu bang",
+      "fcra": "FCRA / Báo cáo Người tiêu dùng",
+      "ssa_disability": "Xác định Khuyết tật SSA",
+      "military": "Tiêu chuẩn Quân sự USMC"
+    },
+    "language_output": "Ngôn ngữ Báo cáo",
+    "language_english": "Tiếng Anh",
+    "language_native": "Tiếng Việt",
+    "language_both": "Song ngữ (Tiếng Anh + Tiếng Việt)",
+    "submit": "Chạy Kiểm toán",
+    "processing": "Đang phân tích tài liệu theo các tiêu chuẩn áp dụng...",
+    "estimated_time": "Thời gian ước tính: 30–90 giây"
+  },
+  "results": {
+    "title": "Kết quả Kiểm toán",
+    "summary": "Tóm tắt",
+    "findings": "Phát hiện",
+    "standard_violated": "Tiêu chuẩn bị Vi phạm",
+    "evidence": "Bằng chứng Hỗ trợ",
+    "severity": "Mức độ Nghiêm trọng",
+    "severity_critical": "Nghiêm trọng",
+    "severity_major": "Lớn",
+    "severity_minor": "Nhỏ",
+    "severity_advisory": "Tư vấn",
+    "recommendation": "Hành động Được đề xuất",
+    "download_pdf": "Tải xuống Báo cáo PDF",
+    "download_docx": "Tải xuống Tài liệu Word",
+    "new_audit": "Chạy Kiểm toán Khác",
+    "disclaimer": "Phân tích này chỉ nhằm mục đích thông tin và không cấu thành tư vấn pháp lý. Hãy tham vấn luật sư có đủ năng lực cho các quyết định pháp lý."
+  },
+  "glossary": {
+    "title": "Bảng Thuật ngữ Pháp lý",
+    "search_placeholder": "Tìm kiếm thuật ngữ pháp lý...",
+    "english": "Tiếng Anh",
+    "native": "Tiếng Việt",
+    "definition": "Định nghĩa",
+    "context": "Bối cảnh Pháp lý",
+    "no_results": "Không tìm thấy thuật ngữ phù hợp."
+  },
+  "pricing": {
+    "title": "Bảng giá",
+    "per_audit": "Mỗi Kiểm toán",
+    "monthly": "Hàng tháng",
+    "annual": "Hàng năm",
+    "tier_basic": "Cơ bản",
+    "tier_professional": "Chuyên nghiệp",
+    "tier_enterprise": "Doanh nghiệp",
+    "feature_audits": "kiểm toán mỗi tháng",
+    "feature_domains": "lĩnh vực kiểm toán",
+    "feature_bilingual": "Báo cáo song ngữ",
+    "feature_priority": "Xử lý ưu tiên",
+    "feature_api": "Truy cập API",
+    "get_started": "Bắt đầu",
+    "contact_us": "Liên hệ"
+  },
+  "about": {
+    "title": "Giới thiệu",
+    "description": "Hartmann Legal Analytics cung cấp dịch vụ kiểm toán tuân thủ bằng AI trên các lĩnh vực pháp lý, quy định và thể chế. Được xây dựng trên nền tảng phân tích VERNEN™, nền tảng này xác định các khiếm khuyết thủ tục, vi phạm quyền lợi và lỗi tuân thủ mà quá trình kiểm tra thủ công thường bỏ sót.",
+    "creator": "Được tạo bởi Michael Vernen Thomas Hartmann",
+    "methodology": "Phương pháp Tiêu chuẩn Tạo lập (S.o.C.)",
+    "methodology_desc": "Mỗi tài liệu được kiểm toán theo tiêu chuẩn pháp lý cụ thể chi phối việc tạo lập tài liệu đó — không phải nguyên tắc chung, mà là luật, quy định hoặc quy tắc nghề nghiệp chính xác được áp dụng."
+  },
+  "footer": {
+    "privacy": "Chính sách Bảo mật",
+    "terms": "Điều khoản Dịch vụ",
+    "contact": "Liên hệ",
+    "accessibility": "Khả năng Tiếp cận"
+  },
+  "errors": {
+    "upload_failed": "Tải lên thất bại. Vui lòng thử lại.",
+    "file_too_large": "Tệp vượt quá kích thước tối đa (10 MB).",
+    "unsupported_format": "Định dạng tệp không được hỗ trợ. Vui lòng tải lên PDF, DOCX hoặc TXT.",
+    "audit_failed": "Xử lý kiểm toán thất bại. Vui lòng thử lại.",
+    "network_error": "Lỗi mạng. Kiểm tra kết nối và thử lại."
+  }
+}

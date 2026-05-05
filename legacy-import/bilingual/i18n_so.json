@@ -1,0 +1,115 @@
+{
+  "app": {
+    "name": "Hartmann Legal Analytics",
+    "tagline": "Waxaa xoogeysiiyay VERNEN™",
+    "copyright": "© 2026 Michael Vernen Thomas Hartmann. Dhammaan xuquuqda way xafidan yihiin."
+  },
+  "nav": {
+    "home": "Bogga Hore",
+    "audit": "Baaritaanka Waafaqsanida",
+    "results": "Natiijooyinka",
+    "glossary": "Qaamuuska Sharciga",
+    "pricing": "Qiimaha",
+    "about": "Ku Saabsan",
+    "login": "Soo Gal",
+    "signup": "Isdiiwaangeli",
+    "language": "English"
+  },
+  "hero": {
+    "headline": "Baaritaanka Waafaqsanida Sharciga ee AI-ga ku Shaqeeya",
+    "subheadline": "Aqoonso cilladaha nidaamka, xadgudubka xuquuqda, iyo guuldarrada waafaqsanida ee 14 qaybood oo takhasustay.",
+    "cta_primary": "Bilow Baaritaankaaga",
+    "cta_secondary": "Arag Sida uu u Shaqeeyo"
+  },
+  "audit": {
+    "title": "Baaritaanka Waafaqsanida",
+    "upload_label": "Soo Geli Dukumiinti",
+    "upload_hint": "PDF, DOCX ama qoraal cad — amaarro maxkamad, warqado hay'ad, warbixinno booliin, qiimayn caafimaad, go'aammo CPS",
+    "select_domain": "Dooro Qaybta Baaritaanka",
+    "domains": {
+      "constitutional": "Xuquuqda Dastuirka & Madaniga",
+      "family_court": "Amaarrada Maxkamadda Qoyska",
+      "cps": "CPS / Daryeelka Caruurta",
+      "law_enforcement": "Dhaqanka Ciidamada Amniga (POST)",
+      "fbi": "FBI / Fulinta Sharciga Federaalka",
+      "attorney_conduct": "Anshaxa Qareenka",
+      "psychiatry": "Caafimaadka Dhimirka & Neerfaha (ABPN)",
+      "fcs_mediator": "Dhaqanka Dhexdhexaadiyaha Xadaanada (FCS)",
+      "victim_rights": "Sharciga Marsy / Xuquuqda Dhibbanaha",
+      "labor": "Shaqada & Shaqaalaynta",
+      "state_agency": "Warqadaha Hay'adda Gobolka",
+      "fcra": "FCRA / Warbixinnada Macmiilka",
+      "ssa_disability": "Go'aanka Naafonimada SSA",
+      "military": "Halbeegga Militariga USMC"
+    },
+    "language_output": "Luqadda Warbixinta",
+    "language_english": "Ingiriisi",
+    "language_native": "Soomaali",
+    "language_both": "Laba-luqadle (Ingiriisi + Soomaali)",
+    "submit": "Samee Baaritaanka",
+    "processing": "Waa la baarayaa dukumiintiga marka loo eego halbeegyada khuseeya...",
+    "estimated_time": "Waqtiga la qiyaasay: 30–90 ilbiriqsi"
+  },
+  "results": {
+    "title": "Natiijooyinka Baaritaanka",
+    "summary": "Kooban",
+    "findings": "Natiijooyinka",
+    "standard_violated": "Halbeegga la Xadgudbay",
+    "evidence": "Caddaynta Taageeraysa",
+    "severity": "Darnimada",
+    "severity_critical": "Aad u daran",
+    "severity_major": "Waaweyn",
+    "severity_minor": "Yar",
+    "severity_advisory": "Talo",
+    "recommendation": "Tallaabada la Talinayo",
+    "download_pdf": "Soo Deji Warbixinta PDF",
+    "download_docx": "Soo Deji Dukumiintiga Word",
+    "new_audit": "Samee Baaritaan Kale",
+    "disclaimer": "Falanqayntan waa ujeedo macluumaad oo kaliya mana aha talo sharci. La tashado qareen leh xirfad u leh go'aannada sharciga."
+  },
+  "glossary": {
+    "title": "Qaamuuska Ereyada Sharciga",
+    "search_placeholder": "Raadi ereyada sharciga...",
+    "english": "Ingiriisi",
+    "native": "Soomaali",
+    "definition": "Qeexid",
+    "context": "Xaaladda Sharciga",
+    "no_results": "Lama helin erey u dhigma."
+  },
+  "pricing": {
+    "title": "Qiimaha",
+    "per_audit": "Baaritaan kasta",
+    "monthly": "Bishii",
+    "annual": "Sanadkii",
+    "tier_basic": "Aasaasi",
+    "tier_professional": "Xirfadle",
+    "tier_enterprise": "Ganacsi",
+    "feature_audits": "baaritaanno bishii",
+    "feature_domains": "qaybaha baaritaanka",
+    "feature_bilingual": "Warbixinno laba-luqadle",
+    "feature_priority": "Hawl-gal mudnaaneed",
+    "feature_api": "Gelitaanka API",
+    "get_started": "Bilow",
+    "contact_us": "Nala Soo Xiriir"
+  },
+  "about": {
+    "title": "Ku Saabsan",
+    "description": "Hartmann Legal Analytics waxay bixisaa baaritaanka waafaqsanida ee AI-ga ku shaqeeya ee qaybaha sharciga, xeerarka iyo hay'adaha. Waxaa lagu dhisay mishiinka falanqaynta VERNEN™, barafoormuhu wuxuu aqoonsadaa cilladaha nidaamka, xadgudubka xuquuqda iyo guuldarrada waafaqsanida ee dib-u-eegista gacanta badanaa ka maqnaato.",
+    "creator": "Waxaa abuuray Michael Vernen Thomas Hartmann",
+    "methodology": "Habka Halbeegga Abuurista (S.o.C.)",
+    "methodology_desc": "Dukumiinti kasta waxaa lagu baaraa halbeegga sharciga gaarka ah ee xukumay abuuristiisa — ma aha mabaadii'da guud, laakiin sharciga, xeerka ama koodka xirfadeed ee saxda ah ee khuseeya."
+  },
+  "footer": {
+    "privacy": "Siyaasadda Asturnaanta",
+    "terms": "Shuruudaha Adeegga",
+    "contact": "Xiriirka",
+    "accessibility": "Helitaanka"
+  },
+  "errors": {
+    "upload_failed": "Soo gelinta way guuldareysatay. Fadlan isku day mar kale.",
+    "file_too_large": "Faylku wuu ka weyn yahay cabbirkii ugu badnaa (10 MB).",
+    "unsupported_format": "Qaab fayl ah oo aan la taageerin. Fadlan soo geli PDF, DOCX ama TXT.",
+    "audit_failed": "Hawlgelinta baaritaanka way guuldareysatay. Fadlan isku day mar kale.",
+    "network_error": "Khalad shabakad. Hubi xiriirkaaga oo isku day mar kale."
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "meta": {
+    "form_id": "FL-311",
+    "version": "1.0.0",
+    "updated": "2026-02-07",
+    "author": "VERNEN™",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved. VERNEN™ is a trademark of Michael Vernen Thomas Hartmann.",
+    "module": "GDN_field_annotations",
+    "languages": ["en","es","zh","vi","so","ti","am","ar","ht","ko","pt","ru","tl"]
+  },
+  "sections": [
+    {
+      "section_id": "header",
+      "fields": [
+        {
+          "field_id": "header_case_name",
+          "field_label": "Case Name",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Enter the case name exactly as it appears on your FL-300 or FL-305 — for example, 'In re Marriage of Smith' or 'Smith v. Jones.' This must match the main form.",
+            "es": "Ingrese el nombre del caso exactamente como aparece en su FL-300 o FL-305 — por ejemplo, 'In re Marriage of Smith.' Debe coincidir con el formulario principal.",
+            "zh": "输入与FL-300或FL-305上完全一致的案件名称。必须与主表格一致。",
+            "vi": "Nhập tên vụ án chính xác như trên FL-300 hoặc FL-305. Phải khớp với mẫu chính.",
+            "so": "Geli magaca kiiska sida ugu qoran FL-300 ama FL-305. Waa inuu la mid noqdaa foomka asalka ah.",
+            "ti": "ኣብ FL-300 ወይ FL-305 ዘሎ ብልክዕ ስም ጉዳይ ኣእቱ። ምስቲ ቀንዲ ፎርም ክሰማማዕ ኣለዎ።",
+            "am": "በFL-300 ወይም FL-305 ላይ እንደታየው ትክክለኛ የጉዳይ ስም ያስገቡ። ከዋናው ቅጽ ጋር መዛመድ አለበት።",
+            "ar": "أدخل اسم القضية كما يظهر على FL-300 أو FL-305. يجب أن يتطابق مع النموذج الرئيسي.",
+            "ht": "Antre non ka a egzakteman jan li parèt sou FL-300 oswa FL-305 ou. Li dwe matche ak fòm prensipal la.",
+            "ko": "FL-300 또는 FL-305에 표시된 대로 정확한 사건명을 입력하세요. 주 양식과 일치해야 합니다.",
+            "pt": "Insira o nome do caso exatamente como aparece no FL-300 ou FL-305. Deve corresponder ao formulário principal.",
+            "ru": "Введите название дела точно как на FL-300 или FL-305. Должно совпадать с основной формой.",
+            "tl": "Ilagay ang pangalan ng kaso na eksakto sa FL-300 o FL-305. Dapat tugma sa pangunahing form."
+          }
+        },        {
+          "field_id": "header_case_number",
+          "field_label": "Case Number",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Enter your case number exactly as assigned by the court. This is on your filed FL-100 or other initial filing. If you don't have a case number yet, write 'To Be Assigned.'",
+            "es": "Ingrese su número de caso exactamente como fue asignado. Está en su FL-100 presentado. Si aún no tiene número, escriba 'Por Asignar.'",
+            "zh": "输入法院分配的案件编号。在您提交的FL-100上可以找到。如果还没有编号，写'待分配'。",
+            "vi": "Nhập số vụ án chính xác do tòa cấp. Nếu chưa có, ghi 'Sẽ được cấp.'",
+            "so": "Geli lambarka kiiska sida ugu qoran maxkamaddu. Haddii aadan weli lahayn, qor 'Waa la siin doonaa.'",
+            "ti": "ቤት ፍርዲ ዝሃበካ ቁጽሪ ጉዳይ ኣእቱ። ገና እንተዘይብልካ 'ክወሃብ እዩ' ጸሓፍ።",
+            "am": "ፍርድ ቤት የሰጠውን የጉዳይ ቁጥር ያስገቡ። ገና ከሌለ 'ይሰጣል' ብለው ይጻፉ።",
+            "ar": "أدخل رقم القضية كما حددته المحكمة. إذا لم يكن لديك بعد، اكتب 'سيتم تحديده.'",
+            "ht": "Antre nimewo ka a jan tribinal la te bay li. Si ou poko gen youn, ekri 'Pou Asiyen.'",
+            "ko": "법원이 배정한 사건번호를 정확히 입력하세요. 아직 없으면 '배정 예정'이라고 쓰세요.",
+            "pt": "Insira o número do caso como atribuído pelo tribunal. Se ainda não tiver, escreva 'A Ser Atribuído.'",
+            "ru": "Введите номер дела, присвоенный судом. Если ещё нет — напишите 'Будет присвоен.'",
+            "tl": "Ilagay ang case number na ibinigay ng korte. Kung wala pa, isulat 'Ibibigay pa.'"
+          }
+        },
+        {
+          "field_id": "header_attaches_to",
+          "field_label": "This form attaches to",
+          "field_type": "checkbox_group",
+          "guidance": {
+            "en": "Check which main form this FL-311 is attached to: FL-300 (Request for Order) or FL-305 (Temporary Emergency Orders). This form does NOT stand alone — it must always be filed with one of these forms.",
+            "es": "Marque a qué formulario principal se adjunta este FL-311: FL-300 (Solicitud de Orden) o FL-305 (Órdenes Temporales de Emergencia). Este formulario NO se presenta solo.",
+            "zh": "勾选此FL-311附在哪个主表格上：FL-300（命令申请）或FL-305（临时紧急命令）。此表格不能单独提交。",
+            "vi": "Đánh dấu mẫu chính mà FL-311 đính kèm: FL-300 hoặc FL-305. Mẫu này KHÔNG nộp riêng lẻ.",
+            "so": "Calaamadee foomka asalka ah ee FL-311 ku lifaaqan: FL-300 ama FL-305. Foomkani keligiis lama xarayn karo.",
+            "ti": "FL-311 ምስ ኣየናይ ቀንዲ ፎርም ከምዝተላገበ ምልክት ግበር: FL-300 ወይ FL-305። እዚ ፎርም በይኑ ኣይቐርብን።",
+            "am": "FL-311 ከየትኛው ዋና ቅጽ ጋር እንደተያያዘ ምልክት ያድርጉ: FL-300 ወይም FL-305። ይህ ቅጽ ብቻውን አይቀርብም።",
+            "ar": "ضع علامة على النموذج الرئيسي المرفق به FL-311: FL-300 أو FL-305. هذا النموذج لا يُقدَّم بمفرده.",
+            "ht": "Tcheke ki fòm prensipal FL-311 sa a atache ak li: FL-300 oswa FL-305. Fòm sa a PA prezante pou kont li.",
+            "ko": "이 FL-311이 첨부되는 주 양식을 체크하세요: FL-300 또는 FL-305. 이 양식은 단독으로 제출할 수 없습니다.",
+            "pt": "Marque a qual formulário principal este FL-311 está anexado: FL-300 ou FL-305. Este formulário NÃO é apresentado sozinho.",
+            "ru": "Отметьте, к какой основной форме прилагается FL-311: FL-300 или FL-305. Эта форма НЕ подаётся отдельно.",
+            "tl": "I-check kung saang pangunahing form nakakabit ang FL-311 na ito: FL-300 o FL-305. Hindi ito pwedeng i-file nang mag-isa."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_1",
+      "fields": [
+        {
+          "field_id": "item_1_legal_custody",
+          "field_label": "Legal custody",
+          "field_type": "checkbox_group",
+          "guidance": {
+            "en": "LEGAL CUSTODY means the right to make major decisions about your children — education, healthcare, religion, and activities. This is DIFFERENT from physical custody (where the child lives). Options: SOLE legal custody (one parent decides everything) or JOINT legal custody (both parents share decisions). Most courts prefer joint legal custody unless there is domestic violence, substance abuse, or inability to cooperate on decisions.",
+            "es": "CUSTODIA LEGAL significa el derecho a tomar decisiones importantes — educación, salud, religión. Es DIFERENTE de la custodia física. Opciones: custodia legal EXCLUSIVA (un padre decide todo) o custodia legal COMPARTIDA (ambos comparten decisiones). La mayoría de los tribunales prefieren custodia compartida a menos que haya violencia doméstica o abuso de sustancias.",
+            "zh": "法定监护权是指对孩子重大事项做决定的权利——教育、医疗、宗教。这与实际监护权（孩子住在哪里）不同。选项：独立法定监护（一方做所有决定）或共同法定监护（双方共同决定）。大多数法院倾向共同法定监护，除非存在家暴或药物滥用。",
+            "vi": "QUYỀN GIÁM HỘ PHÁP LÝ là quyền đưa ra quyết định quan trọng — giáo dục, y tế, tôn giáo. Khác với quyền giám hộ thể chất. Tùy chọn: giám hộ pháp lý ĐỘC QUYỀN hoặc giám hộ pháp lý CHUNG. Hầu hết tòa ưu tiên chung trừ khi có bạo lực gia đình.",
+            "so": "XAFIISKA SHARCIGA macnaheedu waa xaqa go'aamada waaweyn — waxbarasho, caafimaad, diin. Waa ka duwan xafiidda jirka. Xulashooyinka: KELIYA (hal waalid) ama WADAJIR (labaduba). Maxkamadaha badankoodu waxay doorbidaan wadajir.",
+            "ti": "ሕጋዊ ሞግዚትነት ማለት ኣብ ዓበይቲ ውሳኔታት — ትምህርቲ፡ ጥዕና፡ ሃይማኖት — ክትውስን ዘኽእል መሰል እዩ። ካብ ኣካላዊ ሞግዚትነት ዝተፈልየ እዩ። ምርጫታት: በይንኻ ወይ ሓባራዊ። መብዛሕትኡ ቤት ፍርዲ ሓባራዊ ይመርጹ።",
+            "am": "ህጋዊ ሞግዚትነት ማለት ስለ ልጆችዎ ትልልቅ ውሳኔዎች የመወሰን መብት ነው — ትምህርት፣ ጤና፣ ሃይማኖት። ከአካላዊ ሞግዚትነት የተለየ ነው። አማራጮች: ብቸኛ ወይም የጋራ። አብዛኛው ፍርድ ቤት የጋራ ይመርጣል።",
+            "ar": "الحضانة القانونية تعني حق اتخاذ القرارات الكبرى — التعليم، الرعاية الصحية، الدين. تختلف عن الحضانة الجسدية. الخيارات: حضانة قانونية فردية أو مشتركة. معظم المحاكم تفضل المشتركة.",
+            "ht": "GARD LEGAL vle di dwa pou pran gwo desizyon — edikasyon, swen sante, relijyon. Li DIFERAN de gad fizik. Opsyon: gad legal SÈLMAN (yon paran deside tout) oswa gad legal KONJWEN (tou de pataje desizyon).",
+            "ko": "법적 양육권은 자녀에 대한 주요 결정권 — 교육, 의료, 종교 — 을 의미합니다. 물리적 양육권과 다릅니다. 선택: 단독(한 부모가 결정) 또는 공동(양쪽이 결정). 대부분의 법원은 가정폭력 등이 없는 한 공동을 선호합니다.",
+            "pt": "GUARDA LEGAL significa direito de tomar decisões importantes — educação, saúde, religião. É DIFERENTE de guarda física. Opções: guarda legal EXCLUSIVA ou COMPARTILHADA. A maioria dos tribunais prefere compartilhada.",
+            "ru": "ЮРИДИЧЕСКАЯ ОПЕКА — право принимать важные решения: образование, здоровье, религия. Отличается от физической опеки. Варианты: единоличная или совместная. Большинство судов предпочитают совместную.",
+            "tl": "LEGAL CUSTODY ay ang karapatang magdesisyon sa mahahalagang bagay — edukasyon, kalusugan, relihiyon. IBA ito sa physical custody. Options: SOLE (isang magulang lang) o JOINT (pareho). Karamihan ng korte ay mas gusto ang joint."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_2",
+      "fields": [
+        {
+          "field_id": "item_2_physical_custody",
+          "field_label": "Physical custody",
+          "field_type": "checkbox_group",
+          "guidance": {
+            "en": "PHYSICAL CUSTODY means where the children actually live. Options: SOLE physical custody (children live primarily with one parent, other parent has visitation), JOINT physical custody (children split time between both homes — does NOT have to be 50/50), or PRIMARY physical custody to one parent (children live mostly with one parent but the other has significant time). The court looks at what schedule serves the children's best interests.",
+            "es": "CUSTODIA FÍSICA significa dónde viven los hijos. Opciones: custodia física EXCLUSIVA (hijos viven con un padre, el otro tiene visitas), custodia física COMPARTIDA (hijos dividen tiempo — NO tiene que ser 50/50), o custodia PRIMARIA a un padre. El tribunal evalúa el mejor interés de los hijos.",
+            "zh": "实际监护权是指孩子实际住在哪里。选项：独立实际监护（孩子主要与一方住，另一方有探视权）、共同实际监护（孩子在两个家之间分配时间——不必是50/50）、或主要监护给一方。法院根据孩子的最佳利益决定。",
+            "vi": "QUYỀN GIÁM HỘ THỂ CHẤT là nơi con thực sự sống. Tùy chọn: ĐỘC QUYỀN (con sống chủ yếu với một bên), CHUNG (chia thời gian — không nhất thiết 50/50), hoặc CHÍNH cho một bên. Tòa xem xét lợi ích tốt nhất của trẻ.",
+            "so": "XAFIIDDA JIRKA macnaheedu waa halka carruurtu degan yihiin. Xulashooyinka: KELIYA (carruurta hal waalid la nool, midka kale waa inuu booqdo), WADAJIR (waqtiga loo qaybiyo — uma baahnid 50/50). Maxkamaddu waxay eegaysaa danahooda carruurta.",
+            "ti": "ኣካላዊ ሞግዚትነት ማለት ቆልዑ ብሓቂ ኣበይ ይነብሩ ማለት እዩ። ምርጫታት: በይንኻ (ቆልዑ ብቐንዱ ምስ ሓደ ወላዲ)፡ ሓባራዊ (ግዜ ይካፈሉ — 50/50 ክኸውን ኣየድልን)፡ ወይ ቀንዲ ንሓደ ወላዲ።",
+            "am": "አካላዊ ሞግዚትነት ማለት ልጆች በትክክል የት እንደሚኖሩ ነው። አማራጮች: ብቸኛ (ልጆች ከአንዱ ወላጅ ጋር)፣ የጋራ (ጊዜ ይካፈላሉ — 50/50 መሆን አያስፈልግም)፣ ወይም ዋና ለአንዱ ወላጅ።",
+            "ar": "الحضانة الجسدية تعني أين يعيش الأطفال فعلاً. الخيارات: فردية (يعيشون مع والد واحد بشكل أساسي)، مشتركة (يتقاسمون الوقت — لا يجب أن تكون 50/50)، أو أساسية لوالد واحد.",
+            "ht": "GAD FIZIK vle di kote timoun yo ap viv. Opsyon: SÈLMAN (timoun yo viv ak yon paran, lòt la gen vizit), KONJWEN (timoun yo pataje tan — PA oblije 50/50), oswa PRENSIPAL pou yon paran.",
+            "ko": "물리적 양육권은 자녀가 실제로 사는 곳입니다. 선택: 단독(주로 한 부모와 거주), 공동(양쪽 집에서 시간 분배 — 50/50일 필요 없음), 또는 한 부모에게 주요 양육권.",
+            "pt": "GUARDA FÍSICA significa onde os filhos realmente moram. Opções: EXCLUSIVA (moram com um pai, outro tem visitas), COMPARTILHADA (dividem tempo — NÃO precisa ser 50/50), ou PRIMÁRIA para um pai.",
+            "ru": "ФИЗИЧЕСКАЯ ОПЕКА означает, где дети фактически живут. Варианты: единоличная (дети живут с одним родителем), совместная (время делится — НЕ обязательно 50/50), или основная одному родителю.",
+            "tl": "PHYSICAL CUSTODY ay kung saan talaga nakatira ang mga bata. Options: SOLE (pangunahing nakatira sa isang magulang), JOINT (hatian ng oras — HINDI kailangang 50/50), o PRIMARY sa isang magulang."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_3",
+      "fields": [
+        {
+          "field_id": "item_3_visitation_schedule",
+          "field_label": "Visitation (parenting time) schedule",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "Describe the SPECIFIC schedule you want for the non-custodial parent's time with the children. Courts want DETAILS, not vague language. BAD example: 'reasonable visitation.' GOOD example: 'Every other weekend, Friday 5:00 PM to Sunday 6:00 PM; Wednesday evenings 4:00 PM to 7:00 PM.' Include: which days, start and end times, pickup and drop-off locations. If you want supervised visitation, state that here and explain in Item 7.",
+            "es": "Describa el horario ESPECÍFICO de visitas. Los tribunales quieren DETALLES. MAL ejemplo: 'visitas razonables.' BUEN ejemplo: 'Cada dos fines de semana, viernes 5:00 PM a domingo 6:00 PM.' Incluya: qué días, horas de inicio y fin, lugares de recogida.",
+            "zh": "描述您想要的具体探视时间表。法院要求细节。不好的例子：'合理探视。'好的例子：'每隔一个周末，周五下午5点到周日下午6点。'包括：哪几天、开始和结束时间、接送地点。",
+            "vi": "Mô tả lịch trình thăm gặp CỤ THỂ. Tòa muốn CHI TIẾT. Ví dụ XẤU: 'thăm gặp hợp lý.' Ví dụ TỐT: 'Mỗi hai tuần cuối tuần, thứ Sáu 5 giờ chiều đến Chủ nhật 6 giờ chiều.' Bao gồm: ngày nào, thời gian, địa điểm đón trả.",
+            "so": "Sharax jadwalka GAARKA AH ee waqtiga booqashada. Maxkamadaha waxay rabaan FAAHFAAHIN. Tusaale xun: 'booqasho macquul ah.' Tusaale wanaagsan: 'Dhamaadka usbuuc kasta, Jimce 5:00 PM ilaa Axad 6:00 PM.' Ku dar: maalmo, saacado, goobaha.",
+            "ti": "ናይ ምብጻሕ ግዜ ፍሉይ ሰሌዳ ግለጽ። ቤት ፍርዲ ዝርዝር ይደሊ። ሕማቕ ኣብነት: 'ልሙድ ምብጻሕ።' ጽቡቕ ኣብነት: 'ሓደ ናይ ሰሙን መወዳእታ ዘይሓደ፡ ዓርቢ 5:00 ድ.ቀ ክሳብ ሰንበት 6:00 ድ.ቀ።'",
+            "am": "ለማይኖርበት ወላጅ ልዩ የጉብኝት ሰዓት ዝርዝር ይግለጹ። ፍርድ ቤት ዝርዝር ይፈልጋል። መጥፎ ምሳሌ: 'ምክንያታዊ ጉብኝት።' ጥሩ ምሳሌ: 'በየሁለት ሳምንቱ ቅዳሜ-እሁድ።'",
+            "ar": "صف الجدول المحدد للزيارة. المحاكم تريد تفاصيل. مثال سيئ: 'زيارة معقولة.' مثال جيد: 'كل أسبوعين، الجمعة 5 مساءً إلى الأحد 6 مساءً.' اشمل: الأيام، الأوقات، أماكن التسليم.",
+            "ht": "Dekri orè vizit ESPESIFIK. Tribinal yo vle DETAY. MOVE egzanp: 'vizit rezonab.' BON egzanp: 'Chak de wikenn, vandredi 5:00 PM jiska dimanch 6:00 PM.' Enkli: ki jou, lè kòmanse ak fini, kote pou chèche timoun yo.",
+            "ko": "비양육 부모의 구체적인 방문 일정을 설명하세요. 법원은 세부사항을 원합니다. 나쁜 예: '합리적인 방문.' 좋은 예: '격주 주말, 금요일 오후 5시부터 일요일 오후 6시까지.'",
+            "pt": "Descreva o cronograma ESPECÍFICO de visitação. Tribunais querem DETALHES. Exemplo RUIM: 'visitação razoável.' Exemplo BOM: 'Finais de semana alternados, sexta 17h a domingo 18h.'",
+            "ru": "Опишите КОНКРЕТНОЕ расписание времени с детьми. Суды хотят ДЕТАЛЕЙ. ПЛОХОЙ пример: 'разумное посещение.' ХОРОШИЙ пример: 'Каждые вторые выходные, пятница 17:00 — воскресенье 18:00.'",
+            "tl": "Ilarawan ang TIYAK na schedule ng visitation. Ang korte ay gusto ng DETALYE. MASAMANG halimbawa: 'reasonable visitation.' MAGANDANG halimbawa: 'Tuwing dalawang linggo, Biyernes 5:00 PM hanggang Linggo 6:00 PM.'"
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_4",
+      "fields": [
+        {
+          "field_id": "item_4_holiday_schedule",
+          "field_label": "Holiday schedule",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "List SPECIFIC holidays and who has the children for each one. Alternate by year (even/odd) for fairness. Common holidays to address: New Year's, Martin Luther King Jr. Day, Presidents' Day, Easter/Spring Break, Mother's Day, Memorial Day, Father's Day, July 4th, Labor Day, Halloween, Thanksgiving (include the full weekend), Christmas Eve, Christmas Day, children's birthdays, each parent's birthday. Specify pickup/drop-off times for each holiday.",
+            "es": "Liste los días festivos ESPECÍFICOS y quién tiene a los hijos en cada uno. Alterne por año (par/impar). Festivos comunes: Año Nuevo, Día de los Presidentes, Semana Santa, Día de la Madre, 4 de Julio, Acción de Gracias, Nochebuena, Navidad, cumpleaños de los hijos.",
+            "zh": "列出具体的节日安排以及每个节日孩子与谁在一起。按年份交替（奇/偶年）。常见节日：新年、复活节、母亲节、父亲节、7月4日、感恩节、圣诞节、孩子生日。注明接送时间。",
+            "vi": "Liệt kê CỤ THỂ các ngày lễ và ai giữ con trong mỗi ngày lễ. Xen kẽ theo năm chẵn/lẻ. Các ngày lễ cần đề cập: Năm Mới, Lễ Phục Sinh, Ngày của Mẹ/Cha, Lễ Tạ Ơn, Giáng Sinh, sinh nhật con.",
+            "so": "Qor CIIDAHA GAARKA AH iyo yaa carruurta haysta cid walba. U beddel sanad walba (jooq/korkaar). Ciidaha caadiga ah: Sanad cusub, Easter, Hooyadda maalinteeda, July 4, Thanksgiving, Christmas, dhalashada carruurta.",
+            "ti": "ፍሉይ በዓላት ዝርዝርን ንነፍሲ ወከፍ በዓል መን ቆልዑ ከምዝሕዝ ግለጽ። ብዓመት (ጋሕ/ዘይ ጋሕ) ተቐያየሩ።",
+            "am": "ልዩ በዓላትን በእያንዳንዱ ማን ልጆችን እንደሚይዝ ይዘርዝሩ። በዓመት (ጥንድ/ነጠላ) ተፈራርቁ።",
+            "ar": "اذكر العطلات المحددة ومن يكون مع الأطفال في كل منها. بدّل بين الأعوام (زوجي/فردي). العطلات الشائعة: رأس السنة، عيد الفصح، عيد الأم/الأب، يوم الاستقلال، عيد الشكر، عيد الميلاد.",
+            "ht": "Fè lis jou ferye ESPESIFIK epi ki moun ki gen timoun yo pou chak jou. Altène pa ane (pè/enpè). Jou ferye komen: Nouvel An, Pak, Fèt Manman, 4 Jiyè, Thanksgiving, Nwèl, fèt timoun yo.",
+            "ko": "구체적인 공휴일 목록과 각 공휴일에 누가 자녀를 맡는지 적으세요. 공정성을 위해 매년 교대(짝수/홀수 년)하세요.",
+            "pt": "Liste feriados ESPECÍFICOS e quem fica com os filhos em cada um. Alterne por ano (par/ímpar). Feriados comuns: Ano Novo, Páscoa, Dia das Mães/Pais, Ação de Graças, Natal, aniversários.",
+            "ru": "Перечислите КОНКРЕТНЫЕ праздники и кто проводит каждый с детьми. Чередуйте по годам (чётный/нечётный). Основные праздники: Новый год, Пасха, День матери/отца, 4 июля, День благодарения, Рождество, дни рождения.",
+            "tl": "Ilista ang TIYAK na mga holiday at sino ang may mga bata sa bawat isa. I-alternate sa taon (even/odd). Karaniwang holiday: New Year, Easter, Mother's Day, Father's Day, July 4, Thanksgiving, Christmas, birthday ng mga bata."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_5",
+      "fields": [
+        {
+          "field_id": "item_5_vacation",
+          "field_label": "Summer and vacation schedule",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "Describe how summer breaks and school vacations are divided. Common arrangements: each parent gets 2 consecutive weeks in summer (with 30 days advance notice), spring break alternates yearly, winter break split at Christmas Day. Specify whether the regular weekday/weekend schedule continues during summer or a different schedule applies. Include notice requirements for vacation travel.",
+            "es": "Describa cómo se dividen las vacaciones de verano y escolares. Arreglos comunes: cada padre tiene 2 semanas consecutivas en verano (con 30 días de aviso). Especifique si el horario regular continúa en verano.",
+            "zh": "描述暑假和学校假期如何分配。常见安排：每位家长在暑假有2周连续时间（提前30天通知）。说明暑假期间是否继续常规时间表。",
+            "vi": "Mô tả cách chia kỳ nghỉ hè và nghỉ học. Thông thường: mỗi bên có 2 tuần liên tục vào hè (báo trước 30 ngày). Ghi rõ lịch thường có tiếp tục trong hè không.",
+            "so": "Sharax sida fasaxa xagaaga iyo dugsiyeed loo qaybsanayo. Hab caadi ah: waalid kasta 2 toddobaad oo xilli ah xagaaga (30 maalmood hore ogeysiin). Sheeg in jadwalka caadiga ahi sii soconayo xagaaga.",
+            "ti": "ናይ ሓጋይ ዕረፍትን ናይ ቤት ትምህርቲ ዕረፍታትን ብኸመይ ከምዝካፈሉ ግለጽ። ልሙድ ዝርግሐ: ነፍሲ ወከፍ ወላዲ 2 ሰሙን ኣብ ሓጋይ ይረክብ።",
+            "am": "የበጋ ዕረፍትና የትምህርት ቤት ዕረፍቶች እንዴት እንደሚካፈሉ ይግለጹ። የተለመደ ዝግጅት: እያንዳንዱ ወላጅ በበጋ 2 ተከታታይ ሳምንታት ይወስዳል።",
+            "ar": "صف كيف تُقسم عطلات الصيف والعطلات المدرسية. ترتيب شائع: كل والد يحصل على أسبوعين متتاليين في الصيف (مع إشعار 30 يومًا).",
+            "ht": "Dekri kijan vakans ete ak vakans lekòl divize. Aranjman komen: chak paran gen 2 semèn youn apre lòt nan ete (ak 30 jou avi). Presize si orè regilye a kontinye nan ete.",
+            "ko": "여름방학과 학교 방학이 어떻게 나뉘는지 설명하세요. 일반 배정: 각 부모가 여름에 2주 연속(30일 전 통지). 여름 동안 평일/주말 일정이 계속되는지 명시하세요.",
+            "pt": "Descreva como férias de verão e escolares são divididas. Arranjo comum: cada pai tem 2 semanas consecutivas no verão (com 30 dias de aviso).",
+            "ru": "Опишите разделение летних и школьных каникул. Типичная схема: каждый родитель получает 2 недели подряд летом (уведомление за 30 дней).",
+            "tl": "Ilarawan kung paano hinahati ang summer at school vacation. Karaniwang ayos: bawat magulang ay may 2 sunod na linggo sa tag-init (may 30 araw na abiso). Tukuyin kung nagpapatuloy ang regular schedule sa tag-init."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_6",
+      "fields": [
+        {
+          "field_id": "item_6_transportation",
+          "field_label": "Transportation and exchange arrangements",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "Describe HOW the children will be exchanged between parents. Include: WHERE exchanges happen (a neutral public location is best — school, police station, or specific address), WHO provides transportation (parent picking up drives, or meet halfway), and WHAT HAPPENS if a parent is late or does not show up. Clear exchange terms prevent future conflicts.",
+            "es": "Describa CÓMO se intercambiarán los hijos. Incluya: DÓNDE (lugar público neutral es mejor — escuela, estación de policía), QUIÉN proporciona transporte, QUÉ PASA si un padre llega tarde o no se presenta.",
+            "zh": "描述孩子如何在父母之间交接。包括：在哪里交接（中立公共场所最好——学校、警察局）、谁负责接送、如果一方迟到或不出现怎么办。",
+            "vi": "Mô tả CÁCH trao đổi con giữa cha mẹ. Bao gồm: Ở ĐÂU (địa điểm công cộng trung lập tốt nhất), AI chở con, và NẾU một bên trễ hoặc không đến thì sao.",
+            "so": "Sharax SIDA carruurta loo isku beddeli doono. Ku dar: XAGGEE (goob dadweyne oo dhexdhexaad ah ayaa ugu wanaagsan), YAA gaadiidka bixiya, MAXAA DHACAYA haddii waalid uu daahin ama aanu iman.",
+            "ti": "ቆልዑ ብኸመይ ከምዝለዋወጡ ግለጽ። ዘጠቓልል: ኣበይ (ገለልተኛ ህዝባዊ ቦታ ዝበለጸ)፡ መን ይጓዓዝ፡ ሓደ ወላዲ ምስ ዘይመጽእ እንታይ ይኸውን።",
+            "am": "ልጆች በወላጆች መካከል እንዴት እንደሚለዋወጡ ይግለጹ። ያካትቱ: የት (ገለልተኛ ህዝባዊ ቦታ ተመራጭ)፣ ማን ያጓጉዛል፣ አንዱ ካልመጣ ምን ይሆናል።",
+            "ar": "صف كيف سيتم تبادل الأطفال. اشمل: أين (مكان عام محايد أفضل)، من يوفر النقل، وماذا يحدث إذا تأخر أحد الوالدين أو لم يحضر.",
+            "ht": "Dekri KÒMAN timoun yo ap chanje ant paran yo. Enkli: KOTE (yon kote piblik netral pi bon), KIMOUN ki bay transpò, KISA KI PASE si yon paran an reta oswa pa parèt.",
+            "ko": "자녀가 부모 간에 어떻게 인계되는지 설명하세요. 포함: 어디서(중립적 공공장소 권장), 누가 교통을 담당하는지, 한쪽이 늦거나 나타나지 않으면 어떻게 되는지.",
+            "pt": "Descreva COMO as crianças serão trocadas. Inclua: ONDE (local público neutro é melhor), QUEM fornece transporte, O QUE ACONTECE se um pai atrasar ou não aparecer.",
+            "ru": "Опишите, КАК дети будут передаваться между родителями. Включите: ГДЕ происходит обмен (нейтральное публичное место лучше), КТО обеспечивает транспорт, ЧТО ПРОИСХОДИТ при опоздании или неявке.",
+            "tl": "Ilarawan PAANO ang mga bata ay ipapasa sa pagitan ng magulang. Isama: SAAN (neutral na pampublikong lugar ang pinakamabuti), SINO ang maghahatid, at ANO ANG MANGYAYARI kung late o hindi dumating ang isang magulang."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_7",
+      "fields": [
+        {
+          "field_id": "item_7_supervised_visitation",
+          "field_label": "Supervised visitation",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you are asking that the other parent's visits be SUPERVISED — meaning a third person must be present at all times during the visit. Reasons courts order supervised visitation include: history of domestic violence, substance abuse, child abuse concerns, or the child does not know the parent well. You must name WHO will supervise (a professional supervisor or a specific trusted adult) and WHERE visits will occur.",
+            "es": "Marque si pide que las visitas sean SUPERVISADAS — una tercera persona debe estar presente. Razones: violencia doméstica, abuso de sustancias, abuso infantil, o el hijo no conoce bien al padre. Debe nombrar QUIÉN supervisará y DÓNDE.",
+            "zh": "如果要求对方的探视受监督，请勾选——即必须有第三方在场。法院命令监督探视的原因包括：家暴历史、药物滥用、虐童担忧。必须指明谁监督以及在哪里。",
+            "vi": "Đánh dấu nếu yêu cầu thăm gặp CÓ GIÁM SÁT — phải có người thứ ba hiện diện. Lý do: bạo lực gia đình, lạm dụng chất gây nghiện, lo ngại lạm dụng trẻ. Phải nêu AI giám sát và Ở ĐÂU.",
+            "so": "Calaamadee haddii aad codsaneyso in booqashada ay tahay MID LA KORMEERO — qof saddexaad oo joogto ah. Sababaha: dagaal qoys, isticmaalka mukhaadaraadka. Waa inaad sheegtaa YAA kormeeraya iyo XAGGEE.",
+            "ti": "ምብጻሕ ብኣስተኳሊ ክኸውን እንተደሊኻ ምልክት ግበር — ሳልሳይ ሰብ ኩሉ ግዜ ክህሉ ኣለዎ። ምኽንያታት: ናይ ቤት ዓመጽ፡ ናይ ሓሽሽ ምጥቃም። መን ከምዘስተኻኽልን ኣበይን ግለጽ።",
+            "am": "ጉብኝቱ በክትትል ስር ክሆን ከፈለጉ ምልክት ያድርጉ — ሶስተኛ ሰው ሁልጊዜ መገኘት አለበት። ምክንያቶች: የቤት ውስጥ ጥቃት፣ አደንዛዥ ዕፅ። ማን እንደሚቆጣጠር እና የት እንደሚሆን ይግለጹ።",
+            "ar": "ضع علامة إذا طلبت زيارات مشرفة — يجب أن يكون شخص ثالث حاضرًا. الأسباب: عنف منزلي، إدمان، مخاوف إساءة. يجب تسمية المشرف ومكان الزيارة.",
+            "ht": "Tcheke si ou mande vizit SIPÈVIZE — yon twazyèm moun dwe prezan tout tan. Rezon: vyolans domestik, abi sibstans, enkyetid abi timoun. Ou dwe di KIMOUN ki pral sipèvize epi KOTE.",
+            "ko": "상대 부모의 방문이 감독되기를 원하면 체크하세요 — 방문 중 항상 제3자가 참석해야 합니다. 사유: 가정폭력, 약물남용. 누가 감독하고 어디서 진행되는지 명시해야 합니다.",
+            "pt": "Marque se pede visitas SUPERVISIONADAS — um terceiro deve estar presente. Razões: violência doméstica, abuso de substâncias. Deve nomear QUEM supervisionará e ONDE.",
+            "ru": "Отметьте, если просите КОНТРОЛИРУЕМОЕ посещение — третье лицо должно присутствовать. Причины: домашнее насилие, злоупотребление веществами. Укажите КТО будет контролировать и ГДЕ.",
+            "tl": "I-check kung hinihiling mo na SUPERVISED ang visitation — kailangang may ikatlong tao na present. Dahilan: domestic violence, substance abuse. Kailangan mong sabihin SINO ang mag-supervise at SAAN."
+          },
+          "do_not_check_if": {
+            "en": "Do not check this if you are comfortable with unsupervised visits. If the other parent is safe to be alone with the children, supervised visitation is not necessary. Courts do not order supervision without good reason.",
+            "es": "No marque si está cómodo con visitas sin supervisión. Si el otro padre puede estar solo con los hijos de forma segura, la supervisión no es necesaria.",
+            "zh": "如果您对无监督探视没有顾虑，请勿勾选。如果对方与孩子单独在一起是安全的，则不需要监督。",
+            "vi": "Không đánh dấu nếu bạn thoải mái với thăm gặp không giám sát. Nếu bên kia an toàn để ở một mình với con, không cần giám sát.",
+            "so": "Ha calaamadaynin haddii aad ku qanacsan tahay booqasho aan la kormeerin. Haddii waalidka kale uu badbaado yahay, kormeerka looma baahna.",
+            "ti": "ብዘይ ኣስተኳሊ ምብጻሕ ምሉእ ብምሉእ ዕጉብ እንተኾንካ ምልክት ኣይትግበር።",
+            "am": "ያለክትትል ጉብኝት ካልተቸገሩ ምልክት አያድርጉ። ሌላው ወላጅ ከልጆች ጋር ብቻውን ደህና ከሆነ ክትትል አያስፈልግም።",
+            "ar": "لا تضع علامة إذا كنت مرتاحًا للزيارات بدون إشراف.",
+            "ht": "Pa tcheke si ou alèz ak vizit san sipèvizyon. Si lòt paran an san danje pou rete pou kont li ak timoun yo, sipèvizyon pa nesesè.",
+            "ko": "감독 없는 방문이 괜찮다면 체크하지 마세요. 상대 부모가 자녀와 안전하다면 감독은 불필요합니다.",
+            "pt": "Não marque se está confortável com visitas sem supervisão.",
+            "ru": "Не отмечайте, если вас устраивают неконтролируемые посещения.",
+            "tl": "Huwag i-check kung okay lang sa iyo ang unsupervised visits. Kung ligtas ang kabilang magulang na mag-isa sa mga bata, hindi kailangan ng supervision."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_8",
+      "fields": [
+        {
+          "field_id": "item_8_moveaway",
+          "field_label": "Move-away restrictions",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you want to prevent either parent from moving away with the children without court permission. Under California Family Code § 7501, a parent with custody has the right to change the child's residence — but the other parent can ask the court to stop the move if it would harm the children. If you are concerned the other parent may relocate, request a move-away restriction requiring advance notice (commonly 45-60 days) and court approval before any move.",
+            "es": "Marque si quiere impedir que cualquier padre se mude con los hijos sin permiso del tribunal. Bajo Family Code § 7501, un padre con custodia puede cambiar la residencia — pero el otro puede pedir al tribunal detener la mudanza. Solicite aviso previo (45-60 días) y aprobación judicial.",
+            "zh": "如果要防止任何一方未经法院许可带孩子搬家，请勾选。根据Family Code § 7501，有监护权的父母有权更改孩子住所——但另一方可要求法院阻止。要求提前通知（通常45-60天）和法院批准。",
+            "vi": "Đánh dấu nếu muốn ngăn bất kỳ bên nào di chuyển với con mà không có phép tòa. Theo Family Code § 7501, bên có quyền giám hộ có thể thay đổi nơi ở — nhưng bên kia có thể yêu cầu tòa ngăn chặn. Yêu cầu thông báo trước (45-60 ngày).",
+            "so": "Calaamadee haddii aad rabto inaad ka hortagto waalid kasta inuu carruurta la guurto iyada oo aan maxkamaddu fasixin. Hoos yimaado Family Code § 7501, waalidka xafiidda leh wuxuu xaq u leeyahay inuu degaanka beddesho — laakin midka kale wuxuu codsan karaa maxkamadda.",
+            "ti": "ኣብ ዘይፍቓድ ቤት ፍርዲ ዝኾነ ወላዲ ምስ ቆልዑ ካብ ምግዓዝ ንምኽልካል ምልክት ግበር። ብመሰረት Family Code § 7501, ሞግዚት ዘለዎ ወላዲ ናይ ቆልዓ መንበሪ ክቕይር ይኽእል — ግን እቲ ካልእ ክከላኸል ይኽእል።",
+            "am": "ያለ ፍርድ ቤት ፈቃድ ማንኛውም ወላጅ ከልጆች ጋር ከመዛወር ለመከልከል ምልክት ያድርጉ። በFamily Code § 7501 መሰረት ሞግዚት ያለው ወላጅ መኖሪያ መቀየር ይችላል — ግን ሌላው ፍርድ ቤት ማስቆም ይችላል።",
+            "ar": "ضع علامة لمنع أي والد من الانتقال بالأطفال بدون إذن المحكمة. بموجب Family Code § 7501، يحق للوالد الحاضن تغيير سكن الطفل — لكن الآخر يمكنه طلب منع الانتقال.",
+            "ht": "Tcheke si ou vle anpeche nenpòt paran deplase ak timoun yo san pèmisyon tribinal. Dapre Family Code § 7501, yon paran ki gen gad ka chanje rezidans — men lòt la ka mande tribinal la kanpe deplasan an.",
+            "ko": "어느 쪽 부모든 법원 허가 없이 자녀와 이사하는 것을 방지하려면 체크하세요. Family Code § 7501에 따라 양육권이 있는 부모는 거주지를 변경할 수 있지만 상대방이 법원에 이사 중지를 요청할 수 있습니다.",
+            "pt": "Marque se quer impedir que qualquer pai se mude com os filhos sem permissão judicial. Pelo Family Code § 7501, o pai com guarda pode mudar residência — mas o outro pode pedir ao tribunal para impedir.",
+            "ru": "Отметьте, если хотите запретить любому родителю переезжать с детьми без разрешения суда. По Family Code § 7501, родитель с опекой может изменить место жительства — но другой может просить суд остановить переезд.",
+            "tl": "I-check kung gusto mong pigilan ang alinmang magulang na lumipat kasama ang mga bata nang walang pahintulot ng korte. Sa ilalim ng Family Code § 7501, ang magulang na may custody ay may karapatang baguhin ang tirahan — pero ang kabila ay maaaring humiling sa korte na pigilan ito."
+          },
+          "do_not_check_if": {
+            "en": "Do not check this if neither parent has plans to move or if relocation is not a concern in your case. Move-away restrictions are only needed when there is a realistic risk of relocation.",
+            "es": "No marque si ningún padre planea mudarse o si la reubicación no es una preocupación.",
+            "zh": "如果双方都没有搬家计划或搬迁不是问题，请勿勾选。",
+            "vi": "Không đánh dấu nếu không bên nào có kế hoạch di chuyển hoặc việc tái định cư không phải mối quan tâm.",
+            "so": "Ha calaamadaynin haddii waalid midkoodna aan qorshayn inuu guuro.",
+            "ti": "ዝኾነ ወላዲ ክግዕዝ መደብ እንተዘይብሉ ምልክት ኣይትግበር።",
+            "am": "ማንኛውም ወላጅ ለመዛወር ዕቅድ ከሌለ ምልክት አያድርጉ።",
+            "ar": "لا تضع علامة إذا لم يكن لدى أي والد خطط للانتقال.",
+            "ht": "Pa tcheke si okenn paran pa gen plan pou deplase.",
+            "ko": "어느 부모도 이사 계획이 없다면 체크하지 마세요.",
+            "pt": "Não marque se nenhum pai planeja se mudar.",
+            "ru": "Не отмечайте, если ни один родитель не планирует переезд.",
+            "tl": "Huwag i-check kung walang planong lumipat ang alinmang magulang."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_9",
+      "fields": [
+        {
+          "field_id": "item_9_other_orders",
+          "field_label": "Other custody or visitation orders",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "Use this section for any custody or visitation requests not covered above — for example: right of first refusal (if a parent cannot care for the child during their time, the other parent gets first opportunity), communication rules between parents (Our Family Wizard app, no contact through children), phone/video contact schedule with children during the other parent's time, restrictions on introducing romantic partners, or requirements about children's activities.",
+            "es": "Use esta sección para solicitudes no cubiertas arriba — por ejemplo: derecho de primera negativa, reglas de comunicación entre padres, horario de contacto telefónico/video, restricciones sobre parejas sentimentales.",
+            "zh": "用此部分提出上述未涵盖的监护或探视请求——例如：优先拒绝权、父母间沟通规则、在对方时间内与孩子的电话/视频联系时间表。",
+            "vi": "Dùng phần này cho yêu cầu chưa nêu ở trên — ví dụ: quyền ưu tiên từ chối, quy tắc giao tiếp giữa cha mẹ, lịch liên lạc điện thoại/video với con.",
+            "so": "Isticmaal qaybtan codsiyada aan kor lagu sheegin — tusaale: xuquuqda diidmada hore, xeerarka xiriirka waalidiinta, jadwalka taleefanka/fiidiyowga carruurta.",
+            "ti": "ኣብ ላዕሊ ዘይተሸፈኑ ናይ ሞግዚትነት ወይ ምብጻሕ ሕቶታት ንምቕራብ ጠቐሞ — ንኣብነት: ናይ መጀመርያ ኣፈንፉኑ መሰል፡ ናይ ወለዲ ርክብ ሕግታት።",
+            "am": "ከላይ ያልተሸፈኑ ሞግዚትነት ወይም የጉብኝት ጥያቄዎችን ለማቅረብ ይህን ክፍል ይጠቀሙ — ለምሳሌ: የመጀመሪያ የመቃወም መብት፣ የወላጆች ግንኙነት ደንቦች።",
+            "ar": "استخدم هذا القسم لطلبات لم تُغطَّ أعلاه — مثل: حق الرفض الأول، قواعد التواصل بين الوالدين، جدول الاتصال الهاتفي/المرئي مع الأطفال.",
+            "ht": "Itilize seksyon sa pou demann ki pa kouvri anwo — pa egzanp: dwa premye refi, règ kominikasyon ant paran yo, orè pou rele/videyo ak timoun yo.",
+            "ko": "위에서 다루지 않은 양육권 또는 방문 요청에 이 섹션을 사용하세요 — 예: 우선 거부권, 부모 간 소통 규칙, 자녀와의 전화/화상 연락 일정.",
+            "pt": "Use esta seção para pedidos não cobertos acima — por exemplo: direito de primeira recusa, regras de comunicação entre pais, horário de contato telefônico/vídeo.",
+            "ru": "Используйте для запросов, не указанных выше — например: право первого отказа, правила общения между родителями, расписание телефонной/видеосвязи с детьми.",
+            "tl": "Gamitin ang seksyon na ito para sa mga kahilingang hindi sakop sa itaas — halimbawa: right of first refusal, mga patakaran sa komunikasyon ng magulang, schedule ng tawag/video sa mga bata."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_10",
+      "fields": [
+        {
+          "field_id": "item_10_children",
+          "field_label": "Children's names and dates of birth",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "List EACH child's full legal name and date of birth. Use the name as it appears on the birth certificate. If there are more children than space allows, attach additional pages. This must match the children listed on the FL-300 or FL-305.",
+            "es": "Liste el nombre legal completo y fecha de nacimiento de CADA hijo. Use el nombre del acta de nacimiento. Debe coincidir con los hijos en el FL-300 o FL-305.",
+            "zh": "列出每个孩子的完整法定姓名和出生日期。使用出生证明上的名字。必须与FL-300或FL-305上的孩子一致。",
+            "vi": "Liệt kê tên pháp lý đầy đủ và ngày sinh của MỖI con. Dùng tên trên giấy khai sinh. Phải khớp với FL-300 hoặc FL-305.",
+            "so": "Ku qor magaca sharciga buuxa iyo taariikhda dhalashada CUNUG KASTA. Isticmaal magaca warqadda dhalashada. Waa inay la mid noqdaan carruurta ku qoran FL-300 ama FL-305.",
+            "ti": "ናይ ነፍሲ ወከፍ ቆልዓ ምሉእ ሕጋዊ ስምን ዕለተ ልደትን ጸሓፍ። ኣብ FL-300 ወይ FL-305 ዘለዉ ቆልዑ ምስ ክሰማምዑ ኣለዎም።",
+            "am": "የእያንዳንዱ ልጅ ሙሉ ህጋዊ ስም እና የልደት ቀን ይዘርዝሩ። በFL-300 ወይም FL-305 ላይ ካሉ ልጆች ጋር መዛመድ አለበት።",
+            "ar": "اذكر الاسم القانوني الكامل وتاريخ الميلاد لكل طفل. يجب أن يتطابق مع الأطفال في FL-300 أو FL-305.",
+            "ht": "Fè lis non legal konplè ak dat nesans CHAK timoun. Itilize non ki sou batistè a. Li dwe matche ak timoun yo sou FL-300 oswa FL-305.",
+            "ko": "각 자녀의 전체 법적 이름과 생년월일을 나열하세요. 출생증명서 이름을 사용하세요. FL-300 또는 FL-305의 자녀와 일치해야 합니다.",
+            "pt": "Liste nome legal completo e data de nascimento de CADA filho. Use o nome da certidão. Deve corresponder aos filhos no FL-300 ou FL-305.",
+            "ru": "Перечислите полное юридическое имя и дату рождения КАЖДОГО ребёнка. Используйте имя из свидетельства о рождении. Должно совпадать с FL-300 или FL-305.",
+            "tl": "Ilista ang buong legal na pangalan at petsa ng kapanganakan ng BAWAT bata. Gamitin ang pangalan sa birth certificate. Dapat tugma sa mga bata sa FL-300 o FL-305."
+          }
+        }
+      ]
+    },    {
+      "section_id": "footer",
+      "fields": [
+        {
+          "field_id": "footer_date",
+          "field_label": "Date",
+          "field_type": "date_field",
+          "guidance": {
+            "en": "Enter today's date — the date you are signing this attachment. Must match the date on the main form (FL-300 or FL-305).",
+            "es": "Ingrese la fecha de hoy. Debe coincidir con la fecha del formulario principal (FL-300 o FL-305).",
+            "zh": "输入今天的日期。必须与主表格（FL-300或FL-305）上的日期一致。",
+            "vi": "Nhập ngày hôm nay. Phải khớp với ngày trên mẫu chính (FL-300 hoặc FL-305).",
+            "so": "Geli taariikhda maanta. Waa inay la mid noqotaa taariikhda foomka asalka ah (FL-300 ama FL-305).",
+            "ti": "ናይ ሎሚ ዕለት ኣእቱ። ምስ ቀንዲ ፎርም (FL-300 ወይ FL-305) ዕለት ክሰማማዕ ኣለዎ።",
+            "am": "የዛሬውን ቀን ያስገቡ። ከዋናው ቅጽ (FL-300 ወይም FL-305) ቀን ጋር መዛመድ አለበት።",
+            "ar": "أدخل تاريخ اليوم. يجب أن يتطابق مع التاريخ على النموذج الرئيسي (FL-300 أو FL-305).",
+            "ht": "Mete dat jodi a. Li dwe matche ak dat sou fòm prensipal la (FL-300 oswa FL-305).",
+            "ko": "오늘 날짜를 입력하세요. 주 양식(FL-300 또는 FL-305)의 날짜와 일치해야 합니다.",
+            "pt": "Insira a data de hoje. Deve corresponder à data no formulário principal (FL-300 ou FL-305).",
+            "ru": "Введите сегодняшнюю дату. Должна совпадать с датой на основной форме (FL-300 или FL-305).",
+            "tl": "Ilagay ang petsa ngayon. Dapat tugma sa petsa sa pangunahing form (FL-300 o FL-305)."
+          }
+        },
+        {
+          "field_id": "footer_signature",
+          "field_label": "Signature",
+          "field_type": "signature",
+          "guidance": {
+            "en": "Sign your full legal name. This attachment is part of your declaration under penalty of perjury. Your signature here means everything on this attachment is true and correct.",
+            "es": "Firme con su nombre legal completo. Este anexo es parte de su declaración bajo pena de perjurio.",
+            "zh": "签署您的完整法定姓名。此附件是您在伪证处罚下声明的一部分。",
+            "vi": "Ký tên đầy đủ. Phụ lục này là một phần của bản khai dưới hình phạt khai man.",
+            "so": "Ku saxiix magacaaga sharciga buuxa. Lifaaqani waa qayb ka mid ah bayaankaaga ciqaabta been-maalmeedka.",
+            "ti": "ምሉእ ሕጋዊ ስምካ ፈርም። እዚ ኣባ ናይ ቅጣት ሓሶ መግለጺኻ ክፋል እዩ።",
+            "am": "ሙሉ ህጋዊ ስምዎን ይፈርሙ። ይህ አባሪ በሐሰት ቃል ቅጣት ስር ያለ ማስታወቂያዎ ክፍል ነው።",
+            "ar": "وقّع باسمك القانوني الكامل. هذا الملحق جزء من إعلانك تحت طائلة عقوبة الحنث.",
+            "ht": "Siyen non legal konplè ou. Atachman sa a se yon pati nan deklarasyon ou anba penalite pèji.",
+            "ko": "전체 법적 이름으로 서명하세요. 이 첨부는 위증 처벌 하 선언의 일부입니다.",
+            "pt": "Assine com seu nome legal completo. Este anexo faz parte da sua declaração sob pena de perjúrio.",
+            "ru": "Подпишите полным юридическим именем. Это приложение является частью вашего заявления под угрозой наказания за лжесвидетельство.",
+            "tl": "Pirmahan gamit ang buong legal na pangalan. Ang attachment na ito ay bahagi ng iyong deklarasyon sa ilalim ng parusa ng pagsisinungaling."
+          }
+        }
+      ]
+    }
+  ]
+}

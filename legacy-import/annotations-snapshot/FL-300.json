@@ -1,0 +1,970 @@
+{
+  "meta": {
+    "form_id": "FL-300",
+    "version": "1.0.0",
+    "updated": "2026-02-06",
+    "author": "VERNEN™",
+    "module": "GDN_field_annotations",
+    "copyright": "© 2024–2026 Michael Vernen Thomas Hartmann. All Rights Reserved. VERNEN™ is a trademark of Michael Vernen Thomas Hartmann.",
+    "languages": ["en","es","zh","vi","so","ti","am","ar","ht","ko","pt","ru","tl"]
+  },
+  "sections": [
+    {
+      "section_id": "header",
+      "fields": [
+        {
+          "field_id": "header_attorney_party",
+          "field_label": "Attorney or Party Without Attorney",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "If you do not have a lawyer, enter YOUR full legal name, street address, city, state, ZIP code, phone number, and email address. Where it says 'State Bar Number,' write 'In Pro Per' (this means you are representing yourself).",
+            "es": "Si no tiene abogado, escriba SU nombre legal completo, dirección, ciudad, estado, código postal, teléfono y correo electrónico. Donde dice 'State Bar Number,' escriba 'In Pro Per' (significa que se representa a sí mismo).",
+            "zh": "如果您没有律师，请输入您的完整法定姓名、街道地址、城市、州、邮编、电话号码和电子邮件地址。在'State Bar Number'处写'In Pro Per'（意思是您自己代表自己）。",
+            "vi": "Nếu bạn không có luật sư, hãy nhập TÊN pháp lý đầy đủ, địa chỉ, thành phố, tiểu bang, mã ZIP, số điện thoại và email. Nơi ghi 'State Bar Number,' viết 'In Pro Per' (nghĩa là bạn tự đại diện cho mình).",
+            "so": "Haddii aadan haysan qareen, geli magacaaga sharciga oo buuxa, cinwaanka, magaalada, gobolka, ZIP, telefoonka iyo emailka. Halka ay ku qoran tahay 'State Bar Number,' ku qor 'In Pro Per' (taasna waxay ka dhigan tahay inaad naftaada u matashahay).",
+            "ti": "ጠበቓ እንተዘይብልካ፡ ምሉእ ሕጋዊ ስምካ፡ ኣድራሻ፡ ከተማ፡ ግዝኣት፡ ዚፕ ኮድ፡ ቁጽሪ ተሌፎንን ኢመይልን ኣእቱ። 'State Bar Number' ኣብ ዝብል 'In Pro Per' ጸሓፍ (ንርእስኻ ትውክል ማለት እዩ)።",
+            "am": "ጠበቃ ከሌለዎት፣ ሙሉ ሕጋዊ ስምዎን፣ አድራሻ፣ ከተማ፣ ግዛት፣ ዚፕ ኮድ፣ ስልክ ቁጥር እና ኢሜይል ያስገቡ። 'State Bar Number' ላይ 'In Pro Per' ይጻፉ (እራስዎን ይወክላሉ ማለት ነው)።",
+            "ar": "إذا لم يكن لديك محامٍ، أدخل اسمك القانوني الكامل وعنوانك ومدينتك وولايتك والرمز البريدي ورقم هاتفك وبريدك الإلكتروني. حيث يقول 'State Bar Number'، اكتب 'In Pro Per' (يعني أنك تمثل نفسك).",
+            "ht": "Si ou pa gen avoka, mete NON legal konplè ou, adrès, vil, eta, kòd postal, nimewo telefòn ak imèl. Kote li di 'State Bar Number,' ekri 'In Pro Per' (sa vle di ou reprezante tèt ou).",
+            "ko": "변호사가 없는 경우 본인의 정식 법적 이름, 주소, 도시, 주, 우편번호, 전화번호, 이메일을 입력하세요. 'State Bar Number' 란에 'In Pro Per'라고 쓰세요 (본인이 스스로를 대리한다는 의미입니다).",
+            "pt": "Se você não tem advogado, insira SEU nome legal completo, endereço, cidade, estado, CEP, telefone e e-mail. Onde diz 'State Bar Number,' escreva 'In Pro Per' (significa que você está se representando).",
+            "ru": "Если у вас нет адвоката, введите ВАШЕ полное юридическое имя, адрес, город, штат, почтовый индекс, телефон и электронную почту. Где написано 'State Bar Number,' напишите 'In Pro Per' (вы представляете себя сами).",
+            "tl": "Kung wala kang abogado, ilagay ang IYONG buong legal na pangalan, address, lungsod, estado, ZIP code, numero ng telepono, at email. Sa 'State Bar Number,' isulat ang 'In Pro Per' (kinakatawan mo ang sarili mo)."
+          }
+        },
+        {
+          "field_id": "header_court_name",
+          "field_label": "Superior Court of California, County of",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Enter the county where your case is filed. FL-300 is filed in an existing case — use the same county as your original petition. Example: 'Solano' or 'Alameda.'",
+            "es": "Escriba el condado donde se presentó su caso. FL-300 se presenta en un caso existente — use el mismo condado de su petición original. Ejemplo: 'Solano' o 'Alameda.'",
+            "zh": "输入您案件所在的县。FL-300在现有案件中提交——使用与原始请愿相同的县。例如：'Solano'或'Alameda。'",
+            "vi": "Nhập quận nơi vụ án của bạn được nộp. FL-300 được nộp trong vụ án hiện có — dùng cùng quận như đơn thỉnh cầu gốc. Ví dụ: 'Solano' hoặc 'Alameda.'",
+            "so": "Geli magaca degmada kiiskiisu ku jiro. FL-300 waxaa lagu xareeyaa kiis jira — isticmaal degmaddii dacwaddaada asalka ahayd. Tusaale: 'Solano' ama 'Alameda.'",
+            "ti": "ጉዳይካ ዝቐረበሉ ካውንቲ ኣእቱ። FL-300 ኣብ ዘሎ ጉዳይ ይቐርብ — ከምቲ ናይ መጀመርያ ጥርዓንካ ካውንቲ ተጠቐም። ኣብነት: 'Solano' ወይ 'Alameda።'",
+            "am": "ጉዳይዎ የተመዘገበበት ካውንቲ ያስገቡ። FL-300 ባለ ጉዳይ ላይ ይቀርባል — ከዋናው ጥያቄዎ ጋር ተመሳሳይ ካውንቲ ይጠቀሙ። ምሳሌ: 'Solano' ወይም 'Alameda።'",
+            "ar": "أدخل المقاطعة التي رُفعت فيها قضيتك. FL-300 يُقدَّم في قضية موجودة — استخدم نفس مقاطعة عريضتك الأصلية. مثال: 'Solano' أو 'Alameda.'",
+            "ht": "Mete non konte kote dosye ou ye. FL-300 depoze nan yon dosye ki egziste — itilize menm konte ak petisyon orijinal ou. Egzanp: 'Solano' oswa 'Alameda.'",
+            "ko": "사건이 접수된 카운티를 입력하세요. FL-300은 기존 사건에서 제출됩니다 — 원래 청원서와 같은 카운티를 사용하세요. 예: 'Solano' 또는 'Alameda.'",
+            "pt": "Insira o condado onde seu caso está registrado. FL-300 é protocolado em um caso existente — use o mesmo condado da petição original. Exemplo: 'Solano' ou 'Alameda.'",
+            "ru": "Введите округ, где зарегистрировано ваше дело. FL-300 подаётся в существующее дело — используйте тот же округ, что и в первоначальной петиции. Пример: 'Solano' или 'Alameda.'",
+            "tl": "Ilagay ang county kung saan naka-file ang iyong kaso. FL-300 ay ini-file sa existing case — gamitin ang parehong county gaya ng original petition. Halimbawa: 'Solano' o 'Alameda.'"
+          }
+        },
+        {
+          "field_id": "header_case_number",
+          "field_label": "Case Number",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Enter your existing case number exactly as it appears on your other family law documents. FL-300 is filed in an existing case — you must already have a case number.",
+            "es": "Escriba su número de caso existente exactamente como aparece en sus otros documentos de derecho familiar. FL-300 se presenta en un caso existente — ya debe tener un número de caso.",
+            "zh": "输入您现有的案件编号，与其他家庭法文件上完全一致。FL-300在现有案件中提交——您必须已有案件编号。",
+            "vi": "Nhập số vụ án hiện có chính xác như trên các tài liệu luật gia đình khác. FL-300 được nộp trong vụ án hiện có — bạn phải đã có số vụ án.",
+            "so": "Geli lambarkaaga dacwadda sida ay u qoran tahay dukumentiyaadkaaga kale. FL-300 waxaa lagu xareeyaa kiis jira — waa inaad haysataa lambar dacwad.",
+            "ti": "ኣብ ካልኦት ሰነዳት ቤተሰብ ሕጊ ከምዘሎ ቁጽሪ ጉዳይካ ኣእትዎ። FL-300 ኣብ ዘሎ ጉዳይ ይቐርብ — ቁጽሪ ጉዳይ ክህልወካ ኣለዎ።",
+            "am": "ባሉ የቤተሰብ ህግ ሰነዶችዎ ላይ እንደሚታየው የመዝገብ ቁጥርዎን ያስገቡ። FL-300 ባለ ጉዳይ ላይ ይቀርባል — የመዝገብ ቁጥር ሊኖርዎት ይገባል።",
+            "ar": "أدخل رقم قضيتك الحالي كما يظهر على مستنداتك الأخرى. FL-300 يُقدَّم في قضية موجودة — يجب أن يكون لديك رقم قضية.",
+            "ht": "Mete nimewo dosye ou egzakteman jan li parèt sou lòt dokiman lwa fanmi ou. FL-300 depoze nan yon dosye ki egziste — ou dwe deja gen yon nimewo dosye.",
+            "ko": "다른 가족법 서류에 나타나는 기존 사건 번호를 정확히 입력하세요. FL-300은 기존 사건에서 제출됩니다 — 사건 번호가 이미 있어야 합니다.",
+            "pt": "Insira seu número de caso existente exatamente como aparece em seus outros documentos. FL-300 é protocolado em um caso existente — você já deve ter um número de caso.",
+            "ru": "Введите существующий номер дела точно так, как он указан в других документах по семейному праву. FL-300 подаётся в существующее дело — у вас уже должен быть номер дела.",
+            "tl": "Ilagay ang iyong existing case number nang eksakto gaya ng nasa iba mong family law documents. FL-300 ay ini-file sa existing case — kailangan mayroon ka nang case number."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_1",
+      "fields": [
+        {
+          "field_id": "item_1_petitioner",
+          "field_label": "Petitioner",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if YOU originally filed the family law case (the Petition). You are the Petitioner.",
+            "es": "Marque si USTED presentó originalmente el caso (la Petición). Usted es el Peticionario.",
+            "zh": "如果您是最初提交家庭法案件的人，请勾选。您是请愿人。",
+            "vi": "Đánh dấu nếu BẠN đã nộp đơn ban đầu. Bạn là Người Thỉnh Cầu.",
+            "so": "Calaamadee haddii ADIGA aad tahay kii markii hore xareeyay dacwadda qoyska.",
+            "ti": "ነቲ ጉዳይ መጀመርያ ዘቕረብካ ንስኻ እንተኾንካ ምልክት ግበር።",
+            "am": "የቤተሰብ ህግ ጉዳዩን መጀመሪያ ያቀረቡት እርስዎ ከሆኑ ይህን ምልክት ያድርጉ።",
+            "ar": "ضع علامة إذا كنت أنت من رفع القضية في الأصل. أنت مقدم العريضة.",
+            "ht": "Make sa si OU se moun ki te depoze dosye lwa fanmi an orijinalman.",
+            "ko": "본인이 원래 가족법 소송을 제기한 사람이면 체크하세요. 당신이 청구인입니다.",
+            "pt": "Marque se VOCÊ protocolou originalmente o caso. Você é o Requerente.",
+            "ru": "Отметьте, если ВЫ изначально подали дело. Вы — Заявитель.",
+            "tl": "I-check kung IKAW ang nag-file ng family law case. Ikaw ang Petitioner."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if you received the petition and filed a response — that makes you the Respondent.",
+            "es": "No marque si recibió la petición y presentó una respuesta — eso lo hace Demandado.",
+            "zh": "如果您收到请愿书并提交了回复，请不要勾选——那使您成为被申请人。",
+            "vi": "Không đánh dấu nếu bạn nhận đơn và nộp phản hồi — bạn là Bị Đơn.",
+            "so": "Ha calaamadayn haddii aad heshay dacwaddii — taas waxay kuu dhigtaa Jawaab-celiye.",
+            "ti": "ነቲ ጥርዓን ተቐቢልካ መልሲ ዝሃብካ ምልክት ኣይትግበር — ተጻራሪ ኢኻ።",
+            "am": "ጥያቄውን ተቀብለው ምላሽ ያቀረቡ ከሆኑ ምልክት አያድርጉ — ምላሽ ሰጪ ነዎት።",
+            "ar": "لا تضع علامة إذا تلقيت العريضة وقدمت ردًا — فأنت المدعى عليه.",
+            "ht": "Pa make sa si ou te resevwa petisyon an epi depoze yon repons — ou se Repondan.",
+            "ko": "청원서를 받고 답변서를 제출한 사람이면 체크하지 마세요 — 피청구인입니다.",
+            "pt": "Não marque se recebeu a petição e protocolou resposta — você é o Requerido.",
+            "ru": "Не отмечайте, если вы получили петицию и подали ответ — вы Ответчик.",
+            "tl": "Huwag i-check kung nakatanggap ka ng petition at nag-file ng response — ikaw ang Respondent."
+          }
+        },
+        {
+          "field_id": "item_1_respondent",
+          "field_label": "Respondent",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you received the original Petition and are the Respondent in this case.",
+            "es": "Marque si usted recibió la Petición original y es el Demandado en este caso.",
+            "zh": "如果您收到了原始请愿书并且是本案的被申请人，请勾选。",
+            "vi": "Đánh dấu nếu bạn nhận được Đơn Thỉnh Cầu gốc và là Bị Đơn trong vụ này.",
+            "so": "Calaamadee haddii aad heshay Dacwaddii asalka ahayd oo aad tahay Jawaab-celiyaha.",
+            "ti": "ነቲ ኦሪጅናል ጥርዓን ተቐቢልካ ተጻራሪ እንተኾንካ ምልክት ግበር።",
+            "am": "ዋናውን ጥያቄ ተቀብለው ምላሽ ሰጪ ከሆኑ ይህን ምልክት ያድርጉ።",
+            "ar": "ضع علامة إذا تلقيت العريضة الأصلية وأنت المدعى عليه.",
+            "ht": "Make sa si ou te resevwa Petisyon orijinal la epi ou se Repondan nan dosye sa a.",
+            "ko": "원래 청원서를 받았고 본 사건의 피청구인이면 체크하세요.",
+            "pt": "Marque se você recebeu a Petição original e é o Requerido neste caso.",
+            "ru": "Отметьте, если вы получили оригинальную Петицию и являетесь Ответчиком.",
+            "tl": "I-check kung nakatanggap ka ng original na Petition at ikaw ang Respondent."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if you are the one who originally filed the case — use Petitioner instead.",
+            "es": "No marque si usted presentó el caso — use Peticionario.",
+            "zh": "如果您是最初提交案件的人，请不要勾选——使用请愿人。",
+            "vi": "Không đánh dấu nếu bạn là người nộp đơn ban đầu — dùng Người Thỉnh Cầu.",
+            "so": "Ha calaamadayn haddii aad tahay kii xareeyay — isticmaal Dacwad-galiye.",
+            "ti": "ነቲ ጉዳይ ዘቕረብካ ንስኻ እንተኾንካ ኣይትምልከት — Petitioner ተጠቐም።",
+            "am": "ጉዳዩን ያቀረቡት እርስዎ ከሆኑ ምልክት አያድርጉ — Petitioner ይጠቀሙ።",
+            "ar": "لا تضع علامة إذا كنت من رفع القضية — استخدم مقدم العريضة.",
+            "ht": "Pa make sa si ou se moun ki te depoze dosye a — itilize Petisyonè.",
+            "ko": "본인이 원래 소송을 제기한 사람이면 체크하지 마세요 — 청구인을 사용하세요.",
+            "pt": "Não marque se você protocolou o caso — use Requerente.",
+            "ru": "Не отмечайте, если вы подали дело — используйте Заявитель.",
+            "tl": "Huwag i-check kung ikaw ang nag-file ng kaso — gamitin ang Petitioner."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_2",
+      "fields": [
+        {
+          "field_id": "item_2_hearing_date",
+          "field_label": "Hearing date / time / department",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Leave this BLANK when you file. The court clerk will assign a hearing date, time, and department. After filing, check your stamped copy for this information.",
+            "es": "Deje esto EN BLANCO al presentar. El secretario del tribunal asignará fecha, hora y departamento. Después de presentar, revise su copia sellada.",
+            "zh": "提交时留空。法院书记员会分配听证日期、时间和部门。提交后，查看您盖章的副本以获取此信息。",
+            "vi": "Để TRỐNG khi nộp. Thư ký tòa sẽ chỉ định ngày, giờ và phòng xử. Sau khi nộp, kiểm tra bản sao có đóng dấu.",
+            "so": "Meeshan ka tag BANAAN markaad xareyneyso. Xoghayaha maxkamaddu wuxuu qoondeyn doonaa taariikhda, waqtiga, iyo qeybta. Ka dib xareynta, hubi nuqulkaaga shaabadeysan.",
+            "ti": "ክትምዝገብ ከለኻ ባዶ ግደፎ። ጸሓፊ ቤት ፍርዲ ዕለት፡ ግዜን ክፍልን ክቕርጽ እዩ። ድሕሪ ምዝገባ ዝተሓትመ ቅዳሕካ ተወከስ።",
+            "am": "ሲያቀርቡ ባዶ ይተውት። የፍርድ ቤት ጸሐፊ ቀን፣ ሰዓት እና ክፍል ይመድባል። ካቀረቡ በኋላ የታተመ ቅጂዎን ይመልከቱ።",
+            "ar": "اترك هذا فارغًا عند التقديم. سيحدد كاتب المحكمة التاريخ والوقت والقسم. بعد التقديم، تحقق من نسختك المختومة.",
+            "ht": "Kite sa VID lè ou depoze. Grefye tribinal la ap bay yon dat, lè, ak depatman. Apre depoze, tcheke kopi ou ki gen so ladan.",
+            "ko": "접수할 때 이 란은 비워두세요. 법원 서기가 심리 날짜, 시간, 부서를 배정합니다. 접수 후 도장 찍힌 사본을 확인하세요.",
+            "pt": "Deixe em BRANCO ao protocolar. O cartório atribuirá data, hora e departamento. Após protocolar, verifique sua cópia carimbada.",
+            "ru": "Оставьте ПУСТЫМ при подаче. Секретарь суда назначит дату, время и отделение. После подачи проверьте вашу заверенную копию.",
+            "tl": "Iwanan itong BLANGKO kapag nag-file. Ang court clerk ang mag-aassign ng hearing date, oras, at department. Pagkatapos mag-file, tingnan ang stamped copy mo."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_3",
+      "fields": [
+        {
+          "field_id": "item_3_custody",
+          "field_label": "Child custody",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you are asking the court to make or change a custody order — who the children live with and who makes major decisions for them.",
+            "es": "Marque si está pidiendo al tribunal que haga o cambie una orden de custodia.",
+            "zh": "如果您要求法院制定或更改监护权命令，请勾选。",
+            "vi": "Đánh dấu nếu bạn yêu cầu tòa ra hoặc thay đổi lệnh giám hộ.",
+            "so": "Calaamadee haddii aad maxkamadda ka codsaneyso inay sameeyso ama beddesho amarka xanaanada.",
+            "ti": "ቤት ፍርዲ ናይ ሓለዋ ትእዛዝ ክገብር ወይ ክቕይር እንተሓቲትካ ምልክት ግበር።",
+            "am": "ፍርድ ቤቱ የሞግዚትነት ትዕዛዝ እንዲያወጣ ወይም እንዲቀይር ከጠየቁ ምልክት ያድርጉ።",
+            "ar": "ضع علامة إذا كنت تطلب من المحكمة إصدار أو تغيير أمر حضانة.",
+            "ht": "Make sa si ou ap mande tribinal la fè oswa chanje yon lòd gad timoun.",
+            "ko": "법원에 양육권 명령을 내리거나 변경해 달라고 요청하는 경우 체크하세요.",
+            "pt": "Marque se está pedindo ao tribunal que faça ou altere uma ordem de guarda.",
+            "ru": "Отметьте, если просите суд вынести или изменить решение об опеке.",
+            "tl": "I-check kung hinihiling mo sa korte na gumawa o magbago ng custody order."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if your request has nothing to do with custody or parenting time.",
+            "es": "No marque si su solicitud no tiene nada que ver con custodia.",
+            "zh": "如果您的请求与监护权无关，请不要勾选。",
+            "vi": "Không đánh dấu nếu yêu cầu của bạn không liên quan đến quyền giám hộ.",
+            "so": "Ha calaamadayn haddii codsigaagu uusan xiriir la lahayn xanaanada.",
+            "ti": "ጠለብካ ምስ ሓለዋ ዘይተሓሓዝ እንተኾይኑ ኣይትምልከት።",
+            "am": "ጥያቄዎ ከሞግዚትነት ጋር ግንኙነት ከሌለው ምልክት አያድርጉ።",
+            "ar": "لا تضع علامة إذا لم يكن طلبك متعلقًا بالحضانة.",
+            "ht": "Pa make sa si demann ou pa gen rapò ak gad timoun.",
+            "ko": "요청이 양육권과 관련 없으면 체크하지 마세요.",
+            "pt": "Não marque se seu pedido não tem relação com guarda.",
+            "ru": "Не отмечайте, если ваш запрос не связан с опекой.",
+            "tl": "Huwag i-check kung ang request mo ay walang kinalaman sa custody."
+          }
+        },
+        {
+          "field_id": "item_3_visitation",
+          "field_label": "Child visitation (parenting time)",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you are asking the court to make or change a visitation schedule — when each parent spends time with the children.",
+            "es": "Marque si pide al tribunal establecer o cambiar un horario de visitas.",
+            "zh": "如果您要求法院制定或更改探视时间表，请勾选。",
+            "vi": "Đánh dấu nếu bạn yêu cầu tòa lập hoặc thay đổi lịch thăm nom.",
+            "so": "Calaamadee haddii aad codsaneyso jadwal booqasho cusub ama la beddelo.",
+            "ti": "ቤት ፍርዲ ናይ ምብጻሕ ሰሌዳ ክገብር ወይ ክቕይር እንተሓቲትካ ምልክት ግበር።",
+            "am": "ፍርድ ቤቱ የጉብኝት መርሃ ግብር እንዲያወጣ ወይም እንዲቀይር ከጠየቁ ምልክት ያድርጉ።",
+            "ar": "ضع علامة إذا كنت تطلب إصدار أو تغيير جدول زيارة.",
+            "ht": "Make sa si ou ap mande tribinal la fè oswa chanje yon orè vizit.",
+            "ko": "법원에 방문 일정을 만들거나 변경해 달라고 요청하는 경우 체크하세요.",
+            "pt": "Marque se pede ao tribunal estabelecer ou alterar um cronograma de visitação.",
+            "ru": "Отметьте, если просите суд установить или изменить график посещений.",
+            "tl": "I-check kung hinihiling mo sa korte na gumawa o magbago ng visitation schedule."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if you are not requesting any changes to parenting time or visitation.",
+            "es": "No marque si no solicita cambios en el tiempo de crianza o visitas.",
+            "zh": "如果您不要求更改育儿时间或探视，请不要勾选。",
+            "vi": "Không đánh dấu nếu bạn không yêu cầu thay đổi thời gian thăm nom.",
+            "so": "Ha calaamadayn haddii aadan codsanayn wax beddelaad ah.",
+            "ti": "ናይ ምብጻሕ ለውጢ ዘይሓትት እንተኾንካ ኣይትምልከት።",
+            "am": "የጉብኝት ለውጥ ካልጠየቁ ምልክት አያድርጉ።",
+            "ar": "لا تضع علامة إذا لم تكن تطلب تغييرات في الزيارة.",
+            "ht": "Pa make sa si ou pa mande chanjman nan vizit.",
+            "ko": "방문 시간 변경을 요청하지 않으면 체크하지 마세요.",
+            "pt": "Não marque se não está pedindo mudanças na visitação.",
+            "ru": "Не отмечайте, если не просите изменений в графике посещений.",
+            "tl": "Huwag i-check kung hindi ka humihiling ng pagbabago sa visitation."
+          }
+        },
+
+        {
+          "field_id": "item_3_child_support",
+          "field_label": "Child support",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you are asking the court to order, change, or enforce child support payments.",
+            "es": "Marque si pide al tribunal ordenar, cambiar o hacer cumplir pagos de manutención.",
+            "zh": "如果您要求法院命令、更改或执行子女抚养费，请勾选。",
+            "vi": "Đánh dấu nếu bạn yêu cầu tòa ra lệnh, thay đổi hoặc thi hành trợ cấp nuôi con.",
+            "so": "Calaamadee haddii aad codsaneyso in maxkamaddu amarto, beddesho, ama fuliso lacagta masruufka ilmaha.",
+            "ti": "ቤት ፍርዲ ናይ ቆልዓ ደገፍ ክኣዝዝ፡ ክቕይር ወይ ከተግብር እንተሓቲትካ ምልክት ግበር።",
+            "am": "ፍርድ ቤቱ የልጅ ድጋፍ ክፍያ እንዲያዝ፣ እንዲቀይር ወይም እንዲያስፈጽም ከጠየቁ ምልክት ያድርጉ።",
+            "ar": "ضع علامة إذا كنت تطلب من المحكمة أمر أو تغيير أو تنفيذ نفقة الأطفال.",
+            "ht": "Make sa si ou ap mande tribinal la bay lòd, chanje, oswa fè respekte peman sipò timoun.",
+            "ko": "법원에 양육비 명령, 변경 또는 집행을 요청하는 경우 체크하세요.",
+            "pt": "Marque se pede ao tribunal ordenar, alterar ou executar pensão alimentícia.",
+            "ru": "Отметьте, если просите суд назначить, изменить или обеспечить исполнение алиментов.",
+            "tl": "I-check kung hinihiling mo sa korte na mag-order, magbago, o mag-enforce ng child support."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if child support is not part of your request.",
+            "es": "No marque si la manutención no es parte de su solicitud.",
+            "zh": "如果子女抚养费不是您请求的一部分，请不要勾选。",
+            "vi": "Không đánh dấu nếu trợ cấp nuôi con không thuộc yêu cầu của bạn.",
+            "so": "Ha calaamadayn haddii masruufka ilmuhu uusan ka mid ahayn codsigaaga.",
+            "ti": "ናይ ቆልዓ ደገፍ ኣካል ጠለብካ እንተዘይኮይኑ ኣይትምልከት።",
+            "am": "የልጅ ድጋፍ ጥያቄዎ አካል ካልሆነ ምልክት አያድርጉ።",
+            "ar": "لا تضع علامة إذا لم تكن نفقة الأطفال جزءًا من طلبك.",
+            "ht": "Pa make sa si sipò timoun pa fè pati demann ou.",
+            "ko": "양육비가 요청의 일부가 아니면 체크하지 마세요.",
+            "pt": "Não marque se a pensão alimentícia não faz parte do seu pedido.",
+            "ru": "Не отмечайте, если алименты не входят в ваш запрос.",
+            "tl": "Huwag i-check kung ang child support ay hindi bahagi ng iyong request."
+          }
+        },
+        {
+          "field_id": "item_3_spousal_support",
+          "field_label": "Spousal or partner support",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you are asking the court to order, change, or terminate spousal support (alimony) or domestic partner support.",
+            "es": "Marque si pide al tribunal ordenar, cambiar o terminar la manutención del cónyuge o pareja.",
+            "zh": "如果您要求法院命令、更改或终止配偶赡养费，请勾选。",
+            "vi": "Đánh dấu nếu bạn yêu cầu tòa ra lệnh, thay đổi hoặc chấm dứt trợ cấp vợ/chồng.",
+            "so": "Calaamadee haddii aad codsaneyso in maxkamaddu amarto, beddesho, ama joojiso taageerada xaaska/ninkaaga.",
+            "ti": "ቤት ፍርዲ ናይ ሰብኣይ/ሰበይቲ ደገፍ ክኣዝዝ፡ ክቕይር ወይ ከቋርጽ እንተሓቲትካ ምልክት ግበር።",
+            "am": "ፍርድ ቤቱ የትዳር ጓደኛ ድጋፍ እንዲያዝ፣ እንዲቀይር ወይም እንዲያቋርጥ ከጠየቁ ምልክት ያድርጉ።",
+            "ar": "ضع علامة إذا كنت تطلب من المحكمة أمر أو تغيير أو إنهاء نفقة الزوج/الشريك.",
+            "ht": "Make sa si ou ap mande tribinal la bay lòd, chanje, oswa sispann sipò konjwen oswa patnè.",
+            "ko": "법원에 배우자 부양비 명령, 변경 또는 종료를 요청하는 경우 체크하세요.",
+            "pt": "Marque se pede ao tribunal ordenar, alterar ou encerrar pensão ao cônjuge ou parceiro.",
+            "ru": "Отметьте, если просите суд назначить, изменить или прекратить содержание супруга/партнёра.",
+            "tl": "I-check kung hinihiling mo sa korte na mag-order, magbago, o itigil ang spousal o partner support."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if spousal support is not part of your request.",
+            "es": "No marque si la manutención del cónyuge no es parte de su solicitud.",
+            "zh": "如果配偶赡养费不是您请求的一部分，请不要勾选。",
+            "vi": "Không đánh dấu nếu trợ cấp vợ/chồng không thuộc yêu cầu của bạn.",
+            "so": "Ha calaamadayn haddii taageerada xaaska uusan ka mid ahayn codsigaaga.",
+            "ti": "ናይ ሰብኣይ/ሰበይቲ ደገፍ ኣካል ጠለብካ እንተዘይኮይኑ ኣይትምልከት።",
+            "am": "የትዳር ጓደኛ ድጋፍ ጥያቄዎ አካል ካልሆነ ምልክት አያድርጉ።",
+            "ar": "لا تضع علامة إذا لم تكن نفقة الزوج جزءًا من طلبك.",
+            "ht": "Pa make sa si sipò konjwen pa fè pati demann ou.",
+            "ko": "배우자 부양비가 요청의 일부가 아니면 체크하지 마세요.",
+            "pt": "Não marque se a pensão ao cônjuge não faz parte do seu pedido.",
+            "ru": "Не отмечайте, если содержание супруга не входит в ваш запрос.",
+            "tl": "Huwag i-check kung ang spousal support ay hindi bahagi ng iyong request."
+          }
+        },
+        {
+          "field_id": "item_3_property",
+          "field_label": "Property restraint/control",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you are asking the court to make orders about property — such as preventing the other party from selling, transferring, or hiding assets.",
+            "es": "Marque si pide al tribunal hacer órdenes sobre propiedad — como evitar que la otra parte venda, transfiera u oculte bienes.",
+            "zh": "如果您要求法院就财产作出命令——例如阻止对方出售、转让或隐藏资产，请勾选。",
+            "vi": "Đánh dấu nếu bạn yêu cầu tòa ra lệnh về tài sản — chẳng hạn ngăn bên kia bán, chuyển nhượng hoặc giấu tài sản.",
+            "so": "Calaamadee haddii aad codsaneyso in maxkamaddu amarto hantida — sida ka hortagga dhinaca kale inay iibiso, wareejiso, ama qariyo hanti.",
+            "ti": "ቤት ፍርዲ ብዛዕባ ንብረት ትእዛዝ ክህብ እንተሓቲትካ ምልክት ግበር — ከም ምኽልኻል ምሻጥ፡ ምስግጋር ወይ ምሕባእ ንብረት።",
+            "am": "ፍርድ ቤቱ ስለ ንብረት ትዕዛዝ እንዲሰጥ ከጠየቁ ምልክት ያድርጉ — ሌላኛው ወገን እንዳይሸጥ፣ እንዳያስተላልፍ ወይም ንብረት እንዳይደብቅ።",
+            "ar": "ضع علامة إذا كنت تطلب من المحكمة إصدار أوامر بشأن الملكية — مثل منع الطرف الآخر من بيع أو نقل أو إخفاء الأصول.",
+            "ht": "Make sa si ou ap mande tribinal la fè lòd sou pwopriyete — tankou anpeche lòt pati a vann, transfere, oswa kache byen.",
+            "ko": "법원에 재산에 관한 명령을 요청하는 경우 체크하세요 — 상대방이 자산을 매각, 양도 또는 은닉하는 것을 방지하는 등.",
+            "pt": "Marque se pede ao tribunal ordens sobre propriedade — como impedir a outra parte de vender, transferir ou ocultar bens.",
+            "ru": "Отметьте, если просите суд вынести решение об имуществе — запрет продажи, передачи или сокрытия активов.",
+            "tl": "I-check kung hinihiling mo sa korte na gumawa ng orders tungkol sa property — tulad ng pagpigil sa kabilang partido na magbenta, mag-transfer, o magtago ng assets."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if property is not at issue in your request.",
+            "es": "No marque si la propiedad no está en cuestión en su solicitud.",
+            "zh": "如果财产不是您请求的议题，请不要勾选。",
+            "vi": "Không đánh dấu nếu tài sản không nằm trong yêu cầu.",
+            "so": "Ha calaamadayn haddii hantidu aysan ka mid ahayn codsigaaga.",
+            "ti": "ንብረት ኣካል ጠለብካ እንተዘይኮይኑ ኣይትምልከት።",
+            "am": "ንብረት ጥያቄዎ ውስጥ ካልሆነ ምልክት አያድርጉ።",
+            "ar": "لا تضع علامة إذا لم تكن الملكية موضوعًا في طلبك.",
+            "ht": "Pa make sa si pwopriyete pa fè pati demann ou.",
+            "ko": "재산이 요청 사항이 아니면 체크하지 마세요.",
+            "pt": "Não marque se a propriedade não está em questão no seu pedido.",
+            "ru": "Не отмечайте, если имущество не является предметом вашего запроса.",
+            "tl": "Huwag i-check kung ang property ay hindi bahagi ng iyong request."
+          }
+        },
+        {
+          "field_id": "item_3_attorney_fees",
+          "field_label": "Attorney fees and costs",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you are asking the court to order the other party to pay some or all of your attorney fees and court costs.",
+            "es": "Marque si pide al tribunal que ordene a la otra parte pagar sus honorarios de abogado y costos.",
+            "zh": "如果您要求法院命令对方支付您的部分或全部律师费和诉讼费，请勾选。",
+            "vi": "Đánh dấu nếu bạn yêu cầu tòa ra lệnh bên kia trả phí luật sư và chi phí tòa.",
+            "so": "Calaamadee haddii aad codsaneyso in maxkamaddu amarto dhinaca kale inay bixiso kharashka qareenka iyo maxkamadda.",
+            "ti": "ቤት ፍርዲ ነቲ ካልእ ወገን ክፍሊት ጠበቓን ወጻኢ ቤት ፍርድን ክኸፍል ከምዝኣዝዝ እንተሓቲትካ ምልክት ግበር።",
+            "am": "ፍርድ ቤቱ ሌላኛው ወገን የጠበቃ ክፍያ እና ወጪዎችን እንዲከፍል እንዲያዝ ከጠየቁ ምልክት ያድርጉ።",
+            "ar": "ضع علامة إذا كنت تطلب من المحكمة أمر الطرف الآخر بدفع أتعاب المحاماة والتكاليف.",
+            "ht": "Make sa si ou ap mande tribinal la bay lòd lòt pati a peye frè avoka ak depans tribinal ou.",
+            "ko": "법원에 상대방이 변호사 비용과 소송 비용을 지불하도록 명령해 달라고 요청하면 체크하세요.",
+            "pt": "Marque se pede ao tribunal que ordene a outra parte pagar honorários advocatícios e custas.",
+            "ru": "Отметьте, если просите суд обязать другую сторону оплатить расходы на адвоката и судебные издержки.",
+            "tl": "I-check kung hinihiling mo sa korte na utusan ang kabilang partido na bayaran ang iyong attorney fees at court costs."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if you are not requesting attorney fees or if you do not have an attorney.",
+            "es": "No marque si no solicita honorarios de abogado o si no tiene abogado.",
+            "zh": "如果您没有要求律师费或没有律师，请不要勾选。",
+            "vi": "Không đánh dấu nếu bạn không yêu cầu phí luật sư hoặc không có luật sư.",
+            "so": "Ha calaamadayn haddii aadan codsanayn kharashka qareenka ama aadan haysan qareen.",
+            "ti": "ክፍሊት ጠበቓ ዘይሓትት ወይ ጠበቓ ዘይብልካ ምልክት ኣይትግበር።",
+            "am": "የጠበቃ ክፍያ ካልጠየቁ ወይም ጠበቃ ከሌለዎት ምልክት አያድርጉ።",
+            "ar": "لا تضع علامة إذا لم تكن تطلب أتعاب محاماة أو ليس لديك محامٍ.",
+            "ht": "Pa make sa si ou pa mande frè avoka oswa si ou pa gen avoka.",
+            "ko": "변호사 비용을 요청하지 않거나 변호사가 없으면 체크하지 마세요.",
+            "pt": "Não marque se não está pedindo honorários ou se não tem advogado.",
+            "ru": "Не отмечайте, если не запрашиваете расходы на адвоката или у вас нет адвоката.",
+            "tl": "Huwag i-check kung hindi ka humihingi ng attorney fees o kung wala kang abogado."
+          }
+        },
+        {
+          "field_id": "item_3_other",
+          "field_label": "Other (specify)",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you are requesting something not covered by the other checkboxes — such as a move-away order, name change, or specific injunctive relief. Write what you are requesting on the line provided.",
+            "es": "Marque si solicita algo no cubierto por las otras casillas — como una orden de mudanza, cambio de nombre u otra medida. Escriba lo que solicita en la línea.",
+            "zh": "如果您请求的内容不在其他复选框内——如搬迁令、更名或特定禁令救济，请勾选并在提供的行上写明。",
+            "vi": "Đánh dấu nếu bạn yêu cầu điều không thuộc các ô khác — như lệnh di chuyển, đổi tên, hoặc biện pháp cứu trợ cụ thể. Ghi rõ trên dòng.",
+            "so": "Calaamadee haddii aad codsaneyso wax aan ku jirin sanaadiiqda kale. Ku qor waxa aad codsaneyso khaddiga la bixiyay.",
+            "ti": "ካልኦት ሳጹናት ዘይሽፍኖ ነገር እንተሓቲትካ ምልክት ግበር። ኣብ ዝተዋህበ ሕዳግ ጠለብካ ጸሓፍ።",
+            "am": "ሌሎቹ ሳጥኖች የማይሸፍኑት ነገር ከጠየቁ ምልክት ያድርጉ። በተሰጠው መስመር ላይ ጥያቄዎን ይጻፉ።",
+            "ar": "ضع علامة إذا كنت تطلب شيئًا غير مشمول بالخيارات الأخرى. اكتب طلبك على السطر المتاح.",
+            "ht": "Make sa si ou ap mande yon bagay ki pa kouvri pa lòt bwat yo. Ekri sa ou ap mande sou liy la.",
+            "ko": "다른 체크박스에 해당하지 않는 것을 요청하는 경우 체크하세요. 제공된 줄에 요청 사항을 적으세요.",
+            "pt": "Marque se solicita algo não coberto pelas outras opções. Escreva seu pedido na linha fornecida.",
+            "ru": "Отметьте, если запрашиваете то, что не покрывается другими пунктами. Напишите запрос на предоставленной строке.",
+            "tl": "I-check kung humihiling ka ng hindi saklaw ng ibang checkboxes. Isulat ang iyong request sa linya."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if all your requests are already covered by the other checkboxes above.",
+            "es": "No marque si todas sus solicitudes ya están cubiertas por las casillas anteriores.",
+            "zh": "如果您的所有请求已被上述其他复选框覆盖，请不要勾选。",
+            "vi": "Không đánh dấu nếu tất cả yêu cầu đã được bao gồm bởi các ô trên.",
+            "so": "Ha calaamadayn haddii dhammaan codsigaagu ay ku jiraan sanaadiiqda kale ee kor.",
+            "ti": "ኩሉ ጠለብካ ብላዕለዎት ሳጹናት ዝተሸፈነ እንተኾይኑ ኣይትምልከት።",
+            "am": "ሁሉም ጥያቄዎች ከላይ ባሉ ሳጥኖች ከተሸፈኑ ምልክት አያድርጉ።",
+            "ar": "لا تضع علامة إذا كانت جميع طلباتك مشمولة بالخيارات الأخرى أعلاه.",
+            "ht": "Pa make sa si tout demann ou deja kouvri pa lòt bwat ki anwo yo.",
+            "ko": "모든 요청이 위의 다른 체크박스로 이미 해결되면 체크하지 마세요.",
+            "pt": "Não marque se todos os seus pedidos já estão cobertos pelas opções acima.",
+            "ru": "Не отмечайте, если все ваши запросы уже покрыты вышеуказанными пунктами.",
+            "tl": "Huwag i-check kung lahat ng request mo ay saklaw na ng mga checkbox sa itaas."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_4",
+      "fields": [
+        {
+          "field_id": "item_4a_sole_legal",
+          "field_label": "Legal custody to (name)",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you are asking the court to give ONE parent the right to make all major decisions about the children's health, education, and welfare. Write that parent's name on the line.",
+            "es": "Marque si pide al tribunal dar a UN padre el derecho de tomar todas las decisiones importantes sobre salud, educación y bienestar de los hijos.",
+            "zh": "如果您要求法院让一位父/母独自决定子女的健康、教育和福利重大事项，请勾选并填写该家长姓名。",
+            "vi": "Đánh dấu nếu bạn yêu cầu tòa cho MỘT cha/mẹ quyền quyết định mọi vấn đề lớn về sức khỏe, giáo dục và phúc lợi của con.",
+            "so": "Calaamadee haddii aad codsaneyso in maxkamaddu siiso HAL waalid xuquuqda go'aaminta arrimaha waaweyn ee ilmaha.",
+            "ti": "ቤት ፍርዲ ንሓደ ወላዲ ጥራይ ኩሉ ዓበይቲ ውሳኔታት ጥዕና፡ ትምህርትን ሰናይ ድሕንነትን ቆልዑ ክውስን ምልክት ግበር።",
+            "am": "ፍርድ ቤቱ አንድ ወላጅ ብቻ ስለ ልጆቹ ጤና፣ ትምህርት እና ደህንነት ዋና ውሳኔዎችን እንዲወስን ከጠየቁ ምልክት ያድርጉ።",
+            "ar": "ضع علامة إذا كنت تطلب من المحكمة منح أحد الوالدين حق اتخاذ جميع القرارات الرئيسية حول صحة وتعليم ورعاية الأطفال.",
+            "ht": "Make sa si ou ap mande tribinal la bay YON paran dwa pou pran tout desizyon enpòtan sou sante, edikasyon, ak byennèt timoun yo.",
+            "ko": "법원에 한 부모에게 자녀의 건강, 교육, 복지에 관한 모든 주요 결정권을 부여해 달라고 요청하면 체크하세요.",
+            "pt": "Marque se pede ao tribunal conceder a UM dos pais o direito de tomar todas as decisões importantes sobre saúde, educação e bem-estar.",
+            "ru": "Отметьте, если просите суд предоставить ОДНОМУ родителю право принимать все важные решения о здоровье, образовании и благополучии детей.",
+            "tl": "I-check kung hinihiling mo sa korte na bigyan ang ISANG magulang ng karapatang gumawa ng lahat ng malalaking desisyon tungkol sa kalusugan, edukasyon, at kapakanan ng mga bata."
+          },
+          "do_not_check_if": {
+            "en": "Do not check this if you want both parents to share decision-making. Use joint legal custody (item 4b) instead.",
+            "es": "No marque si desea que ambos padres compartan la toma de decisiones. Use custodia legal conjunta (4b).",
+            "zh": "如果您希望双方共同决策，请不要勾选。改用共同法定监护权（4b）。",
+            "vi": "Không đánh dấu nếu muốn cả hai cha mẹ cùng quyết định. Dùng quyền giám hộ pháp lý chung (4b).",
+            "so": "Ha calaamadayn haddii aad rabto labada waalid inay wadaagaan go'aaminta. Isticmaal xanaanada sharci ee wadajirka (4b).",
+            "ti": "ክልቲኦም ወለዲ ውሳኔ ክካፈሉ እንተደሊኻ ኣይትምልከት። ሓባራዊ ሕጋዊ ሓለዋ (4b) ተጠቐም።",
+            "am": "ሁለቱም ወላጆች ውሳኔ እንዲካፈሉ ከፈለጉ ምልክት አያድርጉ። የጋራ ሕጋዊ ሞግዚትነት (4b) ይጠቀሙ።",
+            "ar": "لا تضع علامة إذا أردت أن يتشارك الوالدان في اتخاذ القرارات. استخدم الحضانة القانونية المشتركة (4b).",
+            "ht": "Pa make sa si ou vle toude paran yo pataje desizyon. Itilize gad legal konjwen (4b).",
+            "ko": "양 부모가 공동 결정을 원하면 체크하지 마세요. 공동 법적 양육권(4b)을 사용하세요.",
+            "pt": "Não marque se deseja que ambos os pais compartilhem decisões. Use guarda legal conjunta (4b).",
+            "ru": "Не отмечайте, если хотите совместного принятия решений. Используйте совместную юридическую опеку (4b).",
+            "tl": "Huwag i-check kung gusto mong pareho ang magulang na mag-share sa desisyon. Gamitin ang joint legal custody (4b)."
+          }
+        },
+        {
+          "field_id": "item_4b_joint_legal",
+          "field_label": "Joint legal custody to (names)",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you want BOTH parents to share the right to make major decisions about the children's health, education, and welfare. This is the most common arrangement.",
+            "es": "Marque si quiere que AMBOS padres compartan el derecho de tomar decisiones importantes. Este es el arreglo más común.",
+            "zh": "如果您希望双方父母共同拥有决定子女健康、教育和福利的权利，请勾选。这是最常见的安排。",
+            "vi": "Đánh dấu nếu bạn muốn CẢ HAI cha mẹ cùng có quyền quyết định. Đây là sắp xếp phổ biến nhất.",
+            "so": "Calaamadee haddii aad rabto LABADA waalid inay wadaagaan xuquuqda go'aaminta arrimaha waaweyn.",
+            "ti": "ክልቲኦም ወለዲ ዓበይቲ ውሳኔታት ክካፈሉ እንተደሊኻ ምልክት ግበር። እዚ እቲ ልሙድ ኣሰራርሓ እዩ።",
+            "am": "ሁለቱም ወላጆች ዋና ውሳኔዎችን እንዲካፈሉ ከፈለጉ ምልክት ያድርጉ። ይህ በጣም የተለመደ ዝግጅት ነው።",
+            "ar": "ضع علامة إذا كنت تريد أن يتشارك الوالدان في اتخاذ القرارات الرئيسية. هذا هو الترتيب الأكثر شيوعًا.",
+            "ht": "Make sa si ou vle TOUDE paran yo pataje dwa pou pran desizyon enpòtan. Sa a se aranjman ki pi komen.",
+            "ko": "양 부모가 주요 결정권을 공유하길 원하면 체크하세요. 이것이 가장 일반적인 합의입니다.",
+            "pt": "Marque se deseja que AMBOS os pais compartilhem o direito de tomar decisões importantes. É o arranjo mais comum.",
+            "ru": "Отметьте, если хотите, чтобы ОБА родителя разделяли право принимать важные решения. Это наиболее распространённый вариант.",
+            "tl": "I-check kung gusto mong PAREHO ang mga magulang na mag-share sa karapatang gumawa ng malalaking desisyon. Ito ang pinakakaraniwang arrangement."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if you want only one parent to make all major decisions. Use sole legal custody (item 4a) instead.",
+            "es": "No marque si quiere que solo un padre tome todas las decisiones. Use custodia legal exclusiva (4a).",
+            "zh": "如果您希望只有一方做所有重大决定，请不要勾选。改用单独法定监护权（4a）。",
+            "vi": "Không đánh dấu nếu muốn chỉ một bên quyết định. Dùng quyền giám hộ pháp lý riêng (4a).",
+            "so": "Ha calaamadayn haddii aad rabto hal waalid oo keliya. Isticmaal xanaanada sharci ee gaar ah (4a).",
+            "ti": "ሓደ ወላዲ ጥራይ ክውስን እንተደሊኻ ኣይትምልከት። በይኑ ሕጋዊ ሓለዋ (4a) ተጠቐም።",
+            "am": "አንድ ወላጅ ብቻ እንዲወስን ከፈለጉ ምልክት አያድርጉ። ብቸኛ ሕጋዊ ሞግዚትነት (4a) ይጠቀሙ።",
+            "ar": "لا تضع علامة إذا أردت أن يتخذ أحد الوالدين فقط القرارات. استخدم الحضانة القانونية المنفردة (4a).",
+            "ht": "Pa make sa si ou vle yon sèl paran pran tout desizyon. Itilize gad legal sèl (4a).",
+            "ko": "한 부모만 결정하길 원하면 체크하지 마세요. 단독 법적 양육권(4a)을 사용하세요.",
+            "pt": "Não marque se deseja que apenas um dos pais tome decisões. Use guarda legal exclusiva (4a).",
+            "ru": "Не отмечайте, если хотите, чтобы решения принимал только один родитель. Используйте единоличную юридическую опеку (4a).",
+            "tl": "Huwag i-check kung gusto mong isang magulang lang ang magdesisyon. Gamitin ang sole legal custody (4a)."
+          }
+        },
+        {
+          "field_id": "item_4c_sole_physical",
+          "field_label": "Physical custody to (name)",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you want the children to live primarily with ONE parent. The other parent would have visitation. Write that parent's name on the line.",
+            "es": "Marque si quiere que los hijos vivan principalmente con UN padre. El otro padre tendría visitas.",
+            "zh": "如果您希望子女主要与一位父/母居住，请勾选。另一方将有探视权。",
+            "vi": "Đánh dấu nếu bạn muốn con sống chủ yếu với MỘT cha/mẹ. Bên kia sẽ có quyền thăm nom.",
+            "so": "Calaamadee haddii aad rabto carruurtu inay la noolaadaan HAL waalid oo keliya.",
+            "ti": "ቆልዑ ብቐንዱ ምስ ሓደ ወላዲ ክነብሩ እንተደሊኻ ምልክት ግበር።",
+            "am": "ልጆቹ በዋናነት ከአንድ ወላጅ ጋር እንዲኖሩ ከፈለጉ ምልክት ያድርጉ።",
+            "ar": "ضع علامة إذا كنت تريد أن يعيش الأطفال بشكل أساسي مع أحد الوالدين.",
+            "ht": "Make sa si ou vle timoun yo viv sitou ak YON paran. Lòt paran an ap gen vizit.",
+            "ko": "자녀가 주로 한 부모와 살기를 원하면 체크하세요.",
+            "pt": "Marque se deseja que os filhos morem principalmente com UM dos pais.",
+            "ru": "Отметьте, если хотите, чтобы дети жили преимущественно с ОДНИМ родителем.",
+            "tl": "I-check kung gusto mong ang mga bata ay manirahan pangunahin sa ISANG magulang."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if you want the children to split time roughly equally between both parents. Use joint physical custody (4d).",
+            "es": "No marque si quiere que los hijos dividan el tiempo entre ambos padres. Use custodia física conjunta (4d).",
+            "zh": "如果您希望子女在双方之间大致平等分配时间，请不要勾选。使用共同实际监护权（4d）。",
+            "vi": "Không đánh dấu nếu muốn con chia đều thời gian giữa hai bên. Dùng quyền nuôi con chung (4d).",
+            "so": "Ha calaamadayn haddii aad rabto carruurtu inay waqtiga u kala qaybsadaan labada waalid. Isticmaal 4d.",
+            "ti": "ቆልዑ ግዜ ማዕረ ክኸፋፈሉ እንተደሊኻ ኣይትምልከት። ሓባራዊ ኣካላዊ ሓለዋ (4d) ተጠቐም።",
+            "am": "ልጆቹ ጊዜያቸውን በእኩል ካካፈሉ ምልክት አያድርጉ። የጋራ ቁሳዊ ሞግዚትነት (4d) ይጠቀሙ።",
+            "ar": "لا تضع علامة إذا أردت تقسيم الوقت بالتساوي. استخدم الحضانة الجسدية المشتركة (4d).",
+            "ht": "Pa make sa si ou vle timoun yo separe tan an menm ant toude paran. Itilize gad fizik konjwen (4d).",
+            "ko": "자녀가 양 부모 사이에서 거의 동등하게 시간을 나누길 원하면 체크하지 마세요. 공동 양육권(4d)을 사용하세요.",
+            "pt": "Não marque se deseja que os filhos dividam o tempo igualmente. Use guarda física conjunta (4d).",
+            "ru": "Не отмечайте, если хотите равное распределение времени. Используйте совместную физическую опеку (4d).",
+            "tl": "Huwag i-check kung gusto mong hatiin ng mga bata ang oras nang pantay. Gamitin ang joint physical custody (4d)."
+          }
+        },
+        {
+          "field_id": "item_4d_joint_physical",
+          "field_label": "Joint physical custody to (names)",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you want the children to spend significant time living with BOTH parents under a shared schedule.",
+            "es": "Marque si quiere que los hijos pasen tiempo significativo viviendo con AMBOS padres bajo un horario compartido.",
+            "zh": "如果您希望子女在共同时间表下与双方父母都有大量居住时间，请勾选。",
+            "vi": "Đánh dấu nếu bạn muốn con dành thời gian đáng kể sống với CẢ HAI cha mẹ theo lịch chia sẻ.",
+            "so": "Calaamadee haddii aad rabto carruurtu inay waqti muhiim ah la noolaadaan LABADA waalid.",
+            "ti": "ቆልዑ ምስ ክልቲኦም ወለዲ ኣገዳሲ ግዜ ክሕልፉ እንተደሊኻ ምልክት ግበር።",
+            "am": "ልጆቹ በሁለቱም ወላጆች ዘንድ ጉልህ ጊዜ እንዲያሳልፉ ከፈለጉ ምልክት ያድርጉ።",
+            "ar": "ضع علامة إذا كنت تريد أن يقضي الأطفال وقتًا كبيرًا مع كلا الوالدين وفق جدول مشترك.",
+            "ht": "Make sa si ou vle timoun yo pase tan enpòtan ak TOUDE paran anba yon orè pataje.",
+            "ko": "자녀가 공유 일정에 따라 양 부모와 상당한 시간을 보내길 원하면 체크하세요.",
+            "pt": "Marque se deseja que os filhos passem tempo significativo com AMBOS os pais em cronograma compartilhado.",
+            "ru": "Отметьте, если хотите, чтобы дети проводили значительное время с ОБОИМИ родителями по совместному графику.",
+            "tl": "I-check kung gusto mong ang mga bata ay gumugol ng mahalaga na oras sa PAREHONG magulang sa shared schedule."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if you want the children to live with only one parent. Use sole physical custody (4c).",
+            "es": "No marque si quiere que los hijos vivan con solo un padre. Use custodia física exclusiva (4c).",
+            "zh": "如果您希望子女只与一方居住，请不要勾选。使用单独实际监护权（4c）。",
+            "vi": "Không đánh dấu nếu muốn con sống chỉ với một bên. Dùng quyền nuôi con riêng (4c).",
+            "so": "Ha calaamadayn haddii aad rabto carruurtu inay la noolaadaan hal waalid oo keliya. Isticmaal 4c.",
+            "ti": "ቆልዑ ምስ ሓደ ወላዲ ጥራይ ክነብሩ እንተደሊኻ ኣይትምልከት። በይኑ ኣካላዊ ሓለዋ (4c) ተጠቐም።",
+            "am": "ልጆቹ ከአንድ ወላጅ ብቻ ጋር እንዲኖሩ ከፈለጉ ምልክት አያድርጉ። ብቸኛ ቁሳዊ ሞግዚትነት (4c) ይጠቀሙ።",
+            "ar": "لا تضع علامة إذا أردت أن يعيش الأطفال مع والد واحد فقط. استخدم الحضانة الجسدية المنفردة (4c).",
+            "ht": "Pa make sa si ou vle timoun yo viv ak yon sèl paran. Itilize gad fizik sèl (4c).",
+            "ko": "자녀가 한 부모와만 살기를 원하면 체크하지 마세요. 단독 양육권(4c)을 사용하세요.",
+            "pt": "Não marque se deseja que os filhos morem com apenas um dos pais. Use guarda física exclusiva (4c).",
+            "ru": "Не отмечайте, если хотите, чтобы дети жили с одним родителем. Используйте единоличную физическую опеку (4c).",
+            "tl": "Huwag i-check kung gusto mong ang mga bata ay manirahan sa isang magulang lang. Gamitin ang sole physical custody (4c)."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_5",
+      "fields": [
+        {
+          "field_id": "item_5_visitation_schedule",
+          "field_label": "Visitation (parenting time) for (name)",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "Write the name of the parent who will have VISITATION time (the non-custodial parent). Then describe the specific schedule you are requesting — days, times, holidays, summers. Be as detailed as possible.",
+            "es": "Escriba el nombre del padre que tendrá tiempo de VISITACIÓN. Luego describa el horario específico — días, horas, feriados, veranos. Sea lo más detallado posible.",
+            "zh": "填写将拥有探视时间的父/母姓名（非监护方）。然后描述您所请求的具体时间安排——天数、时间、假期、暑假。尽可能详细。",
+            "vi": "Viết tên phụ huynh sẽ có thời gian THĂM CON. Mô tả lịch cụ thể — ngày, giờ, ngày lễ, mùa hè. Càng chi tiết càng tốt.",
+            "so": "Qor magaca waalidka booqashada leh. Sharrax jadwalka — maalmo, saacado, maalmaha fasaxa. Si faahfaahsan u qor.",
+            "ti": "ናይ ምብጻሕ ግዜ ዝረክብ ወላዲ ስም ጸሓፍ። ዝርዝር መደብ ግለጽ — መዓልታት፣ ሰዓታት፣ በዓላት።",
+            "am": "የጉብኝት ጊዜ የሚኖረውን ወላጅ ስም ይጻፉ። ዝርዝር የጊዜ ሰሌዳ ይግለጹ — ቀናት፣ ሰዓታት፣ በዓላት።",
+            "ar": "اكتب اسم الوالد الذي سيحصل على وقت الزيارة. صف الجدول المحدد — الأيام والأوقات والعطل.",
+            "ht": "Ekri non paran ki pral gen tan VIZIT. Dekri orè espesifik — jou, lè, vakans, ete.",
+            "ko": "방문 시간을 가질 부모의 이름을 쓰세요. 구체적 일정 — 요일, 시간, 공휴일을 상세히 기술하세요.",
+            "pt": "Escreva o nome do genitor que terá tempo de VISITAÇÃO. Descreva o cronograma específico — dias, horários, feriados.",
+            "ru": "Напишите имя родителя, который будет иметь время посещения. Опишите конкретное расписание — дни, часы, праздники.",
+            "tl": "Isulat ang pangalan ng magulang na magkakaroon ng VISITATION. Ilarawan ang partikular na iskedyul — araw, oras, holiday."
+          }
+        },        {
+          "field_id": "item_5a_reasonable",
+          "field_label": "Reasonable visitation",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you want the parents to work out a flexible visitation schedule together WITHOUT the court specifying exact days and times.",
+            "es": "Marque si quiere que los padres acuerden un horario flexible de visitas SIN que el tribunal especifique días y horas exactas.",
+            "zh": "如果您希望父母双方自行协商灵活的探视安排，法院不指定具体日期和时间，请勾选。",
+            "vi": "Đánh dấu nếu bạn muốn cha mẹ tự sắp xếp lịch thăm con linh hoạt MÀ KHÔNG cần tòa chỉ định ngày giờ cụ thể.",
+            "so": "Calaamadee haddii aad rabto waalidiintu inay isku afgaraan jadwal booqasho oo dabacsan.",
+            "ti": "ወለዲ ብዘይ ፍሉይ መዓልታት ብተዓዛዝነት ናይ ምብጻሕ ግዜ ክወዳደቡ እንተደሊኻ ምልክት ግበር።",
+            "am": "ወላጆች ፍርድ ቤቱ ልዩ ቀናት ሳይወስን ተለዋዋጭ የጉብኝት ጊዜ ሰሌዳ እንዲስማሙ ከፈለጉ ምልክት ያድርጉ።",
+            "ar": "ضع علامة إذا كنت تريد أن يتفق الوالدان على جدول زيارة مرن بدون أن تحدد المحكمة أيامًا وأوقاتًا.",
+            "ht": "Make sa si ou vle paran yo travay sou yon orè vizit fleksib SAN tribinal bay jou ak lè egzat.",
+            "ko": "부모가 법원이 정확한 날짜와 시간을 지정하지 않고 유연한 방문 일정을 함께 정하길 원하면 체크하세요.",
+            "pt": "Marque se deseja que os pais combinem cronograma flexível de visitas SEM o tribunal especificar dias e horários.",
+            "ru": "Отметьте, если хотите, чтобы родители договорились о гибком графике посещений БЕЗ указания судом дат и времени.",
+            "tl": "I-check kung gusto mong ang mga magulang ay mag-ayos ng flexible na iskedyul ng visitation NANG WALANG eksaktong araw mula sa korte."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if the parents cannot cooperate or if you need the court to set a specific, detailed schedule. Use 5b instead.",
+            "es": "No marque si los padres no pueden cooperar o si necesita que el tribunal establezca un horario específico. Use 5b.",
+            "zh": "如果父母无法合作或您需要法院制定具体时间表，请不要勾选。使用5b。",
+            "vi": "Không đánh dấu nếu cha mẹ không thể hợp tác hoặc bạn cần tòa đặt lịch cụ thể. Dùng 5b.",
+            "so": "Ha calaamadayn haddii waalidiintu ay wada shaqayn kari waayaan. Isticmaal 5b.",
+            "ti": "ወለዲ ክተሓባበሩ እንተዘይክኢሎም ኣይትምልከት። 5b ተጠቐም።",
+            "am": "ወላጆች መተባበር ካልቻሉ ወይም ፍርድ ቤቱ ዝርዝር ሰሌዳ እንዲያወጣ ከፈለጉ ምልክት አያድርጉ። 5b ይጠቀሙ።",
+            "ar": "لا تضع علامة إذا لم يتمكن الوالدان من التعاون أو إذا كنت بحاجة لجدول محدد من المحكمة. استخدم 5b.",
+            "ht": "Pa make sa si paran yo pa ka koperasyon oswa ou bezwen tribinal bay yon orè espesifik. Itilize 5b.",
+            "ko": "부모가 협력할 수 없거나 법원이 구체적 일정을 정하도록 필요하면 체크하지 마세요. 5b를 사용하세요.",
+            "pt": "Não marque se os pais não conseguem cooperar ou se precisa que o tribunal defina cronograma específico. Use 5b.",
+            "ru": "Не отмечайте, если родители не могут сотрудничать или вам нужен конкретный график от суда. Используйте 5b.",
+            "tl": "Huwag i-check kung hindi magkaisa ang mga magulang o kung kailangan ng korte na magtakda ng partikular na iskedyul. Gamitin ang 5b."
+          }
+        },        {
+          "field_id": "item_5b_specific_schedule",
+          "field_label": "Visitation per attached schedule",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you are attaching a detailed visitation schedule with specific days, times, holidays, and pickup/dropoff arrangements.",
+            "es": "Marque si adjunta un horario detallado de visitas con días, horas, feriados y arreglos de recogida/entrega.",
+            "zh": "如果您附上详细的探视时间表，包括具体日期、时间、假期和接送安排，请勾选。",
+            "vi": "Đánh dấu nếu bạn đính kèm lịch thăm con chi tiết với ngày, giờ, lễ, và sắp xếp đón/trả.",
+            "so": "Calaamadee haddii aad lifaaqi jadwal booqasho oo faahfaahsan.",
+            "ti": "ዝርዝር ናይ ምብጻሕ መደብ ምስ ትሕዝቶ ምስ ተተሓሕዝ ምልክት ግበር።",
+            "am": "ዝርዝር የጉብኝት ሰሌዳ ከቀናት፣ ሰዓታት እና በዓላት ጋር ካያያዙ ምልክት ያድርጉ።",
+            "ar": "ضع علامة إذا كنت تُرفق جدول زيارة مفصل بأيام وأوقات وعطل محددة.",
+            "ht": "Make sa si ou tache yon orè vizit detaye ak jou, lè, vakans, ak aranjman pou pran/depoze.",
+            "ko": "구체적인 날짜, 시간, 공휴일, 픽업/드롭오프 일정이 포함된 상세 방문 일정표를 첨부하면 체크하세요.",
+            "pt": "Marque se está anexando cronograma detalhado de visitação com dias, horários e feriados específicos.",
+            "ru": "Отметьте, если прилагаете подробный график посещений с конкретными днями, временем и праздниками.",
+            "tl": "I-check kung nag-aattach ka ng detalyadong iskedyul ng visitation na may mga araw, oras, at holiday."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if you want the parents to work out a flexible schedule on their own. Use 5a (reasonable visitation) instead.",
+            "es": "No marque si quiere que los padres acuerden un horario flexible. Use 5a (visitas razonables).",
+            "zh": "如果您希望父母自行协商灵活安排，请不要勾选。使用5a（合理探视）。",
+            "vi": "Không đánh dấu nếu muốn cha mẹ tự sắp xếp lịch linh hoạt. Dùng 5a.",
+            "so": "Ha calaamadayn haddii aad rabto waalidiintu ay isku afgaraan. Isticmaal 5a.",
+            "ti": "ወለዲ ባዕሎም ክወዳደቡ እንተደሊኻ ኣይትምልከት። 5a ተጠቐም።",
+            "am": "ወላጆች ተለዋዋጭ ሰሌዳ እንዲያስማሙ ከፈለጉ ምልክት አያድርጉ። 5a ይጠቀሙ።",
+            "ar": "لا تضع علامة إذا أردت أن يتفق الوالدان على جدول مرن. استخدم 5a.",
+            "ht": "Pa make sa si ou vle paran yo travay sou yon orè fleksib. Itilize 5a.",
+            "ko": "부모가 유연한 일정을 자체적으로 정하길 원하면 체크하지 마세요. 5a를 사용하세요.",
+            "pt": "Não marque se deseja que os pais combinem cronograma flexível. Use 5a.",
+            "ru": "Не отмечайте, если хотите, чтобы родители сами договорились. Используйте 5a.",
+            "tl": "Huwag i-check kung gusto mong ang mga magulang ay mag-ayos ng flexible na iskedyul. Gamitin ang 5a."
+          }
+        },        {
+          "field_id": "item_5c_no_visitation",
+          "field_label": "No visitation",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this ONLY if you are asking the court to deny ALL visitation to the other parent. This is rare and requires strong evidence of danger to the child — such as abuse, substance abuse, or safety threats.",
+            "es": "Marque SOLO si pide al tribunal que niegue TODA visitación al otro padre. Esto es raro y requiere evidencia fuerte de peligro — abuso, sustancias, amenazas.",
+            "zh": "仅在您要求法院拒绝对方所有探视权时勾选。这种情况罕见，需要有力的危险证据——如虐待、药物滥用或安全威胁。",
+            "vi": "Chỉ đánh dấu nếu bạn yêu cầu tòa từ chối MỌI quyền thăm con của bên kia. Điều này hiếm và cần bằng chứng mạnh về nguy hiểm.",
+            "so": "Calaamadee KALIYA haddii aad codsanayso maxkamaddu inay diiddo DHAMMAAN booqashada waalidka kale. Waxay u baahan tahay caddayn xooggan.",
+            "ti": "ፍርዲ ቤት ንኻልእ ወላዲ ኩሉ ምብጻሕ ክኽልክል ጥራይ ምልክት ግበር። ሓደገኛ ማስረጃ ይሓትት።",
+            "am": "ፍርድ ቤቱ ለሌላው ወላጅ ሁሉንም ጉብኝት እንዲከለክል ብቻ ከጠየቁ ምልክት ያድርጉ። ጠንካራ የአደጋ ማስረጃ ያስፈልጋል።",
+            "ar": "ضع علامة فقط إذا طلبت من المحكمة رفض جميع الزيارات للوالد الآخر. هذا نادر ويتطلب دليلاً قوياً على الخطر.",
+            "ht": "Make sa SÈLMAN si ou mande tribinal la refize TOUT vizit pou lòt paran an. Sa ra epi li mande prèv fò de danje.",
+            "ko": "상대 부모의 모든 방문을 거부하도록 법원에 요청하는 경우에만 체크하세요. 이는 드물며 위험에 대한 강력한 증거가 필요합니다.",
+            "pt": "Marque APENAS se pede ao tribunal negar TODA visitação ao outro genitor. Isto é raro e requer forte evidência de perigo.",
+            "ru": "Отмечайте ТОЛЬКО если просите суд запретить ВСЕ посещения другому родителю. Это редкость и требует серьёзных доказательств опасности.",
+            "tl": "I-check LAMANG kung hinihiling mo sa korte na tanggihan ang LAHAT ng visitation sa kabilang magulang. Bihira ito at nangangailangan ng matibay na ebidensya ng panganib."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if you want some visitation but with restrictions. Instead, use 5a or 5b with specific limitations described in your declaration.",
+            "es": "No marque si quiere alguna visitación con restricciones. Use 5a o 5b con limitaciones en su declaración.",
+            "zh": "如果您想要有限制的探视而非完全禁止，请不要勾选。使用5a或5b并在声明中描述限制。",
+            "vi": "Không đánh dấu nếu bạn muốn một số thăm con nhưng có hạn chế. Dùng 5a hoặc 5b với giới hạn.",
+            "so": "Ha calaamadayn haddii aad rabto booqasho xaddidan. Isticmaal 5a ama 5b.",
+            "ti": "ገደብ ዘለዎ ምብጻሕ እንተደሊኻ ኣይትምልከት። 5a ወይ 5b ተጠቐም።",
+            "am": "ገደብ ያለው ጉብኝት ከፈለጉ ምልክት አያድርጉ። 5a ወይም 5b ይጠቀሙ።",
+            "ar": "لا تضع علامة إذا أردت زيارة مع قيود. استخدم 5a أو 5b مع وصف القيود.",
+            "ht": "Pa make sa si ou vle kèk vizit men ak restriksyon. Itilize 5a oswa 5b ak limitasyon.",
+            "ko": "제한 조건이 있는 방문을 원하면 체크하지 마세요. 5a 또는 5b를 사용하세요.",
+            "pt": "Não marque se deseja visitação com restrições. Use 5a ou 5b com limitações descritas.",
+            "ru": "Не отмечайте, если хотите ограниченное посещение. Используйте 5a или 5b с описанием ограничений.",
+            "tl": "Huwag i-check kung gusto mo ng visitation pero may mga limitasyon. Gamitin ang 5a o 5b."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_6",
+      "fields": [
+        {
+          "field_id": "item_6_child_support",
+          "field_label": "Child Support",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you are asking the court to order child support — either for the other parent to pay you, or to change an existing support order. You will also need to complete an Income and Expense Declaration (FL-150).",
+            "es": "Marque si pide al tribunal que ordene manutención de menores — ya sea que el otro padre le pague a usted, o para cambiar una orden existente. También deberá completar FL-150.",
+            "zh": "如果您要求法院命令子女抚养费——要求对方支付给您，或更改现有的抚养令——请勾选。您还需要填写收入和支出声明（FL-150）。",
+            "vi": "Đánh dấu nếu bạn yêu cầu tòa ra lệnh cấp dưỡng nuôi con — hoặc yêu cầu bên kia trả cho bạn, hoặc thay đổi lệnh hiện có. Bạn cũng cần hoàn thành FL-150.",
+            "so": "Calaamadee haddii aad codsanayso maxkamaddu inay amirto masruufka ilmaha. Waxaad sidoo kale u baahan tahay inaad buuxiso FL-150.",
+            "ti": "ፍርዲ ቤት ናይ ቆልዓ ደገፍ ክእዝዝ እንተሓቲትካ ምልክት ግበር። FL-150 ውን ክትመልእ ኣለካ።",
+            "am": "ፍርድ ቤቱ የልጅ ድጋፍ እንዲያዝ ከጠየቁ ምልክት ያድርጉ። FL-150 መሙላት ያስፈልግዎታል።",
+            "ar": "ضع علامة إذا طلبت من المحكمة أن تأمر بنفقة الأطفال. ستحتاج أيضاً لملء FL-150.",
+            "ht": "Make sa si ou mande tribinal la òdone sipò timoun. Ou pral bezwen ranpli FL-150 tou.",
+            "ko": "법원에 자녀 양육비를 명령해달라고 요청하는 경우 체크하세요. FL-150도 작성해야 합니다.",
+            "pt": "Marque se pede ao tribunal que ordene pensão alimentícia. Você também precisará preencher o FL-150.",
+            "ru": "Отметьте, если просите суд назначить алименты на ребёнка. Вам также нужно заполнить FL-150.",
+            "tl": "I-check kung hinihiling mo sa korte na mag-utos ng child support. Kailangan mo ring kumpletuhin ang FL-150."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if your request does not involve child support. If you only need custody or visitation changes, skip this item.",
+            "es": "No marque si su solicitud no involucra manutención de menores. Si solo necesita cambios de custodia o visitación, omita este punto.",
+            "zh": "如果您的请求不涉及子女抚养费，请不要勾选。如果只需要更改监护权或探视权，请跳过此项。",
+            "vi": "Không đánh dấu nếu yêu cầu của bạn không liên quan đến cấp dưỡng nuôi con. Nếu chỉ cần thay đổi quyền nuôi con hoặc thăm con, bỏ qua mục này.",
+            "so": "Ha calaamadayn haddii codsigaagu aanu ku lug lahayn masruufka ilmaha.",
+            "ti": "ሕቶኻ ናይ ቆልዓ ደገፍ እንተዘየጠቓልል ኣይትምልከት።",
+            "am": "ጥያቄዎ የልጅ ድጋፍ ካላካተተ ምልክት አያድርጉ።",
+            "ar": "لا تضع علامة إذا كان طلبك لا يتعلق بنفقة الأطفال.",
+            "ht": "Pa make sa si demann ou pa gen rapò ak sipò timoun.",
+            "ko": "자녀 양육비와 관련이 없는 요청이면 체크하지 마세요.",
+            "pt": "Não marque se seu pedido não envolve pensão alimentícia.",
+            "ru": "Не отмечайте, если ваш запрос не касается алиментов на ребёнка.",
+            "tl": "Huwag i-check kung ang kahilingan mo ay walang kinalaman sa child support."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_7",
+      "fields": [
+        {
+          "field_id": "item_7_spousal_support",
+          "field_label": "Spousal or Domestic Partner Support",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you are asking the court to order spousal support (alimony) or domestic partner support — either to receive it or to change an existing order. You will also need to file an Income and Expense Declaration (FL-150).",
+            "es": "Marque si pide al tribunal que ordene manutención conyugal o de pareja doméstica — ya sea para recibirla o cambiar una orden existente. Necesitará también el FL-150.",
+            "zh": "如果您要求法院命令配偶赡养费或同居伴侣赡养费，请勾选。您还需要提交收入和支出声明（FL-150）。",
+            "vi": "Đánh dấu nếu bạn yêu cầu tòa ra lệnh cấp dưỡng cho vợ/chồng hoặc bạn đời. Bạn cũng cần nộp FL-150.",
+            "so": "Calaamadee haddii aad codsanayso masruufka xaaska/ninka — ama helitaanka ama beddelka amar jira. FL-150 ayaad u baahan tahay.",
+            "ti": "ናይ በዓል ቤት/በዓልቲ ቤት ደገፍ እንተሓቲትካ ምልክት ግበር። FL-150 ውን የድሊ።",
+            "am": "የትዳር ጓደኛ ድጋፍ ለመጠየቅ ምልክት ያድርጉ። FL-150 ያስፈልጋል።",
+            "ar": "ضع علامة إذا طلبت من المحكمة أن تأمر بنفقة الزوج/الشريك. ستحتاج لملء FL-150.",
+            "ht": "Make sa si ou mande tribinal la òdone sipò konjwen oswa patnè domestik. Ou bezwen ranpli FL-150.",
+            "ko": "배우자 부양비 또는 동거 파트너 부양비를 요청하는 경우 체크하세요. FL-150도 필요합니다.",
+            "pt": "Marque se pede ao tribunal que ordene pensão ao cônjuge ou parceiro doméstico. Precisará preencher FL-150.",
+            "ru": "Отметьте, если просите суд назначить содержание супруга/партнёра. Потребуется заполнить FL-150.",
+            "tl": "I-check kung hinihiling mo sa korte na mag-utos ng spousal o domestic partner support. Kailangan mo ring kumpletuhin ang FL-150."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if you are not married or in a domestic partnership, or if your request does not involve spousal/partner support.",
+            "es": "No marque si no está casado/a o en pareja doméstica, o si su solicitud no involucra manutención conyugal.",
+            "zh": "如果您未婚或非同居关系，或您的请求不涉及配偶赡养费，请不要勾选。",
+            "vi": "Không đánh dấu nếu bạn chưa kết hôn hoặc không có quan hệ bạn đời, hoặc yêu cầu không liên quan đến cấp dưỡng.",
+            "so": "Ha calaamadayn haddii aadan guursan ama aan lahayn xiriir qof lammaane ah.",
+            "ti": "ዘይተመርዓኻ/ኺ እንተዄንካ ወይ ሕቶኻ ናይ በዓል ቤት ደገፍ ዘየጠቓልል ኣይትምልከት።",
+            "am": "ያላገቡ ከሆነ ወይም ጥያቄዎ የትዳር ጓደኛ ድጋፍ ካላካተተ ምልክት አያድርጉ።",
+            "ar": "لا تضع علامة إذا لم تكن متزوجاً أو في شراكة منزلية.",
+            "ht": "Pa make sa si ou pa marye oswa ou pa nan yon patenarya domestik.",
+            "ko": "결혼하지 않았거나 동거 파트너십이 아닌 경우, 또는 배우자 부양비와 무관한 요청이면 체크하지 마세요.",
+            "pt": "Não marque se não é casado/a ou parceiro doméstico, ou se o pedido não envolve pensão conjugal.",
+            "ru": "Не отмечайте, если вы не состоите в браке/партнёрстве или запрос не касается содержания супруга.",
+            "tl": "Huwag i-check kung hindi ka kasal o nasa domestic partnership, o kung walang kinalaman sa spousal support."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_8",
+      "fields": [
+        {
+          "field_id": "item_8_property_restraint",
+          "field_label": "Property Restraint/Control",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you are asking the court to make orders about community or separate property — such as preventing the other party from selling, hiding, or destroying assets, or restoring property to you.",
+            "es": "Marque si pide al tribunal órdenes sobre bienes comunitarios o separados — como impedir que la otra parte venda, oculte o destruya activos.",
+            "zh": "如果您要求法院就共同财产或个人财产作出命令——例如阻止对方出售、隐藏或销毁资产，请勾选。",
+            "vi": "Đánh dấu nếu bạn yêu cầu tòa ra lệnh về tài sản chung hoặc riêng — như ngăn bên kia bán, giấu hoặc phá hủy tài sản.",
+            "so": "Calaamadee haddii aad codsanayso maxkamaddu inay amirto arrimaha hantida wadaagga ama gaarka ah.",
+            "ti": "ብዛዕባ ሓባራዊ ወይ ውልቃዊ ንብረት ትእዛዝ እንተሓቲትካ ምልክት ግበር።",
+            "am": "ስለ የጋራ ወይም የግል ንብረት ፍርድ ቤቱ ትእዛዝ እንዲሰጥ ከጠየቁ ምልክት ያድርጉ።",
+            "ar": "ضع علامة إذا طلبت من المحكمة أوامر بشأن الممتلكات المشتركة أو المنفصلة.",
+            "ht": "Make sa si ou mande tribinal la fè lòd sou pwopriyete kominote oswa separe.",
+            "ko": "공동 재산 또는 별도 재산에 관한 법원 명령을 요청하는 경우 체크하세요.",
+            "pt": "Marque se pede ao tribunal ordens sobre bens comunitários ou separados.",
+            "ru": "Отметьте, если просите суд вынести распоряжение о совместном или раздельном имуществе.",
+            "tl": "I-check kung hinihiling mo sa korte na gumawa ng mga utos tungkol sa community o separate property."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if your request is only about custody, visitation, or support and does not involve property issues.",
+            "es": "No marque si su solicitud solo involucra custodia, visitación o manutención y no incluye asuntos de propiedad.",
+            "zh": "如果您的请求仅涉及监护权、探视权或赡养费，不涉及财产问题，请不要勾选。",
+            "vi": "Không đánh dấu nếu yêu cầu chỉ liên quan đến quyền nuôi con, thăm con hoặc cấp dưỡng, không liên quan tài sản.",
+            "so": "Ha calaamadayn haddii codsigaagu yahay oo keliya xadaynta, booqashada, ama masruufka.",
+            "ti": "ሕቶኻ ናይ ሓለዋ፡ ምብጻሕ ወይ ደገፍ ጥራይ እንተኾይኑ ኣይትምልከት።",
+            "am": "ጥያቄዎ ስለ ሞግዚትነት፣ ጉብኝት ወይም ድጋፍ ብቻ ከሆነ ምልክት አያድርጉ።",
+            "ar": "لا تضع علامة إذا كان طلبك يتعلق فقط بالحضانة أو الزيارة أو النفقة.",
+            "ht": "Pa make sa si demann ou konsène sèlman gadyen, vizit, oswa sipò.",
+            "ko": "양육권, 방문권 또는 부양비만 관련된 요청이면 체크하지 마세요.",
+            "pt": "Não marque se seu pedido é apenas sobre guarda, visitação ou pensão.",
+            "ru": "Не отмечайте, если запрос касается только опеки, посещений или алиментов.",
+            "tl": "Huwag i-check kung ang kahilingan mo ay tungkol lamang sa custody, visitation, o support."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_9",
+      "fields": [
+        {
+          "field_id": "item_9_other_relief",
+          "field_label": "Other Relief",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this if you are asking the court for something NOT covered by items 4–8 — for example, attorney fees, a move-away order, appointment of a child custody evaluator, or any other specific order. Write the details on a Declaration (MC-031) and attach it.",
+            "es": "Marque si pide al tribunal algo NO cubierto por los puntos 4–8 — por ejemplo, honorarios de abogado, orden de mudanza, nombramiento de evaluador. Escriba los detalles en MC-031 y adjúntelo.",
+            "zh": "如果您要求法院就第4-8项未涵盖的事项作出命令——例如律师费、搬迁令、指定监护权评估人——请勾选。在声明书（MC-031）上写明细节并附上。",
+            "vi": "Đánh dấu nếu bạn yêu cầu tòa điều gì KHÔNG nằm trong mục 4–8 — ví dụ phí luật sư, lệnh di chuyển, bổ nhiệm người đánh giá. Viết chi tiết trên MC-031.",
+            "so": "Calaamadee haddii aad codsanayso wax aan ku jirin qodobada 4–8. Faahfaahinta ku qor MC-031.",
+            "ti": "ካብ 4–8 ዘይሽፍኖ ነገር ካብ ፍርዲ ቤት እንተሓቲትካ ምልክት ግበር። ዝርዝር ኣብ MC-031 ጽሓፍ።",
+            "am": "ከንጥል 4–8 ውጪ ነገር ከጠየቁ ምልክት ያድርጉ። ዝርዝሩን በ MC-031 ላይ ይጻፉ።",
+            "ar": "ضع علامة إذا طلبت شيئاً غير مشمول بالبنود 4–8. اكتب التفاصيل في MC-031.",
+            "ht": "Make sa si ou mande tribinal la pou yon bagay ki PA kouvri nan atik 4–8. Ekri detay sou MC-031.",
+            "ko": "4–8항에 포함되지 않는 사항을 법원에 요청하는 경우 체크하세요. 세부 사항을 MC-031에 작성하세요.",
+            "pt": "Marque se pede algo NÃO coberto pelos itens 4–8. Escreva detalhes no MC-031.",
+            "ru": "Отметьте, если просите о чём-то, НЕ охваченном пунктами 4–8. Напишите подробности в MC-031.",
+            "tl": "I-check kung humihiling ka ng HINDI saklaw ng items 4–8. Isulat ang detalye sa MC-031."
+          },
+          "do_not_check_if": {
+            "en": "Do not check if all your requests are covered by items 4–8 (custody, visitation, child support, spousal support, property).",
+            "es": "No marque si todas sus solicitudes están cubiertas por los puntos 4–8.",
+            "zh": "如果所有请求都已包含在第4-8项中，请不要勾选。",
+            "vi": "Không đánh dấu nếu tất cả yêu cầu đã nằm trong mục 4–8.",
+            "so": "Ha calaamadayn haddii dhammaan codsiyaadaadu ku jiraan qodobada 4–8.",
+            "ti": "ኩሉ ሕቶታትካ ኣብ 4–8 እንተተሸፊኑ ኣይትምልከት።",
+            "am": "ሁሉም ጥያቄዎች በ4–8 ከተሸፈኑ ምልክት አያድርጉ።",
+            "ar": "لا تضع علامة إذا كانت جميع طلباتك مشمولة بالبنود 4–8.",
+            "ht": "Pa make sa si tout demann ou yo kouvri nan atik 4–8.",
+            "ko": "모든 요청이 4–8항에 포함되어 있으면 체크하지 마세요.",
+            "pt": "Não marque se todos os seus pedidos estão cobertos pelos itens 4–8.",
+            "ru": "Не отмечайте, если все ваши запросы охвачены пунктами 4–8.",
+            "tl": "Huwag i-check kung lahat ng kahilingan mo ay saklaw na ng items 4–8."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_10",
+      "fields": [
+        {
+          "field_id": "item_10_facts",
+          "field_label": "Facts in Support",
+          "field_type": "checkbox",
+          "check_if": {
+            "en": "Check this to indicate that facts supporting your request are provided in the attached declaration. You MUST attach a Declaration (MC-031 or typed on pleading paper) explaining WHY you need the orders you are requesting. Without supporting facts, the judge cannot grant your request.",
+            "es": "Marque para indicar que los hechos de apoyo están en la declaración adjunta. DEBE adjuntar una Declaración (MC-031 o escrita en papel legal) explicando POR QUÉ necesita las órdenes. Sin hechos, el juez no puede otorgar su solicitud.",
+            "zh": "勾选此项表示支持您请求的事实已在所附声明中提供。您必须附上一份声明（MC-031或在诉讼文书纸上打字），解释您为什么需要这些命令。",
+            "vi": "Đánh dấu để cho biết các sự kiện hỗ trợ yêu cầu có trong bản khai đính kèm. Bạn PHẢI đính kèm Bản khai (MC-031) giải thích TẠI SAO bạn cần các lệnh này.",
+            "so": "Calaamadee si aad u muujiso in xaqiiqooyinka ku jiraan bayaanka la xidhiidhiyey. WAJIB inaad ku lifaaqdo Bayaan (MC-031) sharraxaysa SABABTA aad u baahan tahay amarrada.",
+            "ti": "ዝድግፍ ሓቅታት ኣብ ዝተለጠፈ ቃል ምስክር ከምዘሎ ምልክት ግበር። ስለምንታይ እዚ ትእዛዝ ከምዘድልየካ ዝገልጽ MC-031 ክትለጥፍ ኣለካ።",
+            "am": "ጥያቄዎን የሚደግፉ እውነታዎች በተያያዘው ቃለ ምልልስ ውስጥ መኖራቸውን ለማመልከት ምልክት ያድርጉ። ለምን እነዚህን ትዕዛዞች እንደሚፈልጉ የሚገልጽ MC-031 ማያያዝ አለብዎት።",
+            "ar": "ضع علامة للإشارة إلى أن الحقائق الداعمة مقدمة في الإقرار المرفق. يجب إرفاق إقرار (MC-031) يوضح لماذا تحتاج هذه الأوامر.",
+            "ht": "Make sa pou montre ke reyalite ki sipòte demann ou yo nan deklarasyon ki tache a. Ou OBLIJE tache yon Deklarasyon (MC-031) ki eksplike POUKISA ou bezwen lòd sa yo.",
+            "ko": "요청을 뒷받침하는 사실이 첨부된 선언서에 제공되었음을 표시하려면 체크하세요. 왜 이러한 명령이 필요한지 설명하는 선언서(MC-031)를 반드시 첨부해야 합니다.",
+            "pt": "Marque para indicar que os fatos de apoio estão na declaração anexa. Você DEVE anexar uma Declaração (MC-031) explicando POR QUE precisa das ordens.",
+            "ru": "Отметьте, чтобы указать, что подтверждающие факты приведены в прилагаемом заявлении. Вы ДОЛЖНЫ приложить заявление (MC-031), объясняющее, ПОЧЕМУ вам нужны эти распоряжения.",
+            "tl": "I-check para ipahiwatig na ang mga katotohanan na sumusuporta ay nasa nakalakip na deklarasyon. KAILANGAN mong ilakip ang Declaration (MC-031) na nagpapaliwanag BAKIT kailangan mo ang mga utos."
+          },
+          "do_not_check_if": {
+            "en": "This box should almost always be checked. If you are filing an FL-300, you need a supporting declaration. Only skip if the court has given you specific alternative instructions.",
+            "es": "Esta casilla casi siempre debe marcarse. Si presenta FL-300, necesita una declaración de apoyo.",
+            "zh": "此框几乎总是应该勾选。如果您提交FL-300，您需要一份支持声明。",
+            "vi": "Ô này hầu như luôn cần được đánh dấu. Nếu bạn nộp FL-300, bạn cần một bản khai hỗ trợ.",
+            "so": "Sanduuqaan had iyo jeer waa in la calaamadeeyaa. Haddii aad gudbinayso FL-300, waxaad u baahan tahay bayaan.",
+            "ti": "እዚ ሳጹን ዳርጋ ኩሉ ግዜ ክምላእ ኣለዎ። FL-300 እንተቕርብካ ዝድግፍ ቃል ምስክር የድሊ።",
+            "am": "ይህ ሳጥን ሁልጊዜ ማለት ይቻላል ምልክት መደረግ አለበት። FL-300 ከቀረቡ ደጋፊ ቃለ ምልልስ ያስፈልጋል።",
+            "ar": "يجب تحديد هذا المربع دائماً تقريباً. إذا كنت تقدم FL-300، فأنت بحاجة إلى إقرار داعم.",
+            "ht": "Bwat sa ta prèske toujou dwe make. Si ou depoze FL-300, ou bezwen yon deklarasyon sipò.",
+            "ko": "이 상자는 거의 항상 체크해야 합니다. FL-300을 제출하는 경우 지원 선언서가 필요합니다.",
+            "pt": "Esta caixa quase sempre deve ser marcada. Se apresenta FL-300, precisa de uma declaração de apoio.",
+            "ru": "Эту графу почти всегда нужно отмечать. При подаче FL-300 необходимо приложить заявление.",
+            "tl": "Ang kahon na ito ay halos palaging kailangang i-check. Kung nagfa-file ka ng FL-300, kailangan mo ng supporting declaration."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_11",
+      "fields": [
+        {
+          "field_id": "item_11_hearing_date",
+          "field_label": "Date of Hearing",
+          "field_type": "date_field",
+          "guidance": {
+            "en": "The court clerk will assign a hearing date when you file this form. Leave this blank when you first prepare FL-300 — the clerk will stamp or write the date, time, and department. After filing, you must serve the other party at least 16 court days before the hearing (plus extra days for mail service).",
+            "es": "El secretario del tribunal asignará la fecha de audiencia cuando presente este formulario. Déjelo en blanco al preparar FL-300 — el secretario sellará la fecha, hora y departamento. Después de presentar, debe notificar a la otra parte al menos 16 días hábiles antes.",
+            "zh": "法院书记员会在您提交此表格时分配听证日期。首次准备FL-300时请留空——书记员会盖章或写上日期、时间和部门。提交后，您必须在听证前至少16个法院工作日送达对方。",
+            "vi": "Thư ký tòa sẽ ấn định ngày điều trần khi bạn nộp mẫu đơn. Để trống khi chuẩn bị FL-300 — thư ký sẽ đóng dấu ngày, giờ và phòng. Sau khi nộp, bạn phải tống đạt cho bên kia ít nhất 16 ngày làm việc trước buổi điều trần.",
+            "so": "Xoghayaha maxkamaddu wuxuu qoondeyn doonaa taariikhda dhageysiga markaad gudbiso foomkan. Banaan ka tag markaad diyaarinayso FL-300. Kadib, waa inaad u gaarsiiso dhinaca kale ugu yaraan 16 maalmood maxkamadeed ka hor.",
+            "ti": "ጸሓፊ ቤት ፍርዲ ነዚ ፎርም ክትቕርብ ከለኻ ናይ ምስማዕ ዕለት ክህብ እዩ። FL-300 ክትዳሎ ከለኻ ባዶ ግደፎ። ድሕሪ ምቕራብ ካብ ምስማዕ ቅድሚ 16 ናይ ስራሕ መዓልታት ክትበጽሕ ኣለካ።",
+            "am": "ይህን ቅጽ ሲያቀርቡ የፍርድ ቤት ጸሐፊ የችሎት ቀን ይመድባል። FL-300 ሲያዘጋጁ ባዶ ይተውት። ከቀረቡ በኋላ ከችሎት ቀን ቢያንስ 16 የስራ ቀናት ቀደም ብሎ ለሌላው ወገን ማድረስ አለብዎት።",
+            "ar": "سيحدد كاتب المحكمة تاريخ الجلسة عند تقديم هذا النموذج. اتركه فارغاً عند إعداد FL-300. بعد التقديم، يجب إبلاغ الطرف الآخر قبل 16 يوم عمل على الأقل.",
+            "ht": "Grefye tribinal la ap bay yon dat odyans lè ou depoze fòm sa a. Kite li vid lè ou prepare FL-300 — grefye a ap tanpe dat, lè ak depatman. Apre depoze, ou dwe sèvi lòt pati a omwen 16 jou tribinal anvan.",
+            "ko": "이 양식을 제출하면 법원 서기가 심리 날짜를 배정합니다. FL-300을 처음 준비할 때는 비워두세요. 제출 후 심리일 최소 16 법원 영업일 전에 상대방에게 송달해야 합니다.",
+            "pt": "O cartório atribuirá uma data de audiência quando você protocolar. Deixe em branco ao preparar FL-300. Após protocolar, deve intimar a outra parte pelo menos 16 dias úteis antes.",
+            "ru": "Секретарь суда назначит дату слушания при подаче. Оставьте пустым при подготовке FL-300. После подачи необходимо уведомить другую сторону минимум за 16 рабочих дней.",
+            "tl": "Ang court clerk ang mag-aassign ng hearing date kapag na-file mo ang form. Iwanan itong blangko kapag unang inihanda ang FL-300. Pagkatapos i-file, kailangan mong i-serve ang kabilang partido hindi bababa sa 16 na court days bago ang hearing."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "footer",
+      "fields": [
+        {
+          "field_id": "footer_date",
+          "field_label": "Date",
+          "field_type": "date_field",
+          "guidance": {
+            "en": "Enter today's date — the date you are signing this form. Use MM/DD/YYYY format.",
+            "es": "Escriba la fecha de hoy — la fecha en que firma este formulario. Use formato MM/DD/AAAA.",
+            "zh": "输入今天的日期——您签署此表格的日期。使用MM/DD/YYYY格式。",
+            "vi": "Nhập ngày hôm nay — ngày bạn ký mẫu đơn. Dùng định dạng MM/DD/YYYY.",
+            "so": "Geli taariikhda maanta — maalinta aad saxeexayso foomkan. Isticmaal qaabka MM/DD/YYYY.",
+            "ti": "ናይ ሎሚ ዕለት ኣእቱ — ነዚ ፎርም ዝፍርመሉ ዕለት። MM/DD/YYYY ተጠቐም።",
+            "am": "የዛሬውን ቀን ያስገቡ — ይህን ቅጽ የሚፈርሙበት ቀን። MM/DD/YYYY ይጠቀሙ።",
+            "ar": "أدخل تاريخ اليوم — تاريخ توقيعك على هذا النموذج. استخدم التنسيق MM/DD/YYYY.",
+            "ht": "Mete dat jodi a — dat ou siye fòm sa a. Itilize fòma MM/DD/AAAA.",
+            "ko": "오늘 날짜 — 이 양식에 서명하는 날짜를 입력하세요. MM/DD/YYYY 형식을 사용하세요.",
+            "pt": "Insira a data de hoje — a data em que assina este formulário. Use formato MM/DD/AAAA.",
+            "ru": "Введите сегодняшнюю дату — дату подписания формы. Формат: MM/DD/YYYY.",
+            "tl": "Ilagay ang petsa ngayon — ang petsa na pipirmahan mo ang form. Gamitin ang format na MM/DD/YYYY."
+          }
+        },
+        {
+          "field_id": "footer_signature",
+          "field_label": "Signature of Petitioner/Attorney",
+          "field_type": "signature",
+          "guidance": {
+            "en": "Sign your name here. If you are representing yourself (In Pro Per), YOU sign. This is your declaration under penalty of perjury that the information in this form is true and correct. Do NOT have someone else sign for you.",
+            "es": "Firme aquí. Si se representa a sí mismo (In Pro Per), USTED firma. Esta es su declaración bajo pena de perjurio de que la información es verdadera. NO permita que otra persona firme por usted.",
+            "zh": "在此签名。如果您自己代表自己（In Pro Per），请您亲自签名。这是您在伪证罪处罚下声明信息真实正确。不要让其他人代签。",
+            "vi": "Ký tên tại đây. Nếu bạn tự đại diện (In Pro Per), BẠN ký. Đây là lời khai của bạn dưới hình phạt khai man. KHÔNG để người khác ký thay.",
+            "so": "Halkan ku saxeex. Haddii aad naftaada u matashahay (In Pro Per), ADIGA saxeex. Tani waa bayaan tahay ciqaab been ah haddii macluumaadku beeneen yahay.",
+            "ti": "ኣብዚ ፈርም። ንርእስኻ ትውክል (In Pro Per) እንተሃሊኻ ባዕልኻ ፈርም። ሓበሬታ ሓቂ ምዃኑ ኣብ ትሕቲ መቕጻዕቲ ሓሶ ቃል ትኣቱ ኣለኻ።",
+            "am": "እዚህ ይፈርሙ። እራስዎን ከወከሉ (In Pro Per) እርስዎ ይፈርሙ። ይህ መረጃ ትክክል መሆኑን በሐሰት ቃል ቅጣት ስር ያረጋግጣሉ።",
+            "ar": "وقّع هنا. إذا كنت تمثل نفسك (In Pro Per)، أنت توقع. هذا إقرارك تحت طائلة شهادة الزور.",
+            "ht": "Siyen non ou isit la. Si ou reprezante tèt ou (In Pro Per), OU siyen. Sa se deklarasyon ou anba penalite pou fo temwayaj.",
+            "ko": "여기에 서명하세요. 본인이 스스로 대리하는 경우(In Pro Per) 본인이 서명합니다. 이것은 위증 처벌 하에 정보가 사실임을 선언하는 것입니다.",
+            "pt": "Assine aqui. Se está se representando (In Pro Per), VOCÊ assina. Esta é sua declaração sob pena de perjúrio.",
+            "ru": "Поставьте подпись здесь. Если представляете себя сами (In Pro Per), ВЫ подписываете. Это ваше заявление под страхом уголовной ответственности за ложные показания.",
+            "tl": "Lagdaan dito. Kung ikaw ang kumakatawan sa sarili mo (In Pro Per), IKAW ang pumirma. Ito ang iyong deklarasyon sa ilalim ng parusa ng pagsisinungaling."
+          }
+        }
+      ]
+    }
+  ]
+}

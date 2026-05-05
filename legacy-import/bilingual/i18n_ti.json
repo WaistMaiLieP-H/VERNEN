@@ -1,0 +1,115 @@
+{
+  "app": {
+    "name": "Hartmann Legal Analytics",
+    "tagline": "ብ VERNEN™ ዝሰርሕ",
+    "copyright": "© 2026 Michael Vernen Thomas Hartmann። ኩሉ መሰላት ዝተሓለወ እዩ።"
+  },
+  "nav": {
+    "home": "መበገሲ",
+    "audit": "ናይ ምስማዕ ኦዲት",
+    "results": "ውጽኢታት",
+    "glossary": "ናይ ሕጊ ቃላት",
+    "pricing": "ዋጋ",
+    "about": "ብዛዕባና",
+    "login": "እተዉ",
+    "signup": "ተመዝገቡ",
+    "language": "English"
+  },
+  "hero": {
+    "headline": "ብ AI ዝሰርሕ ናይ ሕጊ ምስማዕ ኦዲት",
+    "subheadline": "ኣብ 14 ፍሉያት ዓውድታት ናይ ስርዓት ጉድለታት፣ ናይ መሰል ጥሕሰታት ከምኡ'ውን ናይ ምስማዕ ፍሽለታት ኣለሊ።",
+    "cta_primary": "ኦዲትኩም ጀምሩ",
+    "cta_secondary": "ከመይ ከም ዝሰርሕ ርኣዩ"
+  },
+  "audit": {
+    "title": "ናይ ምስማዕ ኦዲት",
+    "upload_label": "ሰነድ ጸዓኑ",
+    "upload_hint": "PDF፣ DOCX ወይ ጽሑፍ — ናይ ቤት-ፍርዲ ትእዛዛት፣ ናይ ትካል ደብዳቤታት፣ ናይ ፖሊስ ጸብጻባት፣ ናይ ሕክምና ገምጋማት፣ ናይ CPS ውሳኔታት",
+    "select_domain": "ናይ ኦዲት ዓውዲ ምረጹ",
+    "domains": {
+      "constitutional": "ቅዋማውን ሲቪላውን መሰላት",
+      "family_court": "ናይ ስድራ-ቤት ቤት-ፍርዲ ትእዛዛት",
+      "cps": "CPS / ናይ ቆልዑ ድሕነት",
+      "law_enforcement": "ናይ ሕጊ ኣስከባሪ ባህሪ (POST)",
+      "fbi": "FBI / ናይ ፌደራል ሕጊ ኣስከባሪ",
+      "attorney_conduct": "ናይ ጠበቓ ስነ-ምግባር",
+      "psychiatry": "ሳይካትሪ ከምኡ'ውን ኒውሮሎጂ (ABPN)",
+      "fcs_mediator": "ናይ FCS ሞግዚትነት ኣማኻኺ ባህሪ",
+      "victim_rights": "ናይ ማርሲ ሕጊ / ናይ ግዳይ መሰላት",
+      "labor": "ስራሕ ከምኡ'ውን ቅጥረት",
+      "state_agency": "ናይ ክልል ትካል ደብዳቤታት",
+      "fcra": "FCRA / ናይ ሸማቲ ጸብጻባት",
+      "ssa_disability": "ናይ SSA ስንክልና ውሳኔ",
+      "military": "ናይ USMC ወታሃደራዊ ደረጃታት"
+    },
+    "language_output": "ናይ ጸብጻብ ቋንቋ",
+    "language_english": "እንግሊዝኛ",
+    "language_native": "ትግርኛ",
+    "language_both": "ክልተ-ቋንቋ (እንግሊዝኛ + ትግርኛ)",
+    "submit": "ኦዲት ኣካይዱ",
+    "processing": "ሰነድ ምስ ዝምልከት ደረጃታት ይግምገም ኣሎ...",
+    "estimated_time": "ዝግመት ግዜ: 30–90 ካልኢት"
+  },
+  "results": {
+    "title": "ናይ ኦዲት ረኽቢታት",
+    "summary": "ጽማቕ",
+    "findings": "ረኽቢታት",
+    "standard_violated": "ዝተጣሕሰ ደረጃ",
+    "evidence": "ደጋፊ ምስክርነት",
+    "severity": "ክብደት",
+    "severity_critical": "ኣዝዩ ከቢድ",
+    "severity_major": "ዓቢ",
+    "severity_minor": "ንኡስ",
+    "severity_advisory": "ምኽሪ",
+    "recommendation": "ዝምከር ስጉምቲ",
+    "download_pdf": "PDF ጸብጻብ ኣውርዱ",
+    "download_docx": "Word ሰነድ ኣውርዱ",
+    "new_audit": "ካልእ ኦዲት ኣካይዱ",
+    "disclaimer": "እዚ ትንተና ንሓበሬታ ዕላማ ጥራይ እዩ ከምኡ'ውን ናይ ሕጊ ምኽሪ ኣይኮነን። ንናይ ሕጊ ውሳኔታት ብቑዕ ጠበቓ ኣማኽሩ።"
+  },
+  "glossary": {
+    "title": "ናይ ሕጊ ቃላት መዝገበ-ቃላት",
+    "search_placeholder": "ናይ ሕጊ ቃላት ድለዩ...",
+    "english": "እንግሊዝኛ",
+    "native": "ትግርኛ",
+    "definition": "ትርጉም",
+    "context": "ናይ ሕጊ ኣውድ",
+    "no_results": "ዝሰማማዕ ቃላት ኣይተረኽበን።"
+  },
+  "pricing": {
+    "title": "ዋጋ",
+    "per_audit": "ብኦዲት",
+    "monthly": "ወርሓዊ",
+    "annual": "ዓመታዊ",
+    "tier_basic": "መሰረታዊ",
+    "tier_professional": "ሞያዊ",
+    "tier_enterprise": "ትካላዊ",
+    "feature_audits": "ኦዲታት ኣብ ወርሒ",
+    "feature_domains": "ናይ ኦዲት ዓውድታት",
+    "feature_bilingual": "ክልተ-ቋንቋ ጸብጻባት",
+    "feature_priority": "ቀዳምነት ምስራሕ",
+    "feature_api": "ናይ API ተበጻሕነት",
+    "get_started": "ጀምሩ",
+    "contact_us": "ርኸቡና"
+  },
+  "about": {
+    "title": "ብዛዕባና",
+    "description": "Hartmann Legal Analytics ብ AI ዝሰርሕ ናይ ምስማዕ ኦዲት ኣብ ሕጋዊ፣ ደንባዊ ከምኡ'ውን ትካላዊ ዓውድታት የቕርብ። ኣብ VERNEN™ ናይ ትንተና ሞተር ዝተሃንጸ ኮይኑ እቲ ፕላትፎርም ናይ ስርዓት ጉድለታት፣ ናይ መሰል ጥሕሰታት ከምኡ'ውን ናይ ምስማዕ ፍሽለታት ብኢድ ምግምጋም መብዛሕትኡ ግዜ ዝስሕቶም ይኣልሊ።",
+    "creator": "ብ Michael Vernen Thomas Hartmann ዝተፈጥረ",
+    "methodology": "ናይ ምፍጣር ደረጃ (S.o.C.) ኣገባብ",
+    "methodology_desc": "ነፍሲ-ወከፍ ሰነድ ምፍጣሩ ዝገዝአ ፍሉይ ሕጋዊ ደረጃ ኣንጻር ይግምገም — ሓፈሻዊ መትከላት ዘይኮነ፣ ዝምልከት ልክዕ ሕጊ፣ ደንቢ ወይ ሞያዊ ኮድ።"
+  },
+  "footer": {
+    "privacy": "ናይ ብሕትና ፖሊሲ",
+    "terms": "ናይ ኣገልግሎት ውዕላት",
+    "contact": "ርኽብ",
+    "accessibility": "ተበጻሕነት"
+  },
+  "errors": {
+    "upload_failed": "ምጽዓን ኣይተዓወተን። በጃኹም ደጊምኩም ፈትኑ።",
+    "file_too_large": "ፋይል ካብ ዝለዓለ ዓቐን (10 MB) ይዓቢ።",
+    "unsupported_format": "ዘይተደገፈ ናይ ፋይል ቅርጸት። በጃኹም PDF፣ DOCX ወይ TXT ጸዓኑ።",
+    "audit_failed": "ናይ ኦዲት ምስራሕ ኣይተዓወተን። በጃኹም ደጊምኩም ፈትኑ።",
+    "network_error": "ናይ መርበብ ጌጋ። ምትእስሳርኩም ኣረጋግጹ'ሞ ደጊምኩም ፈትኑ።"
+  }
+}

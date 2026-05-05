@@ -1,0 +1,115 @@
+{
+  "app": {
+    "name": "Hartmann Legal Analytics",
+    "tagline": "Powered by VERNEN™",
+    "copyright": "© 2026 Michael Vernen Thomas Hartmann. All rights reserved."
+  },
+  "nav": {
+    "home": "Home",
+    "audit": "Compliance Audit",
+    "results": "Results",
+    "glossary": "Legal Glossary",
+    "pricing": "Pricing",
+    "about": "About",
+    "login": "Log In",
+    "signup": "Sign Up",
+    "language": "Español"
+  },
+  "hero": {
+    "headline": "AI-Powered Legal Compliance Auditing",
+    "subheadline": "Identify procedural defects, rights violations, and compliance failures across 14 specialized domains.",
+    "cta_primary": "Start Your Audit",
+    "cta_secondary": "See How It Works"
+  },
+  "audit": {
+    "title": "Compliance Audit",
+    "upload_label": "Upload Document",
+    "upload_hint": "PDF, DOCX, or plain text — court orders, agency correspondence, police reports, medical evaluations, CPS determinations",
+    "select_domain": "Select Audit Domain",
+    "domains": {
+      "constitutional": "Constitutional & Civil Rights",
+      "family_court": "Family Court Orders",
+      "cps": "CPS / Child Welfare",
+      "law_enforcement": "Law Enforcement Conduct (POST)",
+      "fbi": "FBI / Federal Law Enforcement",
+      "attorney_conduct": "Attorney Ethics (State Bar)",
+      "psychiatry": "Psychiatry & Neurology (ABPN)",
+      "fcs_mediator": "FCS Custody Mediator Conduct",
+      "victim_rights": "Marsy's Law / Victim Rights",
+      "labor": "Labor & Employment",
+      "state_agency": "State Agency Correspondence",
+      "fcra": "FCRA / Consumer Reports",
+      "ssa_disability": "SSA Disability Determination",
+      "military": "USMC Military Standards"
+    },
+    "language_output": "Report Language",
+    "language_english": "English",
+    "language_spanish": "Spanish",
+    "language_both": "Bilingual (English + Spanish)",
+    "submit": "Run Audit",
+    "processing": "Analyzing document against applicable standards...",
+    "estimated_time": "Estimated time: 30–90 seconds"
+  },
+  "results": {
+    "title": "Audit Findings",
+    "summary": "Summary",
+    "findings": "Findings",
+    "standard_violated": "Standard Violated",
+    "evidence": "Supporting Evidence",
+    "severity": "Severity",
+    "severity_critical": "Critical",
+    "severity_major": "Major",
+    "severity_minor": "Minor",
+    "severity_advisory": "Advisory",
+    "recommendation": "Recommended Action",
+    "download_pdf": "Download PDF Report",
+    "download_docx": "Download Word Document",
+    "new_audit": "Run Another Audit",
+    "disclaimer": "This analysis is for informational purposes only and does not constitute legal advice. Consult a qualified attorney for legal determinations."
+  },
+  "glossary": {
+    "title": "Legal Glossary",
+    "search_placeholder": "Search legal terms...",
+    "english": "English",
+    "spanish": "Spanish",
+    "definition": "Definition",
+    "context": "Legal Context",
+    "no_results": "No matching terms found."
+  },
+  "pricing": {
+    "title": "Pricing",
+    "per_audit": "Per Audit",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "tier_basic": "Basic",
+    "tier_professional": "Professional",
+    "tier_enterprise": "Enterprise",
+    "feature_audits": "audits per month",
+    "feature_domains": "audit domains",
+    "feature_bilingual": "Bilingual reports",
+    "feature_priority": "Priority processing",
+    "feature_api": "API access",
+    "get_started": "Get Started",
+    "contact_us": "Contact Us"
+  },
+  "about": {
+    "title": "About",
+    "description": "Hartmann Legal Analytics provides AI-powered compliance auditing across legal, regulatory, and institutional domains. Built on the VERNEN™ analysis engine, the platform identifies procedural defects, rights violations, and compliance failures that manual review often misses.",
+    "creator": "Created by Michael Vernen Thomas Hartmann",
+    "methodology": "Standard of Creation (S.o.C.) Methodology",
+    "methodology_desc": "Every document is audited against the specific legal standard that governed its creation — not general principles, but the exact statute, regulation, or professional code that applies."
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "accessibility": "Accessibility"
+  },
+  "errors": {
+    "upload_failed": "Upload failed. Please try again.",
+    "file_too_large": "File exceeds maximum size (10 MB).",
+    "unsupported_format": "Unsupported file format. Please upload PDF, DOCX, or TXT.",
+    "audit_failed": "Audit processing failed. Please try again.",
+    "network_error": "Network error. Check your connection and try again."
+  }
+}

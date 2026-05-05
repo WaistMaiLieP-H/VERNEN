@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "form_id": "FL-110",
+    "version": "1.0.0",
+    "updated": "2026-02-03",
+    "author": "VERNEN™",
+    "module": "GDN_field_annotations",
+    "languages": ["en","es","zh","vi","so","ti","am","ar","ht","ko","pt","ru","tl"]
+  },
+  "sections": [
+    {
+      "section_id": "header",
+      "fields": [
+        {
+          "field_id": "header_petitioner_name",
+          "field_label": "Petitioner (name)",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Enter the full legal name of the petitioner — the person who filed the FL-100 Petition. This must match the name on the FL-100 exactly.",
+            "es": "Escriba el nombre legal completo del peticionario — la persona que presentó la petición FL-100. Debe coincidir exactamente con el nombre en el FL-100.",
+            "zh": "输入请愿人的完整法定姓名——提交FL-100请愿书的人。必须与FL-100上的姓名完全一致。",
+            "vi": "Nhập tên pháp lý đầy đủ của người thỉnh cầu — người đã nộp đơn FL-100. Phải khớp chính xác với tên trên FL-100.",
+            "so": "Geli magaca sharciga oo buuxa ee dacwad-bixiyaha — qofka xareeyay FL-100. Waa inuu u dhigmaa sida ku qoran FL-100.",
+            "ti": "ናይ ጠራዓይ ምሉእ ሕጋዊ ስም ኣእቱ — ነቲ FL-100 ጥርዓን ዘቕረበ ሰብ። ኣብ FL-100 ከም ዘሎ ብልክዕ ክሳነ ኣለዎ።",
+            "am": "የአቤቱታ አቅራቢውን ሙሉ ሕጋዊ ስም ያስገቡ — FL-100 ያመለከተው ሰው። ከFL-100 ጋር በትክክል መመሳሰል አለበት።",
+            "ar": "أدخل الاسم القانوني الكامل لمقدم الطلب — الشخص الذي قدم طلب FL-100. يجب أن يتطابق تمامًا مع الاسم في FL-100.",
+            "ht": "Mete non legal konplè moun ki depoze petisyon an — moun ki te depoze FL-100 la. Li dwe matche egzakteman ak non sou FL-100 la.",
+            "ko": "청원서를 제출한 신청인의 정식 법적 이름을 입력하세요. FL-100의 이름과 정확히 일치해야 합니다.",
+            "pt": "Insira o nome legal completo do requerente — a pessoa que apresentou a petição FL-100. Deve corresponder exatamente ao nome no FL-100.",
+            "ru": "Введите полное юридическое имя заявителя — лица, подавшего ходатайство FL-100. Должно точно совпадать с именем в FL-100.",
+            "tl": "Ilagay ang buong legal na pangalan ng petitioner — ang taong nag-file ng FL-100. Dapat eksaktong kapareho ng pangalan sa FL-100."
+          }
+        },
+        {
+          "field_id": "header_respondent_name",
+          "field_label": "Respondent (name)",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Enter the full legal name of the respondent — the other spouse or domestic partner. This must match the respondent name on the FL-100.",
+            "es": "Escriba el nombre legal completo del demandado — el otro cónyuge o pareja doméstica. Debe coincidir con el nombre del demandado en el FL-100.",
+            "zh": "输入被告的完整法定姓名——另一方配偶或家庭伴侣。必须与FL-100上的被告姓名一致。",
+            "vi": "Nhập tên pháp lý đầy đủ của bị đơn — vợ/chồng hoặc bạn đời khác. Phải khớp với tên bị đơn trên FL-100.",
+            "so": "Geli magaca sharciga oo buuxa ee la dacwoonaha — xaaska ama lammaanaha kale. Waa inuu u dhigmaa magaca FL-100.",
+            "ti": "ናይ ተኸሳሲ ምሉእ ሕጋዊ ስም ኣእቱ — ናይቲ ካልእ በዓልቲ ቤት። ኣብ FL-100 ከም ዘሎ ክሳነ ኣለዎ።",
+            "am": "የተከሳሹን ሙሉ ሕጋዊ ስም ያስገቡ — ሌላኛው ባለቤት። ከFL-100 ጋር መመሳሰል አለበት።",
+            "ar": "أدخل الاسم القانوني الكامل للمدعى عليه — الزوج أو الشريك الآخر. يجب أن يتطابق مع الاسم في FL-100.",
+            "ht": "Mete non legal konplè moun ki reponn an — lòt konjwen oswa patnè domestik la. Li dwe matche ak non sou FL-100 la.",
+            "ko": "피신청인의 정식 법적 이름을 입력하세요 — 다른 배우자. FL-100의 이름과 일치해야 합니다.",
+            "pt": "Insira o nome legal completo do requerido — o outro cônjuge. Deve corresponder ao nome no FL-100.",
+            "ru": "Введите полное юридическое имя ответчика — другого супруга. Должно совпадать с именем в FL-100.",
+            "tl": "Ilagay ang buong legal na pangalan ng respondent — ang kabilang asawa. Dapat kapareho ng pangalan sa FL-100."
+          }
+        },        {
+          "field_id": "header_case_number",
+          "field_label": "Case Number",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Enter your case number if one has already been assigned. If you are filing the Petition and Summons at the same time, leave blank — the clerk will stamp it. The case number must match FL-100.",
+            "es": "Escriba el número de caso si ya fue asignado. Si presenta la petición y la citación al mismo tiempo, deje en blanco. El número debe coincidir con el FL-100.",
+            "zh": "如果已分配案件编号，请输入。如果同时提交请愿书和传票，留空——书记官会盖章。案件编号必须与FL-100一致。",
+            "vi": "Nhập số vụ án nếu đã được cấp. Nếu nộp cùng lúc với FL-100, để trống. Số vụ án phải khớp với FL-100.",
+            "so": "Geli lambarka dacwadda haddii la bixiyay. Haddii aad isku mar xareynayso, banaan ka tag. Lambarka waa inuu la mid yahay FL-100.",
+            "ti": "ቁጽሪ ጉዳይ ተዋሂቡ እንተኾይኑ ኣእትዎ። ኣብ ሓደ ጊዜ ምስ FL-100 ትቕርብ እንተኾንካ ባዶ ግደፎ። ቁጽሪ ጉዳይ ምስ FL-100 ክሳነ ኣለዎ።",
+            "am": "የመዝገብ ቁጥር ተሰጥቶ ከሆነ ያስገቡ። ከFL-100 ጋር በተመሳሳይ ጊዜ ካመለከቱ ባዶ ይተውት። ቁጥሩ ከFL-100 ጋር መመሳሰል አለበት።",
+            "ar": "أدخل رقم القضية إذا تم تعيينه. إذا كنت تقدم الطلب والاستدعاء معًا، اتركه فارغًا. يجب أن يتطابق مع FL-100.",
+            "ht": "Mete nimewo dosye a si yo te deja bay li. Si w ap depoze petisyon ak sitasyon an menm tan, kite vid. Nimewo a dwe matche ak FL-100.",
+            "ko": "사건 번호가 이미 배정되었으면 입력하세요. 청원서와 소환장을 동시에 제출하면 비워두세요. FL-100과 일치해야 합니다.",
+            "pt": "Insira o número do caso se já atribuído. Se protocolar petição e citação juntas, deixe em branco. Deve corresponder ao FL-100.",
+            "ru": "Введите номер дела если уже присвоен. Если подаёте заявление и повестку одновременно, оставьте пустым. Номер должен совпадать с FL-100.",
+            "tl": "Ilagay ang case number kung mayroon na. Kung sabay na ini-file ang petisyon at summons, iwanang. Dapat kapareho ng FL-100."
+          }
+        }
+      ]
+    },    {
+      "section_id": "notice_to_respondent",
+      "fields": [
+        {
+          "field_id": "notice_30_day_response",
+          "field_label": "Notice to Respondent — You have 30 calendar days to file a Response (FL-120)",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "This is a pre-printed notice — do NOT write in this area. It tells the respondent they have 30 calendar days after being served to file a Response (FL-120). If they fail to respond, the court can make orders without their input, including custody, support, and property division.",
+            "es": "Este es un aviso preimpreso — NO escriba en esta área. Le indica al demandado que tiene 30 días calendario después de ser notificado para presentar una Respuesta (FL-120). Si no responde, el tribunal puede emitir órdenes sin su participación.",
+            "zh": "这是预印通知——请勿在此区域书写。它告知被告在被送达后有30个日历日提交回复（FL-120）。如果不回复，法院可以在没有其参与的情况下做出命令。",
+            "vi": "Đây là thông báo in sẵn — KHÔNG viết vào khu vực này. Nó cho bị đơn biết có 30 ngày lịch sau khi được tống đạt để nộp Phản hồi (FL-120). Nếu không phản hồi, tòa có thể ra lệnh mà không có ý kiến của họ.",
+            "so": "Tani waa ogeysiis hore loo daabacay — HA ku qorin aaggan. Waxay u sheegaysaa la dacwoonaha inuu haysto 30 maalmood oo taariikheed ka dib markii lagu wareejiyo si uu u xareeyo Jawaab (FL-120).",
+            "ti": "እዚ ቅድሚ ዝተሓትመ ሓበሬታ እዩ — ኣብዚ ቦታ ኣይትጸሓፍ። ንተኸሳሲ ድሕሪ ምቕራብ 30 ናይ ዕለታዊ መዓልታት ጊዜ ከም ዘለዎ ምላሽ (FL-120) ከቕርብ ይሕብሮ።",
+            "am": "ይህ ቀድሞ የታተመ ማስታወቂያ ነው — በዚህ ቦታ አይጻፉ። ተከሳሹ ከተላከ በኋላ 30 የቀን መቁጠሪያ ቀናት ምላሽ (FL-120) ለማቅረብ እንዳለው ይነግረዋል።",
+            "ar": "هذا إشعار مطبوع مسبقًا — لا تكتب في هذه المنطقة. يُبلغ المدعى عليه بأن لديه 30 يومًا تقويميًا بعد التبليغ لتقديم رد (FL-120).",
+            "ht": "Sa a se yon avi ki enprime deja — PA ekri nan zòn sa a. Li di moun ki reponn an ke li gen 30 jou kalandriye apre yo sèvi l pou depoze yon Repons (FL-120).",
+            "ko": "이것은 사전 인쇄된 통지입니다 — 이 영역에 쓰지 마세요. 피신청인에게 송달 후 30일 이내에 응답서(FL-120)를 제출해야 한다고 알립니다.",
+            "pt": "Este é um aviso pré-impresso — NÃO escreva nesta área. Informa ao requerido que tem 30 dias corridos após ser citado para apresentar Resposta (FL-120).",
+            "ru": "Это предварительно напечатанное уведомление — НЕ пишите в этой области. Оно сообщает ответчику, что у него есть 30 календарных дней после вручения для подачи Ответа (FL-120).",
+            "tl": "Ito ay pre-printed na abiso — HUWAG sulatan ang bahaging ito. Sinasabi sa respondent na may 30 calendar days pagkatapos ma-serve para mag-file ng Response (FL-120)."
+          }
+        }
+      ]
+    },    {
+      "section_id": "atros",
+      "fields": [
+        {
+          "field_id": "atros_restraining_orders",
+          "field_label": "Automatic Temporary Restraining Orders (ATROS) — Family Code § 2040",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "This is a pre-printed section — do NOT write here. These are Automatic Temporary Restraining Orders (ATROS) that go into effect immediately when the Summons is served. BOTH spouses are bound by these orders. They prohibit: (1) removing minor children from California without written consent or court order; (2) transferring, selling, or hiding community property; (3) changing insurance beneficiaries; and (4) creating new debt against community property. Violations can result in sanctions under Family Code § 2040.",
+            "es": "Esta sección está preimpresa — NO escriba aquí. Estas son Órdenes de Restricción Temporal Automáticas (ATROS) que entran en vigor inmediatamente al notificarse la citación. AMBOS cónyuges están sujetos. Prohíben: (1) sacar menores de California sin consentimiento escrito u orden judicial; (2) transferir, vender u ocultar bienes comunitarios; (3) cambiar beneficiarios de seguros; (4) crear nuevas deudas contra bienes comunitarios. Las violaciones pueden resultar en sanciones bajo Family Code § 2040.",
+            "zh": "这是预印部分——请勿在此书写。这些是自动临时限制令（ATROS），在传票送达后立即生效。双方配偶均受约束。禁止：(1)未经书面同意或法院命令将未成年子女带出加州；(2)转让、出售或隐藏共同财产；(3)更改保险受益人；(4)对共同财产产生新债务。违规可依据Family Code § 2040受到制裁。",
+            "vi": "Đây là phần in sẵn — KHÔNG viết ở đây. Đây là Lệnh Cấm Tạm Thời Tự Động (ATROS) có hiệu lực ngay khi tống đạt Trát đòi. CẢ HAI bên đều bị ràng buộc. Cấm: (1) đưa con chưa thành niên ra khỏi California; (2) chuyển nhượng, bán hoặc giấu tài sản cộng đồng; (3) thay đổi người thụ hưởng bảo hiểm; (4) tạo nợ mới đối với tài sản cộng đồng. Vi phạm có thể bị xử phạt theo Family Code § 2040.",
+            "so": "Tani waa qayb hore loo daabacay — HA halkan ku qorin. Kuwan waa Amarro Xakameyn Ku-meel-gaadh Toos ah (ATROS) oo dhaqan gala marka Summons-ka la gaarsiyo. LABADA xaas ayay xiraan. Waxay reebaan: (1) carruurta yaryar ee California ka saarka; (2) hantida wadaagga iibinta, wareejinta ama qarinta; (3) beddelka qofka caymiska ka faa'iidaysta; (4) deyn cusub oo lagu sameeyo hantida wadaagga. Xadgudubku wuxuu keeni karaa ciqaab sida ku cad Family Code § 2040.",
+            "ti": "እዚ ቅድሚ ዝተሓትመ ክፋል እዩ — ኣብዚ ኣይትጸሓፍ። እዚኦም ኣውቶማቲክ ግዜያዊ ናይ ምኽልካል ትእዛዛት (ATROS) እዮም፡ ሰመንስ ምስ ቀረበ ብቕጽበት ዝጅምሩ። ክልቲኦም ሰብ ሓዳር ይቕየዱ። ዝኽልክሉ: (1) ቆልዑ ካብ ካሊፎርንያ ምውጻእ; (2) ናይ ሓባር ንብረት ምሻጥ ወይ ምሕባእ; (3) ናይ ኢንሹራንስ ተጠቀምቲ ምቕያር; (4) ኣብ ልዕሊ ናይ ሓባር ንብረት ሓድሽ ዕዳ ምፍጣር። ምጥሓስ ብFamily Code § 2040 ቅጽዓት ከስዕብ ይኽእል።",
+            "am": "ይህ ቀድሞ የታተመ ክፍል ነው — እዚህ አይጻፉ። እነዚህ አውቶማቲክ ጊዜያዊ የእገዳ ትዕዛዞች (ATROS) ናቸው፣ Summons ሲደርስ ወዲያውኑ ተፈጻሚ ይሆናሉ። ሁለቱም ባለቤቶች ይቀደዳሉ። የሚከለክሉ: (1) ልጆችን ከካሊፎርኒያ ማውጣት; (2) የጋራ ንብረት ማሸጥ ወይም መደበቅ; (3) የኢንሹራንስ ተጠቃሚ መቀየር; (4) በጋራ ንብረት ላይ አዲስ ዕዳ መፍጠር። መጣስ በFamily Code § 2040 ቅጣት ያስከትላል።",
+            "ar": "هذا قسم مطبوع مسبقًا — لا تكتب هنا. هذه أوامر تقييدية مؤقتة تلقائية (ATROS) تدخل حيز التنفيذ فور تبليغ الاستدعاء. كلا الزوجين ملزمان بها. تحظر: (1) نقل القاصرين خارج كاليفورنيا; (2) نقل أو بيع أو إخفاء الممتلكات المشتركة; (3) تغيير المستفيدين من التأمين; (4) إنشاء ديون جديدة. المخالفات قد تؤدي لعقوبات بموجب Family Code § 2040.",
+            "ht": "Sa a se yon seksyon ki enprime deja — PA ekri isit la. Sa yo se Lòd Restriksyon Tanporè Otomatik (ATROS) ki antre an vigè imedyatman lè yo sèvi Sitasyon an. TOULÈDE konjwen yo oblije swiv yo. Yo entèdi: (1) retire timoun minè nan Kalifòni; (2) transfere, vann oswa kache pwopriyete kominotè; (3) chanje benefisyè asirans; (4) kreye nouvo dèt sou pwopriyete kominotè. Vyolasyon ka lakòz sanksyon dapre Family Code § 2040.",
+            "ko": "이것은 사전 인쇄된 섹션입니다 — 여기에 쓰지 마세요. 이것은 소환장이 송달되면 즉시 효력이 발생하는 자동 임시 금지 명령(ATROS)입니다. 양쪽 배우자 모두 구속됩니다. 금지 사항: (1) 미성년 자녀를 캘리포니아 밖으로 데려가는 것; (2) 공동 재산 양도, 매각 또는 은닉; (3) 보험 수혜자 변경; (4) 공동 재산에 대한 새로운 부채 발생. 위반 시 Family Code § 2040에 따라 제재를 받을 수 있습니다.",
+            "pt": "Esta seção é pré-impressa — NÃO escreva aqui. São Ordens Restritivas Temporárias Automáticas (ATROS) que entram em vigor imediatamente ao citar. AMBOS cônjuges estão vinculados. Proíbem: (1) remover menores da Califórnia; (2) transferir, vender ou ocultar bens comunitários; (3) alterar beneficiários de seguros; (4) criar novas dívidas sobre bens comunitários. Violações podem resultar em sanções sob Family Code § 2040.",
+            "ru": "Это предварительно напечатанный раздел — НЕ пишите здесь. Это Автоматические Временные Запретительные Приказы (ATROS), вступающие в силу сразу при вручении повестки. ОБА супруга обязаны соблюдать. Запрещается: (1) вывозить несовершеннолетних из Калифорнии; (2) передавать, продавать или скрывать совместное имущество; (3) менять выгодоприобретателей страховки; (4) создавать новые долги на совместное имущество. Нарушения влекут санкции по Family Code § 2040.",
+            "tl": "Ito ay pre-printed na seksyon — HUWAG sulatan dito. Ito ang Automatic Temporary Restraining Orders (ATROS) na magkakabisa agad kapag na-serve ang Summons. PAREHONG mag-asawa ay nakatali. Ipinagbabawal: (1) paglabas ng menor de edad sa California; (2) paglipat, pagbenta o pagtatago ng community property; (3) pagbabago ng insurance beneficiaries; (4) paglikha ng bagong utang sa community property. Paglabag ay maaaring magresulta sa sanctions ayon sa Family Code § 2040."
+          }
+        }
+      ]
+    },    {
+      "section_id": "service_instructions",
+      "fields": [
+        {
+          "field_id": "service_how_to_serve",
+          "field_label": "How to serve the Summons and Petition",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "This is a pre-printed section — do NOT write here. It explains that the respondent must be personally served with copies of the Summons (FL-110) and the Petition (FL-100), plus any attachments. Service must be done by someone who is NOT a party to the case and who is at least 18 years old. You CANNOT serve the papers yourself. After service, the server must complete a Proof of Service form (FL-115). The petitioner must then file the Proof of Service with the court.",
+            "es": "Esta sección es preimpresa — NO escriba aquí. Explica que el demandado debe ser notificado personalmente con copias de la Citación (FL-110) y la Petición (FL-100). La notificación debe hacerla alguien que NO sea parte del caso y tenga al menos 18 años. USTED NO puede notificar. Después, el servidor debe completar el formulario de Prueba de Notificación (FL-115) y usted debe presentarlo al tribunal.",
+            "zh": "这是预印部分——请勿书写。说明必须将传票（FL-110）和请愿书（FL-100）的副本亲自送达被告。送达人必须不是案件当事人且年满18岁。您不能自己送达。送达后，送达人必须填写送达证明（FL-115），然后请愿人需将其提交法院。",
+            "vi": "Đây là phần in sẵn — KHÔNG viết ở đây. Giải thích rằng bị đơn phải được tống đạt trực tiếp bản sao Trát đòi (FL-110) và Đơn thỉnh cầu (FL-100). Người tống đạt phải KHÔNG phải là bên trong vụ án và ít nhất 18 tuổi. Bạn KHÔNG THỂ tự tống đạt. Sau đó, người tống đạt phải hoàn thành mẫu Bằng chứng tống đạt (FL-115) và bạn phải nộp cho tòa.",
+            "so": "Tani waa qayb hore loo daabacay — HA halkan ku qorin. Waxay sharaxaysaa in la dacwoonaha loo gaarsiyo nuxun ahaan nuqulada Summons-ka (FL-110) iyo Dacwadda (FL-100). Qofka gaarsiiyo waa inuusan ahayn qayb ka mid ah dacwadda oo uu ugu yaraan yahay 18 sano. ADIGA KELIGAA ma gaarsiin kartid. Ka dib, qofka gaarsiiyo waa inuu buuxiyaa foomka Caddaynta Gaarsiinta (FL-115).",
+            "ti": "እዚ ቅድሚ ዝተሓትመ ክፋል እዩ — ኣብዚ ኣይትጸሓፍ። ንተኸሳሲ ብኣካል ቅዳሕ ሰመንስ (FL-110) ከምኡ'ውን ጥርዓን (FL-100) ክቐርበሉ ከም ዘለዎ ይገልጽ። ዘቕርብ ሰብ ናይ ጉዳይ ኣካል ዘይኮነን ውሕዱ 18 ዓመት ዝመልአን ክኸውን ኣለዎ። ባዕልኻ ከተቕርብ ኣይትኽእልን። ድሕሪኡ ናይ ምቕራብ መርትዖ ፎርም (FL-115) ክምልኡ ኣለዎም።",
+            "am": "ይህ ቀድሞ የታተመ ክፍል ነው — እዚህ አይጻፉ። ተከሳሹ Summons (FL-110) እና ፔቲሽን (FL-100) ቅጂዎችን በአካል መቀበል እንዳለበት ያብራራል። ማድረስ ያለበት ከጉዳዩ ወገን ያልሆነ ቢያንስ 18 ዓመት የሆነው ሰው ነው። እርስዎ ማድረስ አይችሉም። ከዚያ ማድረስ ያረጋገጠ ሰው FL-115 መሙላት አለበት።",
+            "ar": "هذا قسم مطبوع مسبقًا — لا تكتب هنا. يشرح أن المدعى عليه يجب أن يُبلَّغ شخصيًا بنسخ من الاستدعاء (FL-110) والطلب (FL-100). يجب أن يقوم بالتبليغ شخص ليس طرفًا في القضية وعمره 18 عامًا على الأقل. لا يمكنك التبليغ بنفسك. بعد التبليغ يجب إكمال نموذج إثبات التبليغ (FL-115).",
+            "ht": "Sa a se yon seksyon ki enprime deja — PA ekri isit la. Li eksplike ke moun ki reponn an dwe resevwa pèsonèlman kopi Sitasyon (FL-110) ak Petisyon (FL-100). Yon moun ki PA nan dosye a epi ki gen omwen 18 an dwe fè sèvis la. OU PA KA sèvi papye yo poukont ou. Apre sa, moun ki sèvi a dwe ranpli fòm Prèv Sèvis (FL-115).",
+            "ko": "이것은 사전 인쇄된 섹션입니다 — 여기에 쓰지 마세요. 피신청인에게 소환장(FL-110)과 청원서(FL-100) 사본을 직접 송달해야 한다고 설명합니다. 송달은 사건 당사자가 아닌 18세 이상의 사람이 해야 합니다. 본인이 직접 송달할 수 없습니다. 송달 후 송달인이 송달 증명서(FL-115)를 작성해야 합니다.",
+            "pt": "Esta seção é pré-impressa — NÃO escreva aqui. Explica que o requerido deve ser citado pessoalmente com cópias da Citação (FL-110) e da Petição (FL-100). A citação deve ser feita por alguém que NÃO é parte no caso e tem pelo menos 18 anos. Você NÃO pode citar pessoalmente. Após a citação, o citador deve preencher o formulário de Comprovante de Citação (FL-115).",
+            "ru": "Это предварительно напечатанный раздел — НЕ пишите здесь. Объясняет, что ответчику должны быть лично вручены копии Повестки (FL-110) и Заявления (FL-100). Вручение должно быть сделано лицом, НЕ являющимся стороной дела и достигшим 18 лет. Вы НЕ МОЖЕТЕ вручить документы сами. После вручения вручитель должен заполнить форму подтверждения (FL-115).",
+            "tl": "Ito ay pre-printed na seksyon — HUWAG sulatan dito. Ipinapaliwanag na ang respondent ay dapat personal na i-serve ang mga kopya ng Summons (FL-110) at Petition (FL-100). Ang mag-se-serve ay HINDI dapat partido sa kaso at hindi bababa sa 18 taong gulang. HINDI MO maaaring i-serve ang mga papeles ng sarili mo. Pagkatapos, ang nag-serve ay dapat kumpletuhin ang Proof of Service form (FL-115)."
+          }
+        }
+      ]
+    },    {
+      "section_id": "footer",
+      "fields": [
+        {
+          "field_id": "footer_clerk_signature",
+          "field_label": "Clerk, by Deputy — Date",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "This area is for the court clerk ONLY. Do NOT write here. The clerk will sign, stamp, and date this section when you file the Summons with the court. The clerk's stamp makes the Summons an official court document.",
+            "es": "Esta área es SOLO para el secretario del tribunal. NO escriba aquí. El secretario firmará, sellará y fechará esta sección cuando presente la Citación. El sello hace que la Citación sea un documento judicial oficial.",
+            "zh": "此区域仅供法院书记官使用。请勿书写。当您向法院提交传票时，书记官将在此签名、盖章并注明日期。书记官的印章使传票成为正式法院文件。",
+            "vi": "Khu vực này CHỈ dành cho thư ký tòa án. KHÔNG viết ở đây. Thư ký sẽ ký, đóng dấu và ghi ngày khi bạn nộp Trát đòi. Con dấu làm cho Trát đòi trở thành tài liệu chính thức của tòa.",
+            "so": "Aaggan waa kaliya xoghayaha maxkamadda. HA halkan ku qorin. Xoghayahu wuxuu saxiixi, shaabadayn iyo taarikhayn doonaa qaybtaan markaad Summons-ka xareysid.",
+            "ti": "እዚ ቦታ ንጸሓፊ ቤት ፍርዲ ጥራይ እዩ። ኣብዚ ኣይትጸሓፍ። ሰመንስ ምስ ተቕርብ ጸሓፊ ክፍርምን ክሓትምን ዕለት ክገብርን እዩ።",
+            "am": "ይህ ቦታ ለፍርድ ቤት ጸሐፊ ብቻ ነው። እዚህ አይጻፉ። Summons ሲያቀርቡ ጸሐፊው ይፈርማል፣ ያትማል፣ ቀን ይጽፋል።",
+            "ar": "هذه المنطقة لكاتب المحكمة فقط. لا تكتب هنا. سيوقع الكاتب ويختم ويؤرخ عند تقديم الاستدعاء.",
+            "ht": "Zòn sa a se pou grefye tribinal la SÈLMAN. PA ekri isit la. Grefye a ap siyen, estanpe, ak mete dat lè ou depoze Sitasyon an.",
+            "ko": "이 영역은 법원 서기 전용입니다. 여기에 쓰지 마세요. 소환장을 제출하면 서기가 서명, 날인 및 날짜를 기입합니다.",
+            "pt": "Esta área é APENAS para o escrivão do tribunal. NÃO escreva aqui. O escrivão assinará, carimbará e datará quando você protocolar a Citação.",
+            "ru": "Эта область только для секретаря суда. НЕ пишите здесь. Секретарь подпишет, поставит печать и дату при подаче Повестки.",
+            "tl": "Ang bahaging ito ay para sa court clerk LAMANG. HUWAG sulatan dito. Pipirmahan, ista-stamp, at lalagyan ng petsa ng clerk kapag in-file mo ang Summons."
+          }
+        },
+        {
+          "field_id": "footer_notice_to_person_served",
+          "field_label": "Notice to the Person Served",
+          "field_type": "checkbox_group",
+          "guidance": {
+            "en": "This area is completed by the person who SERVES the papers — NOT by the petitioner or respondent. The server checks the box indicating how service was made: (a) as an individual; (b) on behalf of a business entity; (c) by substituted service under CCP § 415.20; or other method. If you are the petitioner, do NOT fill this in — your process server handles it.",
+            "es": "Esta área la completa la persona que NOTIFICA — NO el peticionario ni el demandado. El servidor marca la casilla indicando cómo se hizo la notificación: (a) como individuo; (b) en nombre de una entidad comercial; (c) por servicio sustituto bajo CCP § 415.20. Si usted es el peticionario, NO llene esto.",
+            "zh": "此区域由送达文件的人填写——不是请愿人或被告。送达人勾选说明送达方式的方框：(a)作为个人；(b)代表商业实体；(c)根据CCP § 415.20替代送达。如果您是请愿人，请勿填写此部分。",
+            "vi": "Khu vực này do người TỐNG ĐẠT giấy tờ điền — KHÔNG phải người thỉnh cầu hay bị đơn. Người tống đạt đánh dấu ô cho biết cách tống đạt: (a) với tư cách cá nhân; (b) thay mặt tổ chức; (c) tống đạt thay thế theo CCP § 415.20. Nếu bạn là người thỉnh cầu, KHÔNG điền phần này.",
+            "so": "Aaggan waxaa buuxiya qofka GAARSIIYA warqadaha — MA AHA dacwad-bixiyaha ama la dacwoonaha. Qofka gaarsiiyo wuxuu calaamadiyaa sanduuqa muujinaya sida loo gaarsiiyo. Haddii aad tahay dacwad-bixiye, HA buuxin.",
+            "ti": "እዚ ቦታ ብዘቕርብ ሰብ ይምላእ — ብጠራዓይ ወይ ተኸሳሲ ኣይኮነን። ናይ ምቕራብ ሰብ ብኸመይ ከም ዝቐረበ ዝሕብር ሳጹን ይመልእ። ጠራዓይ እንተኾንካ ኣይትምልኣዮ።",
+            "am": "ይህ ቦታ ወረቀቶችን በሚያደርስ ሰው ይሞላል — በአቤቱታ አቅራቢው ወይም ተከሳሹ አይደለም። ማድረስ ያረጋገጠ ሰው እንዴት እንዳደረሰ ሳጥን ይምረጥ። አቤቱታ አቅራቢ ከሆኑ ይህን አይሙሉ።",
+            "ar": "هذه المنطقة يملؤها الشخص الذي يُبلِّغ — ليس مقدم الطلب أو المدعى عليه. يحدد المُبلِّغ المربع الذي يوضح طريقة التبليغ. إذا كنت مقدم الطلب، لا تملأ هذا.",
+            "ht": "Zòn sa a se moun ki SÈVI papye yo ki ranpli l — PA petisyonè a oswa moun ki reponn an. Moun ki sèvi a tcheke bwat ki endike kijan sèvis la te fèt. Si ou se petisyonè a, PA ranpli sa a.",
+            "ko": "이 영역은 서류를 송달하는 사람이 작성합니다 — 신청인이나 피신청인이 아닙니다. 송달인이 송달 방법을 나타내는 체크박스를 표시합니다. 신청인이라면 이 부분을 작성하지 마세요.",
+            "pt": "Esta área é preenchida pela pessoa que CITA — NÃO pelo requerente ou requerido. O citador marca a caixa indicando como a citação foi feita. Se você é o requerente, NÃO preencha isto.",
+            "ru": "Эту область заполняет лицо, ВРУЧАЮЩЕЕ документы — НЕ заявитель или ответчик. Вручитель отмечает поле, указывающее способ вручения. Если вы заявитель, НЕ заполняйте это.",
+            "tl": "Ang bahaging ito ay pupunan ng taong NAG-SE-SERVE ng mga papeles — HINDI ng petitioner o respondent. Ang nag-serve ay magche-check ng kahon na nagsasabi kung paano ginawa ang service. Kung ikaw ang petitioner, HUWAG punan ito."
+          }
+        }
+      ]
+    }
+  ]
+}

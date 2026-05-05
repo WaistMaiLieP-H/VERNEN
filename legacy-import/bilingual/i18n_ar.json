@@ -1,0 +1,119 @@
+{
+  "app": {
+    "name": "Hartmann Legal Analytics",
+    "tagline": "مدعوم بواسطة VERNEN™",
+    "copyright": "© 2026 Michael Vernen Thomas Hartmann. جميع الحقوق محفوظة."
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "audit": "تدقيق الامتثال",
+    "results": "النتائج",
+    "glossary": "المصطلحات القانونية",
+    "pricing": "الأسعار",
+    "about": "حول",
+    "login": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "language": "English"
+  },
+  "meta": {
+    "dir": "rtl",
+    "lang": "ar"
+  },
+  "hero": {
+    "headline": "تدقيق الامتثال القانوني بالذكاء الاصطناعي",
+    "subheadline": "تحديد العيوب الإجرائية وانتهاكات الحقوق وإخفاقات الامتثال عبر 14 مجالاً متخصصاً.",
+    "cta_primary": "ابدأ التدقيق",
+    "cta_secondary": "شاهد كيف يعمل"
+  },
+  "audit": {
+    "title": "تدقيق الامتثال",
+    "upload_label": "رفع المستند",
+    "upload_hint": "PDF أو DOCX أو نص عادي — أوامر المحكمة، مراسلات الجهات الحكومية، تقارير الشرطة، التقييمات الطبية، قرارات خدمات حماية الطفل",
+    "select_domain": "اختر مجال التدقيق",
+    "domains": {
+      "constitutional": "الحقوق الدستورية والمدنية",
+      "family_court": "أوامر محكمة الأسرة",
+      "cps": "خدمات حماية الطفل / رعاية الأطفال",
+      "law_enforcement": "سلوك إنفاذ القانون (POST)",
+      "fbi": "FBI / إنفاذ القانون الفيدرالي",
+      "attorney_conduct": "أخلاقيات المحاماة",
+      "psychiatry": "الطب النفسي وطب الأعصاب (ABPN)",
+      "fcs_mediator": "سلوك وسيط الحضانة (FCS)",
+      "victim_rights": "قانون مارسي / حقوق الضحايا",
+      "labor": "العمل والتوظيف",
+      "state_agency": "مراسلات الجهات الحكومية",
+      "fcra": "FCRA / تقارير المستهلك",
+      "ssa_disability": "تحديد الإعاقة SSA",
+      "military": "معايير USMC العسكرية"
+    },
+    "language_output": "لغة التقرير",
+    "language_english": "الإنجليزية",
+    "language_native": "العربية",
+    "language_both": "ثنائي اللغة (الإنجليزية + العربية)",
+    "submit": "تشغيل التدقيق",
+    "processing": "جارٍ تحليل المستند وفقاً للمعايير المعمول بها...",
+    "estimated_time": "الوقت المقدر: 30-90 ثانية"
+  },
+  "results": {
+    "title": "نتائج التدقيق",
+    "summary": "ملخص",
+    "findings": "النتائج",
+    "standard_violated": "المعيار المنتهك",
+    "evidence": "الأدلة الداعمة",
+    "severity": "الخطورة",
+    "severity_critical": "حرج",
+    "severity_major": "كبير",
+    "severity_minor": "بسيط",
+    "severity_advisory": "استشاري",
+    "recommendation": "الإجراء الموصى به",
+    "download_pdf": "تحميل تقرير PDF",
+    "download_docx": "تحميل مستند Word",
+    "new_audit": "إجراء تدقيق آخر",
+    "disclaimer": "هذا التحليل لأغراض إعلامية فقط ولا يشكل استشارة قانونية. استشر محامياً مؤهلاً للقرارات القانونية."
+  },
+  "glossary": {
+    "title": "قاموس المصطلحات القانونية",
+    "search_placeholder": "البحث عن مصطلحات قانونية...",
+    "english": "الإنجليزية",
+    "native": "العربية",
+    "definition": "التعريف",
+    "context": "السياق القانوني",
+    "no_results": "لم يتم العثور على مصطلحات مطابقة."
+  },
+  "pricing": {
+    "title": "الأسعار",
+    "per_audit": "لكل تدقيق",
+    "monthly": "شهري",
+    "annual": "سنوي",
+    "tier_basic": "أساسي",
+    "tier_professional": "احترافي",
+    "tier_enterprise": "مؤسسات",
+    "feature_audits": "عمليات تدقيق شهرياً",
+    "feature_domains": "مجالات التدقيق",
+    "feature_bilingual": "تقارير ثنائية اللغة",
+    "feature_priority": "معالجة ذات أولوية",
+    "feature_api": "الوصول إلى API",
+    "get_started": "ابدأ الآن",
+    "contact_us": "اتصل بنا"
+  },
+  "about": {
+    "title": "حول",
+    "description": "توفر Hartmann Legal Analytics تدقيق الامتثال المدعوم بالذكاء الاصطناعي عبر المجالات القانونية والتنظيمية والمؤسسية. مبني على محرك تحليل VERNEN™، تحدد المنصة العيوب الإجرائية وانتهاكات الحقوق وإخفاقات الامتثال التي غالباً ما تفوتها المراجعة اليدوية.",
+    "creator": "أنشأه Michael Vernen Thomas Hartmann",
+    "methodology": "منهجية معيار الإنشاء (S.o.C.)",
+    "methodology_desc": "يتم تدقيق كل مستند وفقاً للمعيار القانوني المحدد الذي حكم إنشاءه — ليس مبادئ عامة، بل القانون أو اللائحة أو القواعد المهنية الدقيقة المطبقة."
+  },
+  "footer": {
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة",
+    "contact": "اتصل بنا",
+    "accessibility": "إمكانية الوصول"
+  },
+  "errors": {
+    "upload_failed": "فشل الرفع. يرجى المحاولة مرة أخرى.",
+    "file_too_large": "الملف يتجاوز الحد الأقصى للحجم (10 ميجابايت).",
+    "unsupported_format": "صيغة الملف غير مدعومة. يرجى رفع PDF أو DOCX أو TXT.",
+    "audit_failed": "فشلت معالجة التدقيق. يرجى المحاولة مرة أخرى.",
+    "network_error": "خطأ في الشبكة. تحقق من اتصالك وحاول مرة أخرى."
+  }
+}

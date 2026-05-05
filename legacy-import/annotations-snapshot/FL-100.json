@@ -1,0 +1,603 @@
+{
+  "meta": {
+    "form_id": "FL-100",
+    "version": "1.0.0",
+    "updated": "2026-02-03",
+    "author": "VERNEN™",
+    "module": "GDN_field_annotations",
+    "languages": ["en","es","zh","vi","so","ti","am","ar","ht","ko","pt","ru","tl"]
+  },
+  "sections": [
+    {
+      "section_id": "header",
+      "fields": [
+        {
+          "field_id": "header_attorney_party",
+          "field_label": "Attorney or Party Without Attorney",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "If you do not have a lawyer, enter YOUR full legal name, street address, city, state, ZIP code, phone number, and email address. Where it says 'State Bar Number,' write 'In Pro Per' (this means you are representing yourself).",
+            "es": "Si no tiene abogado, escriba SU nombre legal completo, dirección, ciudad, estado, código postal, teléfono y correo electrónico. Donde dice 'State Bar Number,' escriba 'In Pro Per' (esto significa que se representa a sí mismo).",
+            "zh": "如果您没有律师，请输入您的完整法定姓名、街道地址、城市、州、邮编、电话号码和电子邮件地址。在'State Bar Number'处写'In Pro Per'（意思是您自己代表自己）。",
+            "vi": "Nếu bạn không có luật sư, hãy nhập TÊN pháp lý đầy đủ, địa chỉ, thành phố, tiểu bang, mã ZIP, số điện thoại và email. Nơi ghi 'State Bar Number,' hãy viết 'In Pro Per' (nghĩa là bạn tự đại diện cho mình).",
+            "so": "Haddii aadan haysan qareen, geli magacaaga sharciga oo buuxa, cinwaankaaga, magaalada, gobolka, ZIP-ka, telefoonka iyo emailka. Halka ay ku qoran tahay 'State Bar Number,' ku qor 'In Pro Per' (taasna waxay ka dhigan tahay inaad naftaada u matashahay).",
+            "ti": "ጠበቓ እንተዘይብልካ፡ ምሉእ ሕጋዊ ስምካ፡ ኣድራሻኻ፡ ከተማ፡ ግዝኣት፡ ዚፕ ኮድ፡ ቁጽሪ ተሌፎንን ኢመይልን ኣእቱ። 'State Bar Number' ኣብ ዝብል ቦታ 'In Pro Per' ጸሓፍ (ትርጉሙ ንርእስኻ ትውክል ኣለኻ ማለት እዩ)።",
+            "am": "ጠበቃ ከሌለዎት፣ ሙሉ ሕጋዊ ስምዎን፣ የመኖሪያ አድራሻዎን፣ ከተማ፣ ግዛት፣ ዚፕ ኮድ፣ ስልክ ቁጥር እና ኢሜይል ያስገቡ። 'State Bar Number' በሚለው ቦታ 'In Pro Per' ይጻፉ (ይህ ማለት እራስዎን ይወክላሉ ማለት ነው)።",
+            "ar": "إذا لم يكن لديك محامٍ، أدخل اسمك القانوني الكامل وعنوانك ومدينتك وولايتك والرمز البريدي ورقم هاتفك وبريدك الإلكتروني. حيث يقول 'State Bar Number'، اكتب 'In Pro Per' (وهذا يعني أنك تمثل نفسك).",
+            "ht": "Si ou pa gen avoka, mete NON legal konplè ou, adrès, vil, eta, kòd postal, nimewo telefòn ak imèl. Kote li di 'State Bar Number,' ekri 'In Pro Per' (sa vle di ou reprezante tèt ou).",
+            "ko": "변호사가 없는 경우, 본인의 정식 법적 이름, 주소, 도시, 주, 우편번호, 전화번호, 이메일을 입력하세요. 'State Bar Number' 란에 'In Pro Per'라고 쓰세요 (본인이 스스로를 대리한다는 의미입니다).",
+            "pt": "Se você não tem advogado, insira SEU nome legal completo, endereço, cidade, estado, CEP, telefone e e-mail. Onde diz 'State Bar Number,' escreva 'In Pro Per' (isso significa que você está se representando).",
+            "ru": "Если у вас нет адвоката, введите ВАШЕ полное юридическое имя, адрес, город, штат, почтовый индекс, номер телефона и электронную почту. Где написано 'State Bar Number,' напишите 'In Pro Per' (это означает, что вы представляете себя сами).",
+            "tl": "Kung wala kang abogado, ilagay ang IYONG buong legal na pangalan, address, lungsod, estado, ZIP code, numero ng telepono, at email. Sa bahaging 'State Bar Number,' isulat ang 'In Pro Per' (ibig sabihin kinakatawan mo ang sarili mo)."
+          }
+        },
+        {
+          "field_id": "header_court_name",
+          "field_label": "Superior Court of California, County of",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Enter the name of the county where you are filing. This must be the county where you or your spouse currently live. Example: 'Solano' or 'Alameda.'",
+            "es": "Escriba el nombre del condado donde presenta su caso. Debe ser el condado donde usted o su cónyuge viven actualmente. Ejemplo: 'Solano' o 'Alameda.'",
+            "zh": "输入您提交文件的县名。这必须是您或您配偶目前居住的县。例如：'Solano'或'Alameda。'",
+            "vi": "Nhập tên quận nơi bạn nộp đơn. Đây phải là quận nơi bạn hoặc vợ/chồng bạn hiện đang sống. Ví dụ: 'Solano' hoặc 'Alameda.'",
+            "so": "Geli magaca degmada aad dacwadda ka xareynayso. Waa inay noqotaa degmada aad adiga ama xaaskaaga ku nooshahay. Tusaale: 'Solano' ama 'Alameda.'",
+            "ti": "ነቲ ጉዳይ ዘቕርቡሉ ካውንቲ ስም ኣእትዉ። ንስኻ ወይ በዓልቲ ቤትካ ሕጂ ትነብሩሉ ካውንቲ ክኸውን ኣለዎ። ኣብነት: 'Solano' ወይ 'Alameda።'",
+            "am": "የሚያመለክቱበት ካውንቲ ስም ያስገቡ። ይህ እርስዎ ወይም ባለቤትዎ አሁን የሚኖሩበት ካውንቲ መሆን አለበት። ምሳሌ: 'Solano' ወይም 'Alameda።'",
+            "ar": "أدخل اسم المقاطعة التي تقدم فيها القضية. يجب أن تكون المقاطعة التي تعيش فيها أنت أو زوجك حاليًا. مثال: 'Solano' أو 'Alameda.'",
+            "ht": "Mete non konte kote w ap depoze a. Li dwe konte kote ou oswa konjwen ou rete kounye a. Egzanp: 'Solano' oswa 'Alameda.'",
+            "ko": "소송을 제기하는 카운티 이름을 입력하세요. 본인 또는 배우자가 현재 거주하는 카운티여야 합니다. 예: 'Solano' 또는 'Alameda.'",
+            "pt": "Insira o nome do condado onde você está entrando com o processo. Deve ser o condado onde você ou seu cônjuge atualmente residem. Exemplo: 'Solano' ou 'Alameda.'",
+            "ru": "Введите название округа, в котором вы подаёте документы. Это должен быть округ, где вы или ваш супруг(а) в настоящее время проживаете. Пример: 'Solano' или 'Alameda.'",
+            "tl": "Ilagay ang pangalan ng county kung saan ka nag-file. Ito ay dapat ang county kung saan ka o ang iyong asawa kasalukuyang nakatira. Halimbawa: 'Solano' o 'Alameda.'"
+          }
+        },
+        {
+          "field_id": "header_case_number",
+          "field_label": "Case Number",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Leave this blank when filing for the first time. The court clerk will assign a case number and stamp it on your documents. If you already have a case number from a previous filing, enter it here exactly as it appears.",
+            "es": "Deje esto en blanco al presentar por primera vez. El secretario del tribunal asignará un número de caso y lo sellará en sus documentos. Si ya tiene un número de caso, escríbalo exactamente como aparece.",
+            "zh": "首次提交时留空。法院书记官会分配一个案件编号并盖在您的文件上。如果您已有之前提交的案件编号，请准确输入。",
+            "vi": "Để trống khi nộp lần đầu tiên. Thư ký tòa án sẽ cấp số vụ án và đóng dấu lên tài liệu của bạn. Nếu bạn đã có số vụ án từ lần nộp trước, hãy nhập chính xác.",
+            "so": "Meeshan banaan ka tag markaad markii ugu horreysay xareynayso. Xoghayaha maxkamaddu wuxuu kuu qoondeyn doonaa lambar dacwad. Haddii aad hore u haysatay lambar dacwad, halkan ku geli sida ay u qoran tahay.",
+            "ti": "ንመጀመርያ ጊዜ ክትቕርብ ከለኻ ባዶ ግደፎ። ጸሓፊ ቤት ፍርዲ ቁጽሪ ጉዳይ ክህበካን ኣብ ሰነዳትካ ክሓትሞን እዩ። ቁጽሪ ጉዳይ ኣቐዲሙ እንተለካ፡ ከምቲ ዘሎ ኣእትዎ።",
+            "am": "ለመጀመሪያ ጊዜ ሲያመለክቱ ባዶ ይተውት። የፍርድ ቤት ጸሐፊ የመዝገብ ቁጥር ይሰጥዎታል። ቀድሞ የመዝገብ ቁጥር ካለዎት፣ በትክክል ያስገቡ።",
+            "ar": "اتركه فارغًا عند التقديم لأول مرة. سيقوم كاتب المحكمة بتعيين رقم قضية وختمه على مستنداتك. إذا كان لديك رقم قضية سابق، أدخله كما هو بالضبط.",
+            "ht": "Kite sa vid lè w ap depoze pou premye fwa. Grefye tribinal la pral bay yon nimewo dosye epi estanpe l sou dokiman ou yo. Si ou deja gen yon nimewo dosye, ekri l egzakteman jan li parèt.",
+            "ko": "처음 제출할 때는 비워두세요. 법원 서기가 사건 번호를 배정하고 서류에 도장을 찍을 것입니다. 이전 제출에서 사건 번호가 이미 있다면 그대로 입력하세요.",
+            "pt": "Deixe em branco ao protocolar pela primeira vez. O escrivão do tribunal atribuirá um número de caso e carimbará seus documentos. Se já possui um número de caso, insira-o exatamente como aparece.",
+            "ru": "Оставьте пустым при первой подаче. Секретарь суда присвоит номер дела и проставит его на ваших документах. Если у вас уже есть номер дела, введите его в точности как он указан.",
+            "tl": "Iwanang ito kapag unang nag-file. Ang court clerk ang mag-aassign ng case number at ita-stamp sa iyong mga dokumento. Kung mayroon ka nang case number mula sa nakaraang filing, ilagay ito nang eksakto."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_1",
+      "fields": [
+        {
+          "field_id": "item_1_petitioner_name",
+          "field_label": "Petitioner (name)",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Enter YOUR full legal name as it appears on your marriage certificate or government ID. You are the 'petitioner' because you are the one starting the case.",
+            "es": "Escriba SU nombre legal completo tal como aparece en su certificado de matrimonio o identificación del gobierno. Usted es el 'peticionario' porque está iniciando el caso.",
+            "zh": "输入您的完整法定姓名，与您的结婚证或政府身份证上的一致。您是'请愿人'，因为是您发起了此案。",
+            "vi": "Nhập TÊN pháp lý đầy đủ của bạn như trên giấy kết hôn hoặc giấy tờ tùy thân. Bạn là 'người thỉnh cầu' vì bạn là người khởi kiện.",
+            "so": "Geli magacaaga sharciga oo buuxa sida ku qoran shahaadada guurka ama ID-gaaga. Waxaad tahay 'dacwad-bixiyaha' sababtoo ah adiga ayaa dacwadda bilaabay.",
+            "ti": "ኣብ ምስክር ወረቐት ሓዳር ወይ መንነት ወረቐት ከምዘሎ ምሉእ ሕጋዊ ስምካ ኣእቱ። ንስኻ 'ጠራዓይ' ኢኻ ምኽንያቱ ነቲ ጉዳይ ዝጀመርካ ንስኻ ስለዝኾንካ።",
+            "am": "ሙሉ ሕጋዊ ስምዎን በጋብቻ ምስክር ወረቀት ወይም መታወቂያ ላይ እንደሚታየው ያስገቡ። 'አቤቱታ አቅራቢ' ነዎት ምክንያቱም ጉዳዩን የጀመሩት እርስዎ ስለሆኑ።",
+            "ar": "أدخل اسمك القانوني الكامل كما يظهر على شهادة الزواج أو الهوية الحكومية. أنت 'مقدم الطلب' لأنك من بدأ القضية.",
+            "ht": "Mete NON legal konplè ou jan li parèt sou sètifika maryaj ou oswa ID gouvènman. Ou se 'moun ki depoze petisyon an' paske se ou ki kòmanse dosye a.",
+            "ko": "결혼증명서 또는 정부 발급 신분증에 표시된 대로 본인의 정식 법적 이름을 입력하세요. 소송을 시작한 사람이므로 '신청인'이 됩니다.",
+            "pt": "Insira SEU nome legal completo como consta na certidão de casamento ou documento de identidade. Você é o 'requerente' porque está iniciando o processo.",
+            "ru": "Введите ВАШЕ полное юридическое имя, как оно указано в свидетельстве о браке или удостоверении личности. Вы являетесь 'заявителем', поскольку именно вы начинаете дело.",
+            "tl": "Ilagay ang IYONG buong legal na pangalan gaya ng nakasulat sa marriage certificate o government ID. Ikaw ang 'petitioner' dahil ikaw ang nagsimula ng kaso."
+          }
+        },
+        {
+          "field_id": "item_1_respondent_name",
+          "field_label": "Respondent (name)",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Enter the full legal name of your spouse or domestic partner. This is the person the petition is filed against. Use their name as it appears on the marriage certificate.",
+            "es": "Escriba el nombre legal completo de su cónyuge o pareja doméstica. Esta es la persona contra quien se presenta la petición. Use el nombre como aparece en el certificado de matrimonio.",
+            "zh": "输入您配偶或家庭伴侣的完整法定姓名。这是被告，即被起诉的一方。使用结婚证上的姓名。",
+            "vi": "Nhập tên pháp lý đầy đủ của vợ/chồng hoặc bạn đời. Đây là người bị đơn kiện. Dùng tên như trên giấy kết hôn.",
+            "so": "Geli magaca sharciga oo buuxa ee xaaskaaga ama lammaanahaaga. Kani waa qofka dacwadda lagu xareeyay. Isticmaal magaca sida ku qoran shahaadada guurka.",
+            "ti": "ምሉእ ሕጋዊ ስም በዓልቲ ቤትካ ኣእቱ። እዚ ነቲ ጥርዓን ዝቐረበሉ ሰብ እዩ። ኣብ ምስክር ወረቐት ሓዳር ከም ዘሎ ስም ተጠቐም።",
+            "am": "የባለቤትዎን ሙሉ ሕጋዊ ስም ያስገቡ። ይህ አቤቱታው የቀረበበት ሰው ነው። በጋብቻ ምስክር ወረቀት ላይ ያለውን ስም ይጠቀሙ።",
+            "ar": "أدخل الاسم القانوني الكامل لزوجك أو شريكك المنزلي. هذا هو الشخص المرفوعة عليه الدعوى. استخدم الاسم كما يظهر على شهادة الزواج.",
+            "ht": "Mete non legal konplè mari/madanm ou oswa patnè domestik ou. Sa a se moun petisyon an kont li a. Sèvi ak non li jan li parèt sou sètifika maryaj la.",
+            "ko": "배우자 또는 동거 파트너의 정식 법적 이름을 입력하세요. 이 사람이 소송 상대방인 '피신청인'입니다. 결혼증명서에 표시된 이름을 사용하세요.",
+            "pt": "Insira o nome legal completo do seu cônjuge ou parceiro doméstico. Esta é a pessoa contra quem a petição é apresentada. Use o nome como consta na certidão de casamento.",
+            "ru": "Введите полное юридическое имя вашего супруга(и) или домашнего партнёра. Это лицо, против которого подаётся ходатайство. Используйте имя, как оно указано в свидетельстве о браке.",
+            "tl": "Ilagay ang buong legal na pangalan ng iyong asawa o domestic partner. Ito ang taong kinakalaban ng petisyon. Gamitin ang pangalan gaya ng nakasulat sa marriage certificate."
+          }
+        },
+        {
+          "field_id": "item_1_date_of_marriage",
+          "field_label": "Date of marriage or domestic partnership",
+          "field_type": "date_field",
+          "guidance": {
+            "en": "Enter the exact date you were married or registered your domestic partnership. Use the date from your marriage certificate. Format: month/day/year.",
+            "es": "Escriba la fecha exacta de su matrimonio o registro de unión doméstica. Use la fecha de su certificado de matrimonio. Formato: mes/día/año.",
+            "zh": "输入您结婚或登记家庭伴侣关系的确切日期。使用结婚证上的日期。格式：月/日/年。",
+            "vi": "Nhập ngày chính xác kết hôn hoặc đăng ký quan hệ đối tác gia đình. Dùng ngày trên giấy kết hôn. Định dạng: tháng/ngày/năm.",
+            "so": "Geli taariikhda saxda ah ee guurka ama diiwaangelinta lammaanaha. Isticmaal taariikhda shahaadada guurka. Qaab: bil/maalin/sanad.",
+            "ti": "ዝተመርዓውካሉ ወይ ናይ ገዛ ሸርኽነት ዝተመዝገብካሉ ልክዕ ዕለት ኣእቱ። ኣብ ምስክር ወረቐት ሓዳር ዘሎ ዕለት ተጠቐም። ቅርጺ: ወርሒ/ዕለት/ዓመት።",
+            "am": "ያገቡበትን ወይም የቤት ውስጥ ሽርክና ያስመዘገቡበትን ትክክለኛ ቀን ያስገቡ። በጋብቻ ምስክር ወረቀት ላይ ያለውን ቀን ይጠቀሙ። ቅርጸት: ወር/ቀን/ዓመት።",
+            "ar": "أدخل التاريخ الدقيق لزواجك أو تسجيل شراكتك المنزلية. استخدم التاريخ من شهادة الزواج. الصيغة: شهر/يوم/سنة.",
+            "ht": "Mete dat egzak ou te marye oswa anrejistre patenarya domestik ou. Sèvi ak dat ki sou sètifika maryaj la. Fòma: mwa/jou/ane.",
+            "ko": "결혼하거나 동거 관계를 등록한 정확한 날짜를 입력하세요. 결혼증명서의 날짜를 사용하세요. 형식: 월/일/년.",
+            "pt": "Insira a data exata do casamento ou registro da parceria doméstica. Use a data da certidão de casamento. Formato: mês/dia/ano.",
+            "ru": "Введите точную дату вашего бракосочетания или регистрации домашнего партнёрства. Используйте дату из свидетельства о браке. Формат: месяц/день/год.",
+            "tl": "Ilagay ang eksaktong petsa ng kasal o pagpaparehistro ng domestic partnership. Gamitin ang petsa sa marriage certificate. Format: buwan/araw/taon."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_2",
+      "fields": [
+        {
+          "field_id": "item_2_legal_grounds",
+          "field_label": "Legal grounds (Family Code §§ 2310, 2311)",
+          "field_type": "checkbox",
+          "guidance": {
+            "en": "Check box (a) 'Irreconcilable differences.' This is the standard no-fault ground used in nearly all California dissolutions. You do not need to prove wrongdoing by either spouse.",
+            "es": "Marque la casilla (a) 'Diferencias irreconciliables.' Esta es la causa estándar sin culpa utilizada en casi todas las disoluciones en California. No necesita probar culpa de ningún cónyuge.",
+            "zh": "勾选 (a) '不可调和的分歧。' 这是加州几乎所有离婚案件中使用的标准无过错理由。您无需证明任何一方配偶有过错。",
+            "vi": "Đánh dấu ô (a) 'Mâu thuẫn không thể hòa giải.' Đây là căn cứ không lỗi tiêu chuẩn được sử dụng trong hầu hết các vụ ly hôn ở California. Bạn không cần chứng minh lỗi của bất kỳ bên nào.",
+            "so": "Calaamadee sanduuqa (a) 'Khilaafaad aan la xalin karin.' Kani waa sababta caadiga ah ee loo isticmaalo California. Uma baahnid inaad caddeyso khalad uu sameeyay labada xaas.",
+            "ti": "ሳጹን (a) 'ዘይዕረቑ ፍልልያት' ምልክት ግበር። እዚ ኣብ ኩሉ ኣብ ካሊፎርንያ ዝግበር ምፍታሕ ሓዳር ዝጥቀሙሉ ስታንዳርድ ብዘይ-ጌጋ ምኽንያት እዩ።",
+            "am": "ሳጥን (a) 'የማይታረቁ ልዩነቶች' ላይ ምልክት ያድርጉ። ይህ በሁሉም ማለት ይቻላል የካሊፎርኒያ ፍቺዎች ውስጥ የሚጠቀሙበት መደበኛ ያለ-ጥፋት ምክንያት ነው።",
+            "ar": "ضع علامة في المربع (أ) 'خلافات لا يمكن التوفيق بينها.' هذا هو السبب القياسي بدون خطأ المستخدم في جميع حالات الطلاق في كاليفورنيا تقريبًا.",
+            "ht": "Make bwat (a) 'Diferans irekonsilyab.' Sa a se rezon estanda san fot ki itilize nan prèske tout disolisyon nan Kalifòni. Ou pa bezwen pwouve okenn konjwen fè yon bagay mal.",
+            "ko": "체크박스 (a) '화해 불가능한 차이'에 표시하세요. 이것은 캘리포니아의 거의 모든 이혼에 사용되는 표준 무과실 사유입니다. 어느 배우자의 잘못도 증명할 필요가 없습니다.",
+            "pt": "Marque a caixa (a) 'Diferenças irreconciliáveis.' Este é o motivo padrão sem culpa usado em quase todas as dissoluções na Califórnia. Você não precisa provar culpa de nenhum cônjuge.",
+            "ru": "Отметьте пункт (а) 'Непримиримые разногласия.' Это стандартное основание без установления вины, используемое почти во всех расторжениях брака в Калифорнии.",
+            "tl": "Lagyan ng tsek ang kahon (a) 'Irreconcilable differences.' Ito ang karaniwang no-fault na batayan na ginagamit sa halos lahat ng dissolution sa California."
+          },
+          "check_if": {
+            "en": "Always check this box. It is the standard ground for dissolution in California.",
+            "es": "Siempre marque esta casilla. Es la causa estándar para disolución en California.",
+            "zh": "始终勾选此框。这是加州离婚的标准理由。",
+            "vi": "Luôn đánh dấu ô này. Đây là căn cứ tiêu chuẩn cho ly hôn ở California.",
+            "so": "Had iyo jeer calaamadee sanduuqan. Waa sababta caadiga ah ee kala-tagga California.",
+            "ti": "ኩሉ ጊዜ እዚ ሳጹን ምልክት ግበር። ኣብ ካሊፎርንያ ንምፍታሕ ሓዳር ስታንዳርድ ምኽንያት እዩ።",
+            "am": "ሁልጊዜ ይህን ሳጥን ምልክት ያድርጉ። በካሊፎርኒያ ለፍቺ መደበኛ ምክንያት ነው።",
+            "ar": "ضع علامة دائمًا في هذا المربع. هذا هو السبب القياسي للطلاق في كاليفورنيا.",
+            "ht": "Toujou make bwat sa a. Se rezon estanda pou disolisyon nan Kalifòni.",
+            "ko": "항상 이 체크박스에 표시하세요. 캘리포니아에서 이혼의 표준 사유입니다.",
+            "pt": "Sempre marque esta caixa. É o motivo padrão para dissolução na Califórnia.",
+            "ru": "Всегда отмечайте этот пункт. Это стандартное основание для расторжения брака в Калифорнии.",
+            "tl": "Laging lagyan ng tsek ang kahon na ito. Ito ang karaniwang batayan para sa dissolution sa California."
+          },
+          "do_not_check_if": {
+            "en": "Only skip this if you are filing based on permanent legal incapacity to make decisions (box b), which requires medical evidence. This is extremely rare.",
+            "es": "Solo omita esto si presenta basándose en incapacidad legal permanente (casilla b), lo cual requiere evidencia médica. Esto es extremadamente raro.",
+            "zh": "仅当您基于永久性法律行为能力丧失（框b）提出申请时才跳过此项，这需要医学证据。这种情况极为罕见。",
+            "vi": "Chỉ bỏ qua nếu bạn nộp đơn dựa trên mất năng lực pháp lý vĩnh viễn (ô b), yêu cầu bằng chứng y tế. Trường hợp này cực kỳ hiếm.",
+            "so": "Kaliya ka bood haddii aad ku xareynayso awood-darro sharci oo joogto ah (sanduuqa b), taas oo u baahan caddayn caafimaad. Tani aad bay u dhif tahay.",
+            "ti": "ብቐዋሚ ሕጋዊ ዘይክእለት (ሳጹን b) እንተኾይኑ ጥራይ ዝዘለልካዮ። ናይ ሕክምና መርትዖ የድልዮ። እዚ ኣዝዩ ሳሕቲ እዩ።",
+            "am": "ቋሚ ሕጋዊ አቅም ማጣት (ሳጥን b) ላይ የሚያመለክቱ ከሆነ ብቻ ይዝለሉ። ይህ የሕክምና ማስረጃ ይፈልጋል። ይህ እጅግ አልፎ አልፎ ነው።",
+            "ar": "تخطَّ هذا فقط إذا كنت تقدم على أساس عجز قانوني دائم (المربع ب)، وهو يتطلب أدلة طبية. هذا نادر للغاية.",
+            "ht": "Sèlman kite sa si w ap depoze baze sou enkapasite legal pèmanan (bwat b), ki mande prèv medikal. Sa a ekstrèmman ra.",
+            "ko": "의사결정에 대한 영구적 법적 무능력(박스 b)을 근거로 제출하는 경우에만 건너뛰세요. 의학적 증거가 필요하며 매우 드뭅니다.",
+            "pt": "Só pule isto se estiver entrando com base em incapacidade legal permanente (caixa b), que requer evidência médica. Isso é extremamente raro.",
+            "ru": "Пропустите этот пункт только если вы подаёте на основании постоянной правовой недееспособности (пункт б), что требует медицинских доказательств. Это крайне редко.",
+            "tl": "I-skip lang ito kung nag-file batay sa permanenteng legal na kawalan ng kakayahan (kahon b), na nangangailangan ng medical evidence. Ito ay napakabihira."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_3",
+      "fields": [
+        {
+          "field_id": "item_3_minor_children",
+          "field_label": "Minor children",
+          "field_type": "checkbox_group",
+          "guidance": {
+            "en": "Check (a) if there are NO minor children (under 18) of this relationship. Check (b) if there ARE minor children. If (b), list each child's full name and date of birth. Also state if the wife/partner is currently pregnant.",
+            "es": "Marque (a) si NO hay hijos menores (menores de 18 años) de esta relación. Marque (b) si hay hijos menores. Si (b), escriba el nombre completo y fecha de nacimiento de cada hijo. Indique si la esposa/pareja está embarazada.",
+            "zh": "如果此关系中没有未成年子女（18岁以下），勾选(a)。如果有未成年子女，勾选(b)。如选(b)，列出每个孩子的全名和出生日期。还需说明妻子/伴侣是否怀孕。",
+            "vi": "Đánh dấu (a) nếu KHÔNG có con chưa thành niên (dưới 18). Đánh dấu (b) nếu CÓ con chưa thành niên. Nếu (b), liệt kê tên đầy đủ và ngày sinh mỗi con. Nêu rõ nếu vợ/bạn đời đang mang thai.",
+            "so": "Calaamadee (a) haddii aysan jirin carruur yar yar (ka yar 18) ee xiriirkan. Calaamadee (b) haddii ay jiraan. Haddii (b), qor magaca buuxa iyo taariikhda dhalashada carruur kasta.",
+            "ti": "ናይዚ ዝምድና ትሕቲ 18 ዓመት ቆልዑ እንተዘይሃልዮም (a) ምልክት ግበር። ቆልዑ እንተሃልዮም (b) ምልክት ግበር። ናይ (b) እንተኾይኑ ምሉእ ስምን ዕለት ልደትን ናይ ነፍሲ ወከፍ ቆልዓ ዝርዝር።",
+            "am": "ከዚህ ግንኙነት ዕድሜያቸው ከ18 በታች ልጆች ከሌሉ (a) ምልክት ያድርጉ። ካሉ (b) ምልክት ያድርጉ። (b) ከሆነ፣ የእያንዳንዱን ልጅ ሙሉ ስም እና የትውልድ ቀን ይዘርዝሩ።",
+            "ar": "ضع علامة (أ) إذا لم يكن هناك أطفال قاصرون (أقل من 18) من هذه العلاقة. ضع علامة (ب) إذا كان هناك أطفال قاصرون. إذا (ب)، اذكر الاسم الكامل وتاريخ الميلاد لكل طفل.",
+            "ht": "Make (a) si pa gen timoun minè (anba 18 an) nan relasyon sa a. Make (b) si gen timoun minè. Si (b), ekri non konplè ak dat nesans chak timoun. Di tou si madanm/patnè a ansent.",
+            "ko": "이 관계에서 미성년 자녀(18세 미만)가 없으면 (a)에 표시하세요. 있으면 (b)에 표시하세요. (b)인 경우 각 자녀의 전체 이름과 생년월일을 기재하세요.",
+            "pt": "Marque (a) se NÃO há filhos menores (menores de 18) desta relação. Marque (b) se há filhos menores. Se (b), liste o nome completo e data de nascimento de cada filho.",
+            "ru": "Отметьте (а) если несовершеннолетних детей (до 18 лет) от этих отношений НЕТ. Отметьте (б) если есть. Если (б), перечислите полное имя и дату рождения каждого ребёнка.",
+            "tl": "Lagyan ng tsek ang (a) kung WALANG menor de edad na anak (wala pang 18) sa relasyong ito. Lagyan ang (b) kung MAYROON. Kung (b), ilista ang buong pangalan at petsa ng kapanganakan ng bawat anak."
+          },
+          "check_if": {
+            "en": "Check (a) if no children under 18. Check (b) if there are children under 18 from this marriage or domestic partnership.",
+            "es": "Marque (a) si no hay hijos menores de 18. Marque (b) si hay hijos menores de 18 de este matrimonio.",
+            "zh": "无18岁以下子女选(a)。有18岁以下子女选(b)。",
+            "vi": "Đánh dấu (a) nếu không có con dưới 18. Đánh dấu (b) nếu có con dưới 18 từ hôn nhân này.",
+            "so": "Calaamadee (a) haddii aysan jirin carruur ka yar 18. (b) haddii ay jiraan.",
+            "ti": "ትሕቲ 18 ቆልዑ እንተዘይሃልዮም (a)። ቆልዑ እንተሃልዮም (b)።",
+            "am": "ከ18 በታች ልጆች ከሌሉ (a)። ካሉ (b)።",
+            "ar": "ضع علامة (أ) إذا لا أطفال تحت 18. (ب) إذا يوجد أطفال تحت 18.",
+            "ht": "Make (a) si pa gen timoun anba 18. (b) si gen timoun anba 18.",
+            "ko": "18세 미만 자녀 없으면 (a). 있으면 (b).",
+            "pt": "Marque (a) se sem filhos menores de 18. (b) se há filhos menores de 18.",
+            "ru": "Отметьте (а) если нет детей до 18 лет. (б) если есть.",
+            "tl": "Lagyan (a) kung walang anak na wala pang 18. (b) kung mayroon."
+          },
+          "do_not_check_if": {
+            "en": "Do not check both (a) and (b). Choose only one. Children from other relationships are not listed here.",
+            "es": "No marque ambas (a) y (b). Elija solo una. Los hijos de otras relaciones no se listan aquí.",
+            "zh": "不要同时勾选(a)和(b)。只选一个。其他关系的子女不在此列。",
+            "vi": "Không đánh dấu cả (a) và (b). Chỉ chọn một. Con từ quan hệ khác không liệt kê ở đây.",
+            "so": "Ha calaamadayn labadaba (a) iyo (b). Mid kaliya dooro. Carruurta xiriirro kale laguma qoro halkan.",
+            "ti": "ክልቲኡ (a)ን (b)ን ኣይትምልከት። ሓደ ጥራይ ምረጽ። ናይ ካልእ ዝምድና ቆልዑ ኣይዝርዝሩን።",
+            "am": "ሁለቱንም (a) እና (b) ምልክት አያድርጉ። አንዱን ብቻ ይምረጡ። ከሌላ ግንኙነት ልጆች እዚህ አይዘረዘሩም።",
+            "ar": "لا تضع علامة على كل من (أ) و(ب). اختر واحدًا فقط. أطفال العلاقات الأخرى لا يُدرجون هنا.",
+            "ht": "Pa make toulède (a) ak (b). Chwazi youn sèlman. Timoun nan lòt relasyon pa nan lis sa a.",
+            "ko": "(a)와 (b) 둘 다 표시하지 마세요. 하나만 선택하세요. 다른 관계의 자녀는 여기 기재하지 않습니다.",
+            "pt": "Não marque ambos (a) e (b). Escolha apenas um. Filhos de outras relações não são listados aqui.",
+            "ru": "Не отмечайте оба пункта (а) и (б). Выберите только один. Дети от других отношений здесь не указываются.",
+            "tl": "Huwag lagyan ng tsek ang pareho (a) at (b). Pumili ng isa lang. Mga anak mula sa ibang relasyon ay hindi inilalagay dito."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_4",
+      "fields": [
+        {
+          "field_id": "item_4_dissolution_type",
+          "field_label": "Petitioner requests dissolution of the marriage or domestic partnership",
+          "field_type": "checkbox_group",
+          "guidance": {
+            "en": "Check (a) for dissolution of marriage, OR (b) for dissolution of domestic partnership. If you had both a marriage and domestic partnership, check (c) for both. Also check box (d) to confirm residency — at least one spouse must have lived in California for 6 months AND in the filing county for 3 months.",
+            "es": "Marque (a) para disolución de matrimonio, O (b) para disolución de unión doméstica. Si tuvo ambos, marque (c). Marque (d) para confirmar residencia — al menos un cónyuge debe haber vivido en California 6 meses Y en el condado 3 meses.",
+            "zh": "勾选(a)离婚，或(b)解除家庭伴侣关系。如果两者都有，勾选(c)。还要勾选(d)确认居住要求——至少一方配偶在加州居住6个月且在提交县居住3个月。",
+            "vi": "Đánh dấu (a) cho ly hôn, HOẶC (b) cho chấm dứt quan hệ đối tác. Nếu có cả hai, đánh dấu (c). Đánh dấu (d) để xác nhận cư trú — ít nhất một bên phải sống ở California 6 tháng VÀ tại quận nộp đơn 3 tháng.",
+            "so": "Calaamadee (a) kala-tagga guurka, AMA (b) kala-tagga lammaanaha. Labadaba haddii ay jiraan, (c). (d) calaamadee si aad u xaqiijiso degganaanshaha — ugu yaraan mid ka mid ah xaasaska waa inuu California ku noolaa 6 bilood IYO degmada 3 bilood.",
+            "ti": "ንምፍታሕ ሓዳር (a)፡ ወይ ንናይ ገዛ ሸርኽነት (b) ምልክት ግበር። ክልቲኡ እንተሃልዩ (c)። (d) ምልክት ብምግባር ነባርነት ኣረጋግጽ — ውሕዱ ሓደ ኣብ ካሊፎርንያ 6 ኣዋርሕ ኣብ ካውንቲ ድማ 3 ኣዋርሕ ክነብር ኣለዎ።",
+            "am": "ለጋብቻ ፍቺ (a)፣ ወይም ለቤት ውስጥ ሽርክና ፍቺ (b) ምልክት ያድርጉ። ሁለቱም ካሉ (c)። (d) ምልክት በማድረግ የመኖሪያ ሁኔታ ያረጋግጡ — ቢያንስ አንዱ ባለቤት በካሊፎርኒያ 6 ወራት እና በካውንቲ 3 ወራት መኖር አለበት።",
+            "ar": "ضع علامة (أ) لفسخ الزواج، أو (ب) لفسخ الشراكة المنزلية. إذا كان لديك كلاهما، ضع علامة (ج). ضع علامة (د) لتأكيد الإقامة — يجب أن يكون أحد الزوجين قد عاش في كاليفورنيا 6 أشهر وفي المقاطعة 3 أشهر.",
+            "ht": "Make (a) pou disolisyon maryaj, OSWA (b) pou disolisyon patenarya domestik. Si ou te gen toulède, make (c). Make (d) pou konfime rezidans — omwen youn nan konjwen yo dwe te rete nan Kalifòni 6 mwa E nan konte a 3 mwa.",
+            "ko": "결혼 해소는 (a), 동거 관계 해소는 (b)에 표시하세요. 둘 다 있으면 (c). (d)에 표시하여 거주 요건 확인 — 최소 한 배우자가 캘리포니아에 6개월, 해당 카운티에 3개월 거주해야 합니다.",
+            "pt": "Marque (a) para dissolução de casamento, OU (b) para dissolução de parceria doméstica. Se teve ambos, marque (c). Marque (d) para confirmar residência — pelo menos um cônjuge deve ter vivido na Califórnia 6 meses E no condado 3 meses.",
+            "ru": "Отметьте (а) для расторжения брака, ИЛИ (б) для расторжения домашнего партнёрства. Если было и то, и другое, отметьте (в). Отметьте (г) для подтверждения проживания — хотя бы один супруг должен прожить в Калифорнии 6 месяцев И в округе подачи 3 месяца.",
+            "tl": "Lagyan ng tsek ang (a) para sa dissolution ng kasal, O (b) para sa dissolution ng domestic partnership. Kung pareho, (c). Lagyan (d) para kumpirmahin ang residency — kahit isa sa mag-asawa ay dapat naninirahan sa California ng 6 na buwan AT sa county ng 3 buwan."
+          },
+          "check_if": {
+            "en": "Check (a) if you were legally married. Check (b) if you had a registered domestic partnership only. Check (c) if you had both. Always check (d) to confirm residency.",
+            "es": "Marque (a) si estaba legalmente casado. (b) si solo tenía unión doméstica registrada. (c) si tenía ambos. Siempre marque (d) para residencia.",
+            "zh": "合法结婚选(a)。仅有登记伴侣关系选(b)。两者都有选(c)。始终勾选(d)确认居住。",
+            "vi": "Đánh dấu (a) nếu kết hôn hợp pháp. (b) nếu chỉ có đăng ký đối tác. (c) nếu có cả hai. Luôn đánh dấu (d) xác nhận cư trú.",
+            "so": "Calaamadee (a) haddii sharci ahaaneed guursatay. (b) lammaane kaliya. (c) labadaba. Had iyo jeer (d) calaamadee.",
+            "ti": "ብሕጊ ተመርዕዩ እንተነይርካ (a)። ናይ ገዛ ሸርኽነት ጥራይ (b)። ክልቲኡ (c)። ኩሉ ጊዜ (d)።",
+            "am": "በሕጋዊ ያገቡ ከሆነ (a)። የተመዘገበ ሽርክና ብቻ (b)። ሁለቱም (c)። ሁልጊዜ (d)።",
+            "ar": "ضع علامة (أ) إذا كنت متزوجًا قانونيًا. (ب) شراكة منزلية فقط. (ج) كلاهما. دائمًا (د).",
+            "ht": "Make (a) si ou te marye legalman. (b) si patenarya domestik sèlman. (c) si toulède. Toujou make (d).",
+            "ko": "법적으로 결혼한 경우 (a). 등록된 동거 관계만 있으면 (b). 둘 다 있으면 (c). 항상 (d).",
+            "pt": "Marque (a) se casado legalmente. (b) se apenas parceria doméstica. (c) se ambos. Sempre marque (d).",
+            "ru": "Отметьте (а) если состояли в законном браке. (б) только партнёрство. (в) если оба. Всегда (г).",
+            "tl": "Lagyan (a) kung legal na kasal. (b) kung domestic partnership lang. (c) kung pareho. Laging (d)."
+          },
+          "do_not_check_if": {
+            "en": "Do not check (d) if neither spouse meets the 6-month California / 3-month county residency requirement. You may need to wait or file in a different county.",
+            "es": "No marque (d) si ningún cónyuge cumple el requisito de residencia de 6 meses en California / 3 meses en el condado.",
+            "zh": "如果双方都不满足在加州居住6个月/在县居住3个月的要求，不要勾选(d)。",
+            "vi": "Không đánh dấu (d) nếu không bên nào đáp ứng yêu cầu cư trú 6 tháng California / 3 tháng quận.",
+            "so": "Ha calaamadayn (d) haddii xaas ba midna aanu buuxin shuruudda degganaanshaha.",
+            "ti": "(d) ኣይትምልከት ክልቲኦም ናይ 6 ኣዋርሕ ካሊፎርንያ / 3 ኣዋርሕ ካውንቲ ነባርነት ኣየማልኡን እንተኾይኖም።",
+            "am": "ሁለቱም ባለቤቶች የ6 ወር ካሊፎርኒያ / 3 ወር ካውንቲ መኖሪያ መስፈርት ካላሟሉ (d) ምልክት አያድርጉ።",
+            "ar": "لا تضع علامة (د) إذا لم يستوفِ أي من الزوجين شرط الإقامة 6 أشهر في كاليفورنيا / 3 أشهر في المقاطعة.",
+            "ht": "Pa make (d) si okenn konjwen pa ranpli kondisyon rezidans 6 mwa Kalifòni / 3 mwa konte a.",
+            "ko": "(d)는 어느 배우자도 캘리포니아 6개월 / 카운티 3개월 거주 요건을 충족하지 못하면 표시하지 마세요.",
+            "pt": "Não marque (d) se nenhum cônjuge atende ao requisito de 6 meses na Califórnia / 3 meses no condado.",
+            "ru": "Не отмечайте (г) если ни один из супругов не соответствует требованию 6 месяцев в Калифорнии / 3 месяца в округе.",
+            "tl": "Huwag lagyan ng tsek ang (d) kung walang asawa na nakakatugon sa 6 na buwan California / 3 buwan county residency requirement."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_5",
+      "fields": [
+        {
+          "field_id": "item_5_child_custody",
+          "field_label": "Child custody and visitation/parenting time",
+          "field_type": "checkbox_group",
+          "guidance": {
+            "en": "If you have minor children, check the boxes for what you are requesting: (a) legal custody (who makes major decisions about the children's health, education, and welfare), (b) physical custody (where the children live), and (c) child visitation/parenting time. For each, specify whether you want joint or sole custody. 'Joint' means shared; 'sole' means one parent only.",
+            "es": "Si tiene hijos menores, marque las casillas de lo que solicita: (a) custodia legal (quién toma decisiones importantes sobre salud, educación y bienestar de los hijos), (b) custodia física (dónde viven los hijos), y (c) visitas/tiempo de crianza. Para cada uno, especifique si desea custodia compartida o exclusiva.",
+            "zh": "如果有未成年子女，勾选您所请求的：(a)法律监护权（谁对孩子的健康、教育和福利做重大决定），(b)物理监护权（孩子住在哪里），(c)探视/育儿时间。每项注明是共同监护还是单独监护。",
+            "vi": "Nếu có con chưa thành niên, đánh dấu những gì bạn yêu cầu: (a) quyền giám hộ pháp lý, (b) quyền giám hộ thực tế, (c) thăm viếng/thời gian nuôi dạy. Ghi rõ muốn chung hay riêng.",
+            "so": "Haddii aad leedahay carruur yar yar, calaamadee: (a) mas'uuliyadda sharciga (go'aamada muhiimka ah), (b) mas'uuliyadda jireed (halka ay carruurtu ku noolaadaan), (c) booqashada. Qeex haddii aad rabto wadaag ama keligeed.",
+            "ti": "ትሕቲ ዕድመ ቆልዑ እንተሃልዮም: (a) ሕጋዊ ሞግዚትነት (ዓበይቲ ውሳነታት)፡ (b) ኣካላዊ ሞግዚትነት (ኣበይ ከም ዝነብሩ)፡ (c) ምብጻሕ/ናይ ምዕባይ ግዜ ምልክት ግበር። ሓባራዊ ድዩ ዋላ ንበይኑ ግለጽ።",
+            "am": "ዕድሜያቸው ያልደረሰ ልጆች ካሉ: (a) ሕጋዊ ሞግዚትነት (ስለ ጤና፣ ትምህርት ውሳኔ)፣ (b) አካላዊ ሞግዚትነት (ልጆች የት ይኖራሉ)፣ (c) ጉብኝት/ማሳደጊያ ጊዜ ምልክት ያድርጉ። የጋራ ወይም ብቸኛ ይግለጹ።",
+            "ar": "إذا كان لديك أطفال قاصرون: ضع علامة على (أ) الحضانة القانونية (القرارات الكبرى)، (ب) الحضانة الجسدية (أين يعيش الأطفال)، (ج) الزيارة/وقت الأبوة. حدد مشتركة أو حصرية.",
+            "ht": "Si ou gen timoun minè, make: (a) gad legal (ki pran desizyon enpòtan), (b) gad fizik (kote timoun yo rete), (c) vizit/tan paran. Presize si ou vle konjwen oswa sèl.",
+            "ko": "미성년 자녀가 있으면: (a) 법적 양육권 (중요 결정), (b) 물리적 양육권 (거주지), (c) 방문/양육 시간에 표시하세요. 각각 공동 또는 단독 지정하세요.",
+            "pt": "Se tem filhos menores: marque (a) guarda legal (decisões importantes), (b) guarda física (onde os filhos moram), (c) visitação/tempo parental. Especifique se conjunta ou exclusiva.",
+            "ru": "Если есть несовершеннолетние дети: отметьте (а) юридическая опека (важные решения), (б) физическая опека (где живут дети), (в) посещение/время с родителем. Укажите совместная или единоличная.",
+            "tl": "Kung may menor de edad na anak: lagyan (a) legal custody (mahahalagang desisyon), (b) physical custody (saan nakatira ang mga bata), (c) visitation/parenting time. Tukuyin kung joint o sole."
+          },
+          "check_if": {
+            "en": "Check all that apply when you have minor children. Most self-represented parents request joint legal and joint physical custody.",
+            "es": "Marque todo lo que aplique si tiene hijos menores. La mayoría de padres solicitan custodia legal y física compartida.",
+            "zh": "有未成年子女时勾选所有适用项。多数自我代理的父母请求共同法律和共同物理监护权。",
+            "vi": "Đánh dấu tất cả khi có con chưa thành niên. Hầu hết phụ huynh tự đại diện yêu cầu quyền giám hộ chung.",
+            "so": "Calaamadee kuwa khuseeya marka aad leedahay carruur yar. Badanaa waaliddiintu waxay codsadaan mas'uuliyad wadaag ah.",
+            "ti": "ትሕቲ ዕድመ ቆልዑ ኣለዉ እንተኾይኖም ኩሎም ዝምልከቱ ምልክት ግበር።",
+            "am": "ዕድሜያቸው ያልደረሰ ልጆች ካሉ ሁሉንም የሚመለከቱ ምልክት ያድርጉ።",
+            "ar": "ضع علامة على كل ما ينطبق عند وجود أطفال قاصرين.",
+            "ht": "Make tout sa ki aplike lè ou gen timoun minè.",
+            "ko": "미성년 자녀가 있을 때 해당하는 모든 항목에 표시하세요.",
+            "pt": "Marque tudo que se aplica quando tem filhos menores.",
+            "ru": "Отметьте всё применимое при наличии несовершеннолетних детей.",
+            "tl": "Lagyan lahat ng naaangkop kapag may menor de edad na anak."
+          },
+          "do_not_check_if": {
+            "en": "Leave all blank if you checked item 3(a) (no minor children). Do not request custody here if children are from a different relationship — that requires a separate case.",
+            "es": "Deje todo en blanco si marcó el punto 3(a) (sin hijos menores). No solicite custodia aquí si los hijos son de otra relación.",
+            "zh": "如果勾选了第3项(a)（无未成年子女），全部留空。其他关系的子女需要单独立案。",
+            "vi": "Để trống nếu đã đánh dấu mục 3(a) (không có con chưa thành niên). Con từ quan hệ khác cần vụ án riêng.",
+            "so": "Banaan ka tag haddii aad calaamadaysay qodobka 3(a). Carruurta xiriir kale waxay u baahan yihiin dacwad gooni ah.",
+            "ti": "ዓንቀጽ 3(a) ምልክት ገይርካ እንተኾንካ ኩሉ ባዶ ግደፎ።",
+            "am": "ዓንቀጽ 3(ሀ) ምልክት ካደረጉ ሁሉንም ባዶ ይተውት።",
+            "ar": "اتركها فارغة إذا اخترت البند 3(أ). أطفال العلاقات الأخرى يحتاجون قضية منفصلة.",
+            "ht": "Kite tout vid si ou te make pwen 3(a). Timoun nan lòt relasyon bezwen yon dosye apa.",
+            "ko": "3항 (a)(미성년 자녀 없음)에 표시했으면 모두 비워두세요.",
+            "pt": "Deixe tudo em branco se marcou item 3(a). Filhos de outra relação requerem caso separado.",
+            "ru": "Оставьте пустым если отмечен пункт 3(а). Дети от других отношений требуют отдельного дела.",
+            "tl": "Iwanang lahat kung nilagyan ng tsek ang item 3(a). Mga anak sa ibang relasyon ay nangangailangan ng hiwalay na kaso."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_6",
+      "fields": [
+        {
+          "field_id": "item_6_spousal_support",
+          "field_label": "Spousal or domestic partner support",
+          "field_type": "checkbox_group",
+          "guidance": {
+            "en": "Check (a) if you are requesting spousal support from your spouse. Check (b) if you want the court to terminate (end) your spouse's ability to receive support from you. You may check both. If neither applies, leave blank.",
+            "es": "Marque (a) si solicita manutención conyugal. Marque (b) si desea que el tribunal termine la capacidad de su cónyuge de recibir manutención de usted. Puede marcar ambas. Si ninguna aplica, deje en blanco.",
+            "zh": "如果您请求配偶赡养费，勾选(a)。如果您要求法院终止配偶向您索要赡养费的权利，勾选(b)。两者可同时勾选。都不适用则留空。",
+            "vi": "Đánh dấu (a) nếu yêu cầu cấp dưỡng. Đánh dấu (b) nếu muốn tòa chấm dứt quyền nhận cấp dưỡng của bên kia. Có thể đánh dấu cả hai. Không áp dụng thì để trống.",
+            "so": "Calaamadee (a) haddii aad codsanayso masruuf xaas. (b) haddii aad rabto in maxkamaddu joojiso awoodda xaaskaaga ee masruufka. Labadaba waa laga calaamadayn karaa.",
+            "ti": "ናይ በዓልቲ ቤት ደገፍ ትሓትት እንተኾንካ (a) ምልክት ግበር። ናይ በዓልቲ ቤትካ ደገፍ ናይ ምርካብ መሰል ክቋረጽ ትደሊ እንተኾንካ (b)። ክልቲኡ ክምልከት ይኽእል።",
+            "am": "የትዳር ጓደኛ ድጋፍ የሚጠይቁ ከሆነ (a)። ፍርድ ቤቱ የባለቤትዎን ከእርስዎ ድጋፍ የማግኘት መብት እንዲያቆም ከፈለጉ (b)። ሁለቱንም ማመልከት ይችላሉ።",
+            "ar": "ضع علامة (أ) إذا تطلب نفقة من زوجك. (ب) إذا أردت إنهاء حق زوجك في تلقي النفقة منك. يمكنك تحديد كليهما.",
+            "ht": "Make (a) si w ap mande sipò konjwen. (b) si ou vle tribinal la mete fen nan dwa konjwen ou pou resevwa sipò nan men ou. Ou ka make toulède.",
+            "ko": "배우자 부양비를 요청하면 (a). 배우자의 부양비 수령 권리 종료를 원하면 (b). 둘 다 가능. 해당 없으면 비워두세요.",
+            "pt": "Marque (a) se solicita pensão alimentícia. (b) se quer que o tribunal encerre o direito do cônjuge de receber pensão. Pode marcar ambos.",
+            "ru": "Отметьте (а) если запрашиваете алименты от супруга. (б) если хотите прекратить право супруга на алименты от вас. Можно оба.",
+            "tl": "Lagyan (a) kung humihingi ng spousal support. (b) kung gusto mong tapusin ng korte ang karapatan ng asawa na makatanggap ng support mula sa iyo. Pwedeng pareho."
+          },
+          "check_if": {
+            "en": "Check (a) if you earned less than your spouse and need financial support. Check (b) if you want to prevent your spouse from requesting support from you later.",
+            "es": "Marque (a) si ganaba menos que su cónyuge. (b) si quiere prevenir que su cónyuge solicite manutención después.",
+            "zh": "如果收入低于配偶且需要经济支持，选(a)。如果要防止配偶日后向您索要赡养费，选(b)。",
+            "vi": "Đánh dấu (a) nếu thu nhập thấp hơn và cần hỗ trợ tài chính. (b) nếu muốn ngăn bên kia yêu cầu cấp dưỡng sau này.",
+            "so": "Calaamadee (a) haddii aad ka badan tahay lacagta xaaskaaga. (b) haddii aad rabto inaad ka hortagto in xaaskaagu masruuf codsado.",
+            "ti": "(a) ካብ በዓልቲ ቤትካ ዝወሓደ ትረክብ እንተኾንካ። (b) በዓልቲ ቤትካ ጸኒሑ ደገፍ ከይሓትት ትደሊ እንተኾንካ።",
+            "am": "(a) ከባለቤትዎ ያነሰ ከሆነ ገቢዎ። (b) ባለቤትዎ በኋላ ድጋፍ እንዳይጠይቅ ከፈለጉ።",
+            "ar": "(أ) إذا كسبت أقل من زوجك. (ب) إذا أردت منع زوجك من طلب النفقة لاحقًا.",
+            "ht": "(a) si ou te touche mwens pase konjwen ou. (b) si ou vle anpeche konjwen ou mande sipò pita.",
+            "ko": "(a) 배우자보다 수입이 적은 경우. (b) 배우자가 나중에 부양비를 요청하는 것을 방지하려면.",
+            "pt": "(a) se ganhava menos que o cônjuge. (b) se quer prevenir que o cônjuge peça pensão depois.",
+            "ru": "(а) если зарабатывали меньше супруга. (б) если хотите предотвратить запрос алиментов от супруга.",
+            "tl": "(a) kung mas mababa ang kita kaysa sa asawa. (b) kung gusto mong pigilan ang asawa na humingi ng support sa hinaharap."
+          },
+          "do_not_check_if": {
+            "en": "Leave blank if you do not want to address spousal support at this time. You can request it later before the judgment is final.",
+            "es": "Deje en blanco si no desea abordar la manutención conyugal ahora. Puede solicitarla antes de que el fallo sea final.",
+            "zh": "如果暂时不想处理配偶赡养费问题，留空。可在最终判决前再提出。",
+            "vi": "Để trống nếu chưa muốn giải quyết cấp dưỡng. Có thể yêu cầu sau trước khi phán quyết cuối cùng.",
+            "so": "Banaan ka tag haddii aadan rabin inaad wax ka sheegtid masruufka xaaska wakhtigan. Waa laga codsadaa ka hor finaalka.",
+            "ti": "ሕጂ ናይ በዓልቲ ቤት ደገፍ ክትዛረብ ዘይትደሊ እንተኾንካ ባዶ ግደፎ።",
+            "am": "አሁን የትዳር ጓደኛ ድጋፍ ማንሳት ካልፈለጉ ባዶ ይተውት።",
+            "ar": "اتركه فارغًا إذا لم تُرد معالجة النفقة الآن.",
+            "ht": "Kite vid si ou pa vle abòde sipò konjwen kounye a.",
+            "ko": "현재 배우자 부양비를 다루지 않으려면 비워두세요.",
+            "pt": "Deixe em branco se não quer abordar pensão agora.",
+            "ru": "Оставьте пустым если не хотите сейчас решать вопрос алиментов.",
+            "tl": "Iwanang kung ayaw mo pang harapin ang spousal support ngayon."
+          }
+        }
+      ]
+    },    {
+      "section_id": "item_7",
+      "fields": [
+        {
+          "field_id": "item_7_property",
+          "field_label": "Property — confirm as community or quasi-community property",
+          "field_type": "checkbox",
+          "guidance": {
+            "en": "Check this box to ask the court to divide community and quasi-community property. Community property is anything earned or acquired during the marriage. Under California law (Family Code § 2550), community property must be divided equally.",
+            "es": "Marque esta casilla para pedir al tribunal que divida los bienes comunitarios y cuasi-comunitarios. Los bienes comunitarios son todo lo ganado o adquirido durante el matrimonio. Según la ley de California (Family Code § 2550), los bienes comunitarios deben dividirse en partes iguales.",
+            "zh": "勾选此框要求法院分割社区财产和准社区财产。社区财产是婚姻期间赚取或获得的任何东西。根据加州法律（Family Code § 2550），社区财产必须平等分割。",
+            "vi": "Đánh dấu ô này để yêu cầu tòa phân chia tài sản cộng đồng. Tài sản cộng đồng là mọi thứ kiếm được trong hôn nhân. Theo luật California (Family Code § 2550), tài sản cộng đồng phải chia đều.",
+            "so": "Calaamadee sanduuqan si aad maxkamadda uga codsatid in ay kala qaybiso hantida wadaagga ah. Hantida wadaagga ah waa wax kasta oo la helay ama la kasbay wakhtiga guurka. Sharciga California (Family Code § 2550), hantida wadaagga waa in si siman loo qaybiyaa.",
+            "ti": "ናይ ሓባር ንብረት ክመቓቐል ካብ ቤት ፍርዲ ንምሕታት እዚ ሳጹን ምልክት ግበር። ናይ ሓባር ንብረት ኣብ እዋን ሓዳር ዝተረኽበ ኩሉ እዩ። ብመሰረት ሕጊ ካሊፎርንያ (Family Code § 2550) ብማዕረ ክምቀል ኣለዎ።",
+            "am": "ማህበረሰብ ንብረት እንዲከፋፈል ፍርድ ቤትን ለመጠየቅ ይህን ሳጥን ምልክት ያድርጉ። ማህበረሰብ ንብረት በጋብቻ ወቅት የተገኘ ሁሉ ነው። በካሊፎርኒያ ሕግ (Family Code § 2550) በእኩል መከፋፈል አለበት።",
+            "ar": "ضع علامة لطلب تقسيم الممتلكات المشتركة. الممتلكات المشتركة هي كل ما تم كسبه أثناء الزواج. وفقًا لقانون كاليفورنيا (Family Code § 2550)، يجب تقسيمها بالتساوي.",
+            "ht": "Make bwat sa a pou mande tribinal la divize pwopriyete kominotè. Pwopriyete kominotè se tout sa ki te fèt oswa jwenn pandan maryaj la. Dapre lwa Kalifòni (Family Code § 2550), li dwe divize egalman.",
+            "ko": "공동 재산 분할을 법원에 요청하려면 이 체크박스에 표시하세요. 공동 재산은 결혼 기간 동안 벌거나 취득한 모든 것입니다. 캘리포니아 법률(Family Code § 2550)에 따라 균등 분할해야 합니다.",
+            "pt": "Marque para pedir ao tribunal que divida bens comunitários. Bens comunitários são tudo ganho ou adquirido durante o casamento. Pela lei da Califórnia (Family Code § 2550), devem ser divididos igualmente.",
+            "ru": "Отметьте для запроса раздела совместного имущества. Совместное имущество — всё, что заработано или приобретено во время брака. По закону Калифорнии (Family Code § 2550) оно должно делиться поровну.",
+            "tl": "Lagyan ng tsek para hilingin sa korte na hatiin ang community property. Community property ay lahat ng kinita o nakuha sa panahon ng kasal. Ayon sa batas ng California (Family Code § 2550), dapat hatiin nang pantay."
+          },
+          "check_if": {
+            "en": "Check this if there is any property or debt acquired during the marriage that needs to be divided.",
+            "es": "Marque si hay algún bien o deuda adquirida durante el matrimonio que necesite dividirse.",
+            "zh": "如果有婚姻期间获得的任何财产或债务需要分割，勾选此项。",
+            "vi": "Đánh dấu nếu có tài sản hoặc nợ trong hôn nhân cần phân chia.",
+            "so": "Calaamadee haddii ay jirto hanti ama deyn la helay wakhtiga guurka oo u baahan qaybin.",
+            "ti": "ኣብ ሓዳር ዝተረኽበ ንብረት ወይ ዕዳ ዝመቀል እንተሃልዩ ምልክት ግበር።",
+            "am": "በጋብቻ ወቅት የተገኘ ንብረት ወይም ዕዳ ለመከፋፈል ካለ ምልክት ያድርጉ።",
+            "ar": "ضع علامة إذا كان هناك ممتلكات أو ديون مكتسبة أثناء الزواج تحتاج للتقسيم.",
+            "ht": "Make si gen nenpòt pwopriyete oswa dèt ki te jwenn pandan maryaj la ki bezwen divize.",
+            "ko": "결혼 중 취득한 재산이나 부채 분할이 필요하면 표시하세요.",
+            "pt": "Marque se há bens ou dívidas adquiridos durante o casamento que precisam ser divididos.",
+            "ru": "Отметьте если есть имущество или долги, приобретённые во время брака, которые нужно разделить.",
+            "tl": "Lagyan ng tsek kung may property o utang na nakuha sa kasal na kailangang hatiin."
+          },
+          "do_not_check_if": {
+            "en": "Leave blank only if you and your spouse have already divided all property and debts by written agreement, or if there is truly no community property.",
+            "es": "Deje en blanco solo si ya dividieron todos los bienes y deudas por acuerdo escrito, o si no hay bienes comunitarios.",
+            "zh": "仅在双方已通过书面协议分割所有财产和债务，或确实没有社区财产时才留空。",
+            "vi": "Chỉ để trống nếu đã phân chia tất cả tài sản và nợ bằng thỏa thuận bằng văn bản, hoặc thực sự không có tài sản cộng đồng.",
+            "so": "Banaan ka tag kaliya haddii aad hore u kala qaybiseen hantida oo dhan iyo deymaha qoraal ahaan, ama haddii aysan jirin hanti wadaag ah.",
+            "ti": "ኩሉ ንብረትን ዕዳን ብጽሑፍ ስምምዕ ተመቃቒልኩም እንተኾንኩም ወይ ናይ ሓባር ንብረት እንተዘይሃልዩ ጥራይ ባዶ ግደፎ።",
+            "am": "ሁሉንም ንብረትና ዕዳ በጽሑፍ ስምምነት ከፋፍለው ከሆነ ወይም ማህበረሰብ ንብረት ከሌለ ብቻ ባዶ ይተውት።",
+            "ar": "اتركه فارغًا فقط إذا قسمتم جميع الممتلكات والديون باتفاق مكتوب، أو لا توجد ممتلكات مشتركة.",
+            "ht": "Kite vid sèlman si ou deja divize tout pwopriyete ak dèt pa akò ekri, oswa pa gen pwopriyete kominotè.",
+            "ko": "서면 합의로 모든 재산과 부채를 이미 분할했거나 공동 재산이 없는 경우에만 비워두세요.",
+            "pt": "Deixe em branco apenas se já dividiram todos os bens e dívidas por acordo escrito, ou se não há bens comunitários.",
+            "ru": "Оставьте пустым только если уже разделили всё имущество и долги письменным соглашением, или совместного имущества нет.",
+            "tl": "Iwanang lang kung nahati na lahat ng property at utang sa pamamagitan ng nakasulat na kasunduan, o kung walang community property."
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "item_8",
+      "fields": [
+        {
+          "field_id": "item_8_attorney_fees",
+          "field_label": "Attorney fees — ask the court to order your spouse to pay",
+          "field_type": "checkbox",
+          "guidance": {
+            "en": "Check this box if you want the court to order your spouse to pay part or all of your attorney fees and costs. Under Family Code § 2030, the court can order one spouse to pay the other's fees to ensure equal access to legal representation, based on each party's income and needs.",
+            "es": "Marque esta casilla si desea que el tribunal ordene a su cónyuge pagar parte o todos sus honorarios de abogado. Según Family Code § 2030, el tribunal puede ordenar que un cónyuge pague los honorarios del otro para garantizar acceso igualitario a representación legal.",
+            "zh": "如果您希望法院命令您的配偶支付您的部分或全部律师费，请勾选此框。根据Family Code § 2030，法院可以命令一方支付另一方的费用，以确保双方都能获得法律代理。",
+            "vi": "Đánh dấu nếu muốn tòa ra lệnh cho bên kia trả phí luật sư. Theo Family Code § 2030, tòa có thể ra lệnh một bên trả phí cho bên kia để đảm bảo tiếp cận bình đẳng với đại diện pháp lý.",
+            "so": "Calaamadee haddii aad rabto maxkamaddu inay amarto xaaskaaga inuu bixiyo kharashkaaga qareen. Sida ku cad Family Code § 2030, maxkamaddu waxay amari kartaa mid ka mid ah xaasaska inuu bixiyo kharashka kan kale.",
+            "ti": "ቤት ፍርዲ ንበዓልቲ ቤትካ ናይ ጠበቓ ክፍሊት ክኸፍል ክእዝዝ ትደሊ እንተኾንካ እዚ ሳጹን ምልክት ግበር። ብመሰረት Family Code § 2030 ቤት ፍርዲ ሓደ ሰብ ናይቲ ካልእ ክፍሊት ክኸፍል ክእዝዝ ይኽእል።",
+            "am": "ፍርድ ቤት ባለቤትዎ የጠበቃ ክፍያዎን እንዲከፍል ከፈለጉ ይህን ሳጥን ምልክት ያድርጉ። በFamily Code § 2030 መሰረት ፍርድ ቤት አንድ ወገን ለሌላው ክፍያ እንዲከፍል ሊያዝ ይችላል።",
+            "ar": "ضع علامة إذا أردت من المحكمة أن تأمر زوجك بدفع أتعاب المحاماة. وفقًا لـ Family Code § 2030، يمكن للمحكمة أن تأمر أحد الزوجين بدفع أتعاب الآخر.",
+            "ht": "Make bwat sa a si ou vle tribinal la bay lòd pou konjwen ou peye frè avoka ou. Dapre Family Code § 2030, tribinal la ka bay lòd pou youn peye frè lòt la.",
+            "ko": "법원이 배우자에게 변호사 비용을 지불하도록 명령하기를 원하면 표시하세요. Family Code § 2030에 따라 법원은 한쪽이 다른 쪽의 비용을 지불하도록 명령할 수 있습니다.",
+            "pt": "Marque se deseja que o tribunal ordene seu cônjuge a pagar honorários advocatícios. De acordo com Family Code § 2030, o tribunal pode ordenar que um cônjuge pague os custos do outro.",
+            "ru": "Отметьте если хотите, чтобы суд обязал вашего супруга оплатить ваши адвокатские расходы. По Family Code § 2030 суд может обязать одного супруга оплатить расходы другого.",
+            "tl": "Lagyan ng tsek kung gusto mong utusan ng korte ang asawa na magbayad ng attorney fees. Ayon sa Family Code § 2030, maaaring utusan ng korte ang isang asawa na bayaran ang gastos ng isa pa."
+          },
+          "check_if": {
+            "en": "Check this if you have hired an attorney or plan to, and your spouse earns significantly more than you.",
+            "es": "Marque si ha contratado o planea contratar abogado y su cónyuge gana significativamente más que usted.",
+            "zh": "如果您已聘请律师或计划聘请，且配偶收入远高于您，勾选此项。",
+            "vi": "Đánh dấu nếu đã thuê hoặc dự định thuê luật sư và thu nhập bên kia cao hơn đáng kể.",
+            "so": "Calaamadee haddii aad soo kiraystay ama qorshaynayso qareen soo kirayn oo xaaskaagu ka badan yahay dakhligaaga.",
+            "ti": "ጠበቓ ቆጺርካ ወይ ክትቆጽር ትሓስብ እንተኾንካን በዓልቲ ቤትካ ብዙሕ ዝያዳ ትረክብ እንተኾይኑን ምልክት ግበር።",
+            "am": "ጠበቃ ቀጥረው ከሆነ ወይም ለመቅጠር ካቀዱ፣ እና ባለቤትዎ በጣም ከፍ ያለ ገቢ ካላቸው ምልክት ያድርጉ።",
+            "ar": "ضع علامة إذا استعنت بمحامٍ أو تنوي ذلك وزوجك يكسب أكثر منك بكثير.",
+            "ht": "Make si ou te angaje oswa planifye angaje avoka epi konjwen ou touche plis pase ou.",
+            "ko": "변호사를 고용했거나 고용할 계획이고 배우자 수입이 훨씬 많으면 표시하세요.",
+            "pt": "Marque se contratou ou planeja contratar advogado e seu cônjuge ganha significativamente mais.",
+            "ru": "Отметьте если наняли или планируете нанять адвоката и супруг(а) зарабатывает значительно больше.",
+            "tl": "Lagyan ng tsek kung may abogado ka na o nagplaplano kang kumuha, at mas mataas ang kita ng asawa mo."
+          },
+          "do_not_check_if": {
+            "en": "Leave blank if you are self-represented (In Pro Per) and not requesting attorney fees. You can still request this later if you hire an attorney before the judgment is final.",
+            "es": "Deje en blanco si se representa a sí mismo (In Pro Per) y no solicita honorarios. Puede solicitarlo después si contrata abogado antes del fallo final.",
+            "zh": "如果您自我代理（In Pro Per）且不申请律师费，留空。如果在最终判决前聘请律师，可以稍后再申请。",
+            "vi": "Để trống nếu tự đại diện (In Pro Per) và không yêu cầu phí luật sư. Có thể yêu cầu sau nếu thuê luật sư trước phán quyết cuối cùng.",
+            "so": "Banaan ka tag haddii aad naftaada u matashahay (In Pro Per) oo aadan codsanayn kharash qareen.",
+            "ti": "ንርእስኻ ትውክል (In Pro Per) እንተኾንካን ናይ ጠበቓ ክፍሊት ዘይትሓትት እንተኾንካን ባዶ ግደፎ።",
+            "am": "እራስዎን የሚወክሉ (In Pro Per) ከሆኑ እና የጠበቃ ክፍያ የማይጠይቁ ከሆነ ባዶ ይተውት።",
+            "ar": "اتركه فارغًا إذا كنت تمثل نفسك (In Pro Per) ولا تطلب أتعاب محاماة.",
+            "ht": "Kite vid si w ap reprezante tèt ou (In Pro Per) epi ou pa mande frè avoka.",
+            "ko": "자기 대리(In Pro Per)이고 변호사 비용을 요청하지 않으면 비워두세요.",
+            "pt": "Deixe em branco se se auto-representa (In Pro Per) e não solicita honorários advocatícios.",
+            "ru": "Оставьте пустым если представляете себя сами (In Pro Per) и не запрашиваете адвокатские расходы.",
+            "tl": "Iwanang kung self-represented ka (In Pro Per) at hindi humihingi ng attorney fees."
+          }
+        }
+      ]
+    },    {
+      "section_id": "footer",
+      "fields": [
+        {
+          "field_id": "footer_declaration",
+          "field_label": "I declare under penalty of perjury under the laws of the State of California that the foregoing is true and correct",
+          "field_type": "text_block",
+          "guidance": {
+            "en": "This is the declaration under penalty of perjury. By signing below, you swear that everything in this petition is true. Making false statements on a court form is a crime under California Penal Code § 118.",
+            "es": "Esta es la declaración bajo pena de perjurio. Al firmar, jura que todo en esta petición es verdadero. Hacer declaraciones falsas en un formulario judicial es un delito según California Penal Code § 118.",
+            "zh": "这是伪证处罚声明。签名即表示您宣誓请愿书中的一切属实。在法庭表格上作虚假陈述根据California Penal Code § 118属于犯罪。",
+            "vi": "Đây là tuyên bố dưới hình phạt khai man. Bằng cách ký bên dưới, bạn tuyên thệ mọi thông tin trong đơn là đúng sự thật. Khai sai trên biểu mẫu tòa án là tội theo California Penal Code § 118.",
+            "so": "Tani waa qiraalkii ciqaabta beenta. Markaad saxiixdo, waxaad dhaaranaysaa in wax walba oo dacwaddan ku jira ay run yihiin. Been ka sheegidda foomamka maxkamaddu waa dambi sida ku cad California Penal Code § 118.",
+            "ti": "እዚ ብመቕጻዕቲ ሓሶ ዝግበር ኣዋጅ እዩ። ብምፍራም ኩሉ ኣብዚ ጥርዓን ዘሎ ሓቂ ምዃኑ ትምሕል። ኣብ ፎርም ቤት ፍርዲ ሓሶ ምዝራብ ብመሰረት California Penal Code § 118 ገበን እዩ።",
+            "am": "ይህ በሐሰት ቅጣት ስር የሚደረግ ማረጋገጫ ነው። በመፈረም በዚህ አቤቱታ ውስጥ ያለው ሁሉ እውነት መሆኑን ይምላሉ። በፍርድ ቤት ቅጽ ላይ ሐሰት ማለት በCalifornia Penal Code § 118 ወንጀል ነው።",
+            "ar": "هذا إقرار تحت طائلة عقوبة شهادة الزور. بالتوقيع أدناه تُقسم أن كل شيء في هذا الطلب صحيح. الإدلاء ببيانات كاذبة جريمة وفقًا لـ California Penal Code § 118.",
+            "ht": "Sa a se deklarasyon anba penalite fo temwayaj. Lè ou siyen, ou sèmante tout sa ki nan petisyon sa a se verite. Fe fo deklarasyon sou yon fòm tribinal se yon krim dapre California Penal Code § 118.",
+            "ko": "이것은 위증죄 처벌 하의 선언입니다. 아래 서명함으로써 청원서의 모든 내용이 사실임을 선서합니다. 법원 양식에 허위 진술을 하는 것은 California Penal Code § 118에 따른 범죄입니다.",
+            "pt": "Esta é a declaração sob pena de perjúrio. Ao assinar, você jura que tudo nesta petição é verdadeiro. Fazer declarações falsas em formulário judicial é crime sob California Penal Code § 118.",
+            "ru": "Это заявление под страхом наказания за лжесвидетельство. Подписывая, вы клянётесь, что всё в этом ходатайстве является правдой. Ложные заявления в судебных формах являются преступлением по California Penal Code § 118.",
+            "tl": "Ito ang deklarasyon sa ilalim ng parusa ng perjury. Sa paglagda, isinusumpa mo na lahat sa petisyon na ito ay totoo. Ang pagbibigay ng maling pahayag sa court form ay krimen ayon sa California Penal Code § 118."
+          }
+        },        {
+          "field_id": "footer_date",
+          "field_label": "Date",
+          "field_type": "date_field",
+          "guidance": {
+            "en": "Enter today's date — the date you are signing this petition. Format: month/day/year. This must be the actual date you sign, not a past or future date.",
+            "es": "Escriba la fecha de hoy — la fecha en que firma esta petición. Formato: mes/día/año. Debe ser la fecha real en que firma.",
+            "zh": "输入今天的日期——您签署此请愿书的日期。格式：月/日/年。必须是您实际签署的日期。",
+            "vi": "Nhập ngày hôm nay — ngày bạn ký đơn thỉnh cầu. Định dạng: tháng/ngày/năm. Phải là ngày thực tế bạn ký.",
+            "so": "Geli taariikhda maanta — maalinta aad saxiixeyso dacwaddan. Qaab: bil/maalin/sanad. Waa inay noqotaa taariikhda dhabta ah.",
+            "ti": "ናይ ሎሚ ዕለት — ነዚ ጥርዓን ትፍርመሉ ዕለት ኣእቱ። ቅርጺ: ወርሒ/ዕለት/ዓመት። ናይ ብሓቂ ዝፈረምካሉ ዕለት ክኸውን ኣለዎ።",
+            "am": "የዛሬ ቀን — ይህን አቤቱታ የሚፈርሙበት ቀን ያስገቡ። ቅርጸት: ወር/ቀን/ዓመት። በትክክል የሚፈርሙበት ቀን መሆን አለበት።",
+            "ar": "أدخل تاريخ اليوم — التاريخ الذي توقع فيه هذا الطلب. الصيغة: شهر/يوم/سنة. يجب أن يكون التاريخ الفعلي للتوقيع.",
+            "ht": "Mete dat jodi a — dat ou siyen petisyon sa a. Fòma: mwa/jou/ane. Li dwe dat reyèl ou siyen an.",
+            "ko": "오늘 날짜 — 이 청원서에 서명하는 날짜를 입력하세요. 형식: 월/일/년. 실제 서명 날짜여야 합니다.",
+            "pt": "Insira a data de hoje — a data em que assina esta petição. Formato: mês/dia/ano. Deve ser a data real da assinatura.",
+            "ru": "Введите сегодняшнюю дату — дату подписания этого ходатайства. Формат: месяц/день/год. Должна быть фактическая дата подписания.",
+            "tl": "Ilagay ang petsa ngayon — ang petsa na pinipirmahan mo ang petisyon. Format: buwan/araw/taon. Dapat ang totoong petsa ng pagpirma."
+          }
+        },        {
+          "field_id": "footer_signature",
+          "field_label": "Signature of Petitioner",
+          "field_type": "signature",
+          "guidance": {
+            "en": "Sign your full legal name in ink. This must be your own handwritten signature — typed or stamped signatures are not accepted. If filing electronically, follow your court's e-filing signature rules.",
+            "es": "Firme con su nombre legal completo en tinta. Debe ser su firma manuscrita — firmas mecanografiadas o con sello no se aceptan. Si presenta electrónicamente, siga las reglas de firma electrónica de su tribunal.",
+            "zh": "用墨水签署您的完整法定姓名。必须是您亲笔手写签名——不接受打字或盖章签名。如果电子提交，请遵循法院的电子签名规则。",
+            "vi": "Ký tên pháp lý đầy đủ bằng mực. Phải là chữ ký viết tay — chữ ký đánh máy hoặc đóng dấu không được chấp nhận. Nếu nộp điện tử, tuân theo quy tắc chữ ký điện tử của tòa.",
+            "so": "Ku saxiix magacaaga sharciga oo buuxa khad ah. Waa inay noqotaa saxiixa gacantiisa — kuwa la taypiyey ama la shaabaddeeyay lama aqbalo. Haddii aad elektaroonig ahaan xareynayso, raac xeerarka maxkamadaada.",
+            "ti": "ምሉእ ሕጋዊ ስምካ ብቐለም ፈርም። ናይ ባዕልኻ ብኢድ ዝተጻሕፈ ፊርማ ክኸውን ኣለዎ — ብታይፕ ወይ ማሕተም ኣይቅበልን። ብኤለክትሮኒክ ትቕርብ እንተኾንካ ናይ ቤት ፍርዲኻ ሕግታት ተኸተል።",
+            "am": "ሙሉ ሕጋዊ ስምዎን በቀለም ይፈርሙ። የእርስዎ የእጅ ፊርማ መሆን አለበት — የተተየቡ ወይም የታተሙ ፊርማዎች ተቀባይነት የላቸውም። በኤሌክትሮኒክ ከሆነ የፍርድ ቤትዎን ደንቦች ይከተሉ።",
+            "ar": "وقّع باسمك القانوني الكامل بالحبر. يجب أن يكون توقيعك بخط اليد — التوقيعات المطبوعة أو المختومة غير مقبولة. إذا كنت تقدم إلكترونيًا، اتبع قواعد التوقيع الإلكتروني.",
+            "ht": "Siyen non legal konplè ou ak lank. Li dwe pwòp siyati men ou — siyati tape oswa estanpe pa aksepte. Si w ap depoze elektwonikman, swiv règ siyati e-filing tribinal ou a.",
+            "ko": "잉크로 정식 법적 이름을 서명하세요. 자필 서명이어야 합니다 — 타이핑하거나 도장 서명은 불가합니다. 전자 제출 시 법원의 전자 서명 규칙을 따르세요.",
+            "pt": "Assine com seu nome legal completo em tinta. Deve ser sua assinatura manuscrita — assinaturas digitadas ou carimbadas não são aceitas. Se protocolar eletronicamente, siga as regras de assinatura do tribunal.",
+            "ru": "Подпишите полное юридическое имя чернилами. Должна быть ваша собственноручная подпись — печатные или штампованные подписи не принимаются. При электронной подаче следуйте правилам суда.",
+            "tl": "Pirmahan gamit ang iyong buong legal na pangalan sa tinta. Dapat sariling sulat-kamay — hindi tinatanggap ang naka-type o naka-stamp. Kung e-filing, sundin ang e-signature rules ng korte."
+          }
+        },        {
+          "field_id": "footer_printed_name",
+          "field_label": "Type or print name",
+          "field_type": "text_field",
+          "guidance": {
+            "en": "Print or type your full legal name clearly below your signature. This ensures the court can read your name even if your signature is not legible.",
+            "es": "Escriba o imprima su nombre legal completo claramente debajo de su firma. Esto asegura que el tribunal pueda leer su nombre incluso si su firma no es legible.",
+            "zh": "在签名下方清楚地打印或输入您的完整法定姓名。这确保即使签名不清晰，法院也能读取您的姓名。",
+            "vi": "In hoặc gõ rõ ràng tên pháp lý đầy đủ bên dưới chữ ký. Điều này đảm bảo tòa có thể đọc tên bạn ngay cả khi chữ ký không rõ.",
+            "so": "Ku qor ama ku daabac magacaaga sharciga oo buuxa si cad ah saxiixa hoostiisa. Tani waxay hubisaa in maxkamaddu akhriyi karto magacaaga.",
+            "ti": "ምሉእ ሕጋዊ ስምካ ብንጹር ታሕቲ ፊርማኻ ጽሓፍ ወይ ሕተም። እዚ ቤት ፍርዲ ፊርማኻ እንተዘየንበበ'ውን ስምካ ከንብቦ ከም ዝኽእል የረጋግጽ።",
+            "am": "ከፊርማዎ በታች ሙሉ ሕጋዊ ስምዎን በግልጽ ይጻፉ ወይም ያትሙ። ይህ ፊርማዎ ባይነበብም ፍርድ ቤት ስምዎን ማንበብ እንዲችል ያረጋግጣል።",
+            "ar": "اكتب أو اطبع اسمك القانوني الكامل بوضوح أسفل توقيعك. هذا يضمن أن المحكمة تستطيع قراءة اسمك حتى لو كان توقيعك غير واضح.",
+            "ht": "Ekri oswa tape non legal konplè ou klèman anba siyati ou. Sa asire tribinal la ka li non ou menm si siyati ou pa lizib.",
+            "ko": "서명 아래에 정식 법적 이름을 인쇄체로 명확히 쓰세요. 서명이 읽기 어려워도 법원이 이름을 확인할 수 있게 합니다.",
+            "pt": "Imprima ou digite seu nome legal completo claramente abaixo da assinatura. Isso garante que o tribunal possa ler seu nome mesmo se a assinatura não for legível.",
+            "ru": "Напечатайте или разборчиво напишите полное юридическое имя под подписью. Это гарантирует, что суд сможет прочитать ваше имя, даже если подпись неразборчива.",
+            "tl": "I-type o i-print nang malinaw ang buong legal na pangalan sa ibaba ng pirma. Ito ay para matiyak na mabasa ng korte ang pangalan mo kahit hindi malinaw ang pirma."
+          }
+        }
+      ]
+    }
+  ]
+}
