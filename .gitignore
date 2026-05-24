@@ -1,10 +1,53 @@
+# =============================================================================
+# VERNEN repo .gitignore (for USB checkout)
+# =============================================================================
+# Most folders on this USB checkout are already preserved in:
+#   - origin/master under legacy-import/* (Feb 2026 recovery from Proton snapshot)
+#   - sister repos: vernen-agents-legacy, vernen-skills
+# We exclude them so `git status` on USB stays useful.
+# NOTE: gitignore does not support inline comments; keep notes on their own line.
+
+# Mirrored under origin/master legacy-import/build-prompts/
+/Build_Prompts/
+
+# Mirrored under origin/master legacy-import/reference/
+/Reference/
+
+# Mirrored under origin/master legacy-import/ (ip-manifest, project-knowledge,
+# roadmap, bilingual, annotations-snapshot, build-2026-02-28, etc.)
+# Skills_Archive contents are also in vernen-skills/archive and source-files
+/VERNEN_IP/
+
+# Mirrored in WaistMaiLieP-H/vernen-agents-legacy
+/Clinical_Diagnostic_Integrity_Auditor_CST/
+/Due_Process_Ethics_Auditor/
+/Forensic_Linguistic_Analyst/
+/Governing_Standards/
+
+# Mirrored in WaistMaiLieP-H/vernen-skills
+/Skills/
+/VSkills/
+
+# Vendored deps / node_modules trap (723MB on USB)
+/legal-mcp-servers/
+
+# Transient assistant prompts (not IP)
+/Read_VERNEN_IPRo.txt
+
+# Standard ignores
 node_modules/
 .env
 .env.local
+.env.*
+!.env.example
 dist/
 build/
 .DS_Store
+Thumbs.db
+*.swp
 *.log
 coverage/
 .vercel/
 .netlify/
+.vscode/
+.idea/
